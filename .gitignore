@@ -1,5 +1,5 @@
 .DS_Store
-# renders are big and reproducible from the job's project files; keep the text track record
+# working files are big and reproducible; finished pieces in jobs/<id>/out/ are kept
 jobs/**/project/
 jobs/**/*.mp4
 jobs/**/*.mov
@@ -9,6 +9,8 @@ jobs/**/*.jpg
 jobs/**/*.png
 jobs/**/*.gif
 jobs/**/frames/
+!jobs/*/out/
+!jobs/*/out/**
 face-reels/**/*.mp4
 face-reels/**/*.mov
 face-reels/**/*.wav
