@@ -1,0 +1,39 @@
+{
+  "name": "Orbis Mortgage Group",
+  "source_of_truth": "loansbykulbhushan.com (colours and font read from the live site on 2026-11-12) + logo.svg fetched from the site. No official brand guide supplied yet.",
+  "colors": {
+    "primary": "#111634",
+    "primary_light": "#1A2150",
+    "primary_dark": "#0A0D26",
+    "accent": "#D4B225",
+    "accent_light": "#EBD57A",
+    "accent_dark": "#9C8010",
+    "background_dark": "#111634",
+    "background_light": "#F5F2E9",
+    "text_on_dark": "#FFFFFF",
+    "text_on_light": "#111634",
+    "positive": "#22B573",
+    "caution": "#E5484D"
+  },
+  "fonts": {
+    "heading": "Inter (600)",
+    "body": "Inter (400/500)",
+    "caption": "Montserrat 900 with black outline (kept at the client's request for Reel 01; revisit)",
+    "licence_note": "Inter and Montserrat are SIL OFL Google fonts"
+  },
+  "logo": {
+    "full_on_light": "brand/logo.png",
+    "full_on_dark": "brand/logo_white.png",
+    "mark_only": "brand/ring.png",
+    "clear_space": "about half the ring height on all sides",
+    "never": ["stretch", "recolour outside approved variants", "place on busy backgrounds without a plate"]
+  },
+  "motif": "The gold aperture ring from the logo (used as label bullet, identity badge, gauge hub, watermark).",
+  "motion": {
+    "easing": "slow expo-out reveals, hairline draws, no bounce",
+    "pace": "calm, premium private-bank feel",
+    "sound": "soft swishes, small ticks, soft chimes, one low sub-hit on the end card; background audio kept low"
+  },
+  "style_recipes": ["orbis-v3 (reference build in reels/2026-11-12_reel01-minimum-payments/build/overlay_v3.html)"],
+  "notes": "Client asked for: premium private-bank direction, different asset types per beat, no generic AI-video look, brand-accurate, English only."
+}

@@ -1,0 +1,63 @@
+{
+ "sig": {
+  "source": "/Users/ankushjha/Desktop/FACE_REELS_AGENT/clients/orbis-mortgage-group/reels/2026-11-12_reel02/build/base.mov",
+  "size": 96308600,
+  "mtime": 1794461100,
+  "ss": 0.0,
+  "t": 0.0,
+  "model": "birefnet-portrait",
+  "infer": [
+   1024,
+   1024
+  ],
+  "refine": true,
+  "decontam": true,
+  "gf": [
+   8,
+   0.001,
+   3
+  ],
+  "temporal": "median3+ema",
+  "stride": 1,
+  "version": "0.3.0"
+ },
+ "ranges": [
+  [
+   2.85,
+   6.55
+  ]
+ ],
+ "report": {
+  "out": "clients/orbis-mortgage-group/reels/2026-11-12_reel02/build/matte_behind.webm",
+  "frames": 995,
+  "wanted": 111,
+  "inferred": 111,
+  "fps_src": "30/1",
+  "size": "1080x1920",
+  "model": "birefnet-portrait",
+  "device": "torch-mps-fp16",
+  "infer_size": "1024x1024",
+  "stride": 1,
+  "load_s": 11.4,
+  "infer_s_per_frame": 2.134,
+  "infer_fps": 0.47,
+  "pass1_s": 252.9,
+  "pass2_s": 29.8,
+  "refine_s_per_frame": 0.014,
+  "wall_s": 282.8,
+  "overall_fps": 3.52,
+  "cuts": [
+   3.467,
+   5.867,
+   8.1,
+   11.833,
+   13.367,
+   15.833,
+   16.333,
+   20.433,
+   21.8,
+   24.233,
+   26.067
+  ]
+ }
+}

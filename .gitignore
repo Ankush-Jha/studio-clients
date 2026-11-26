@@ -9,3 +9,7 @@ jobs/**/*.jpg
 jobs/**/*.png
 jobs/**/*.gif
 jobs/**/frames/
+face-reels/**/*.mp4
+face-reels/**/*.mov
+face-reels/**/*.wav
+face-reels/inbox/*
