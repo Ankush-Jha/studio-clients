@@ -1,0 +1,3691 @@
+{
+ "heloc-five-years": {
+  "kind": "video",
+  "thumb": {
+   "phash": "bf3bc0c42d91916e",
+   "dhash": "8875553b2bcca208"
+  },
+  "frames": [
+   {
+    "t": 3.34,
+    "phash": "bb3ac0c03d95916f",
+    "dhash": "8871553b2bd8a208"
+   },
+   {
+    "t": 10.03,
+    "phash": "b938c0c2c787bd3c",
+    "dhash": "491f1e59b7308000"
+   },
+   {
+    "t": 16.72,
+    "phash": "bf3fc0c00fc0f037",
+    "dhash": "81792d796d388000"
+   },
+   {
+    "t": 23.41,
+    "phash": "bf3bc0c4bd81813e",
+    "dhash": "8875593b33e40100"
+   },
+   {
+    "t": 30.09,
+    "phash": "bf3ee0c081951f6a",
+    "dhash": "b225797ae1608000"
+   },
+   {
+    "t": 36.78,
+    "phash": "bf3ec0c0e1c1952f",
+    "dhash": "a06d6f1b33748000"
+   },
+   {
+    "t": 43.47,
+    "phash": "bf3ee0c09095356e",
+    "dhash": "88557579691ea000"
+   },
+   {
+    "t": 50.16,
+    "phash": "bf3fc0c095959343",
+    "dhash": "885579270f6c9200"
+   }
+  ]
+ },
+ "heloc-piggy-bank": {
+  "kind": "video",
+  "thumb": {
+   "phash": "e4e69b9bc9313056",
+   "dhash": "b1458e9607171660"
+  },
+  "frames": [
+   {
+    "t": 6.31,
+    "phash": "b992966dcd963039",
+    "dhash": "601a1dda120a0b56"
+   },
+   {
+    "t": 18.94,
+    "phash": "a626d9993fe6c092",
+    "dhash": "4e6cad2d4c830f8c"
+   },
+   {
+    "t": 31.56,
+    "phash": "a593126d2f9265cd",
+    "dhash": "4dbeb2a43617c5ca"
+   },
+   {
+    "t": 44.19,
+    "phash": "9fb0301ff03a8fe0",
+    "dhash": "381800004061698c"
+   },
+   {
+    "t": 56.81,
+    "phash": "a9af96206d21927f",
+    "dhash": "cfb91c93d3949b68"
+   },
+   {
+    "t": 69.44,
+    "phash": "bb83860ee369a197",
+    "dhash": "6b655b937b23251b"
+   },
+   {
+    "t": 82.06,
+    "phash": "baa545ca87956a3c",
+    "dhash": "44871f5e6d498986"
+   },
+   {
+    "t": 94.69,
+    "phash": "e4e69b9b89313196",
+    "dhash": "31458e96271716e8"
+   }
+  ]
+ },
+ "heloc-rules": {
+  "kind": "video",
+  "thumb": {
+   "phash": "ade0d099c7c6f470",
+   "dhash": "d91b166f5232f341"
+  },
+  "frames": [
+   {
+    "t": 3.58,
+    "phash": "cab0e9282dd3f3d0",
+    "dhash": "0337c868350d7162"
+   },
+   {
+    "t": 10.74,
+    "phash": "e3f0345ad2b87496",
+    "dhash": "8dc60ecfe9232b90"
+   },
+   {
+    "t": 17.9,
+    "phash": "ab34152a94d76fc1",
+    "dhash": "de3f0b0c8b4303c6"
+   },
+   {
+    "t": 25.06,
+    "phash": "959163697862a78f",
+    "dhash": "84f8e49472a288c4"
+   },
+   {
+    "t": 32.23,
+    "phash": "dc5223ad3c726b0d",
+    "dhash": "ccf0b0b476022200"
+   },
+   {
+    "t": 39.39,
+    "phash": "c2b98d3d415139be",
+    "dhash": "d21d1bd9e96367e4"
+   },
+   {
+    "t": 46.55,
+    "phash": "be0f617210cdadb2",
+    "dhash": "c2797775ad136390"
+   },
+   {
+    "t": 53.71,
+    "phash": "affad085c5951b44",
+    "dhash": "062959476f6566a2"
+   }
+  ]
+ },
+ "keep-your-rate": {
+  "kind": "video",
+  "thumb": {
+   "phash": "c8b5254a9f94693d",
+   "dhash": "f20b33b931b1a9f0"
+  },
+  "frames": [
+   {
+    "t": 3.47,
+    "phash": "d8a5255a8b947d4b",
+    "dhash": "f28b23b13921a4f0"
+   },
+   {
+    "t": 10.41,
+    "phash": "b0e44d6bd6120fd6",
+    "dhash": "b0929c9d991b99e0"
+   },
+   {
+    "t": 17.34,
+    "phash": "b4ec8a34d7c72a92",
+    "dhash": "f4173bcc8c1ff8f8"
+   },
+   {
+    "t": 24.28,
+    "phash": "c3a5357a5a939515",
+    "dhash": "fcc6ded9a9d1e0e0"
+   },
+   {
+    "t": 31.22,
+    "phash": "9ec2c13ddcc12f94",
+    "dhash": "f8ececa92c2bfaf8"
+   },
+   {
+    "t": 38.16,
+    "phash": "c36fd2d08f877019",
+    "dhash": "d0332b734284cccc"
+   },
+   {
+    "t": 45.09,
+    "phash": "e30d9252ccb74ef0",
+    "dhash": "e0c17322c1490cb5"
+   },
+   {
+    "t": 52.03,
+    "phash": "a5d2adabd436cb04",
+    "dhash": "f043e0ccc64b06f6"
+   }
+  ]
+ },
+ "mortgage-insurance": {
+  "kind": "video",
+  "thumb": {
+   "phash": "bc2c0627676e3c3c",
+   "dhash": "e6b9b4130f9c4210"
+  },
+  "frames": [
+   {
+    "t": 3.32,
+    "phash": "bc38180e1e3e3ee3",
+    "dhash": "3cbb1b34c89c8c00"
+   },
+   {
+    "t": 9.97,
+    "phash": "9131fde8e8e2c686",
+    "dhash": "18187c9bf68d1400"
+   },
+   {
+    "t": 16.62,
+    "phash": "a0a4cfef67214c9c",
+    "dhash": "d6b6b18ebc161800"
+   },
+   {
+    "t": 23.26,
+    "phash": "f6acc8913b37644c",
+    "dhash": "0c90274c309cc002"
+   },
+   {
+    "t": 29.91,
+    "phash": "ca4a95b5744a4cbd",
+    "dhash": "80396189194c8930"
+   },
+   {
+    "t": 36.55,
+    "phash": "b5353454dcd95961",
+    "dhash": "ae4e1a7006cccc20"
+   },
+   {
+    "t": 43.2,
+    "phash": "b7371cb8212369e9",
+    "dhash": "3f6c4b4d7f1cc820"
+   },
+   {
+    "t": 49.85,
+    "phash": "b83886876767e6b0",
+    "dhash": "bdb2b5031e320400"
+   }
+  ]
+ },
+ "portfolio-failing": {
+  "kind": "video",
+  "thumb": {
+   "phash": "ea7b07781c356147",
+   "dhash": "2e61073b331754e5"
+  },
+  "frames": [
+   {
+    "t": 3.48,
+    "phash": "ea7b077818756147",
+    "dhash": "2f61073b331754e5"
+   },
+   {
+    "t": 10.45,
+    "phash": "c0cd3c07ce333fc4",
+    "dhash": "31b290c9e0dc99a9"
+   },
+   {
+    "t": 17.42,
+    "phash": "d09a3e07c4783f27",
+    "dhash": "b09091b0c8d093a0"
+   },
+   {
+    "t": 24.38,
+    "phash": "c0f03f1ec067271f",
+    "dhash": "b0908f9090b3d898"
+   },
+   {
+    "t": 31.35,
+    "phash": "bcb30b651c747163",
+    "dhash": "36310d36261761f1"
+   },
+   {
+    "t": 38.31,
+    "phash": "c4cf3b17946a6bc0",
+    "dhash": "329281aeaed59ca4"
+   },
+   {
+    "t": 45.28,
+    "phash": "83bb526959752752",
+    "dhash": "d6d1cfd3d3d7d4c1"
+   },
+   {
+    "t": 52.25,
+    "phash": "aebd077809716157",
+    "dhash": "b2654f3b330755c4"
+   }
+  ]
+ },
+ "hukam-reel": {
+  "kind": "video",
+  "thumb": {
+   "phash": "a4da730de893cd2c",
+   "dhash": "70cc8e8eb6969696"
+  },
+  "frames": [
+   {
+    "t": 3.56,
+    "phash": "a5de837ca863c28d",
+    "dhash": "3532d88e369606d7"
+   },
+   {
+    "t": 10.68,
+    "phash": "a55e437ca4f38a0d",
+    "dhash": "0632d88e26b696d7"
+   },
+   {
+    "t": 17.8,
+    "phash": "a45e437ca4f3834d",
+    "dhash": "f430d98e369696d7"
+   },
+   {
+    "t": 24.92,
+    "phash": "a1de96698b7486d8",
+    "dhash": "6913e48793c696c7"
+   },
+   {
+    "t": 32.04,
+    "phash": "dca17e84f205f02f",
+    "dhash": "409072644db67229"
+   },
+   {
+    "t": 39.16,
+    "phash": "a9de8a3d28379698",
+    "dhash": "79336c9793969693"
+   },
+   {
+    "t": 46.28,
+    "phash": "a19ad26de8170b9b",
+    "dhash": "710fcd86b3969687"
+   },
+   {
+    "t": 53.4,
+    "phash": "a19ed60de8171ed8",
+    "dhash": "b1cdcc86b396969e"
+   }
+  ]
+ },
+ "hukam-urban": {
+  "kind": "video",
+  "thumb": {
+   "phash": "a4da730df893c92c",
+   "dhash": "cc8ee08eb6969696"
+  },
+  "frames": [
+   {
+    "t": 3.56,
+    "phash": "a5dac37c8873c28d",
+    "dhash": "53175d86369606cf"
+   },
+   {
+    "t": 10.68,
+    "phash": "a5da437cacd38a0d",
+    "dhash": "0c16dd8e26b696d7"
+   },
+   {
+    "t": 17.8,
+    "phash": "a4de437c8cf18a4d",
+    "dhash": "0f8ecc0e369696df"
+   },
+   {
+    "t": 24.92,
+    "phash": "a1de9669897486f8",
+    "dhash": "4d4d648793c696c7"
+   },
+   {
+    "t": 32.04,
+    "phash": "a61f33c1f3d072d0",
+    "dhash": "486625252483808d"
+   },
+   {
+    "t": 39.16,
+    "phash": "a99e827da8379619",
+    "dhash": "19335d8793969693"
+   },
+   {
+    "t": 46.28,
+    "phash": "a19ed24de93786a8",
+    "dhash": "0cbb6c86b396969f"
+   },
+   {
+    "t": 53.4,
+    "phash": "e19ad22de8169ed8",
+    "dhash": "c88fcc86b396968e"
+   }
+  ]
+ },
+ "greenbrix-c1": {
+  "kind": "carousel",
+  "thumb": {
+   "phash": "d4282ddd1bb634e2",
+   "dhash": "a6b2acf818680404"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d4282ddd1bb634e2",
+    "dhash": "a6b2acf818680404"
+   },
+   {
+    "n": 2,
+    "phash": "bf9e1ec0c3d0c84e",
+    "dhash": "6c6c744c4b903e5d"
+   },
+   {
+    "n": 3,
+    "phash": "8787787873787921",
+    "dhash": "c264ebcdfdf28082"
+   },
+   {
+    "n": 4,
+    "phash": "af9e0e6792c1c592",
+    "dhash": "657532188c82431d"
+   },
+   {
+    "n": 5,
+    "phash": "d0b56af8e4c0956b",
+    "dhash": "92b4bea686ba80c2"
+   },
+   {
+    "n": 6,
+    "phash": "bf9d44aed050eec0",
+    "dhash": "7476701837678982"
+   },
+   {
+    "n": 7,
+    "phash": "d42e69c93b9497c2",
+    "dhash": "b0a0ec8c90b88286"
+   }
+  ]
+ },
+ "greenbrix-c2": {
+  "kind": "carousel",
+  "thumb": {
+   "phash": "95d46a2b6a2c2b6b",
+   "dhash": "9ebcaabedcdc7680"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "95d46a2b6a2c2b6b",
+    "dhash": "9ebcaabedcdc7680"
+   },
+   {
+    "n": 2,
+    "phash": "cba5b4db96cae042",
+    "dhash": "711641616971297d"
+   },
+   {
+    "n": 3,
+    "phash": "c100f0bf7ece06c7",
+    "dhash": "8a96d4b0a2fb0380"
+   },
+   {
+    "n": 4,
+    "phash": "bf3ac0c59291786e",
+    "dhash": "fc4d5d5d7573d27d"
+   },
+   {
+    "n": 5,
+    "phash": "c0393fc47c2f8791",
+    "dhash": "a394d8c880c0c080"
+   },
+   {
+    "n": 6,
+    "phash": "bf90d06b68c1687e",
+    "dhash": "5c5d5c7b3b6b7a7f"
+   },
+   {
+    "n": 7,
+    "phash": "f43a4bb53ae41b48",
+    "dhash": "9083848c94aea680"
+   }
+  ]
+ },
+ "greenbrix-c3": {
+  "kind": "carousel",
+  "thumb": {
+   "phash": "94926a3de94ac5b3",
+   "dhash": "b3bcaca49e7e0c83"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "94926a3de94ac5b3",
+    "dhash": "b3bcaca49e7e0c83"
+   },
+   {
+    "n": 2,
+    "phash": "8f8fd0e06c0f9713",
+    "dhash": "c4616c63635b627a"
+   },
+   {
+    "n": 3,
+    "phash": "af0f37e0cc9c900f",
+    "dhash": "c46f7133639c7e7c"
+   },
+   {
+    "n": 4,
+    "phash": "abad85d25a4ac527",
+    "dhash": "d1777731594d1d7d"
+   },
+   {
+    "n": 5,
+    "phash": "84b0705f781f3b3c",
+    "dhash": "ba8ce8e0e0e86281"
+   },
+   {
+    "n": 6,
+    "phash": "ad3792cac9c89297",
+    "dhash": "d97e3ff33373c33c"
+   },
+   {
+    "n": 7,
+    "phash": "94b26b35e95a95c4",
+    "dhash": "9bb4e4d4a6aeac81"
+   }
+  ]
+ },
+ "greenbrix-c4": {
+  "kind": "carousel",
+  "thumb": {
+   "phash": "d26c79973219256d",
+   "dhash": "9080a3dcc4d4f0b3"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d26c79973219256d",
+    "dhash": "9080a3dcc4d4f0b3"
+   },
+   {
+    "n": 2,
+    "phash": "9c4f42f8e6c17c07",
+    "dhash": "e17070663038d8dc"
+   },
+   {
+    "n": 3,
+    "phash": "c4c66e3960e4993f",
+    "dhash": "a6e5a6a48a5a1282"
+   },
+   {
+    "n": 4,
+    "phash": "df4ee2c6454f0a70",
+    "dhash": "63a531727077703c"
+   },
+   {
+    "n": 5,
+    "phash": "c4c439686e3fc317",
+    "dhash": "a7a4e4a4a4a11982"
+   },
+   {
+    "n": 6,
+    "phash": "ee91956ac095959b",
+    "dhash": "ec775a256565257c"
+   },
+   {
+    "n": 7,
+    "phash": "d47a4b9536c03d6a",
+    "dhash": "80a0b4848cfe8081"
+   }
+  ]
+ },
+ "greenbrix-c5": {
+  "kind": "carousel",
+  "thumb": {
+   "phash": "c6d8632f38674c99",
+   "dhash": "88a0a3943d634ac2"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c6d8632f38674c99",
+    "dhash": "80a0e3943d634ac2"
+   },
+   {
+    "n": 2,
+    "phash": "bfcb9ab0e1854d48",
+    "dhash": "c43173c6d6373e5e"
+   },
+   {
+    "n": 3,
+    "phash": "bf95956a6ac05a94",
+    "dhash": "4176356961710e5e"
+   },
+   {
+    "n": 4,
+    "phash": "c06e7fc0903f0f3c",
+    "dhash": "9080a6b898808481"
+   },
+   {
+    "n": 5,
+    "phash": "bf1fc0cbc1d03a2c",
+    "dhash": "49663e5e7763447e"
+   },
+   {
+    "n": 6,
+    "phash": "d8e266593326ac6b",
+    "dhash": "8290878c59b23089"
+   },
+   {
+    "n": 7,
+    "phash": "d4e24a18a667753e",
+    "dhash": "82a116c6a6969180"
+   }
+  ]
+ },
+ "greenbrix-c6": {
+  "kind": "carousel",
+  "thumb": {
+   "phash": "d46839976e0eb178",
+   "dhash": "20a9b0e420cc7193"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d46839976e0eb178",
+    "dhash": "20a9b0e420cc7193"
+   },
+   {
+    "n": 2,
+    "phash": "dac5b55a4aa5b542",
+    "dhash": "c169760949396b4f"
+   },
+   {
+    "n": 3,
+    "phash": "eeb5934a6cc5912a",
+    "dhash": "d06f56272323496f"
+   },
+   {
+    "n": 4,
+    "phash": "af97c639d06816f0",
+    "dhash": "c1666ed91e0f0346"
+   },
+   {
+    "n": 5,
+    "phash": "e5929a4d65f29689",
+    "dhash": "cd724ccf0727d359"
+   },
+   {
+    "n": 6,
+    "phash": "d47e6a906b858d2b",
+    "dhash": "8084b0b0beb0b6c1"
+   },
+   {
+    "n": 7,
+    "phash": "b46a49354ab53b35",
+    "dhash": "00a787acac1cbe8c"
+   }
+  ]
+ },
+ "boc-rate-day--legacy-riso--feed--client-b": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bfb7d248c8c0d227",
+   "dhash": "e15e4c62674d5b11"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bfb7d248c8c0d227",
+    "dhash": "e15e4c62674d5911"
+   }
+  ]
+ },
+ "budget-2026--legacy-dossier--feed--client-a": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bdd5c12e8a2e896a",
+   "dhash": "5d1e123d3d173719"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bdd5c12e8a2e896a",
+    "dhash": "5d1e123d3d173719"
+   },
+   {
+    "n": 2,
+    "phash": "bdd5aa2ac2157591",
+    "dhash": "59631a1ae9333659"
+   },
+   {
+    "n": 3,
+    "phash": "bd842aaad55daa2a",
+    "dhash": "596b3b32c8233318"
+   },
+   {
+    "n": 4,
+    "phash": "bdcaaa55d12a2a55",
+    "dhash": "596407034a271659"
+   },
+   {
+    "n": 5,
+    "phash": "b42e83d5cbc8553a",
+    "dhash": "592e361f29060d1b"
+   },
+   {
+    "n": 6,
+    "phash": "b72ac1d52a553a36",
+    "dhash": "512d0c2f0f3e6241"
+   }
+  ]
+ },
+ "dec9-variable--bento--feed--gregory-hernandez": {
+  "kind": "static",
+  "thumb": {
+   "phash": "eec4913bccc272ca",
+   "dhash": "6e57a565755d1934"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "eec4913bccc272ca",
+    "dhash": "6e57a565755d1934"
+   },
+   {
+    "n": 2,
+    "phash": "eac6951dc662ca6a",
+    "dhash": "5c4d81612131113d"
+   },
+   {
+    "n": 3,
+    "phash": "bf95c16f95c0c462",
+    "dhash": "585c82343545491d"
+   },
+   {
+    "n": 4,
+    "phash": "bbc4cc33c03e69d1",
+    "dhash": "d4880666d85a5a5a"
+   },
+   {
+    "n": 5,
+    "phash": "bbc4c03be42f6b90",
+    "dhash": "48a04a4f1a5a1a1a"
+   },
+   {
+    "n": 6,
+    "phash": "eea59197911eb14a",
+    "dhash": "5c65a525a5a52533"
+   },
+   {
+    "n": 7,
+    "phash": "eab595c0956b643a",
+    "dhash": "6c4d455d4501696d"
+   }
+  ]
+ },
+ "dec9-variable--bento--square--gregory-hernandez": {
+  "kind": "static",
+  "thumb": {
+   "phash": "eec4913bccc472cc",
+   "dhash": "487da5655d1d1914"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "eec4913bccc076cc",
+    "dhash": "487da5655d1d1914"
+   }
+  ]
+ },
+ "dec9-variable--bento--story--gregory-hernandez": {
+  "kind": "static",
+  "thumb": {
+   "phash": "eec4c5913b6ec4c4",
+   "dhash": "587d655d1d756555"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "eec4c5913b6ec4c4",
+    "dhash": "587d655d1d756555"
+   }
+  ]
+ },
+ "dec9-variable--swiss--feed--michael-marini": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c29c2f4a1f25c4db",
+   "dhash": "0bb888d8f1c080c2"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c29c2f4a1f25c4db",
+    "dhash": "0bb888d8f1c080c2"
+   },
+   {
+    "n": 2,
+    "phash": "d16a6e953a1b85c9",
+    "dhash": "8b81c0988a888a80"
+   },
+   {
+    "n": 3,
+    "phash": "bf8d9052a16f52d8",
+    "dhash": "58786b6b1b1d615a"
+   },
+   {
+    "n": 4,
+    "phash": "c0803f7e761e9999",
+    "dhash": "0da2b2a485805098"
+   },
+   {
+    "n": 5,
+    "phash": "c0e03f3b4a4b3b87",
+    "dhash": "80849480848000a0"
+   },
+   {
+    "n": 6,
+    "phash": "bb1fc36ce8c0e0e2",
+    "dhash": "537839133f3e605a"
+   },
+   {
+    "n": 7,
+    "phash": "c0c83f37d2ecc8d2",
+    "dhash": "896ba3a0e8891480"
+   }
+  ]
+ },
+ "dec9-variable--swiss--square--michael-marini": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c09b2d561f25d8d6",
+   "dhash": "0fb2a1d9f1a18286"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c09b2d561f25d8d6",
+    "dhash": "0fb2a1d9f1e18286"
+   }
+  ]
+ },
+ "dec9-variable--swiss--story--michael-marini": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c2982f679e932669",
+   "dhash": "6fb191f180424840"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c2982f679e932669",
+    "dhash": "6fb191f180424840"
+   }
+  ]
+ },
+ "dec9-variable--terminal--feed--keith-crossland-dustin-moss": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0c3363f3f68483b",
+   "dhash": "86ccd0c01a9284a6"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0c3363f3f68483b",
+    "dhash": "86ccd0c01a9280a6"
+   },
+   {
+    "n": 2,
+    "phash": "c10736f0343f8f0f",
+    "dhash": "8691e1e28290a0a5"
+   },
+   {
+    "n": 3,
+    "phash": "c0c16e60913f3f6e",
+    "dhash": "9ea261888c3380a3"
+   },
+   {
+    "n": 4,
+    "phash": "d094646b2f6bd89c",
+    "dhash": "4ba4a44b30a990a7"
+   },
+   {
+    "n": 5,
+    "phash": "c0b4e35b3f4b8ca4",
+    "dhash": "4b8e8659269189a3"
+   },
+   {
+    "n": 6,
+    "phash": "c0c07813b73f3f26",
+    "dhash": "8e83a2c6c4e022a7"
+   },
+   {
+    "n": 7,
+    "phash": "c0c33d3f96c1c969",
+    "dhash": "c6a0c1c8e8138083"
+   }
+  ]
+ },
+ "dec9-variable--terminal--feed--sahil-rihani": {
+  "kind": "static",
+  "thumb": {
+   "phash": "91913d3f6ac2466e",
+   "dhash": "cc9cccc8873292a6"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "91913d3f6ac2466e",
+    "dhash": "cc9cccc8873292a6"
+   },
+   {
+    "n": 2,
+    "phash": "9679698626399796",
+    "dhash": "8691986c646c99a5"
+   },
+   {
+    "n": 3,
+    "phash": "c0c03f91a03b3f3f",
+    "dhash": "9ea2248a8ac082a7"
+   },
+   {
+    "n": 4,
+    "phash": "d06bc4372fd42bd0",
+    "dhash": "86a880865ba4a4a4"
+   },
+   {
+    "n": 5,
+    "phash": "d05be4352fa45bc4",
+    "dhash": "86948083418c86a4"
+   },
+   {
+    "n": 6,
+    "phash": "c0973f683ec2c03f",
+    "dhash": "86aac4c4e082a0a3"
+   },
+   {
+    "n": 7,
+    "phash": "c03f36c13c97c93c",
+    "dhash": "8600802c81c0c897"
+   }
+  ]
+ },
+ "dec9-variable--terminal--square--keith-crossland-dustin-moss": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0c13f3f36e48d19",
+   "dhash": "06d9c0c49ab282a6"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0c13f3f36e48d19",
+    "dhash": "06d9c0c49ab282a6"
+   }
+  ]
+ },
+ "dec9-variable--terminal--story--keith-crossland-dustin-moss": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0c03b3f3f3ec6c0",
+   "dhash": "2ed0c086a2a6e020"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0c03b3f3f3ec6c0",
+    "dhash": "2ed0c086a2a6c020"
+   }
+  ]
+ },
+ "deposit-trail--broadsheet--feed--dan-balch": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf24c2c2c99bd925",
+   "dhash": "2127563b167f6b53"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf24c2c2c99bd925",
+    "dhash": "2527563b167f6b53"
+   },
+   {
+    "n": 2,
+    "phash": "bf4ec8b591c1626a",
+    "dhash": "706d6736666e6e59"
+   },
+   {
+    "n": 3,
+    "phash": "af0fd0d0d1d43678",
+    "dhash": "70736f461b6e7c59"
+   },
+   {
+    "n": 4,
+    "phash": "af2ed085d4d0727a",
+    "dhash": "71232f3667574e59"
+   },
+   {
+    "n": 5,
+    "phash": "bf9ed032d2656892",
+    "dhash": "317173474d276659"
+   },
+   {
+    "n": 6,
+    "phash": "bb0ed29bc4e491d2",
+    "dhash": "32595737135b4359"
+   },
+   {
+    "n": 7,
+    "phash": "bf2e3a6cc1d0d095",
+    "dhash": "31270e2a262e1e59"
+   },
+   {
+    "n": 8,
+    "phash": "bf32c06ccb913c6a",
+    "dhash": "316c2c1e67165e61"
+   }
+  ]
+ },
+ "deposit-trail--broadsheet--feed--georges": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bfc0d02d6936c19b",
+   "dhash": "6f65792b63776c59"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bfc0d02d6936c19b",
+    "dhash": "6f65792b63776c59"
+   },
+   {
+    "n": 2,
+    "phash": "af6a94a591d1c1cb",
+    "dhash": "38656b4b43676679"
+   },
+   {
+    "n": 3,
+    "phash": "ea6a959995946aa5",
+    "dhash": "7931416951516979"
+   },
+   {
+    "n": 4,
+    "phash": "fa7a956895956981",
+    "dhash": "3169495541516c79"
+   },
+   {
+    "n": 5,
+    "phash": "fa7a95f1d0c14b84",
+    "dhash": "395d652945516f79"
+   },
+   {
+    "n": 6,
+    "phash": "fa42953f95c0499d",
+    "dhash": "334d494955457d79"
+   },
+   {
+    "n": 7,
+    "phash": "ebc09197953f914a",
+    "dhash": "3961415555514959"
+   },
+   {
+    "n": 8,
+    "phash": "ea6a9537959cc1c1",
+    "dhash": "590121514911456a"
+   }
+  ]
+ },
+ "deposit-trail--broadsheet--square--dan-balch": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf36d0ca6d859033",
+   "dhash": "252d2e666b6b6b53"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf36d0ca6d859033",
+    "dhash": "252d2e666b6b6b53"
+   }
+  ]
+ },
+ "deposit-trail--broadsheet--story--dan-balch": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf3ed0c0cb2d25b0",
+   "dhash": "532d6f6b6b522841"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf3ed0c0cb2d25b0",
+    "dhash": "532d6f6b4b532841"
+   }
+  ]
+ },
+ "deposit-trail--paper-trail--feed--byran-peters": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c03e6ba07e9137c9",
+   "dhash": "8cc0f2aaaaa6b2b2"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c03e6ab07e9137c9",
+    "dhash": "8cc0f2aaaaa692b2"
+   },
+   {
+    "n": 2,
+    "phash": "856a788733957ae8",
+    "dhash": "8aa5a6fedad6f2b2"
+   },
+   {
+    "n": 3,
+    "phash": "857a78857a8537d8",
+    "dhash": "9293d2d2d2d6d2b2"
+   },
+   {
+    "n": 4,
+    "phash": "c5626b97f0c62e68",
+    "dhash": "c292a5a2ba6ee293"
+   },
+   {
+    "n": 5,
+    "phash": "c03f6aa525d237ca",
+    "dhash": "8291f88aa6a690f1"
+   },
+   {
+    "n": 6,
+    "phash": "856e6ac03f950ff0",
+    "dhash": "a28360fa9692bebe"
+   },
+   {
+    "n": 7,
+    "phash": "c07e6a687a913f91",
+    "dhash": "a3b2aabab2a2a280"
+   },
+   {
+    "n": 8,
+    "phash": "c07a85273b96913f",
+    "dhash": "43a29ca1ce8ee69a"
+   }
+  ]
+ },
+ "deposit-trail--paper-trail--feed--gaurav-makhija": {
+  "kind": "static",
+  "thumb": {
+   "phash": "81817e3b6a7a356a",
+   "dhash": "9efaf6f2c2daf0c6"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "81817e3b6a7a356a",
+    "dhash": "9efaf6f2c2daf0c6"
+   },
+   {
+    "n": 2,
+    "phash": "d0d22f2d316a2dad",
+    "dhash": "8cb4a4a8b4a6a580"
+   },
+   {
+    "n": 3,
+    "phash": "d0d22f3d622d3d62",
+    "dhash": "80a4aca8a0b4b281"
+   },
+   {
+    "n": 4,
+    "phash": "d0c22f3d6f623570",
+    "dhash": "c9f98989b8b68388"
+   },
+   {
+    "n": 5,
+    "phash": "95d16b0f6a680f6a",
+    "dhash": "cefa9a92ee6e9281"
+   },
+   {
+    "n": 6,
+    "phash": "85856e1f626a3fe0",
+    "dhash": "e0fa9692b2f68180"
+   },
+   {
+    "n": 7,
+    "phash": "81907e807e7a3e6e",
+    "dhash": "b2cacefad2c0c221"
+   },
+   {
+    "n": 8,
+    "phash": "80857e7a3b7a6e88",
+    "dhash": "cecee2dac2c498a1"
+   }
+  ]
+ },
+ "deposit-trail--paper-trail--square--byran-peters": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c03e6b803fd1374d",
+   "dhash": "92c3e6baa2aeb2f2"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c03e6b903fd13749",
+    "dhash": "92c3e6baa2aeb2f2"
+   }
+  ]
+ },
+ "deposit-trail--paper-trail--story--byran-peters": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c02b7e6b94943fc1",
+   "dhash": "9a82e2aab2b384b4"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c02b7e6b94943fc1",
+    "dhash": "9a82e2aab2b384b4"
+   }
+  ]
+ },
+ "fhsa-zero--bento--feed--keaton-jim-thornton": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bb7e8595844a5ab4",
+   "dhash": "56566109de5b4b76"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bb7e8595844a5ab4",
+    "dhash": "56566109de5b4b76"
+   }
+  ]
+ },
+ "fhsa-zero--bento--square--keaton-jim-thornton": {
+  "kind": "static",
+  "thumb": {
+   "phash": "b736d9c96464c19c",
+   "dhash": "6c794e0e4edb4b64"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "b736d9c96464c19c",
+    "dhash": "6c794e0e4edb4b64"
+   }
+  ]
+ },
+ "fhsa-zero--bento--story--keaton-jim-thornton": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bb916ec4857a6a4a",
+   "dhash": "c679595b5b514951"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bb916ec4857a6a4a",
+    "dhash": "c679195b5b514951"
+   }
+  ]
+ },
+ "fhsa-zero--swiss--feed--scott-brouke": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf3bc2601ccec239",
+   "dhash": "715a787517767874"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf3bc2601ccec239",
+    "dhash": "715a787517567874"
+   }
+  ]
+ },
+ "fhsa-zero-keaton--legacy-ledger--feed--keaton-jim-thornton": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf2fc090c8c03f3d",
+   "dhash": "f56b6f6b776f0d71"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf2fc090c8c03f3d",
+    "dhash": "f56b6f6b776f0d71"
+   }
+  ]
+ },
+ "fraser-valley-market--broadsheet--feed--jalal-khan": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf2fc09034cc3b69",
+   "dhash": "665767341e4ca359"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf2fc09034cc3b69",
+    "dhash": "665767341e4da359"
+   },
+   {
+    "n": 2,
+    "phash": "9f3ee0ccc888cfe0",
+    "dhash": "717d6d735b667b59"
+   },
+   {
+    "n": 3,
+    "phash": "af3f9024d0c0cf4f",
+    "dhash": "691b73c863437159"
+   },
+   {
+    "n": 4,
+    "phash": "af34c44adb916c66",
+    "dhash": "616c475b5d53f863"
+   }
+  ]
+ },
+ "gift-or-cosign--isometric--feed--abbas": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ba3591ca954aecc5",
+   "dhash": "785e5626d9b9b95c"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ba3591ca954aecc5",
+    "dhash": "785e5626d9b9b95c"
+   },
+   {
+    "n": 2,
+    "phash": "a9939692696dd516",
+    "dhash": "787d469399a66753"
+   },
+   {
+    "n": 3,
+    "phash": "a4369bc9e4ccc963",
+    "dhash": "685c45a646377e5b"
+   },
+   {
+    "n": 4,
+    "phash": "9b95b44a4ba4d64b",
+    "dhash": "707a1c1b7b792659"
+   },
+   {
+    "n": 5,
+    "phash": "bfc8cc37d2d03292",
+    "dhash": "565699995c4e7670"
+   }
+  ]
+ },
+ "gift-or-cosign--isometric--feed--akaalinder-dhaliwal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bacae425956c5a3a",
+   "dhash": "54b9b9915e56661d"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bacae425956c5a3a",
+    "dhash": "54b9b9915e56661d"
+   },
+   {
+    "n": 2,
+    "phash": "bb0f97d8c1c46ae0",
+    "dhash": "787c676799996619"
+   },
+   {
+    "n": 3,
+    "phash": "ae1f9be4c4da248c",
+    "dhash": "685c7c66a647035a"
+   },
+   {
+    "n": 4,
+    "phash": "bc1f936ce8c3e098",
+    "dhash": "707a186327a74658"
+   },
+   {
+    "n": 5,
+    "phash": "b737d2c8cc7024e6",
+    "dhash": "585c4e76e2999962"
+   }
+  ]
+ },
+ "gift-or-cosign--isometric--square--abbas": {
+  "kind": "static",
+  "thumb": {
+   "phash": "9ab5854ae5356ae1",
+   "dhash": "7078595a89b9195e"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "9ab5854ae5356ae1",
+    "dhash": "7078595a89b9191e"
+   }
+  ]
+ },
+ "gift-or-cosign--isometric--story--abbas": {
+  "kind": "static",
+  "thumb": {
+   "phash": "da37a5c8caa5255a",
+   "dhash": "a05c4e1d39394600"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "da37a5c8caa5255a",
+    "dhash": "a05c4e1d39394600"
+   }
+  ]
+ },
+ "heloc-paul--cutout--feed--ariana-learoux": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ee6c119196366ada",
+   "dhash": "52232367b4805578"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ee6c119196366ada",
+    "dhash": "52232367b4805578"
+   },
+   {
+    "n": 2,
+    "phash": "9d856a7ad16ae330",
+    "dhash": "60666e6efa252551"
+   },
+   {
+    "n": 3,
+    "phash": "9b95b56aa1941e63",
+    "dhash": "7859aab26969691e"
+   },
+   {
+    "n": 4,
+    "phash": "bf846a7b8033a569",
+    "dhash": "74766e7e22485915"
+   },
+   {
+    "n": 5,
+    "phash": "da952d6a969a69c4",
+    "dhash": "604290ecad0b235c"
+   },
+   {
+    "n": 6,
+    "phash": "9d856a7a876863e1",
+    "dhash": "7576ee6a7a91959b"
+   },
+   {
+    "n": 7,
+    "phash": "9c3c3fe0c3c3c02f",
+    "dhash": "9435294be0a47175"
+   }
+  ]
+ },
+ "heloc-paul--cutout--feed--karven-wu": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ed941669997669a2",
+   "dhash": "706664d0c3c36755"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ed941669997669a2",
+    "dhash": "706664d0c3c36755"
+   },
+   {
+    "n": 2,
+    "phash": "d92627d9a7c03ad8",
+    "dhash": "582da54198b8b2d0"
+   },
+   {
+    "n": 3,
+    "phash": "b3c4cc3bbb2076c4",
+    "dhash": "7d729a5a5a58db16"
+   },
+   {
+    "n": 4,
+    "phash": "d926aadfa7ce20c0",
+    "dhash": "709d95669ab9f190"
+   },
+   {
+    "n": 5,
+    "phash": "c091bf6e6eb5e050",
+    "dhash": "68e392a5a5a50e54"
+   },
+   {
+    "n": 6,
+    "phash": "c9241edbdfc721c0",
+    "dhash": "70b6864e9838f8d1"
+   },
+   {
+    "n": 7,
+    "phash": "c994356b96e16a96",
+    "dhash": "d032e198b963836c"
+   }
+  ]
+ },
+ "heloc-paul--cutout--square--karven-wu": {
+  "kind": "static",
+  "thumb": {
+   "phash": "cbb63749b46169b0",
+   "dhash": "70684ba4a393735c"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "cbb63749b46169b0",
+    "dhash": "70684ba4a3d3735c"
+   }
+  ]
+ },
+ "heloc-paul--cutout--story--karven-wu": {
+  "kind": "static",
+  "thumb": {
+   "phash": "e59b2a2d91649a37",
+   "dhash": "106865927847872c"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "e59b2a2d91649a37",
+    "dhash": "1068e5927847876c"
+   }
+  ]
+ },
+ "heloc-paul--magazine--feed--akshat-chauhan": {
+  "kind": "static",
+  "thumb": {
+   "phash": "a750501895afafda",
+   "dhash": "8e8846566c275b41"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "a750501895afafda",
+    "dhash": "8c8846566c275b41"
+   },
+   {
+    "n": 2,
+    "phash": "bf6ac19494c0b36e",
+    "dhash": "3c5151ae365c285a"
+   },
+   {
+    "n": 3,
+    "phash": "bfd2c0243dc8cd27",
+    "dhash": "304d687e4e4f1b5b"
+   },
+   {
+    "n": 4,
+    "phash": "bf6ed89091c02767",
+    "dhash": "346d4d983e7ea05a"
+   },
+   {
+    "n": 5,
+    "phash": "bfcce01fc0c0713b",
+    "dhash": "705a18e45a5b5d58"
+   },
+   {
+    "n": 6,
+    "phash": "bf2fc0d0d0c03d2f",
+    "dhash": "106e6e9a7476185a"
+   },
+   {
+    "n": 7,
+    "phash": "c01d679cc13e366b",
+    "dhash": "80804c9291a488c9"
+   }
+  ]
+ },
+ "heloc-paul--magazine--feed--amit-khurana": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf4c916e93ac9542",
+   "dhash": "7173783449673158"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf4c916e93ac9542",
+    "dhash": "7173783469673158"
+   },
+   {
+    "n": 2,
+    "phash": "bf946bc0c07b942e",
+    "dhash": "706e3e1ca411515d"
+   },
+   {
+    "n": 3,
+    "phash": "bf36c0c82d24d26f",
+    "dhash": "324d4e4e6f781f5b"
+   },
+   {
+    "n": 4,
+    "phash": "bf90334ed06f9831",
+    "dhash": "303e1e60906d4d18"
+   },
+   {
+    "n": 5,
+    "phash": "bf91314ec0e43bf0",
+    "dhash": "705a188066556558"
+   },
+   {
+    "n": 6,
+    "phash": "bfd0196fd02f26c0",
+    "dhash": "307e7658806e2e99"
+   },
+   {
+    "n": 7,
+    "phash": "e31cc13ce71cc9f0",
+    "dhash": "1908906c6c73dbc8"
+   }
+  ]
+ },
+ "heloc-paul--magazine--square--amit-khurana": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf6c956ec28491d2",
+   "dhash": "63737469495e6e58"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf6c956ec28491d2",
+    "dhash": "63737469495e6e58"
+   }
+  ]
+ },
+ "heloc-paul--magazine--story--amit-khurana": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf6ec091626291bd",
+   "dhash": "c873716b3e580708"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf6ec091626291bd",
+    "dhash": "c873716b3e580508"
+   }
+  ]
+ },
+ "lock-in--legacy-kitchen--feed--client-a": {
+  "kind": "static",
+  "thumb": {
+   "phash": "dfa5cac0852e3b16",
+   "dhash": "d06c1f36cc003159"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "dfa5cac0852e3b16",
+    "dhash": "d06c1f36cc003159"
+   },
+   {
+    "n": 2,
+    "phash": "e9ca9396952d6962",
+    "dhash": "d09183976800071b"
+   },
+   {
+    "n": 3,
+    "phash": "f184978e9bca9631",
+    "dhash": "d09695939b8f9919"
+   },
+   {
+    "n": 4,
+    "phash": "f6c989364ac9b4a5",
+    "dhash": "d096962d2d2c2d5b"
+   },
+   {
+    "n": 5,
+    "phash": "f186078d8f8e9732",
+    "dhash": "d09e9e179313131b"
+   },
+   {
+    "n": 6,
+    "phash": "bf3bc8c0c097352d",
+    "dhash": "d0335f7c62406303"
+   }
+  ]
+ },
+ "lock-in--legacy-kitchen--feed--client-b": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bedc7071c12e1b83",
+   "dhash": "b4302020492e2e59"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bedc7071c12e1b83",
+    "dhash": "b4302120492e2e59"
+   },
+   {
+    "n": 2,
+    "phash": "ebd44a2cd26fd01a",
+    "dhash": "c48080426c274359"
+   },
+   {
+    "n": 3,
+    "phash": "ef90d14ec0ced09d",
+    "dhash": "c4595c656745675a"
+   },
+   {
+    "n": 4,
+    "phash": "f897c36874caa534",
+    "dhash": "c45958071713611e"
+   },
+   {
+    "n": 5,
+    "phash": "bf944ac0734cd42f",
+    "dhash": "c4795f5f4980515b"
+   },
+   {
+    "n": 6,
+    "phash": "bfc0c0323fcc66d2",
+    "dhash": "4480c6365c4d4161"
+   }
+  ]
+ },
+ "lock-in--legacy-ledger--feed--client-a": {
+  "kind": "static",
+  "thumb": {
+   "phash": "dfae85c1822c2d57",
+   "dhash": "d17d3e35c988785c"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "dfae85c1822c2d57",
+    "dhash": "d17d3e35c988785c"
+   },
+   {
+    "n": 2,
+    "phash": "bd9fc6c89338c0c6",
+    "dhash": "d9561e1b57171759"
+   }
+  ]
+ },
+ "lock-in--legacy-riso--feed--client-a": {
+  "kind": "static",
+  "thumb": {
+   "phash": "dfafa140d42da952",
+   "dhash": "f07c3b76880a7858"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "dfafa140d42da952",
+    "dhash": "f07c3b76880a7858"
+   },
+   {
+    "n": 2,
+    "phash": "e61b99a462c9d1b5",
+    "dhash": "f04e05252724715f"
+   }
+  ]
+ },
+ "lock-in--legacy-dossier--feed--client-a": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bd55c32a3aaa8959",
+   "dhash": "71423a3f1b16e159"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bd55c32a3aaa8959",
+    "dhash": "75423a3f1b16c159"
+   },
+   {
+    "n": 2,
+    "phash": "fd1e8a65348aca74",
+    "dhash": "743b23171613435f"
+   }
+  ]
+ },
+ "newcomer-down-marini--legacy-ledger--feed--michael-marini": {
+  "kind": "static",
+  "thumb": {
+   "phash": "af95d04ad0d02f3d",
+   "dhash": "f956561a37475b59"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "af95d04ad0d02f3d",
+    "dhash": "f956561a37475b58"
+   },
+   {
+    "n": 2,
+    "phash": "bf30c08f36e0cdc9",
+    "dhash": "f15f7e4d6f63955b"
+   },
+   {
+    "n": 3,
+    "phash": "eb9d956691c86295",
+    "dhash": "f05753111349495b"
+   },
+   {
+    "n": 4,
+    "phash": "af2dd0d0362d492f",
+    "dhash": "f97677266c905e5a"
+   },
+   {
+    "n": 5,
+    "phash": "bf3fc4c49112c22f",
+    "dhash": "f4737b185ba07c5c"
+   },
+   {
+    "n": 6,
+    "phash": "af2f90d0d22e2b3c",
+    "dhash": "f9566b6b84836c5c"
+   },
+   {
+    "n": 7,
+    "phash": "bf2fc0d49424e92b",
+    "dhash": "f45b4b1f38823c58"
+   },
+   {
+    "n": 8,
+    "phash": "bf2fc0c0932ee433",
+    "dhash": "f55b477f5aa45e5a"
+   }
+  ]
+ },
+ "renewal-21-days--annotated--feed--al-manji": {
+  "kind": "static",
+  "thumb": {
+   "phash": "916a7a956a3fc4c1",
+   "dhash": "b8b8a059ccfe5a98"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "916a7a956a3fc4c1",
+    "dhash": "b8b8a059ccfe5a98"
+   },
+   {
+    "n": 2,
+    "phash": "bf37c18cccccc8e0",
+    "dhash": "605c6d673b7b7810"
+   },
+   {
+    "n": 3,
+    "phash": "b81f87c660e2951f",
+    "dhash": "4479789597462d18"
+   },
+   {
+    "n": 4,
+    "phash": "c0d83f2f8d917ac8",
+    "dhash": "93aca0e2a28dd4d4"
+   }
+  ]
+ },
+ "renewal-21-days--annotated--feed--rahul-vinod": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0d63b2b6e689595",
+   "dhash": "01eca4a527928088"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0d63b2b6e689595",
+    "dhash": "01eca4a527928088"
+   },
+   {
+    "n": 2,
+    "phash": "9f1f91c64ec6d0e0",
+    "dhash": "407a5c73775c6210"
+   },
+   {
+    "n": 3,
+    "phash": "bf2dc0d292d26c2d",
+    "dhash": "dc6637793da54d17"
+   },
+   {
+    "n": 4,
+    "phash": "c0c03f2fc9cbcfc0",
+    "dhash": "83a490a9a1461404"
+   }
+  ]
+ },
+ "renewal-21-days--annotated--square--al-manji": {
+  "kind": "static",
+  "thumb": {
+   "phash": "91ea6a85373ec4ca",
+   "dhash": "84b0a13ed8fe3338"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "91ea6a85373ec4ca",
+    "dhash": "84b0a13ed8fe3338"
+   }
+  ]
+ },
+ "renewal-21-days--annotated--story--rahul-vinod": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c4913f33956e6a91",
+   "dhash": "0fb0a1e2ac052525"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c4913f33956e6a91",
+    "dhash": "0bb0a1a2ac052525"
+   }
+  ]
+ },
+ "renewal-lump-sum--bold-type--feed--adrian-biccum": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf638585e03ee4c4",
+   "dhash": "40595d6909767151"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf638585e03ee4c4",
+    "dhash": "40595d6909767151"
+   },
+   {
+    "n": 2,
+    "phash": "c0293e9c3fd3c934",
+    "dhash": "8f8092c9ac90848e"
+   },
+   {
+    "n": 3,
+    "phash": "abeb9554d4af5090",
+    "dhash": "6453496ba4b45770"
+   },
+   {
+    "n": 4,
+    "phash": "bf4ad8a5d0c1663a",
+    "dhash": "6c7555492e675770"
+   },
+   {
+    "n": 5,
+    "phash": "c4e46a933f3b6a48",
+    "dhash": "8aa4a59e90e0c083"
+   },
+   {
+    "n": 6,
+    "phash": "bfc09523d1376a34",
+    "dhash": "4875754951476f3c"
+   },
+   {
+    "n": 7,
+    "phash": "bf4bc7b18584c07c",
+    "dhash": "4859152b3b1d2f2c"
+   },
+   {
+    "n": 8,
+    "phash": "af6bd494c1b5d2c0",
+    "dhash": "53634b5b636f1e63"
+   }
+  ]
+ },
+ "renewal-lump-sum--bold-type--feed--akaalinder-dhaliwal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "d424513b2bd02fbb",
+   "dhash": "8ba4a4b45bddb48a"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d464503b2bd02fbb",
+    "dhash": "8ba4a4b45bddb48a"
+   },
+   {
+    "n": 2,
+    "phash": "bfc3c036c1cc3732",
+    "dhash": "704f6f736c6c36b8"
+   },
+   {
+    "n": 3,
+    "phash": "a6c3db88c937c728",
+    "dhash": "706d6d66b6667c3e"
+   },
+   {
+    "n": 4,
+    "phash": "c04a3d372f94971b",
+    "dhash": "8f9190a0878aaa81"
+   },
+   {
+    "n": 5,
+    "phash": "bb93c46ec0b4b1d1",
+    "dhash": "715b5a3f416f7fb0"
+   },
+   {
+    "n": 6,
+    "phash": "af91c34c913e3ca3",
+    "dhash": "58556f6c72757548"
+   },
+   {
+    "n": 7,
+    "phash": "c07a36b07ba42fc3",
+    "dhash": "2bd0c4e2d0b2aaca"
+   },
+   {
+    "n": 8,
+    "phash": "d0a62e5b3b857a4a",
+    "dhash": "bbceac9ad898b689"
+   }
+  ]
+ },
+ "renewal-lump-sum--bold-type--square--adrian-biccum": {
+  "kind": "static",
+  "thumb": {
+   "phash": "af6bd494e08cd46a",
+   "dhash": "e4535b4b4f6d6351"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "af6bd494e08cd46a",
+    "dhash": "e4535b4b4f6d6351"
+   }
+  ]
+ },
+ "renewal-lump-sum--bold-type--story--adrian-biccum": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf3bc0c58472780f",
+   "dhash": "a6595d6961310200"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf3bc0c58472780f",
+    "dhash": "a6595d6961210200"
+   }
+  ]
+ },
+ "renewal-lump-sum--riso--feed--adrian-biccum": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bbcce233cce2b114",
+   "dhash": "79191ba3395c4dd9"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bbcce233cce2b114",
+    "dhash": "79191ba3395c4dd9"
+   },
+   {
+    "n": 2,
+    "phash": "b720c18fc1cf3e70",
+    "dhash": "d09daddcdc686898"
+   },
+   {
+    "n": 3,
+    "phash": "dfb7a0488d5e58a4",
+    "dhash": "605b30707321215b"
+   },
+   {
+    "n": 4,
+    "phash": "bde6c098e7358ec0",
+    "dhash": "649066467670ba58"
+   },
+   {
+    "n": 5,
+    "phash": "bfc4d912e43bc033",
+    "dhash": "7870764f6f5d191b"
+   },
+   {
+    "n": 6,
+    "phash": "cf37a2c8d9d22525",
+    "dhash": "d866467033a1215a"
+   },
+   {
+    "n": 7,
+    "phash": "ddb7c95aa442a24d",
+    "dhash": "40783b0f36291152"
+   },
+   {
+    "n": 8,
+    "phash": "fb61e47113999d28",
+    "dhash": "9bc17359595ea050"
+   }
+  ]
+ },
+ "renewal-lump-sum--riso--feed--nav-utppal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ef6fc09888443737",
+   "dhash": "f147466779390318"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ef6fc09882443737",
+    "dhash": "f147466779398358"
+   },
+   {
+    "n": 2,
+    "phash": "da3da5c2a4c22b3d",
+    "dhash": "c971597939892958"
+   },
+   {
+    "n": 3,
+    "phash": "bf9760e09e688578",
+    "dhash": "6058307669870311"
+   },
+   {
+    "n": 4,
+    "phash": "dd2fb2c0c8c09377",
+    "dhash": "f066567270890058"
+   },
+   {
+    "n": 5,
+    "phash": "b3cccc3362b2b1cc",
+    "dhash": "78705e595b5e595b"
+   },
+   {
+    "n": 6,
+    "phash": "bf9760c09a68873e",
+    "dhash": "d066067031c70311"
+   },
+   {
+    "n": 7,
+    "phash": "d6158bcaa5e2e2a5",
+    "dhash": "407c140c3625055a"
+   },
+   {
+    "n": 8,
+    "phash": "ef9988663744919d",
+    "dhash": "518131014b44a572"
+   }
+  ]
+ },
+ "renewal-lump-sum--riso--square--nav-utppal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "cf1eb1c0a2e3b43c",
+   "dhash": "c133344561010159"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "cf1eb1c0a2e3b43c",
+    "dhash": "c133344561810159"
+   }
+  ]
+ },
+ "renewal-lump-sum--riso--story--nav-utppal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ef9f708098663633",
+   "dhash": "f1414d6111c5059d"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ef9f708098663633",
+    "dhash": "e1414d6111c5059d"
+   }
+  ]
+ },
+ "tip-120-days--legacy-ledger--feed--client-a": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf37c0c9c89623c3",
+   "dhash": "61155e6653476681"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf37c0c9c89623c3",
+    "dhash": "61155e6653476681"
+   }
+  ]
+ },
+ "wk1117-g1-october-number--bento--story--jim-decoste": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bb956ec4917bc091",
+   "dhash": "e45e5a5a5a594545"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bb956ec4917bc091",
+    "dhash": "e45e5a5a5a594545"
+   }
+  ]
+ },
+ "wk1117-g1-october-number--bento--story--michael-marini": {
+  "kind": "static",
+  "thumb": {
+   "phash": "eec43b91c46ec8e4",
+   "dhash": "4a792525a5514d45"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "eec43b91c46ec8e4",
+    "dhash": "4a792525a5514d45"
+   }
+  ]
+ },
+ "wk1117-g1-october-number--bento--story--sahil-rihani": {
+  "kind": "static",
+  "thumb": {
+   "phash": "eec43b91c46adac4",
+   "dhash": "5a67a5a5a5514d45"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "eec43b91c46ed2c4",
+    "dhash": "7a67a5a5a5514d45"
+   }
+  ]
+ },
+ "wk1117-g1-october-number--swiss--story--keaton-jim-thornton": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c1c03c1f9f366ccc",
+   "dhash": "788087c8ea176800"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c1c03c1f9f366ccc",
+    "dhash": "788087c8ea176800"
+   }
+  ]
+ },
+ "wk1117-g1-october-number--swiss--story--keith-crossland-dustin-moss": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0d07a2e2d3d2fca",
+   "dhash": "008898baa2020800"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0d07a2e2d3d2fca",
+    "dhash": "008898faa2020800"
+   }
+  ]
+ },
+ "wk1117-g1-october-number--terminal--story--gregory-hernandez": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0c0373f3f1f98d0",
+   "dhash": "328ea0a104488c00"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0c0373f3f1f98d0",
+    "dhash": "228ea0a148888c00"
+   }
+  ]
+ },
+ "wk1117-g1-october-number--terminal--story--scott-brouke": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0c0333f3f3fccc0",
+   "dhash": "0688e136a2a2b080"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0c0333f3f3fccc0",
+    "dhash": "0688e036a2a29084"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--annotated--story--al-manji": {
+  "kind": "static",
+  "thumb": {
+   "phash": "91c47a3f85c83e27",
+   "dhash": "02843cc8de195a5a"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "91c47a3f85c83e27",
+    "dhash": "029038c8de195a5a"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--annotated--story--rahul-vinod": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c2916ee2953f2bd0",
+   "dhash": "188003c88c05a525"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c2916ee2953f2bd0",
+    "dhash": "188023c88c05a525"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--cutout--story--ariana-learoux": {
+  "kind": "static",
+  "thumb": {
+   "phash": "e49a27659365d8e2",
+   "dhash": "3974a4083926472c"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "e49a27659365d8e2",
+    "dhash": "3974a4083926472c"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--cutout--story--borrowise": {
+  "kind": "static",
+  "thumb": {
+   "phash": "999491d99d16f1c9",
+   "dhash": "5458906470986190"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "999591d99d16f0c9",
+    "dhash": "5458906450986190"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--cutout--story--karven-wu": {
+  "kind": "static",
+  "thumb": {
+   "phash": "9c6f9c2d639863d0",
+   "dhash": "196250184747b448"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "9c6f9c25639863d8",
+    "dhash": "196250184747b448"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--magazine--story--akshat-chauhan": {
+  "kind": "static",
+  "thumb": {
+   "phash": "91e06a9b1f6e6a91",
+   "dhash": "238e88349c982308"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "91e06a9b1f6e6a91",
+    "dhash": "239e88749c982308"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--magazine--story--amit-khurana": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf2e4043b3bcec12",
+   "dhash": "926137764da40800"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf2e4043b3bccc13",
+    "dhash": "926137764da40800"
+   }
+  ]
+ },
+ "wk1117-g2-bond-move--magazine--story--juliet-fernandez": {
+  "kind": "static",
+  "thumb": {
+   "phash": "d140ae3f2eee1b30",
+   "dhash": "219e80a31c5c4708"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d140ae3f2eea1b32",
+    "dhash": "219e80a31c5c4708"
+   }
+  ]
+ },
+ "wk1117-g3-months-supply--bold-type--story--adrian-biccum": {
+  "kind": "static",
+  "thumb": {
+   "phash": "af2dc0d292616c3f",
+   "dhash": "9863271668240200"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "af2dc0d292616c3f",
+    "dhash": "9863271668240200"
+   }
+  ]
+ },
+ "wk1117-g3-months-supply--bold-type--story--akaalinder-dhaliwal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "d17a6e94912f2e94",
+   "dhash": "8088758a9ab64982"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d17a6e94912f2e94",
+    "dhash": "8088758a9ab64982"
+   }
+  ]
+ },
+ "wk1117-g3-months-supply--isometric--story--abbas": {
+  "kind": "static",
+  "thumb": {
+   "phash": "b78f9864e09bb560",
+   "dhash": "d06e694d8e0e7086"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "b78f9864e09bb560",
+    "dhash": "d06e694d8e0e7086"
+   }
+  ]
+ },
+ "wk1117-g3-months-supply--riso--story--nav-utppal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ef9e318390661e35",
+   "dhash": "8971742111458595"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ef9c318390663e35",
+    "dhash": "8971742111458591"
+   }
+  ]
+ },
+ "wk1117-g4-price-drop--broadsheet--story--dan-balch": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf2fc0d8d8c40537",
+   "dhash": "332f4e3a1d532a41"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf2fc0d8d8c40537",
+    "dhash": "332f4e3a1d532a41"
+   }
+  ]
+ },
+ "wk1117-g4-price-drop--broadsheet--story--georges": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf37c0c08cc1f13e",
+   "dhash": "884d5d663ed92c42"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf37c0c08cc1f13e",
+    "dhash": "884d5d663ed92c42"
+   }
+  ]
+ },
+ "wk1117-g4-price-drop--broadsheet--story--jalal-khan": {
+  "kind": "static",
+  "thumb": {
+   "phash": "af2ed0d02d6ed8c1",
+   "dhash": "4c6d736756198c43"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "af2ed0d02d6ed8c1",
+    "dhash": "4c6d736756198c43"
+   }
+  ]
+ },
+ "wk1117-g4-price-drop--paper-trail--story--byran-peters": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c02a7e6b91953f85",
+   "dhash": "9886a2b2820180a4"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c02a7e6b91953f85",
+    "dhash": "9886a2b2820180b4"
+   }
+  ]
+ },
+ "wk1117-g4-price-drop--paper-trail--story--gaurav-makhija": {
+  "kind": "static",
+  "thumb": {
+   "phash": "8138377e6e859f90",
+   "dhash": "05dad0d2a189cad2"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "8138377e6e859f90",
+    "dhash": "05dad0d2a189cad2"
+   }
+  ]
+ },
+ "wk1118-g1-new-pr-down--bento--feed--gregory-hernandez": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ee1b919f91c691c4",
+   "dhash": "7965a52525252505"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ee1b919f91c691c4",
+    "dhash": "7965a52525252505"
+   },
+   {
+    "n": 2,
+    "phash": "bfc4c01bc43f641b",
+    "dhash": "4490676e585a5a5a"
+   },
+   {
+    "n": 3,
+    "phash": "aec5d91b9566c264",
+    "dhash": "587e866627311115"
+   },
+   {
+    "n": 4,
+    "phash": "95c03fc25a2fc03f",
+    "dhash": "6c8c828286906e1e"
+   },
+   {
+    "n": 5,
+    "phash": "bf95c16a95c4e462",
+    "dhash": "785a827a554d651d"
+   },
+   {
+    "n": 6,
+    "phash": "bbc4c03be43fc813",
+    "dhash": "648842565a5a5a5a"
+   },
+   {
+    "n": 7,
+    "phash": "ee6e919113951b4e",
+    "dhash": "5ea565e525a19c12"
+   },
+   {
+    "n": 8,
+    "phash": "eab585d0954a6c3b",
+    "dhash": "6c6d45454561696d"
+   }
+  ]
+ },
+ "wk1118-g1-new-pr-down--bento--feed--keaton-jim-thornton": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bbe4c4c6c41bd81b",
+   "dhash": "665e585a5a5a5a18"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bbe4c4c6c41bd81b",
+    "dhash": "665e585a5a5a5a18"
+   },
+   {
+    "n": 2,
+    "phash": "bb93c46ec03d68d4",
+    "dhash": "585a5a5a5b5b5e9c"
+   },
+   {
+    "n": 3,
+    "phash": "bf94e0638c0eb36a",
+    "dhash": "587a6c637159411f"
+   },
+   {
+    "n": 4,
+    "phash": "95c03f2fc83fc8c2",
+    "dhash": "6482828680666e92"
+   },
+   {
+    "n": 5,
+    "phash": "ee95911d916ee262",
+    "dhash": "7825a5a5a5a52511"
+   },
+   {
+    "n": 6,
+    "phash": "b5c21a2fd21e2dd2",
+    "dhash": "6482828092566692"
+   },
+   {
+    "n": 7,
+    "phash": "bf3995c66a959142",
+    "dhash": "635a5a5945657a51"
+   },
+   {
+    "n": 8,
+    "phash": "ea3e95c0c595d2c5",
+    "dhash": "45454d4141416966"
+   }
+  ]
+ },
+ "wk1118-g1-new-pr-down--swiss--feed--jim-decoste": {
+  "kind": "static",
+  "thumb": {
+   "phash": "d0da6aa52f2f9494",
+   "dhash": "2ba894738e8e719a"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d0da6aa52f2f9494",
+    "dhash": "2ba894738e8e719a"
+   },
+   {
+    "n": 2,
+    "phash": "c0913f7b496f608d",
+    "dhash": "818e8680928000a0"
+   },
+   {
+    "n": 3,
+    "phash": "bf84c03b916eb1b1",
+    "dhash": "585c4f7b585f775c"
+   },
+   {
+    "n": 4,
+    "phash": "c0e63f39c0c73639",
+    "dhash": "8f90a4c292845098"
+   },
+   {
+    "n": 5,
+    "phash": "c0626abf15992f2e",
+    "dhash": "8b808298ccd392a0"
+   },
+   {
+    "n": 6,
+    "phash": "bf2fc8c4b1b4b0c4",
+    "dhash": "66634d5c7d80205a"
+   },
+   {
+    "n": 7,
+    "phash": "c0e8688e3f373b0b",
+    "dhash": "23a2d248c0c0e49a"
+   },
+   {
+    "n": 8,
+    "phash": "c0cb3f3dd213c9c8",
+    "dhash": "092381e9b0820c90"
+   }
+  ]
+ },
+ "wk1118-g1-new-pr-down--swiss--feed--michael-marini": {
+  "kind": "static",
+  "thumb": {
+   "phash": "d0d26a292f2f95d4",
+   "dhash": "81989c00a8ba00a6"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "d0d26a292f2f95d4",
+    "dhash": "81989c0088ba00a6"
+   },
+   {
+    "n": 2,
+    "phash": "c06a953f39d12fd0",
+    "dhash": "93a482828c67aa9a"
+   },
+   {
+    "n": 3,
+    "phash": "bbaf9546e0ac6cc0",
+    "dhash": "6658537709397558"
+   },
+   {
+    "n": 4,
+    "phash": "c03764c937c4db2d",
+    "dhash": "83800004d090e0a0"
+   },
+   {
+    "n": 5,
+    "phash": "c0e12b7eb19b1c2b",
+    "dhash": "8fc492c88eac4998"
+   },
+   {
+    "n": 6,
+    "phash": "bb956ac0e13ab06b",
+    "dhash": "18785d585aa46359"
+   },
+   {
+    "n": 7,
+    "phash": "bf1e936cc1c8e0b2",
+    "dhash": "707c2d333f373a58"
+   },
+   {
+    "n": 8,
+    "phash": "c0cc3f33d82de0da",
+    "dhash": "83a8a090a9890088"
+   }
+  ]
+ },
+ "wk1118-g1-new-pr-down--swiss--feed--scott-brouke": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bb3fc24ec0913bb0",
+   "dhash": "716b1d5815552d59"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bb3fc24cc4913bb0",
+    "dhash": "717b1d5815552959"
+   },
+   {
+    "n": 2,
+    "phash": "c0689f3f33b14d8c",
+    "dhash": "83a082808800aaa2"
+   },
+   {
+    "n": 3,
+    "phash": "bfaf8556e02cc0d4",
+    "dhash": "66585353c8cc7358"
+   },
+   {
+    "n": 4,
+    "phash": "bfc0c63fc0c63299",
+    "dhash": "6c7008e0187d6c58"
+   },
+   {
+    "n": 5,
+    "phash": "bf9d91426b6646d0",
+    "dhash": "4c306d77116c6158"
+   },
+   {
+    "n": 6,
+    "phash": "bb956bc0c069b13b",
+    "dhash": "187c5c7801944359"
+   },
+   {
+    "n": 7,
+    "phash": "bf1e9d2cc0c0e2b6",
+    "dhash": "707c2db31f171a58"
+   },
+   {
+    "n": 8,
+    "phash": "bf3bc8cc26921b25",
+    "dhash": "61575e6c5676b062"
+   }
+  ]
+ },
+ "wk1118-g1-new-pr-down--terminal--feed--keith-crossland-dustin-moss": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0d0373f2f6ec898",
+   "dhash": "07ccb4a55a8000a6"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0d0373f2f6ec898",
+    "dhash": "07ccb4a55a0400a6"
+   },
+   {
+    "n": 2,
+    "phash": "c0b726c82f2fc9a5",
+    "dhash": "938c8c55929084a3"
+   },
+   {
+    "n": 3,
+    "phash": "c0916e6ba4943f3b",
+    "dhash": "869318aa88a1c0a7"
+   },
+   {
+    "n": 4,
+    "phash": "c037e0d02fd03f2f",
+    "dhash": "86802000679098a7"
+   },
+   {
+    "n": 5,
+    "phash": "d0910f6ef0990f6e",
+    "dhash": "8e8cda9a9c6390a3"
+   },
+   {
+    "n": 6,
+    "phash": "c025e4d22f7bd82d",
+    "dhash": "cfa4a64d91b0a8a3"
+   },
+   {
+    "n": 7,
+    "phash": "c0e13c963e351b9b",
+    "dhash": "8688c9c1c1c8e4a3"
+   },
+   {
+    "n": 8,
+    "phash": "c0c33f3fd0c3c0ec",
+    "dhash": "8ea0a1d9804a8083"
+   }
+  ]
+ },
+ "wk1118-g1-new-pr-down--terminal--feed--sahil-rihani": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c0c2773f3d2cc09b",
+   "dhash": "c689c1a659a00000"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c0c2773f3d2cc09b",
+    "dhash": "c6c9c1a619800000"
+   },
+   {
+    "n": 2,
+    "phash": "c04ab53f3fb34a90",
+    "dhash": "8e80818010218ea6"
+   },
+   {
+    "n": 3,
+    "phash": "c63979c64a39968b",
+    "dhash": "9e839c6c646c98a3"
+   },
+   {
+    "n": 4,
+    "phash": "c0c0313f2f2fced8",
+    "dhash": "8690a92758200000"
+   },
+   {
+    "n": 5,
+    "phash": "c0b10f8ff0784f0f",
+    "dhash": "8ecc809e90c093a7"
+   },
+   {
+    "n": 6,
+    "phash": "c05b843f2fb07bd0",
+    "dhash": "86c999826059a4a6"
+   },
+   {
+    "n": 7,
+    "phash": "c03f3d351ec13cc3",
+    "dhash": "86c9c9c1c8e4c9a1"
+   },
+   {
+    "n": 8,
+    "phash": "c02f3dc06b95956b",
+    "dhash": "86800807c0e4e48b"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--annotated--story--akshat-chauhan": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bfbf9f4440c0c0ba",
+   "dhash": "805948822c2c8101"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bfb7bf4440c0c0ba",
+    "dhash": "805948822c2c8101"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--annotated--story--ariana-learoux": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bbbb8f6640c0c4ba",
+   "dhash": "a05a58b229348121"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "9bbf9f6640c0c4b2",
+    "dhash": "a05a58b20d348121"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--cutout--story--al-manji": {
+  "kind": "static",
+  "thumb": {
+   "phash": "cf9f2e253160d1e2",
+   "dhash": "5469495001420519"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "cf9f2e253160d1e2",
+    "dhash": "5469495001420519"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--cutout--story--amit-khurana": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ec6c656dec0c13d1",
+   "dhash": "26e6382610512804"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ec6c656dec0c13d1",
+    "dhash": "26e6382610512804"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--cutout--story--juliet-fernandez": {
+  "kind": "static",
+  "thumb": {
+   "phash": "9c6b1f946390e4e3",
+   "dhash": "9a74b4188b3434cb"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "9c6b1f946390e4e3",
+    "dhash": "1274b4188bb434cb"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--magazine--story--borrowise": {
+  "kind": "static",
+  "thumb": {
+   "phash": "a361501eafafe612",
+   "dhash": "258a8e4b7f259a00"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "a361501eafafe612",
+    "dhash": "658a8e4b7f259800"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--magazine--story--karven-wu": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bd71410aaeafae06",
+   "dhash": "338a162e66758a00"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bd71410aaeafae06",
+    "dhash": "338a062e66758a00"
+   }
+  ]
+ },
+ "wk1118-g2-stress-test--magazine--story--rahul-vinod": {
+  "kind": "static",
+  "thumb": {
+   "phash": "91c16e5e1f3e1a64",
+   "dhash": "318a8c5888982308"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "91c16e5e1f3e1a64",
+    "dhash": "318a885888982308"
+   }
+  ]
+ },
+ "wk1118-g3-no-credit-score--isometric--story--akaalinder-dhaliwal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "b733999ce4c01ea5",
+   "dhash": "c059558e0e788320"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "b733999ce4c01ea5",
+    "dhash": "c059558e0e788320"
+   }
+  ]
+ },
+ "wk1118-g3-no-credit-score--isometric--story--nav-utppal": {
+  "kind": "static",
+  "thumb": {
+   "phash": "da27a5585aa5a55a",
+   "dhash": "c07c5e1939316200"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "da27a5585aa5a55a",
+    "dhash": "c07c5e1939316200"
+   }
+  ]
+ },
+ "wk1118-g3-no-credit-score--riso--story--abbas": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bbccd2b52690cc27",
+   "dhash": "8c71733b5e5bddad"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bbccd2b52690cc27",
+    "dhash": "8c71737b5e5bdd2d"
+   }
+  ]
+ },
+ "wk1118-g3-no-credit-score--riso--story--adrian-biccum": {
+  "kind": "static",
+  "thumb": {
+   "phash": "ef8e319098c63637",
+   "dhash": "b94366211145839b"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "ef8e319098c63637",
+    "dhash": "b94366211345839b"
+   }
+  ]
+ },
+ "wk1118-g4-budget-verdict--broadsheet--story--byran-peters": {
+  "kind": "static",
+  "thumb": {
+   "phash": "bf2dc0d2d2c02d2f",
+   "dhash": "1b2f666b5d13a810"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "bf2dc0d2d2c02d2f",
+    "dhash": "1b2f666b4d13a810"
+   }
+  ]
+ },
+ "wk1118-g4-budget-verdict--broadsheet--story--gaurav-makhija": {
+  "kind": "static",
+  "thumb": {
+   "phash": "af2fd0d0a527c2c9",
+   "dhash": "ac57534753582140"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "af2fd0d0a527c2c9",
+    "dhash": "ac575347535c2040"
+   }
+  ]
+ },
+ "wk1118-g4-budget-verdict--paper-trail--story--dan-balch": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c12b7a6a95953ec4",
+   "dhash": "8c93c4ccd0a388a4"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c12b7a6a95953ec4",
+    "dhash": "8c93c4ccd0a388a4"
+   }
+  ]
+ },
+ "wk1118-g4-budget-verdict--paper-trail--story--georges": {
+  "kind": "static",
+  "thumb": {
+   "phash": "813c6b7e3e814e9c",
+   "dhash": "01daf2dea8c1cad2"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "813c6b7e3e814e9c",
+    "dhash": "09caf2dea881cad2"
+   }
+  ]
+ },
+ "wk1118-g4-budget-verdict--paper-trail--story--jalal-khan": {
+  "kind": "static",
+  "thumb": {
+   "phash": "c02b7e6b94cc3f81",
+   "dhash": "018cbaa2a20180b4"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "c02b7e6b94cc3f81",
+    "dhash": "018cbaa2a20180b4"
+   }
+  ]
+ },
+ "motion--directions--a-bold-pop--amit-khurana": {
+  "kind": "video",
+  "thumb": {
+   "phash": "f0877a85907e83f1",
+   "dhash": "904bccac9ac00118"
+  },
+  "frames": [
+   {
+    "t": 0.93,
+    "phash": "f0877a85907e83f1",
+    "dhash": "a04b8cac9ac00118"
+   },
+   {
+    "t": 2.8,
+    "phash": "a152afd4b56ad0a5",
+    "dhash": "040689999ec03387"
+   },
+   {
+    "t": 4.67,
+    "phash": "a8562f55ac4ad3b1",
+    "dhash": "140689a186c02387"
+   },
+   {
+    "t": 6.53,
+    "phash": "ff807d80b01ee03f",
+    "dhash": "887153a05d213118"
+   },
+   {
+    "t": 8.4,
+    "phash": "cfb8c4907e0ef10d",
+    "dhash": "a973535557d860e6"
+   },
+   {
+    "t": 10.26,
+    "phash": "916e8af5cc3b4691",
+    "dhash": "040ea8298adcdcfd"
+   },
+   {
+    "t": 12.13,
+    "phash": "d02ddee9364ac493",
+    "dhash": "240684a58ec2218c"
+   },
+   {
+    "t": 14.0,
+    "phash": "d02ddae9364ae493",
+    "dhash": "240e84a58ec2218c"
+   }
+  ]
+ },
+ "motion--directions--b-phone-pov--amit-khurana": {
+  "kind": "video",
+  "thumb": {
+   "phash": "963c69693d963668",
+   "dhash": "54e0ec7cf0e4d8c8"
+  },
+  "frames": [
+   {
+    "t": 0.9,
+    "phash": "963c69693d963668",
+    "dhash": "44e0ecfcf0e4d4d0"
+   },
+   {
+    "t": 2.71,
+    "phash": "d2692d6d9892327b",
+    "dhash": "cc62c8d8d0c4d4c4"
+   },
+   {
+    "t": 4.52,
+    "phash": "d2792d6c68d2323b",
+    "dhash": "8268c8d8d0c4d4c4"
+   },
+   {
+    "t": 6.33,
+    "phash": "805f5f7a3f888a23",
+    "dhash": "12c8e4978fa18aa3"
+   },
+   {
+    "t": 8.14,
+    "phash": "80575f7a7f998821",
+    "dhash": "1ac0e49787a18aa1"
+   },
+   {
+    "t": 9.95,
+    "phash": "d2793d6c68c2323d",
+    "dhash": "61dcc8d0f0ccd4c4"
+   },
+   {
+    "t": 11.76,
+    "phash": "d2383d6d6cc2123f",
+    "dhash": "619cc8d4d4c4d4c4"
+   },
+   {
+    "t": 13.57,
+    "phash": "963c69691d973668",
+    "dhash": "74e1ec7cf0e4d8d8"
+   }
+  ]
+ },
+ "motion--directions--c-object-3d--amit-khurana": {
+  "kind": "video",
+  "thumb": {
+   "phash": "847b7ba41b5ce123",
+   "dhash": "508489f0eca4a459"
+  },
+  "frames": [
+   {
+    "t": 0.92,
+    "phash": "c45b7ba41bdce320",
+    "dhash": "508e81f0e62626c8"
+   },
+   {
+    "t": 2.75,
+    "phash": "897770aa1dd86669",
+    "dhash": "54848478f3eb9b9b"
+   },
+   {
+    "t": 4.58,
+    "phash": "827dc28f3bd069c6",
+    "dhash": "58a482b869d4e4cc"
+   },
+   {
+    "t": 6.42,
+    "phash": "945b41265ec8375f",
+    "dhash": "e0197a3c6eceb4c0"
+   },
+   {
+    "t": 8.25,
+    "phash": "845b59264edc331f",
+    "dhash": "e0197aa46ecea6c0"
+   },
+   {
+    "t": 10.09,
+    "phash": "dc204b9f706987f8",
+    "dhash": "4482a1853c606060"
+   },
+   {
+    "t": 11.92,
+    "phash": "956a459f3aa4865b",
+    "dhash": "4480a68e38646868"
+   },
+   {
+    "t": 13.75,
+    "phash": "847b7b841b5ce133",
+    "dhash": "54848970eca4a459"
+   }
+  ]
+ },
+ "motion--heloc-paul--amit-khurana--kinetic-hook": {
+  "kind": "video",
+  "thumb": {
+   "phash": "f8f84683a53cf252",
+   "dhash": "c0e91f171b592208"
+  },
+  "frames": [
+   {
+    "t": 0.72,
+    "phash": "f8e84683ad2cf2d2",
+    "dhash": "c0e91f171b58a008"
+   },
+   {
+    "t": 2.16,
+    "phash": "f8f84683ad2cb2d2",
+    "dhash": "c0a91f171b58a008"
+   },
+   {
+    "t": 3.6,
+    "phash": "b8fc47c360783897",
+    "dhash": "81f0333758592048"
+   },
+   {
+    "t": 5.04,
+    "phash": "b8f847c36078389f",
+    "dhash": "81f0333758592048"
+   },
+   {
+    "t": 6.49,
+    "phash": "ecec4193d278782d",
+    "dhash": "c1e3272b59592408"
+   },
+   {
+    "t": 7.93,
+    "phash": "faec459192786c2d",
+    "dhash": "906227091e592400"
+   },
+   {
+    "t": 9.37,
+    "phash": "faec459192786c2d",
+    "dhash": "d06227091a592400"
+   },
+   {
+    "t": 10.81,
+    "phash": "f8e84683a53cf25a",
+    "dhash": "c0e91f171b59a008"
+   }
+  ]
+ },
+ "motion--heloc-paul--keaton-jim-thornton--kinetic-hook": {
+  "kind": "video",
+  "thumb": {
+   "phash": "bf2ec0d097276a68",
+   "dhash": "da31275f58d92000"
+  },
+  "frames": [
+   {
+    "t": 0.79,
+    "phash": "bf2ec0d097276a68",
+    "dhash": "ca31275f58d92000"
+   },
+   {
+    "t": 2.36,
+    "phash": "bf2ec0d097276a68",
+    "dhash": "ca31275f58d92000"
+   },
+   {
+    "t": 3.93,
+    "phash": "bf3fc0c1303636c9",
+    "dhash": "90f16d6c59592000"
+   },
+   {
+    "t": 5.5,
+    "phash": "bf3fc0c0303637c9",
+    "dhash": "88f16d4c59592000"
+   },
+   {
+    "t": 7.07,
+    "phash": "bf3fc0c0303637c9",
+    "dhash": "88f16d4c59592000"
+   },
+   {
+    "t": 8.64,
+    "phash": "bf3fc0c09691c92d",
+    "dhash": "f0635b7c6dd12400"
+   },
+   {
+    "t": 10.21,
+    "phash": "bf3fc0c09691c92d",
+    "dhash": "f0635b7c4dd12000"
+   },
+   {
+    "t": 11.78,
+    "phash": "bf2ec0d097276a68",
+    "dhash": "ca31275f58d92000"
+   }
+  ]
+ },
+ "motion--heloc-paul--keaton-jim-thornton--object-3d": {
+  "kind": "video",
+  "thumb": {
+   "phash": "c46b7b841b9ce163",
+   "dhash": "5aa681f0e4a4a459"
+  },
+  "frames": [
+   {
+    "t": 0.92,
+    "phash": "c4537ba41bdce322",
+    "dhash": "52a681f0e62626c8"
+   },
+   {
+    "t": 2.75,
+    "phash": "8977688e1dc86679",
+    "dhash": "3a868478faeb9b9b"
+   },
+   {
+    "t": 4.58,
+    "phash": "826dc28f33d86dc6",
+    "dhash": "1aa682b869d4e4cc"
+   },
+   {
+    "t": 6.42,
+    "phash": "945bc9371fd0234b",
+    "dhash": "c08294bc6fceb4c1"
+   },
+   {
+    "t": 8.25,
+    "phash": "845b59371ecc235b",
+    "dhash": "c0a294a46fcea6c0"
+   },
+   {
+    "t": 10.09,
+    "phash": "dc208fbf78c70478",
+    "dhash": "0aa6a0a43e6c6060"
+   },
+   {
+    "t": 11.92,
+    "phash": "956845bf3ec548b8",
+    "dhash": "0aa6a0a63e786c48"
+   },
+   {
+    "t": 13.75,
+    "phash": "c40b7bb40bdce12b",
+    "dhash": "0aa681e0e4a424d9"
+   }
+  ]
+ },
+ "motion--heloc-paul--keaton-jim-thornton--phone-pov": {
+  "kind": "video",
+  "thumb": {
+   "phash": "963c69693d963668",
+   "dhash": "54e8ec78f0e4d8d0"
+  },
+  "frames": [
+   {
+    "t": 0.9,
+    "phash": "963c69693d963668",
+    "dhash": "54e8ecf0f0c4dcd0"
+   },
+   {
+    "t": 2.69,
+    "phash": "c66d6d6d98923239",
+    "dhash": "8862e8d0f0c4d4d4"
+   },
+   {
+    "t": 4.48,
+    "phash": "d2792d2d68d2323b",
+    "dhash": "8668c8d8f0c4d4c4"
+   },
+   {
+    "t": 6.27,
+    "phash": "805f5f7a3f908a23",
+    "dhash": "17e8e49787a18aa3"
+   },
+   {
+    "t": 8.06,
+    "phash": "80575f7a7f9c8822",
+    "dhash": "13e0e6978fa18aa3"
+   },
+   {
+    "t": 9.85,
+    "phash": "d2793d6c6cc2123d",
+    "dhash": "619cc8d0f0c4d4c4"
+   },
+   {
+    "t": 11.64,
+    "phash": "d2793d6c6cc2123d",
+    "dhash": "419cc8d4d4c4d4c4"
+   },
+   {
+    "t": 13.43,
+    "phash": "963c69693d963668",
+    "dhash": "54c9ec70f0e4c8d0"
+   }
+  ]
+ },
+ "motion--heloc-paul--keaton-jim-thornton--pop-hook": {
+  "kind": "video",
+  "thumb": {
+   "phash": "f0877b8db15a82f0",
+   "dhash": "0806acac9ae00118"
+  },
+  "frames": [
+   {
+    "t": 0.93,
+    "phash": "f0877b8db15283f0",
+    "dhash": "0a06aca89ae00118"
+   },
+   {
+    "t": 2.8,
+    "phash": "a152af553d6ad0a5",
+    "dhash": "328e81a18ec03387"
+   },
+   {
+    "t": 4.67,
+    "phash": "89562f55ac4ad3b1",
+    "dhash": "328699b1b6c02387"
+   },
+   {
+    "t": 6.53,
+    "phash": "ff807f80b01ce03f",
+    "dhash": "d17157a05f213118"
+   },
+   {
+    "t": 8.4,
+    "phash": "cfb8c4907a0ff10d",
+    "dhash": "a973575557d860e6"
+   },
+   {
+    "t": 10.26,
+    "phash": "916e8bf5ce3b4680",
+    "dhash": "020ec8698adcdcfd"
+   },
+   {
+    "t": 12.13,
+    "phash": "c02ddbe9364bc493",
+    "dhash": "2686a4a58ec2218c"
+   },
+   {
+    "t": 14.0,
+    "phash": "d02ddbe9364b4493",
+    "dhash": "2682a5ac8ec2318c"
+   }
+  ]
+ },
+ "motion--films--game-show--amit-khurana": {
+  "kind": "video",
+  "thumb": {
+   "phash": "84c46b79381f9fc8",
+   "dhash": "568ee6ae9ada2588"
+  },
+  "frames": [
+   {
+    "t": 1.54,
+    "phash": "c5e66a11953f43d8",
+    "dhash": "cec6e2ecbada2180"
+   },
+   {
+    "t": 4.63,
+    "phash": "d0872f3de8c29794",
+    "dhash": "c686cccc9ada2188"
+   },
+   {
+    "t": 7.71,
+    "phash": "84c46b79391f9fc0",
+    "dhash": "568ee6ae9ada2588"
+   },
+   {
+    "t": 10.79,
+    "phash": "c4c72f11786a9b95",
+    "dhash": "05eee88586c225a4"
+   },
+   {
+    "t": 13.88,
+    "phash": "c4a66f49686a9f94",
+    "dhash": "45eeae0586c225a4"
+   },
+   {
+    "t": 16.96,
+    "phash": "d0c62f39e84e9794",
+    "dhash": "aa86d4c49ad82100"
+   },
+   {
+    "t": 20.04,
+    "phash": "91916e6a7a3e95c1",
+    "dhash": "55d29aac92d82100"
+   },
+   {
+    "t": 23.13,
+    "phash": "91916e6e6a3e95c1",
+    "dhash": "aad29a9c92d82100"
+   }
+  ]
+ },
+ "motion--films--pop-art--amit-khurana": {
+  "kind": "video",
+  "thumb": {
+   "phash": "95242a6bb5347b4b",
+   "dhash": "5fccdc968a1a210a"
+  },
+  "frames": [
+   {
+    "t": 1.2,
+    "phash": "95042a6bb5346bdb",
+    "dhash": "4fcccc969a0a2100"
+   },
+   {
+    "t": 3.59,
+    "phash": "bfbe40c18778d8c1",
+    "dhash": "f25d1d3d4c000000"
+   },
+   {
+    "t": 5.99,
+    "phash": "bbbbc0c49634d8c9",
+    "dhash": "f45b191f4c080002"
+   },
+   {
+    "t": 8.39,
+    "phash": "85863ab1c94fcdb4",
+    "dhash": "c3cc60639ada2100"
+   },
+   {
+    "t": 10.78,
+    "phash": "9544eeb9916e6a91",
+    "dhash": "47c4a8b89aca1588"
+   },
+   {
+    "t": 13.18,
+    "phash": "9544eeb9996a6a91",
+    "dhash": "8bc4aaba9aca3108"
+   },
+   {
+    "t": 15.58,
+    "phash": "bfdf40c0913d3ce0",
+    "dhash": "b86175775a5aa009"
+   },
+   {
+    "t": 17.97,
+    "phash": "bf9fc0c0919db462",
+    "dhash": "b8617579595a2102"
+   }
+  ]
+ },
+ "2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton": {
+  "kind": "video",
+  "thumb": {
+   "phash": "be3d91ca69612695",
+   "dhash": "d06d0f17076dccf0"
+  },
+  "frames": [
+   {
+    "t": 0.0,
+    "phash": "be3d91ca69612695",
+    "dhash": "d06d0f170f4dccf0"
+   },
+   {
+    "t": 6.0,
+    "phash": "bfe091cad1f42694",
+    "dhash": "f8730f0f170d3c58"
+   },
+   {
+    "t": 12.0,
+    "phash": "ff9c91a244d59338",
+    "dhash": "e8573e24274f1019"
+   },
+   {
+    "t": 18.0,
+    "phash": "ad93ddf22080da6d",
+    "dhash": "f05b77af071db233"
+   },
+   {
+    "t": 27.0,
+    "phash": "bfe091cad9f02685",
+    "dhash": "f0690f0f336d7c70"
+   },
+   {
+    "t": 33.0,
+    "phash": "af29d11ed8e43691",
+    "dhash": "e8590f177b6dccf0"
+   },
+   {
+    "t": 39.0,
+    "phash": "bf3dd14ac8606695",
+    "dhash": "e0780f177b6dccf0"
+   },
+   {
+    "t": 44.9,
+    "phash": "be3d91ca69612695",
+    "dhash": "d06d0f170f4dccf0"
+   }
+  ]
+ },
+ "2026-11-19-dan-balch-renewing-in-2027-in-london": {
+  "kind": "carousel",
+  "thumb": {
+   "phash": "afaec49842ca39b5",
+   "dhash": "15666f413b7b73ce"
+  },
+  "frames": [
+   {
+    "n": 1,
+    "phash": "afaec49842ca39b5",
+    "dhash": "11666f413b7b73ce"
+   },
+   {
+    "n": 2,
+    "phash": "bfbf4bc840d84195",
+    "dhash": "314d1ea62e2e79ce"
+   },
+   {
+    "n": 3,
+    "phash": "bbbc44bf19c044b3",
+    "dhash": "317b5d795b7f71ce"
+   },
+   {
+    "n": 4,
+    "phash": "bbbc44bd1bc240b5",
+    "dhash": "31735e595b7f71ce"
+   },
+   {
+    "n": 5,
+    "phash": "bbbc44bd19c244b5",
+    "dhash": "31335e597b7d61ce"
+   },
+   {
+    "n": 6,
+    "phash": "afafd092409c25fa",
+    "dhash": "50494b6b4f5e79ce"
+   },
+   {
+    "n": 7,
+    "phash": "bfbf509424d041eb",
+    "dhash": "717d5967675679ce"
+   },
+   {
+    "n": 8,
+    "phash": "bfbe43da41d881c1",
+    "dhash": "51372e36133671ce"
+   }
+  ]
+ }
+}

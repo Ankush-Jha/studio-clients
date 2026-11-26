@@ -1,0 +1,386 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "id": "spec.resolution",
+      "name": "Resolution",
+      "status": "pass",
+      "value": "1080x1920",
+      "expected": "1080x1920",
+      "detail": ""
+    },
+    {
+      "id": "spec.codec",
+      "name": "Codec / profile",
+      "status": "pass",
+      "value": "h264 High",
+      "expected": "h264 High",
+      "detail": ""
+    },
+    {
+      "id": "spec.pix_fmt",
+      "name": "Pixel format",
+      "status": "pass",
+      "value": "yuv420p",
+      "expected": "yuv420p",
+      "detail": ""
+    },
+    {
+      "id": "spec.color_tags",
+      "name": "BT.709 colour tags (limited range)",
+      "status": "pass",
+      "value": {
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_range": "tv"
+      },
+      "expected": "bt709 / bt709 / bt709 / tv",
+      "detail": ""
+    },
+    {
+      "id": "spec.fps",
+      "name": "Frame rate",
+      "status": "pass",
+      "value": 30.0,
+      "expected": ">= 30 (24 = warn)",
+      "detail": ""
+    },
+    {
+      "id": "spec.cfr",
+      "name": "Constant frame rate",
+      "status": "pass",
+      "value": "r=30.000 avg=30.000",
+      "expected": "r == avg",
+      "detail": ""
+    },
+    {
+      "id": "spec.video_bitrate",
+      "name": "Video bitrate",
+      "status": "pass",
+      "value": "0.25 Mbps",
+      "expected": "< 25 Mbps",
+      "detail": ""
+    },
+    {
+      "id": "spec.audio_codec",
+      "name": "Audio codec / rate",
+      "status": "pass",
+      "value": "aac 48000 Hz",
+      "expected": "aac 48000 Hz",
+      "detail": ""
+    },
+    {
+      "id": "spec.audio_bitrate",
+      "name": "Audio bitrate",
+      "status": "pass",
+      "value": "124 kbps",
+      "expected": "<= 128 kbps (API/scheduler posting)",
+      "detail": ""
+    },
+    {
+      "id": "spec.faststart",
+      "name": "+faststart (moov before mdat)",
+      "status": "pass",
+      "value": "ftyp moov",
+      "expected": "moov first",
+      "detail": ""
+    },
+    {
+      "id": "spec.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "2.5 MB",
+      "expected": "< 300 MB",
+      "detail": ""
+    },
+    {
+      "id": "spec.duration",
+      "name": "Duration",
+      "status": "pass",
+      "value": "53.5 s",
+      "expected": "<= 180 s (fail); 15-90 s",
+      "detail": ""
+    },
+    {
+      "id": "audio.loudness",
+      "name": "Integrated loudness",
+      "status": "pass",
+      "value": "-14.1 LUFS",
+      "expected": "-14 +/-1 LUFS",
+      "detail": ""
+    },
+    {
+      "id": "audio.truepeak",
+      "name": "True peak",
+      "status": "pass",
+      "value": "-1.3 dBTP",
+      "expected": "<= -1 dBTP",
+      "detail": ""
+    },
+    {
+      "id": "video.black",
+      "name": "Black frames",
+      "status": "pass",
+      "value": 0,
+      "expected": "none > 0.5 s",
+      "detail": ""
+    },
+    {
+      "id": "video.frozen",
+      "name": "Frozen stretches > 4 s",
+      "status": "warn",
+      "value": [
+        "33.8s +4.2s"
+      ],
+      "expected": "none > 4 s",
+      "detail": "freezedetect at 270px, noise 0.003; tiny text motion can be missed. PLAYBOOK: nothing static past 4 s"
+    },
+    {
+      "id": "video.safezone",
+      "name": "Text inside safe zone (x65-1015, y270-1248)",
+      "status": "pass",
+      "value": "0/19 sampled frames have OCR text outside",
+      "expected": "0 frames",
+      "detail": ""
+    },
+    {
+      "id": "video.hook_frame0",
+      "name": "Hook text in frame 1",
+      "status": "pass",
+      "value": "13 words: 'HELOC INTEREST-ONLY ILLUSTRATIVE MONTH 60/60 5 years paid. Still $50,000. Five y'",
+      "expected": ">= 2 words in frame 0",
+      "detail": ""
+    },
+    {
+      "id": "video.contrast",
+      "name": "Caption/text contrast >= 4.5:1 (sampled frames)",
+      "status": "warn",
+      "value": "24 low-contrast lines",
+      "expected": ">= 4.5:1",
+      "detail": "t=0s 'HELOC INTEREST-ONLY ILLUSTRATI' 4.3:1; t=3s 'HELOC INTEREST-ONLY ILLUSTRATI' 4.3:1; t=6s 'HELOC INTEREST-ONLY ILLUSTRATI' 4.3:1; t=9s 'HELOC INTEREST-ONLY ILLUSTRATI' 4.4:1; t=9s 'BALANCE $50,000' 4.1:1"
+    },
+    {
+      "id": "video.loop_seam",
+      "name": "Loop seam (first vs last frame PSNR)",
+      "status": "pass",
+      "value": "21.9 dB",
+      "expected": ">= 20 dB (job says loop)",
+      "detail": ""
+    },
+    {
+      "id": "video.wer",
+      "name": "Caption accuracy (whisper WER vs script)",
+      "status": "pass",
+      "value": "4.4%",
+      "expected": "<= 5% (fail > 8%)",
+      "detail": "model ggml-small.en-q5_1.bin; 136 ref words; heard: 'Five years of HELOC payments, and the balance is still $50,000. That happens when you pay only the interest. A federal survey found more than a quarter of HELOC'"
+    },
+    {
+      "id": "stills.count",
+      "name": "Image count",
+      "status": "pass",
+      "value": 1,
+      "expected": "single static / cover / story",
+      "detail": ""
+    },
+    {
+      "id": "stills.dimensions",
+      "name": "Dimensions",
+      "status": "pass",
+      "value": "1080x1920",
+      "expected": "1080x1350|1440 carousel, 1080x1920 story/cover, 1080x1080 square; one size per set",
+      "detail": ""
+    },
+    {
+      "id": "stills.format",
+      "name": "Format / sRGB",
+      "status": "pass",
+      "value": [
+        "JPEG"
+      ],
+      "expected": "JPEG/PNG, RGB, sRGB (or untagged)",
+      "detail": ""
+    },
+    {
+      "id": "stills.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "max 0.11 MB",
+      "expected": "<= 8 MB each",
+      "detail": ""
+    },
+    {
+      "id": "stills.margins",
+      "name": "Text inside 60 px side margins",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "x 60 .. W-60",
+      "detail": ""
+    },
+    {
+      "id": "stills.gridcrop",
+      "name": "Text inside 3:4 grid crop of slide 1 (x0-1080, y240-1680)",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "inside crop",
+      "detail": ""
+    },
+    {
+      "id": "stills.contrast",
+      "name": "Text contrast >= 4.5:1 (WCAG AA)",
+      "status": "warn",
+      "value": "1 low-contrast lines",
+      "expected": ">= 4.5:1",
+      "detail": "poster.jpg 'HELOC INTEREST-ONLY ILLUSTRA' 4.3:1"
+    },
+    {
+      "id": "stills.words",
+      "name": "Words per slide <= 40",
+      "status": "pass",
+      "value": "poster.jpg=15",
+      "expected": "<= 40 (carousel ~20)",
+      "detail": ""
+    },
+    {
+      "id": "copy.banned",
+      "name": "Banned phrases",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash",
+      "name": "Em-dash count",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.kit_rules",
+      "name": "Client kit rules",
+      "status": "skip",
+      "value": null,
+      "expected": null,
+      "detail": "no kit for client 'heloc-demo' (looked in /Users/ankushjha/Work/bots/kits/<slug>/kit.json)"
+    },
+    {
+      "id": "copy.rate_disclosure",
+      "name": "Rate shown with APR and term",
+      "status": "pass",
+      "value": "no advertised rate",
+      "expected": "",
+      "detail": ""
+    },
+    {
+      "id": "copy.compliance_line",
+      "name": "Compliance line present",
+      "status": "skip",
+      "value": null,
+      "expected": null,
+      "detail": "no kit"
+    },
+    {
+      "id": "copy.hashtags",
+      "name": "Hashtags <= 5",
+      "status": "pass",
+      "value": 5,
+      "expected": "<= 5",
+      "detail": ""
+    },
+    {
+      "id": "copy.line1_search",
+      "name": "Caption line 1 has a search phrase",
+      "status": "pass",
+      "value": "HELOC interest-only payments: five years in, the balance can be exactly where it started.",
+      "expected": "topic phrase (mortgage/renewal/HELOC...) in line 1",
+      "detail": ""
+    },
+    {
+      "id": "copy.banned@script",
+      "name": "Banned phrases [script]",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash@script",
+      "name": "Em-dash count [script]",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.rate_disclosure@script",
+      "name": "Rate shown with APR and term [script]",
+      "status": "pass",
+      "value": "no advertised rate",
+      "expected": "",
+      "detail": ""
+    },
+    {
+      "id": "dup.near",
+      "name": "Near-duplicate vs library/jobs/radar",
+      "status": "warn",
+      "value": {
+        "nearest": {
+          "distance": 4.0,
+          "client": null,
+          "path": "/Users/ankushjha/Work/bots/jobs/_adapter-test/out/opuscar/kf_1.5.jpg"
+        },
+        "indexed": 121,
+        "checked": 2
+      },
+      "expected": "dist > 10 (fail <= 6 other client, warn <= 10)",
+      "detail": "heloc-five-years.mp4: dist 4.0 to unknown-client piece: /Users/ankushjha/Work/bots/jobs/_adapter-test/out/opuscar/kf_1.5.jpg"
+    }
+  ],
+  "frames": [
+    "qa/frames/heloc-five-years_t000.00.jpg",
+    "qa/frames/heloc-five-years_t003.00.jpg",
+    "qa/frames/heloc-five-years_t006.00.jpg",
+    "qa/frames/heloc-five-years_t009.00.jpg",
+    "qa/frames/heloc-five-years_t012.00.jpg",
+    "qa/frames/heloc-five-years_t015.00.jpg",
+    "qa/frames/heloc-five-years_t018.00.jpg",
+    "qa/frames/heloc-five-years_t021.00.jpg",
+    "qa/frames/heloc-five-years_t024.00.jpg",
+    "qa/frames/heloc-five-years_t027.00.jpg",
+    "qa/frames/heloc-five-years_t030.00.jpg",
+    "qa/frames/heloc-five-years_t033.00.jpg",
+    "qa/frames/heloc-five-years_t036.00.jpg",
+    "qa/frames/heloc-five-years_t039.00.jpg",
+    "qa/frames/heloc-five-years_t042.00.jpg",
+    "qa/frames/heloc-five-years_t045.00.jpg",
+    "qa/frames/heloc-five-years_t048.00.jpg",
+    "qa/frames/heloc-five-years_t051.00.jpg",
+    "qa/frames/heloc-five-years_t053.40.jpg",
+    "qa/frames/poster.jpg"
+  ],
+  "contact": "qa/contact.jpg",
+  "at": "2026-11-19T20:03:44+05:30",
+  "kind": "video",
+  "client": "heloc-demo",
+  "summary": {
+    "pass": 34,
+    "warn": 4,
+    "fail": 0,
+    "skip": 2
+  },
+  "elapsed_s": 7.0,
+  "runtime_s": {
+    "heloc-five-years.mp4": 6.0,
+    "stills": 0.4
+  },
+  "scene_cuts": {
+    "heloc-five-years.mp4": []
+  },
+  "transcript": {
+    "heloc-five-years.mp4": "Five years of HELOC payments, and the balance is still $50,000. That happens when you pay only the interest. A federal survey found more than a quarter of HELOC holders mostly do. And 62% of them expected to pay it off within five years. But an interest-only payment puts nothing toward the balance. The months go by, and the number sits there. So what would five years take? That's about $833 a month toward the balance, plus interest on top. So check your last statement. If the balance didn't drop, you don't have a payoff date yet. Message me, and we'll work one out that fits your budget. Or keep paying just the interest, and in five years, you're right back here."
+  },
+  "gridcrop": "qa/gridcrop.jpg"
+}

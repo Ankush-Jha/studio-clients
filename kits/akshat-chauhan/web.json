@@ -1,0 +1,103 @@
+{
+  "url": "https://akshatchauhan.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Akshat Chauhan is an independent mortgage broker with Mortgage Architects (brokerage #12728) serving Airdrie, Calgary, High River and Olds in Alberta. He specialises in purchase mortgages, refinancing and renewals, and offers a free no-obligation consultation. The site stresses working for the client rather than a lender, with access to banks, credit unions, monolines and alternative lenders.",
+  "tagline": "Mortgage Broker in Alberta: Solutions Built Around Your Needs",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Purchase mortgages",
+    "Refinancing",
+    "Renewals",
+    "Debt consolidation",
+    "Second / vacation property",
+    "Self-employed",
+    "Private lending"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Airdrie",
+    "Calgary",
+    "High River",
+    "Olds"
+  ],
+  "team": [
+    {
+      "name": "Akshat Chauhan",
+      "title": "Mortgage Broker, Mortgage Architects",
+      "licence": null
+    }
+  ],
+  "licences": [],
+  "brokerage": {
+    "name": "Mortgage Architects",
+    "licence": "#12728"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "+1 587-830-3777"
+  ],
+  "emails": [
+    "info@akshatchauhan.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#083A4F",
+      "where": "theme-color meta, primary deep teal"
+    },
+    {
+      "hex": "#C9962E",
+      "where": "gold accent in site CSS"
+    },
+    {
+      "hex": "#E3C078",
+      "where": "light gold accent"
+    },
+    {
+      "hex": "#0C4E68",
+      "where": "teal secondary"
+    }
+  ],
+  "fonts": [
+    "Fraunces (display serif)",
+    "Figtree (body)"
+  ],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "No individual licence number shown on site (clients.json also has none).",
+    "No social links on site.",
+    "WebSearch (3rd-party directory results, confidence: check): AMBA directory web.amba.ca/Mortgage-Broker/Akshat-Chauhan-7948 lists him with MA Mortgage Architects, 3403 Benton Dr NW, Calgary; LinkedIn lists Mortgage Architects since Jan 2025. No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://akshatchauhan.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://akshatchauhan.ca/about",
+      "what": "about"
+    },
+    {
+      "url": "https://akshatchauhan.ca/services",
+      "what": "services"
+    },
+    {
+      "url": "https://web.amba.ca/Mortgage-Broker/Akshat-Chauhan-7948",
+      "what": "AMBA directory (search, check)"
+    }
+  ],
+  "blocked": []
+}

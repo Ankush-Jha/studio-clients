@@ -1,0 +1,140 @@
+[
+  {
+    "id": "A",
+    "title": "Bruised credit, fresh term",
+    "hook": {
+      "main": "Renewing with bruised credit? Your lender is counting on you not shopping.",
+      "alts": [
+        "A late payment in 2023 doesn't lock you in."
+      ]
+    },
+    "angle": "Renewal is the one moment a switch needs no new qualification at many lenders.",
+    "clientFacts": [
+      "Jalal Khan",
+      "Mortgage Broker · MB607231",
+      "Bruised Credit Issues"
+    ],
+    "format": "carousel",
+    "engine": "stills",
+    "style": "annotated",
+    "styleWhy": "Annotation reads as a broker explaining fine print.",
+    "device": "marked-up fine print",
+    "structure": "hook → myth → fact → CTA",
+    "beats": [
+      {
+        "t": "1",
+        "visual": "Fine print, highlighted",
+        "text": "They're counting on it.",
+        "voice": ""
+      },
+      {
+        "t": "2",
+        "visual": "Myth card",
+        "text": "Myth: I can't switch",
+        "voice": ""
+      },
+      {
+        "t": "3",
+        "visual": "Fact card",
+        "text": "Fact: renewal is the window",
+        "voice": ""
+      },
+      {
+        "t": "4",
+        "visual": "CTA",
+        "text": "Ask before you sign",
+        "voice": ""
+      }
+    ],
+    "slides": [],
+    "cta": "Ask me before you sign.",
+    "novelty": "First credit-focused renewal piece for this client.",
+    "preview": "$R/engines/stills/out/renewal-21-days--annotated/al-manji/01.jpg"
+  },
+  {
+    "id": "B",
+    "title": "The $612 question",
+    "hook": {
+      "main": "Same house. Same balance. $612 more a month.",
+      "alts": []
+    },
+    "angle": "Illustrative 2021 vs 2026 payment comparison.",
+    "clientFacts": [
+      "Jalal Khan",
+      "Refinance"
+    ],
+    "format": "carousel",
+    "engine": "stills",
+    "style": "bold-type",
+    "styleWhy": "One number, set huge.",
+    "device": "giant numeral",
+    "structure": "number → table → CTA",
+    "beats": [
+      {
+        "t": "1",
+        "visual": "$612",
+        "text": "$612 more",
+        "voice": ""
+      },
+      {
+        "t": "2",
+        "visual": "Table",
+        "text": "2021 vs 2026",
+        "voice": ""
+      },
+      {
+        "t": "3",
+        "visual": "CTA",
+        "text": "Run my numbers",
+        "voice": ""
+      }
+    ],
+    "slides": [],
+    "cta": "DM 'RENEWAL'.",
+    "novelty": "Shares the hook with dan-balch B: needs a different number before both ship.",
+    "preview": "$R/engines/stills/out/renewal-lump-sum--bold-type/adrian-biccum/01.jpg"
+  },
+  {
+    "id": "C",
+    "title": "Four dates",
+    "hook": {
+      "main": "Four dates decide your renewal. The letter is the last one.",
+      "alts": []
+    },
+    "angle": "Countdown with private-lender fallback for bruised credit.",
+    "clientFacts": [
+      "Jalal Khan",
+      "Private Mortgages"
+    ],
+    "format": "carousel",
+    "engine": "stills",
+    "style": "riso",
+    "styleWhy": "Riso's flat inks keep a calendar friendly.",
+    "device": "calendar",
+    "structure": "hook → 4 dates → CTA",
+    "beats": [
+      {
+        "t": "1",
+        "visual": "Calendar",
+        "text": "Four dates",
+        "voice": ""
+      },
+      {
+        "t": "2",
+        "visual": "Dates",
+        "text": "120 · 90 · 30 · 0",
+        "voice": ""
+      },
+      {
+        "t": "3",
+        "visual": "CTA",
+        "text": "Book a check",
+        "voice": ""
+      }
+    ],
+    "slides": [],
+    "cta": "Book a renewal check.",
+    "novelty": "Riso unused for this client.",
+    "preview": "$R/engines/stills/out/renewal-lump-sum--riso/nav-utppal/01.jpg"
+  }
+]

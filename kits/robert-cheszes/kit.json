@@ -1,0 +1,152 @@
+{
+  "id": "robert-cheszes",
+  "aliases": [],
+  "sheetId": "client-008",
+  "name": "Robert Cheszes",
+  "people": [],
+  "city": null,
+  "province": null,
+  "region": "",
+  "group": null,
+  "video": null,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Mortgage Outlet Inc.",
+    "licence": "#12628"
+  },
+  "agent": {
+    "name": "Robert Cheszes",
+    "title": "Mortgage Agent Level 2",
+    "licence": "M20000206"
+  },
+  "contact": {
+    "phones": [
+      "+1 647-584-0999"
+    ],
+    "emails": [
+      "rob@brilliantinvestor.ca"
+    ],
+    "website": "brilliantinvestor.ca"
+  },
+  "services": [
+    "First time home buyer",
+    "Private lending",
+    "Commercial lending",
+    "Reverse Mortgages",
+    "Mortgage Refinancing",
+    "Renewal & Transfers"
+  ],
+  "audience": "Serves Nationwide (site claim: lenders nationwide); focus: Mortgage purchase, Refinance, Investment mortgages, Mortgage renewal tracking.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/WdFdO1kp4S5njtSFJAtBPE/Robert-Cheszes-%7C-SM-Posts",
+  "complianceLine": "Robert Cheszes, Mortgage Agent Level 2 · Lic. M20000206 · Mortgage Outlet Inc. · Brokerage Lic. #12628",
+  "rules": [],
+  "assets": {
+    "photo": "assets/robert-cheszes/photo.png",
+    "footer": "assets/robert-cheszes/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/robert-cheszes/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": null,
+    "secondary": null,
+    "variant": null
+  },
+  "missing": [
+    "video (footage reels allowed?)",
+    "stills (no roster style assigned; needs a group first)",
+    "city",
+    "province",
+    "group"
+  ],
+  "flags": [
+    "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+    "Logo reads 'Brilliant Investor' (brand); brokerage of record not confirmed.",
+    "website says Robert Cheszes licence 'M2000206 (as printed; clients.json has M20000206)' (kit has 'M20000206')",
+    "website says title 'Mortgage Agent' (kit has 'Mortgage Agent Level 2')",
+    "website says phones ['4168772617'] (kit has ['+1 647-584-0999'])",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Address: 85 Scarsdale Rd #107, Toronto ON M3B 2R2.",
+    "website note: Footer phone 4168772617 differs from clients.json +1 647-584-0999; footer email not shown (clients.json rob@brilliantinvestor.ca).",
+    "website note: /about and /contact return 404 (single-page site).",
+    "website note: Search (check): Mortgage Outlet team page lists #M20000206, Mortgage Agent L2, 250 Consumers Rd Ste 905 Toronto, (647) 501-4663: https://mortgageoutlet.ca/our-team/ ; older DLC page https://brilliantinvestment.ca/ (dated). No GBP rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "languages": "default (no source)",
+    "agent.licence": "clients.json agent_license_no",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "brokerage.name": "website: https://brilliantinvestor.ca/",
+    "brokerage.licence": "website: https://brilliantinvestor.ca/",
+    "audience": "website: https://brilliantinvestor.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://brilliantinvestor.ca/",
+    "bio": "website: https://brilliantinvestor.ca/",
+    "complianceLine": "composed from sheet/footer/website facts",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "default"
+  },
+  "completeness": 0.786,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/robcmortgagebroker/",
+    "linkedin": "https://www.linkedin.com/in/robert-cheszes",
+    "youtube": "https://www.youtube.com/@robertcheszes8376"
+  },
+  "bio": "Brilliant Mortgages (brilliantinvestor.ca) is a one-page GoDaddy site offering mortgage guidance for purchase, refinance and investment, with access to dozens of lenders. The footer names Robert Cheszes as mortgage agent under Mortgage Outlet Inc. and lists a Toronto address. It offers a mortgage-renewal tracker and a Calendly consult link.",
+  "web": {
+    "url": "https://brilliantinvestor.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Better Mortgages Better Lending",
+    "serviceAreas": [
+      "Nationwide (site claim: lenders nationwide)"
+    ],
+    "specialties": [
+      "Mortgage purchase",
+      "Refinance",
+      "Investment mortgages",
+      "Mortgage renewal tracking"
+    ],
+    "bookingUrl": "https://calendly.com/mortgagesbyrobert/mortgage-consult",
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Address: 85 Scarsdale Rd #107, Toronto ON M3B 2R2.",
+      "Footer phone 4168772617 differs from clients.json +1 647-584-0999; footer email not shown (clients.json rob@brilliantinvestor.ca).",
+      "/about and /contact return 404 (single-page site).",
+      "Search (check): Mortgage Outlet team page lists #M20000206, Mortgage Agent L2, 250 Consumers Rd Ste 905 Toronto, (647) 501-4663: https://mortgageoutlet.ca/our-team/ ; older DLC page https://brilliantinvestment.ca/ (dated). No GBP rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://brilliantinvestor.ca/",
+        "what": "homepage (only page)"
+      }
+    ],
+    "fonts": [
+      "Noto Sans",
+      "Poppins",
+      "Bitter",
+      "Sanchez"
+    ],
+    "logoUrls": [
+      "https://img1.wsimg.com/isteam/ip/891ace49-ff8b-4d0d-a7df-fd7742e047aa/Bi%20Logo_Icon%20(1).png",
+      "https://img1.wsimg.com/isteam/ip/891ace49-ff8b-4d0d-a7df-fd7742e047aa/blob-e9a57bb.png"
+    ]
+  },
+  "colorsProvisional": true
+}

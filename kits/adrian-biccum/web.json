@@ -1,0 +1,106 @@
+{
+  "url": "https://yourmortgageminute.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Adrian Biccum is a Professional Mortgage Agent Level 2 in Hamilton, Ontario, who runs the Your Mortgage Minute brand ('I Am Results'). The site focuses on renewals, refinances, first-time and next-home buyers and self-employed borrowers, with online application and call booking. His contact page quotes 15+ years of experience and 30+ five-star reviews.",
+  "tagline": "No Need to Waste Your Time. Get personalized mortgage solutions tailored to your unique financial situation and goals.",
+  "yearsInBusiness": "15+ (contact page counter)",
+  "specialties": [
+    "Mortgage renewals",
+    "Refinances",
+    "First-time and next-home buyers",
+    "Self-employed mortgages"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Hamilton, Ontario"
+  ],
+  "team": [
+    {
+      "name": "Adrian Biccum",
+      "title": "Professional Mortgage Agent Level 2",
+      "licence": "M20000156"
+    }
+  ],
+  "licences": [
+    {
+      "label": "Mortgage Agent Level 2 licence",
+      "value": "M20000156",
+      "where": "home, contact page"
+    }
+  ],
+  "brokerage": {
+    "name": null,
+    "licence": null
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/adrianbiccum",
+    "facebook": "https://www.facebook.com/yourmortgageminute/",
+    "linkedin": "https://www.linkedin.com/in/adrian-biccum-93590827a/",
+    "youtube": "https://www.youtube.com/channel/UCoMT7yfqgSixA-LcIiXPkbQ",
+    "tiktok": "https://www.tiktok.com/@yourmortgageminute",
+    "x": "https://x.com/adrianbiccum"
+  },
+  "bookingUrl": "https://calendly.com/adrian-biccum",
+  "phones": [
+    "905-730-4446 (cell)",
+    "905-529-2521 ext 208 (office)",
+    "905-525-9701 (fax)"
+  ],
+  "emails": [
+    "adrian@mfco.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#13aff0",
+      "where": "most-used non-neutral hex in site CSS (links/buttons; may be theme default)"
+    },
+    {
+      "hex": "#2270e1",
+      "where": "secondary blue in site CSS"
+    },
+    {
+      "hex": "#37589b",
+      "where": "facebook-style blue in CSS (likely icon)"
+    }
+  ],
+  "fonts": [
+    "Inter"
+  ],
+  "logoUrls": [
+    "https://yourmortgageminute.ca/wp-content/uploads/logo.svg"
+  ],
+  "testimonialsCount": 6,
+  "reviews": {
+    "rating": null,
+    "count": "30+ (site claim)",
+    "source": "site contact page counter '30+ 5-Star Reviews'"
+  },
+  "notes": [
+    "Site does not name the brokerage; email domain mfco.ca and search results indicate Mortgage Financial Corporation (MFCO), 12 Ray Street South, Hamilton (not stated on site, confidence: check).",
+    "WebSearch (3rd-party directory results, confidence: check): mfco.ca/meet-the-team lists him; no Google rating/count found in results.",
+    "Home page shows 5 Google testimonials via Trustindex widget."
+  ],
+  "sources": [
+    {
+      "url": "https://yourmortgageminute.ca/",
+      "what": "homepage, licence"
+    },
+    {
+      "url": "https://yourmortgageminute.ca/about-us/",
+      "what": "bio, mission"
+    },
+    {
+      "url": "https://yourmortgageminute.ca/contact-us/",
+      "what": "phones, social, counters"
+    },
+    {
+      "url": "https://yourmortgageminute.ca/mortgage-refinance-renewal/",
+      "what": "services"
+    },
+    {
+      "url": "https://mfco.ca/meet-the-team/",
+      "what": "search result, brokerage (check)"
+    }
+  ],
+  "blocked": []
+}

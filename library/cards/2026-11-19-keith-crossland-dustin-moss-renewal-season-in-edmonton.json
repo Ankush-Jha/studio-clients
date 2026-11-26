@@ -1,0 +1,54 @@
+{
+  "id": "2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton",
+  "title": "Same wall, different renewal",
+  "clients": [
+    "keith-crossland-dustin-moss"
+  ],
+  "generic": false,
+  "date": "2026-11-19",
+  "format": "graphic-reel",
+  "engine": "films",
+  "style": "halftone-dossier",
+  "lengthS": 45,
+  "fps": 30,
+  "size": "1080x1920",
+  "voice": "kokoro:am_liam",
+  "music": "original synth score + foley",
+  "topic": "Renewal season in Edmonton",
+  "tags": [
+    "mortgage-renewal",
+    "edmonton",
+    "alberta",
+    "sign-vs-shop",
+    "halftone",
+    "guess-the-gap",
+    "proof",
+    "test-run"
+  ],
+  "hook": "Same wall, same mortgage. Guess the gap.",
+  "logline": "One Edmonton semi-detached house (the one home type whose sales rose a lot this October: +12.4% y/y, average $410,683, RAE) split down its party wall into two labelled composite households with identical mortgages. Left signs the first renewal offer when the letter lands; right starts 120 days early and shops. A guess-then-reveal turns a 0.50% illustrative rate gap into roughly $7,000 of extra interest over five years. Keith and Dustin's real background (both spent years inside big banks) gives the bridge line credibility without inventing a testimonial.",
+  "structure": "Same X, different outcome; before-after-bridge. Setup (same house, same mortgage) -> split (sign vs shop) -> monthly gap -> guess freeze -> verdict -> bridge to the brokers -> send. 45 s.",
+  "device": "A cream case file on one Edmonton semi-detached house drawn in halftone, split by a red line down the party wall; the left and right halves are two faceless composite households labelled 'Illustrative example'; numbered exhibits (A: same mortgage, B: the letter, C: the rate cards) compare sides; stamps SIGNED (left, day 21) and SHOPPED (right, day 120); a fat halftone counter spins during the guess freeze and stops on the verdict.",
+  "rejectedStyles": [
+    "transit-map",
+    "instruction-manual"
+  ],
+  "rejectedStructures": [],
+  "files": {
+    "final": "$R/jobs/2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton/out/keith-crossland-dustin-moss-renewal-edmonton.mp4",
+    "poster": "$R/jobs/2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton/out/cover.jpg",
+    "thumb": "library/thumbs/2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton.jpg",
+    "treatment": "",
+    "project": "$R/jobs/2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton/project"
+  },
+  "status": "approved",
+  "feedback": [
+    "Gate 1 (g1, producer-test): picked B (Same wall, different renewal). TEST RUN: this was a producer test pick, not the user's choice. Note: \"Test run (producer pick, not the user's): B, same wall different renewal, halftone-dossier. Keep the partners' bridge line as a clearly marked draft for their approval; compliance line stays a visible TODO (proof).\"",
+    "Gate 2 (g2, desk): approved in the Desk by the user with no notes (2026-11-19T18:17:30.843Z).",
+    "PROOF at filing: not postable yet. Compliance line is still TODO ('[compliance line: TODO]' on the payoff beats and caption line 2; kit.complianceLine is null). Partners' bridge line (beat 33.2-39.8 s) is a DRAFT pending partner approval. Surname 'Crosland' on screen vs kit display name 'Crossland' still to confirm. Rates are dated Nov 19, 2026 and must be re-checked on posting day; the 'Day 120 is now' line expires Dec 1, 2026."
+  ],
+  "performance": null,
+  "lessons": [],
+  "source": "job",
+  "hookPattern": "same-x-different-outcome"
+}

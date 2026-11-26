@@ -1,0 +1,144 @@
+{
+  "id": "georges-madi",
+  "aliases": [
+    "georges"
+  ],
+  "sheetId": "client-030",
+  "name": "Georges Madi",
+  "people": [],
+  "city": "Montreal",
+  "province": "QC",
+  "region": "",
+  "group": 4,
+  "video": true,
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "brokerage": {
+    "name": "Xperto Hypotheques - Dominion Lending Centres",
+    "licence": null
+  },
+  "agent": {
+    "name": "Georges Madi",
+    "title": "Mortgage Broker",
+    "licence": "#183107"
+  },
+  "contact": {
+    "phones": [
+      "+1 (514) 839-9356"
+    ],
+    "emails": [
+      "gmadi@xperto.ca"
+    ],
+    "website": "https://www.georgesmadi.com/en"
+  },
+  "services": [
+    "Mortgage preapproval",
+    "Mortgage refinancing",
+    "Mortgage insurance",
+    "Reverse mortgage",
+    "Private mortgage financing",
+    "Alternative mortgage financing",
+    "First-time buyers",
+    "Renewals"
+  ],
+  "audience": "Serves Laval, Montreal; focus: Mortgage preapproval, Mortgage refinancing, Mortgage insurance, Reverse mortgage, Private mortgage financing, Alternative mortgage financing, First-time buyers, Renewals.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/xMRxFv4xxJ7CNFwU3Obhjy/Georges-Madi",
+  "complianceLine": "Georges Madi, Mortgage Broker · Lic. #183107",
+  "rules": [],
+  "assets": {
+    "photo": "assets/georges-madi/photo.png",
+    "footer": "assets/georges-madi/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/georges-madi/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "broadsheet",
+    "secondary": "paper-trail",
+    "variant": "b"
+  },
+  "missing": [
+    "brokerage.licence",
+    "socials"
+  ],
+  "flags": [
+    "Logo reads 'Xperto Equipe Heritage' and 'Centres hypothecaires Dominion National' (very small marks on a wide transparent canvas, may need a crop); brokerage name and licence not confirmed.",
+    "website says title 'Mortgage broker, Investment advisor, Business advisor' (kit has 'Mortgage Broker')",
+    "website note: Site is a JS app (Welcome Spaces); fetched with the headless browser tool (robots allowed). No CSS colours extracted from the app bundle.",
+    "website note: No licence numbers, socials or booking link on the site (clients.json also has none).",
+    "website note: WebSearch (3rd-party directory results, confidence: check): LinkedIn: Dominion Lending Centres Inc; Multi-Prets Mortgages still lists him (possible older affiliation); Yelp lists 3737 Cremazie Blvd E; languages French, English, Arabic per Multi-Prets profile (check). No Google rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "clients.json location 'Montreal'",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "agent.licence": "footer image (read visually)",
+    "agent.title": "footer image (read visually)",
+    "contact": "clients.json phones/emails/website",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "complianceLine": "composed from sheet/footer facts above",
+    "brokerage.name": "website: https://www.georgesmadi.com/en",
+    "services": "website: https://www.georgesmadi.com/en",
+    "audience": "website: https://www.georgesmadi.com/en (serviceAreas/specialties)",
+    "bio": "website: https://www.georgesmadi.com/en",
+    "colors.accent": "footer (tokens.json)",
+    "colors.accent2": "footer (tokens.json)",
+    "colors.ink": "footer (tokens.json)",
+    "colors.paper": "footer (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'broadsheet' (STYLES.md)"
+  },
+  "completeness": 0.857,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {},
+  "bio": "Georges Madi is a Montreal-area mortgage broker with Xperto Hypotheques, part of Dominion Lending Centres, serving the Laval community. The profile says he ranked among Quebec's top 20 performers in 2022 and handles over $50M in annual volume. Services listed: mortgage, insurance, reverse, pre-approval, refinancing, private and alternative financing.",
+  "web": {
+    "url": "https://www.georgesmadi.com/en",
+    "fetched": "2026-11-19T14:40:00Z",
+    "tagline": "Your Strategic Mortgage Partner in Laval",
+    "serviceAreas": [
+      "Laval",
+      "Montreal"
+    ],
+    "specialties": [
+      "Mortgage preapproval",
+      "Mortgage refinancing",
+      "Mortgage insurance",
+      "Reverse mortgage",
+      "Private mortgage financing",
+      "Alternative mortgage financing",
+      "First-time buyers",
+      "Renewals"
+    ],
+    "notes": [
+      "Site is a JS app (Welcome Spaces); fetched with the headless browser tool (robots allowed). No CSS colours extracted from the app bundle.",
+      "No licence numbers, socials or booking link on the site (clients.json also has none).",
+      "WebSearch (3rd-party directory results, confidence: check): LinkedIn: Dominion Lending Centres Inc; Multi-Prets Mortgages still lists him (possible older affiliation); Yelp lists 3737 Cremazie Blvd E; languages French, English, Arabic per Multi-Prets profile (check). No Google rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://www.georgesmadi.com/en",
+        "what": "homepage (browser fetch)"
+      },
+      {
+        "url": "https://www.multi-prets.com/en/mortgage-broker/georges-madi/",
+        "what": "search, check"
+      }
+    ]
+  },
+  "colorsProvisional": true
+}

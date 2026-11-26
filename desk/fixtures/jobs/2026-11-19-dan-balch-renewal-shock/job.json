@@ -1,0 +1,137 @@
+{
+  "id": "2026-11-19-dan-balch-renewal-shock",
+  "created": "2026-11-19T13:02:11Z",
+  "updated": "2026-11-19T13:19:40Z",
+  "client": "dan-balch",
+  "format": "carousel",
+  "topic": "Renewal payment shock: what a 2021 five-year fixed renews into",
+  "brief": {
+    "raw": "carousel for Dan Balch about renewals",
+    "by": "chat"
+  },
+  "status": "gate1",
+  "engine": null,
+  "style": null,
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": "2026-11-19T13:02:11Z",
+      "ended": "2026-11-19T13:03:02Z",
+      "summary": "Client dan-balch · carousel 1080×1350 · group 4 · English",
+      "outputs": [
+        "brief.json"
+      ]
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-19T13:03:05Z",
+      "ended": "2026-11-19T13:18:51Z",
+      "summary": "3 concepts · 3 engines · novelty checked against 14 past pieces",
+      "outputs": [
+        "concepts.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "waiting",
+      "started": "2026-11-19T13:18:52Z",
+      "ended": null,
+      "summary": "Waiting for a pick",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "director",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "critic",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "gate2",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": null,
+  "gates": {
+    "g1": {
+      "at": null,
+      "decision": null,
+      "choice": null,
+      "notes": ""
+    },
+    "g2": {
+      "at": null,
+      "decision": null,
+      "notes": ""
+    }
+  },
+  "outputs": [],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": null
+  },
+  "log": [
+    {
+      "t": "2026-11-19T13:02:11Z",
+      "node": "intake",
+      "msg": "Brief parsed: carousel · dan-balch · renewals"
+    },
+    {
+      "t": "2026-11-19T13:03:02Z",
+      "node": "intake",
+      "msg": "Kit loaded: footer, logo, compliance line; 2 colours provisional"
+    },
+    {
+      "t": "2026-11-19T13:07:40Z",
+      "node": "strategist",
+      "msg": "Radar: 'EVERYONE gets a 4-Plex' 3.3× outlier noted, not on-topic"
+    },
+    {
+      "t": "2026-11-19T13:12:15Z",
+      "node": "strategist",
+      "msg": "History: last 3 pieces used broadsheet; steering away"
+    },
+    {
+      "t": "2026-11-19T13:18:51Z",
+      "node": "strategist",
+      "msg": "concepts.json written (A, B, C)"
+    },
+    {
+      "t": "2026-11-19T13:18:52Z",
+      "node": "gate1",
+      "msg": "Gate 1 open: pick, mix or revise"
+    }
+  ]
+}

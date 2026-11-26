@@ -1,0 +1,143 @@
+{
+  "id": "al-manji",
+  "aliases": [],
+  "sheetId": "client-013",
+  "name": "Al Manji",
+  "people": [],
+  "city": "Whitby",
+  "province": "ON",
+  "region": "",
+  "group": 2,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Mortgage Architects",
+    "licence": "#12728"
+  },
+  "agent": {
+    "name": "Al Manji",
+    "title": "Mortgage Agent",
+    "licence": null
+  },
+  "contact": {
+    "phones": [
+      "(647) 284-7014"
+    ],
+    "emails": [
+      "al.manji@6ix.ca"
+    ],
+    "website": "https://almanji.superkreatives.com/"
+  },
+  "services": [
+    "Home Purchase",
+    "Private Mortgage",
+    "Mortgage Renewal",
+    "Investment Properties"
+  ],
+  "audience": "focus: Purchase, First-time home buyer, Investment property, Refinance, Second mortgages, Renewal, Commercial, Private.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/dr4ZkxoOxOVDVE9AVvYXVv/Al-Manji",
+  "complianceLine": "Al Manji, Mortgage Agent · Mortgage Architects · Brokerage Lic. #12728",
+  "rules": [],
+  "assets": {
+    "photo": "assets/al-manji/photo.png",
+    "footer": "assets/al-manji/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/al-manji/logo.png",
+      "assets/al-manji/logo-2.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "annotated",
+    "secondary": "cutout",
+    "variant": "b"
+  },
+  "missing": [
+    "agent.licence",
+    "socials"
+  ],
+  "flags": [
+    "Footer prints 'License Number: 12728', the same number as the Mortgage Architects brokerage no.; recorded as brokerage licence, agent licence still unknown.",
+    "Logo-derived brokerage facts: one logo carries '6ix / Mortgage Architects'; footer number 12728 equals the Mortgage Architects brokerage number; confirm",
+    "website says brokerage name 'Mortgage Architects Inc. (6ix Mortgage Group)' (kit has 'Mortgage Architects')",
+    "website says title 'Mortgage Agent: Level 2' (kit has 'Mortgage Agent')",
+    "website note: almanji.superkreatives.com (website in clients.json) does not resolve in DNS (checked via fetch and dig); the profile was taken from the company page 6ix.ca instead.",
+    "website note: 6ix.ca social links (facebook.com/6ix.mtg, instagram.com/6ix.mortgage) are company accounts, not Al's, so socials left null.",
+    "website note: No individual licence number on 6ix.ca page. Search result mortgagearchitects.ca/almanji (3rd-party, check) shows licence #M10001827 and brokerage #12728; clients.json has no agent licence.",
+    "website note: WebSearch (3rd-party directory results, confidence: check): LinkedIn Oshawa; directory shows 6ix Mortgage Group at 1129 Brock St S, Whitby. ZoomInfo suggests a possible affiliation change; verify on FSRA registry. No Google rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "content-desk seed/roster",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.licence": "footer image (read visually) and sheet other_ids",
+    "agent.title": "clients.json designation",
+    "brokerage.name": "logo image (read visually)",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "complianceLine": "composed from sheet/footer facts above",
+    "audience": "website: https://6ix.ca/team-member/al-manji/ (serviceAreas/specialties)",
+    "bio": "website: https://6ix.ca/team-member/al-manji/",
+    "colors.accent": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'annotated' (STYLES.md)"
+  },
+  "completeness": 0.857,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {},
+  "bio": "Al Manji is a Mortgage Agent Level 2 on the 6ix Mortgage Group team (Mortgage Architects broker licence 12728). His profile says his financial-industry experience spans 15 years, including a mutual fund licence and work with major banks. 6ix Mortgage Group covers purchase, refinance, renewal, commercial and private mortgages.",
+  "web": {
+    "url": "https://6ix.ca/team-member/al-manji/",
+    "fetched": "2026-11-19T14:40:00Z",
+    "yearsInBusiness": "15 (profile text, financial industry)",
+    "specialties": [
+      "Purchase",
+      "First-time home buyer",
+      "Investment property",
+      "Refinance",
+      "Second mortgages",
+      "Renewal",
+      "Commercial",
+      "Private"
+    ],
+    "notes": [
+      "almanji.superkreatives.com (website in clients.json) does not resolve in DNS (checked via fetch and dig); the profile was taken from the company page 6ix.ca instead.",
+      "6ix.ca social links (facebook.com/6ix.mtg, instagram.com/6ix.mortgage) are company accounts, not Al's, so socials left null.",
+      "No individual licence number on 6ix.ca page. Search result mortgagearchitects.ca/almanji (3rd-party, check) shows licence #M10001827 and brokerage #12728; clients.json has no agent licence.",
+      "WebSearch (3rd-party directory results, confidence: check): LinkedIn Oshawa; directory shows 6ix Mortgage Group at 1129 Brock St S, Whitby. ZoomInfo suggests a possible affiliation change; verify on FSRA registry. No Google rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://6ix.ca/team-member/al-manji/",
+        "what": "profile, licence, contact"
+      },
+      {
+        "url": "https://www.mortgagearchitects.ca/almanji",
+        "what": "search result, check"
+      }
+    ],
+    "fonts": [
+      "Raleway"
+    ],
+    "logoUrls": [
+      "https://6ix.ca/wp-content/uploads/2023/06/6ix-logo-mortgage-architects.png"
+    ]
+  },
+  "colorsProvisional": true
+}

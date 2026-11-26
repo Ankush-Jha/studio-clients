@@ -1,0 +1,111 @@
+{
+  "url": "https://fernandezmortgages.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Juliet Fernandez and Christine Saranilla run Juliet & Christine Mortgage under Mortgage Architects (brokerage #12728). Juliet is a licensed agent in BC and Alberta, moved from banking into mortgages in 2016 and became a full-time broker in 2023. The site offers purchase, refinance, new construction, renewals and transfers, self-employed and private lending, and quotes 1-2 day funding in Alberta.",
+  "tagline": "Two Brokers. One Mission. Your Mortgage, Done Right.",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Home purchase",
+    "Refinancing",
+    "New construction",
+    "Renewals and transfers",
+    "Investment property financing",
+    "Debt consolidation",
+    "Private and alternative lending",
+    "Self-employed",
+    "Credit-challenged solutions",
+    "Pre-approvals"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Alberta",
+    "British Columbia (Nanaimo office listed)",
+    "Ontario (funding times quoted)"
+  ],
+  "team": [
+    {
+      "name": "Juliet Fernandez",
+      "title": "Licensed Agent in BC and Alberta",
+      "licence": "MB610524"
+    },
+    {
+      "name": "Christine Saranilla",
+      "title": "Mortgage Broker Alberta",
+      "licence": null
+    }
+  ],
+  "licences": [
+    {
+      "label": "Authorization #",
+      "value": "MB610524",
+      "where": "contact page footer"
+    }
+  ],
+  "brokerage": {
+    "name": "Mortgage Architects",
+    "licence": "#12728"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/juliet_and_christine",
+    "facebook": "https://www.facebook.com/people/Juliet-Christine-Mortgage-Architects/100052455681923/",
+    "linkedin": "https://www.linkedin.com/in/juliet-fernandez-b74599120/",
+    "youtube": "https://www.youtube.com/channel/UCRWWJbKxIaKCqhKIGap2Kzg",
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "780-868-6142",
+    "780-807-5063"
+  ],
+  "emails": [
+    "juliet.fernandez@mtgarc.ca",
+    "christine.saranilla@mtgarc.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#fac566",
+      "where": "warm yellow brand accent in site CSS"
+    },
+    {
+      "hex": "#13aff0",
+      "where": "light blue (may be theme default)"
+    }
+  ],
+  "fonts": [
+    "Figtree"
+  ],
+  "logoUrls": [
+    "https://fernandezmortgages.ca/wp-content/uploads/2026/01/logo.svg"
+  ],
+  "testimonialsCount": 8,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Contact page lists 'Nanaimo Office 3434 Uplands Drive Nanaimo British Columbia', but the phone numbers are 780 (Alberta) and the about page says Alberta; location unclear. clients.json has no city.",
+    "Authorization # MB610524 is a BC licence number; clients.json has no agent licence for Juliet.",
+    "WebSearch (3rd-party directory results, confidence: check): mortgagearchitects.ca/Juliet-Fernandez lists her in Edmonton/Fort Saskatchewan/Sherwood Park/St. Albert (English, Tagalog); guildquality lists the Nanaimo address. No Google rating found; site shows Google testimonials via Trustindex."
+  ],
+  "sources": [
+    {
+      "url": "https://fernandezmortgages.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://fernandezmortgages.ca/about-us/",
+      "what": "about"
+    },
+    {
+      "url": "https://fernandezmortgages.ca/contact/",
+      "what": "licences, contact"
+    },
+    {
+      "url": "https://www.mortgagearchitects.ca/Juliet-Fernandez",
+      "what": "search, check"
+    }
+  ],
+  "blocked": []
+}

@@ -1,0 +1,162 @@
+{
+  "id": "raoul-hunt",
+  "aliases": [],
+  "sheetId": "client-012",
+  "name": "Raoul Hunt",
+  "people": [],
+  "city": null,
+  "province": null,
+  "region": "",
+  "group": null,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Tango Ontario",
+    "licence": "#13691"
+  },
+  "agent": {
+    "name": "Raoul Hunt",
+    "title": "Mortgage Broker",
+    "licence": null
+  },
+  "contact": {
+    "phones": [
+      "613-317-4262"
+    ],
+    "emails": [
+      "raoul@huntformortgages.com"
+    ],
+    "website": "www.huntformortgages.com"
+  },
+  "services": [
+    "Strategic Renewals & rate",
+    "Purchase financing",
+    "Tax - efficient Mortgage",
+    "Refinance",
+    "Debt Consolidation",
+    "Debt Reduction",
+    "Pre- Retirement Planning",
+    "Smith Manoeuvre Planning & Implementation"
+  ],
+  "audience": "Serves Ottawa, Ontario; focus: Purchasing a home, Debt consolidation, Funding your retirement, Refinance, Renewals, Smith Manoeuvre, New to Canada, Self-employed, Credit repair, Self-build.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/D7iEPwwx2KKeEWBjWDbGYC/Raoul-Hunt-%7C-SM-Posts",
+  "complianceLine": "Raoul Hunt, Mortgage Broker · Tango Ontario · Brokerage Lic. #13691",
+  "rules": [],
+  "assets": {
+    "photo": "assets/raoul-hunt/photo.png",
+    "footer": "assets/raoul-hunt/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/raoul-hunt/logo.png",
+      "assets/raoul-hunt/logo-2.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": null,
+    "secondary": null,
+    "variant": null
+  },
+  "missing": [
+    "stills (no roster style assigned; needs a group first)",
+    "agent.licence",
+    "city",
+    "province",
+    "group"
+  ],
+  "flags": [
+    "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+    "seed: Listed at the bottom of the sheet with no group",
+    "Logo-derived brokerage facts: logo-2 prints 'tango ONTARIO LIC # 13691'; confirm this is Raoul's brokerage of record (sheet gives none)",
+    "website says brokerage name 'Tango Financial (ON)' (kit has 'Tango Ontario')",
+    "website says title 'Licensed Mortgage Broker' (kit has 'Mortgage Broker')",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Individual broker licence number not on site (clients.json also none).",
+    "website note: Search (check): blog posts list 'DLC The Mortgage Source, Licence # 10145' and Neighbourhood Mortgage Source; address 424 Catherine St, Ottawa K1R 5T8; phone 613-218-8798 appears elsewhere. This conflicts with Tango Financial #13691 on the main pages. Press release: https://www.accessnewswire.com/newsroom/en/real-estate/ottawa-mortgage-broker-unveils-enhanced-tools-for-spring-homebuyers-1014042. No GBP rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "agent.title": "clients.json designation",
+    "brokerage.name": "logo image (read visually)",
+    "brokerage.licence": "logo image (read visually)",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "complianceLine": "composed from sheet/footer facts above",
+    "audience": "website: https://huntformortgages.com/ (serviceAreas/specialties)",
+    "socials": "website: https://huntformortgages.com/",
+    "bio": "website: https://huntformortgages.com/",
+    "colors.accent": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "default"
+  },
+  "completeness": 0.714,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/raoul_huntformortgages",
+    "facebook": "https://www.facebook.com/huntformortgages",
+    "linkedin": "https://www.linkedin.com/in/raoulhunt/"
+  },
+  "bio": "Raoul Hunt is a licensed mortgage broker in Ottawa who describes himself as Smith Manoeuvre certified. His site covers home purchase, refinance, renewal, debt consolidation and retirement funding, plus options for new-to-Canada, self-employed, credit-challenged and self-build clients. The brokerage shown in the footer is Tango Financial (ON), licence #13691. He publishes a monthly blog and mortgage calculators.",
+  "web": {
+    "url": "https://huntformortgages.com/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Find the Right Mortgage Solution in Ontario",
+    "serviceAreas": [
+      "Ottawa",
+      "Ontario"
+    ],
+    "specialties": [
+      "Purchasing a home",
+      "Debt consolidation",
+      "Funding your retirement",
+      "Refinance",
+      "Renewals",
+      "Smith Manoeuvre",
+      "New to Canada",
+      "Self-employed",
+      "Credit repair",
+      "Self-build"
+    ],
+    "bookingUrl": "https://huntformortgages.com/book-a-discovery-call",
+    "testimonialsCount": 10,
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Individual broker licence number not on site (clients.json also none).",
+      "Search (check): blog posts list 'DLC The Mortgage Source, Licence # 10145' and Neighbourhood Mortgage Source; address 424 Catherine St, Ottawa K1R 5T8; phone 613-218-8798 appears elsewhere. This conflicts with Tango Financial #13691 on the main pages. Press release: https://www.accessnewswire.com/newsroom/en/real-estate/ottawa-mortgage-broker-unveils-enhanced-tools-for-spring-homebuyers-1014042. No GBP rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://huntformortgages.com/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://huntformortgages.com/about/",
+        "what": "about + brokerage"
+      },
+      {
+        "url": "https://huntformortgages.com/contact/",
+        "what": "contact"
+      }
+    ],
+    "fonts": [
+      "Roboto"
+    ],
+    "logoUrls": [
+      "https://huntformortgages.com/wp-content/uploads/2022/08/huntlogo.png"
+    ]
+  },
+  "colorsProvisional": true
+}

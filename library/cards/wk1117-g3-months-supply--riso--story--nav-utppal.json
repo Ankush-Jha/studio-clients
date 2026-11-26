@@ -1,0 +1,47 @@
+{
+ "id": "wk1117-g3-months-supply--riso--story--nav-utppal",
+ "title": "4.5 months of homes for sale: keep your conditions [riso, story, nav-utppal]",
+ "clients": [
+  "nav-utppal"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "riso",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "4.5 months of homes for sale: keep your conditions",
+ "tags": [
+  "stills",
+  "wk1117-g3-months-supply",
+  "riso",
+  "story-format",
+  "group-3"
+ ],
+ "hook": "Months of GTA homes for sale.",
+ "logline": "Proof render of spec 'wk1117-g3-months-supply' in the Riso Two-Ink style for Nav Utppal, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "A stencil-duplicator print: two translucent spot inks overprinted on warm paper, halftone ramps on rotated screens, plates that never quite line up, and type printed in the dark ink.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1117-g3-months-supply--riso--story/nav-utppal",
+  "poster": "$R/engines/stills/out/wk1117-g3-months-supply--riso--story/nav-utppal/01.jpg",
+  "thumb": "library/thumbs/wk1117-g3-months-supply--riso--story--nav-utppal.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1117-g3-months-supply.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "id": "sample-ig",
+    "name": "Sample broker",
+    "handle": "@sample.broker",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/",
+    "region": "ON",
+    "type": "independent broker",
+    "followers": "12K",
+    "watchFor": [],
+    "source": "manual",
+    "active": true
+  }
+]

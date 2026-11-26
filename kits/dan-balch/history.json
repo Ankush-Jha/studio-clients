@@ -1,0 +1,16 @@
+{
+  "pieces": [
+    {
+      "id": "2026-11-19-dan-balch-renewing-in-2027-in-london",
+      "date": "2026-11-19",
+      "format": "carousel",
+      "engine": "stills",
+      "style": "broadsheet",
+      "device": "A fictional front page, 'The 2027 Renewal Report', dateline London, Ont.: three neighbours A, B and C sit as three columns on the front page with their signing date and rate; the guess is set on slide 2; the inner pages are one graphic page per neighbour (halftone bars from $0: payment then vs payment at renewal, spot colour on the new payment).",
+      "hookPattern": "guess-then-reveal",
+      "topic": "Renewing in 2027 in London",
+      "card": "2026-11-19-dan-balch-renewing-in-2027-in-london"
+    }
+  ],
+  "lastStyle": "broadsheet"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "sahil-rihani",
+  "aliases": [],
+  "sheetId": "client-004",
+  "name": "Sahil Rihani",
+  "people": [],
+  "city": "Vaughan",
+  "province": "ON",
+  "region": "",
+  "group": 1,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Dominion Lending Centres Keystone Financial Experts",
+    "licence": "#13654"
+  },
+  "agent": {
+    "name": "Sahil Rihani",
+    "title": "Mortgage Agent Level 2",
+    "licence": "M22004113"
+  },
+  "contact": {
+    "phones": [
+      "647-924-4029"
+    ],
+    "emails": [
+      "mortgagesbyrihani@gmail.com"
+    ],
+    "website": "https://mortgagesbyrihani.ca/"
+  },
+  "services": [
+    "First Time Home buyers",
+    "Renewals",
+    "Purchases",
+    "Commercial mortgages",
+    "HELOCS",
+    "Residential mortgages",
+    "B Lenders"
+  ],
+  "audience": "Serves Ontario, GTA; focus: Purchases, First-time home buyers, Renewals, Residential mortgages, Commercial mortgages, HELOCs, B lenders, Self-employed / commissioned borrowers, Investors.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/UamP9CpD8JYnGmaAto1NqI/Sahil-SM-Post",
+  "complianceLine": "Sahil Rihani, Mortgage Agent Level 2 · Lic. M22004113 · Dominion Lending Centres Keystone Financial Experts · Brokerage Lic. #13654",
+  "rules": [],
+  "assets": {
+    "photo": "assets/sahil-rihani/photo.png",
+    "footer": "assets/sahil-rihani/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/sahil-rihani/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "terminal",
+    "secondary": "bento",
+    "variant": "b"
+  },
+  "missing": [],
+  "flags": [
+    "Logo reads 'Keystone Financial Experts' with Dominion Lending Centres; authorised brokerage name for #13654 not confirmed.",
+    "website says emails ['srihani@dominionlending.ca'] (kit has ['mortgagesbyrihani@gmail.com'])",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Office: 2355 Derry Rd E, Unit 43, Mississauga ON L5S 1V6. Reply promised within one business day.",
+    "website note: Home page shows ~10 Google reviews via Trustindex widget (no aggregate rating text captured).",
+    "website note: Search (check): FSRA verification listing M22004113; DLC app page https://www.dlcapp.ca/app/sahil-rihani; brkrr.ca profile https://brkrr.ca/agents/sahil-rihani lists Maple, ON. No GBP rating/count found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "content-desk seed/roster",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.licence": "footer image (read visually) and sheet other_ids",
+    "agent.licence": "clients.json agent_license_no",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "brokerage.name": "website: https://mortgagesbyrihani.ca/",
+    "audience": "website: https://mortgagesbyrihani.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://mortgagesbyrihani.ca/",
+    "bio": "website: https://mortgagesbyrihani.ca/",
+    "complianceLine": "composed from sheet/footer/website facts",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'terminal' (STYLES.md)"
+  },
+  "completeness": 1.0,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/sahilrihanimortgages",
+    "facebook": "https://www.facebook.com/people/Sahil-Rihani-Mortgages/61585123072054/",
+    "linkedin": "http://www.linkedin.com/in/sahilrihani"
+  },
+  "bio": "Sahil Rihani is a Mortgage Agent Level 2 with DLC Keystone Financial Experts, serving Ontario and the GTA from a Mississauga office. The site stresses flexible mortgage structure, penalties and long-term cost over the headline rate. He works with first-time and move-up buyers, refinancers, self-employed and commissioned professionals and investors. Process: discovery call, application and document review, budget and planning call, ongoing check-ins.",
+  "web": {
+    "url": "https://mortgagesbyrihani.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "There's No Place Like Home",
+    "serviceAreas": [
+      "Ontario",
+      "GTA"
+    ],
+    "specialties": [
+      "Purchases",
+      "First-time home buyers",
+      "Renewals",
+      "Residential mortgages",
+      "Commercial mortgages",
+      "HELOCs",
+      "B lenders",
+      "Self-employed / commissioned borrowers",
+      "Investors"
+    ],
+    "testimonialsCount": 10,
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Office: 2355 Derry Rd E, Unit 43, Mississauga ON L5S 1V6. Reply promised within one business day.",
+      "Home page shows ~10 Google reviews via Trustindex widget (no aggregate rating text captured).",
+      "Search (check): FSRA verification listing M22004113; DLC app page https://www.dlcapp.ca/app/sahil-rihani; brkrr.ca profile https://brkrr.ca/agents/sahil-rihani lists Maple, ON. No GBP rating/count found."
+    ],
+    "sources": [
+      {
+        "url": "https://mortgagesbyrihani.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://mortgagesbyrihani.ca/about-us/",
+        "what": "about"
+      },
+      {
+        "url": "https://mortgagesbyrihani.ca/contact/",
+        "what": "contact + licences"
+      }
+    ],
+    "fonts": [
+      "Montserrat"
+    ],
+    "logoUrls": [
+      "https://mortgagesbyrihani.ca/wp-content/uploads/logo.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

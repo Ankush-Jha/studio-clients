@@ -1,0 +1,97 @@
+client_id,client_name,asset,file,source_column,sheet_row,width,height,source_image_in_xlsx
+client-003,Kulbhushan Narang,photo,assets/kulbhushan-narang/photo.png,J (Photos / Photo Status),3,155,150,image70.png
+client-003,Kulbhushan Narang,footer,assets/kulbhushan-narang/footer.png,N (Footers),3,1080,148,image91.png
+client-003,Kulbhushan Narang,logo,assets/kulbhushan-narang/logo.png,O (Logo Branding),3,203,51,image65.png
+client-004,Sahil Rihani,photo,assets/sahil-rihani/photo.png,J (Photos / Photo Status),4,138,166,image88.png
+client-004,Sahil Rihani,footer,assets/sahil-rihani/footer.png,N (Footers),4,1080,166,image83.png
+client-004,Sahil Rihani,logo,assets/sahil-rihani/logo.png,O (Logo Branding),4,98,84,image68.png
+client-005,Anil Lakhiya,photo,assets/anil-lakhiya/photo.png,J (Photos / Photo Status),5,163,182,image19.png
+client-005,Anil Lakhiya,footer,assets/anil-lakhiya/footer.png,N (Footers),5,1080,182,image90.png
+client-005,Anil Lakhiya,logo,assets/anil-lakhiya/logo.png,O (Logo Branding),5,170,74,image11.png
+client-006,Juliet fernandez,photo,assets/juliet-fernandez/photo.png,J (Photos / Photo Status),6,191,172,image21.png
+client-006,Juliet fernandez,footer,assets/juliet-fernandez/footer.png,N (Footers),6,1080,176,image18.png
+client-006,Juliet fernandez,logo,assets/juliet-fernandez/logo.png,O (Logo Branding),6,223,42,image9.png
+client-007,Ariana learoux,photo,assets/ariana-learoux/photo.png,J (Photos / Photo Status),7,176,164,image13.png
+client-007,Ariana learoux,footer,assets/ariana-learoux/footer.png,N (Footers),7,1080,164,image36.png
+client-007,Ariana learoux,logo,assets/ariana-learoux/logo.png,O (Logo Branding),7,156,90,image5.png
+client-008,Robert Cheszes,photo,assets/robert-cheszes/photo.png,J (Photos / Photo Status),8,328,342,image15.png
+client-008,Robert Cheszes,footer,assets/robert-cheszes/footer.png,N (Footers),8,1080,165,image86.png
+client-008,Robert Cheszes,logo,assets/robert-cheszes/logo.png,O (Logo Branding),8,208,51,image1.png
+client-009,Adrian Biccum,photo,assets/adrian-biccum/photo.png,J (Photos / Photo Status),9,160,163,image2.png
+client-009,Adrian Biccum,footer,assets/adrian-biccum/footer.png,N (Footers),9,1079,163,image14.png
+client-009,Adrian Biccum,logo,assets/adrian-biccum/logo.png,O (Logo Branding),9,275,81,image27.png
+client-010,Byran Peters,photo,assets/byran-peters/photo.png,J (Photos / Photo Status),10,208,157,image7.png
+client-010,Byran Peters,footer,assets/byran-peters/footer.png,N (Footers),10,1080,157,image39.png
+client-010,Byran Peters,logo,assets/byran-peters/logo.png,O (Logo Branding),10,214,67,image3.png
+client-011,Amit khurana,photo,assets/amit-khurana/photo.png,J (Photos / Photo Status),11,178,170,image26.png
+client-011,Amit khurana,footer,assets/amit-khurana/footer.png,N (Footers),11,1080,170,image4.png
+client-011,Amit khurana,logo,assets/amit-khurana/logo.png,O (Logo Branding),11,796,243,image17.png
+client-012,Raoul Hunt,photo,assets/raoul-hunt/photo.png,J (Photos / Photo Status),12,148,149,image31.png
+client-012,Raoul Hunt,footer,assets/raoul-hunt/footer.png,N (Footers),12,1080,149,image45.png
+client-012,Raoul Hunt,logo,assets/raoul-hunt/logo.png,O (Logo Branding),12,145,75,image6.png
+client-012,Raoul Hunt,logo,assets/raoul-hunt/logo-2.png,O (Logo Branding),12,137,89,image8.png
+client-013,Al Manji,photo,assets/al-manji/photo.png,J (Photos / Photo Status),13,205,178,image20.png
+client-013,Al Manji,footer,assets/al-manji/footer.png,N (Footers),13,1080,178,image23.png
+client-013,Al Manji,logo,assets/al-manji/logo.png,O (Logo Branding),13,106,61,image12.png
+client-013,Al Manji,logo,assets/al-manji/logo-2.png,O (Logo Branding),13,196,56,image10.png
+client-014,Dan Balch,photo,assets/dan-balch/photo.png,J (Photos / Photo Status),14,142,146,image84.png
+client-014,Dan Balch,footer,assets/dan-balch/footer.png,N (Footers),14,1080,146,image25.png
+client-014,Dan Balch,logo,assets/dan-balch/logo.png,O (Logo Branding),14,224,45,image16.png
+client-015,Gaurav Makhija,photo,assets/gaurav-makhija/photo.png,J (Photos / Photo Status),15,144,140,image28.png
+client-015,Gaurav Makhija,footer,assets/gaurav-makhija/footer.png,N (Footers),15,1080,140,image46.png
+client-015,Gaurav Makhija,logo,assets/gaurav-makhija/logo.png,O (Logo Branding),15,176,92,image34.png
+client-016,Gregory Hernandez,photo,assets/gregory-hernandez/photo.png,J (Photos / Photo Status),16,126,118,image94.png
+client-016,Gregory Hernandez,footer,assets/gregory-hernandez/footer.png,N (Footers),16,1080,120,image30.png
+client-016,Gregory Hernandez,logo,assets/gregory-hernandez/logo.png,O (Logo Branding),16,504,125,image24.png
+client-017,Jim DeCoste,footer,assets/jim-decoste/footer.png,N (Footers),17,2048,353,image32.png
+client-017,Jim DeCoste,logo,assets/jim-decoste/logo.png,O (Logo Branding),17,493,91,image43.png
+client-018,Karven Wu,photo,assets/karven-wu/photo.png,J (Photos / Photo Status),18,327,324,image40.png
+client-018,Karven Wu,footer,assets/karven-wu/footer.png,N (Footers),18,2048,307,image41.png
+client-018,Karven Wu,logo,assets/karven-wu/logo.png,O (Logo Branding),18,293,130,image29.png
+client-018,Karven Wu,logo,assets/karven-wu/logo-2.png,O (Logo Branding),18,322,151,image38.png
+client-019,Keaton Thornton & Jim Thornton,photo,assets/keaton-thornton-jim-thornton/photo.png,J (Photos / Photo Status),19,335,383,image92.png
+client-019,Keaton Thornton & Jim Thornton,footer,assets/keaton-thornton-jim-thornton/footer.png,N (Footers),19,1080,191,image22.png
+client-019,Keaton Thornton & Jim Thornton,logo,assets/keaton-thornton-jim-thornton/logo.png,O (Logo Branding),19,456,134,image33.png
+client-020,Keith Crossland & Dustin Moss,photo,assets/keith-crossland-dustin-moss/photo.png,J (Photos / Photo Status),20,846,775,image67.png
+client-020,Keith Crossland & Dustin Moss,footer,assets/keith-crossland-dustin-moss/footer.png,N (Footers),20,2048,250,image47.png
+client-020,Keith Crossland & Dustin Moss,logo,assets/keith-crossland-dustin-moss/logo.png,O (Logo Branding),20,492,118,image44.png
+client-020,Keith Crossland & Dustin Moss,logo,assets/keith-crossland-dustin-moss/logo-2.png,O (Logo Branding),20,720,110,image37.png
+client-021,Michael Marini,footer,assets/michael-marini/footer.png,N (Footers),21,2048,288,image48.png
+client-021,Michael Marini,logo,assets/michael-marini/logo.png,O (Logo Branding),21,888,146,image81.png
+client-021,Michael Marini,logo,assets/michael-marini/logo-2.png,O (Logo Branding),21,426,126,image35.png
+client-022,Nav Utppal,photo,assets/nav-utppal/photo.png,J (Photos / Photo Status),22,316,290,image73.png
+client-022,Nav Utppal,footer,assets/nav-utppal/footer.png,N (Footers),22,1080,145,image95.png
+client-022,Nav Utppal,logo,assets/nav-utppal/logo.png,O (Logo Branding),22,361,102,image42.png
+client-022,Nav Utppal,logo,assets/nav-utppal/logo-2.png,O (Logo Branding),22,322,151,image38.png
+client-023,Jalal Khan,photo,assets/jalal-khan/photo.png,J (Photos / Photo Status),23,338,315,image52.png
+client-023,Jalal Khan,footer,assets/jalal-khan/footer.png,N (Footers),23,2048,299,image60.png
+client-023,Jalal Khan,logo,assets/jalal-khan/logo.png,O (Logo Branding),23,390,74,image74.png
+client-023,Jalal Khan,logo,assets/jalal-khan/logo-2.png,O (Logo Branding),23,173,185,image49.png
+client-024,Rahul Vinod,photo,assets/rahul-vinod/photo.png,J (Photos / Photo Status),24,560,643,image80.png
+client-024,Rahul Vinod,footer,assets/rahul-vinod/footer.png,N (Footers),24,2048,250,image56.png
+client-024,Rahul Vinod,logo,assets/rahul-vinod/logo.png,O (Logo Branding),24,404,116,image77.png
+client-024,Rahul Vinod,logo,assets/rahul-vinod/logo-2.png,O (Logo Branding),24,143,144,image79.png
+client-025,Vittorio Oliverio,photo,assets/vittorio-oliverio/photo.png,J (Photos / Photo Status),25,340,308,image54.png
+client-025,Vittorio Oliverio,footer,assets/vittorio-oliverio/footer.png,N (Footers),25,2048,291,image50.png
+client-025,Vittorio Oliverio,logo,assets/vittorio-oliverio/logo.png,O (Logo Branding),25,200,59,image75.png
+client-026,Scott Brouke,photo,assets/scott-brouke/photo.png,J (Photos / Photo Status),26,339,307,image59.png
+client-026,Scott Brouke,footer,assets/scott-brouke/footer.png,N (Footers),26,2048,292,image62.png
+client-026,Scott Brouke,logo,assets/scott-brouke/logo.png,O (Logo Branding),26,422,125,image55.png
+client-027,Akshat Chauhan,photo,assets/akshat-chauhan/photo.png,J (Photos / Photo Status),27,417,454,image63.png
+client-027,Akshat Chauhan,footer,assets/akshat-chauhan/footer.png,N (Footers),27,2048,430,image61.png
+client-027,Akshat Chauhan,logo,assets/akshat-chauhan/logo.png,O (Logo Branding),27,570,113,image51.png
+client-028,Borrowise,footer,assets/borrowise/footer.png,N (Footers),28,2048,239,image53.png
+client-028,Borrowise,logo,assets/borrowise/logo.png,O (Logo Branding),28,212,213,image64.png
+client-029,Ranjit Singh,photo,assets/ranjit-singh/photo.png,J (Photos / Photo Status),29,925,1275,image71.png
+client-029,Ranjit Singh,footer,assets/ranjit-singh/footer.png,N (Footers),29,1080,183,image58.png
+client-029,Ranjit Singh,logo,assets/ranjit-singh/logo.png,O (Logo Branding),29,298,113,image66.png
+client-030,Georges Madi,photo,assets/georges-madi/photo.png,J (Photos / Photo Status),30,172,227,image78.png
+client-030,Georges Madi,footer,assets/georges-madi/footer.png,N (Footers),30,1080,157,image85.png
+client-030,Georges Madi,logo,assets/georges-madi/logo.png,O (Logo Branding),30,955,86,image87.png
+client-031,Wise Equity,photo,assets/wise-equity/photo.png,J (Photos / Photo Status),31,1548,1657,image82.png
+client-031,Wise Equity,footer,assets/wise-equity/footer.png,N (Footers),31,1942,192,image76.png
+client-031,Wise Equity,logo,assets/wise-equity/logo.png,O (Logo Branding),31,610,91,image89.png
+client-032,Krystian Catala,photo,assets/krystian-catala/photo.png,J (Photos / Photo Status),32,354,339,image57.png
+client-032,Krystian Catala,footer,assets/krystian-catala/footer.png,N (Footers),32,1942,339,image72.png
+client-032,Krystian Catala,logo,assets/krystian-catala/logo.png,O (Logo Branding),32,348,196,image69.png
+client-032,Krystian Catala,logo,assets/krystian-catala/logo-2.png,O (Logo Branding),32,296,130,image93.png

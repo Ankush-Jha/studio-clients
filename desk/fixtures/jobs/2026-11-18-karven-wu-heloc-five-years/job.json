@@ -1,0 +1,176 @@
+{
+  "id": "2026-11-18-karven-wu-heloc-five-years",
+  "created": "2026-11-18T09:40:00Z",
+  "updated": "2026-11-18T12:58:12Z",
+  "client": "karven-wu",
+  "format": "graphic-reel",
+  "topic": "HELOC interest-only: five years in, the balance hasn't moved",
+  "brief": {
+    "raw": "graphic reel for Karven Wu about HELOC interest-only",
+    "by": "chat"
+  },
+  "status": "gate2",
+  "engine": "films",
+  "style": "swiss-motion",
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": "2026-11-18T09:40:00Z",
+      "ended": "2026-11-18T09:41:10Z",
+      "summary": "Client karven-wu · graphic reel 1080×1920 · video ok",
+      "outputs": [
+        "brief.json"
+      ]
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-18T09:41:12Z",
+      "ended": "2026-11-18T10:02:30Z",
+      "summary": "3 concepts",
+      "outputs": [
+        "concepts.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "done",
+      "started": "2026-11-18T10:02:31Z",
+      "ended": "2026-11-18T10:20:04Z",
+      "summary": "Picked A",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "done",
+      "started": "2026-11-18T10:20:05Z",
+      "ended": "2026-11-18T10:31:40Z",
+      "summary": "FCAC survey figure verified · $833/mo math checked",
+      "outputs": [
+        "check.json"
+      ]
+    },
+    {
+      "id": "director",
+      "status": "done",
+      "started": "2026-11-18T10:31:42Z",
+      "ended": "2026-11-18T12:31:00Z",
+      "summary": "Rendered 53.5 s · Kokoro af_bella · original score",
+      "outputs": [
+        "$R/graphic reels/heloc-five-years/poster.jpg",
+        "$R/graphic reels/heloc-five-years/out/review1.jpg",
+        "$R/graphic reels/heloc-five-years/out/review2.jpg"
+      ]
+    },
+    {
+      "id": "critic",
+      "status": "done",
+      "started": "2026-11-18T12:31:02Z",
+      "ended": "2026-11-18T12:58:10Z",
+      "summary": "QA 9 pass · 2 warn · 0 fail",
+      "outputs": [
+        "qa/report.json",
+        "$R/graphic reels/heloc-five-years/out/contact_sheet.jpg"
+      ]
+    },
+    {
+      "id": "gate2",
+      "status": "waiting",
+      "started": "2026-11-18T12:58:11Z",
+      "ended": null,
+      "summary": "Waiting for approval",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": "A",
+  "gates": {
+    "g1": {
+      "at": "2026-11-18T10:20:04Z",
+      "decision": "pick",
+      "choice": "A",
+      "notes": "Keep the giant numeral",
+      "by": "desk"
+    },
+    "g2": {
+      "at": null,
+      "decision": null,
+      "notes": ""
+    }
+  },
+  "outputs": [
+    {
+      "kind": "video",
+      "path": "$R/graphic reels/heloc-five-years/heloc-five-years.mp4",
+      "w": 1080,
+      "h": 1920,
+      "durationS": 53.5
+    },
+    {
+      "kind": "cover",
+      "path": "$R/graphic reels/heloc-five-years/poster.jpg",
+      "w": 1080,
+      "h": 1920,
+      "durationS": null
+    },
+    {
+      "kind": "caption",
+      "path": "out/caption.txt",
+      "w": null,
+      "h": null,
+      "durationS": null
+    },
+    {
+      "kind": "contact",
+      "path": "$R/graphic reels/heloc-five-years/out/contact_sheet.jpg",
+      "w": null,
+      "h": null,
+      "durationS": null
+    }
+  ],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": true
+  },
+  "log": [
+    {
+      "t": "2026-11-18T10:20:04Z",
+      "node": "gate1",
+      "msg": "Desk: pick A — Keep the giant numeral"
+    },
+    {
+      "t": "2026-11-18T10:31:40Z",
+      "node": "checker",
+      "msg": "2 claims verified, 1 illustrative example labelled"
+    },
+    {
+      "t": "2026-11-18T11:10:00Z",
+      "node": "director",
+      "msg": "films: 1605 frames rendered"
+    },
+    {
+      "t": "2026-11-18T12:31:00Z",
+      "node": "director",
+      "msg": "Mux done: heloc-five-years.mp4 (2.5 MB)"
+    },
+    {
+      "t": "2026-11-18T12:58:10Z",
+      "node": "critic",
+      "msg": "Safe zones OK; caption length warn (2,104 chars)"
+    },
+    {
+      "t": "2026-11-18T12:58:11Z",
+      "node": "gate2",
+      "msg": "Gate 2 open: approve or revise"
+    }
+  ]
+}

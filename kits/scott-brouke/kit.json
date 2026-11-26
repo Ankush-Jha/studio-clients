@@ -1,0 +1,160 @@
+{
+  "id": "scott-brouke",
+  "aliases": [],
+  "sheetId": "client-026",
+  "name": "Scott Brouke",
+  "people": [],
+  "city": "Red Deer",
+  "province": "AB",
+  "region": "",
+  "group": 1,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Paragon Mortgage Inc.",
+    "licence": null
+  },
+  "agent": {
+    "name": "Scott Brouke",
+    "title": "Mortgage Broker",
+    "licence": null
+  },
+  "contact": {
+    "phones": [
+      "403-598-1055"
+    ],
+    "emails": [
+      "Scott@yourbestmortgage.ca"
+    ],
+    "website": "yourbestmortgage.ca"
+  },
+  "services": [
+    "Purchase",
+    "Refinance",
+    "New builds",
+    "HELOC",
+    "Purchase plus improvements",
+    "Private mortgage lenders"
+  ],
+  "audience": "Serves Red Deer, Alberta; focus: Purchase, Refinance, New builds, HELOC, Purchase plus improvements, Private mortgage lenders.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/BikB1rXf0lKFhtqSUWNzNT/Scott-Bourke",
+  "complianceLine": null,
+  "rules": [],
+  "assets": {
+    "photo": "assets/scott-brouke/photo.png",
+    "footer": "assets/scott-brouke/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/scott-brouke/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "swiss",
+    "secondary": "terminal",
+    "variant": "b"
+  },
+  "missing": [
+    "complianceLine",
+    "brokerage.licence",
+    "agent.licence"
+  ],
+  "flags": [
+    "sheet note: No contact details in sheet",
+    "sheet note: Name spelled 'Brouke' in sheet, 'Bourke' in Figma",
+    "Footer spells 'Scott Bourke' and shows a Paragon Mortgage Inc. logo.",
+    "website says brokerage name 'Paragon Mortgage Inc. (from footer image; search: Verico Paragon Mortgage)' (kit has 'Paragon Mortgage Inc.')",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Sheet has no website; URL taken from the footer image. Business address on site: 96 Oswald Close, Red Deer AB T4P 0C2.",
+    "website note: Threads: https://www.threads.net/@mortgagedude (no schema field).",
+    "website note: No licence number on the site.",
+    "website note: Search (check): Yelp (updated Apr 2026) lists 'Scott Bourke - The Place To Mortgage - Mortgage Alliance' 4.5 stars, 2 reviews; LinkedIn lists Verico Paragon Mortgage; older directories show Regional Mortgage Group / Mortgage Alliance. Brokerage affiliation conflicts across sources."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "content-desk seed/roster",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.name": "footer image (read visually)",
+    "agent.title": "footer image (read visually)",
+    "contact": "footer image (read visually)",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "services": "website: https://yourbestmortgage.ca/",
+    "audience": "website: https://yourbestmortgage.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://yourbestmortgage.ca/",
+    "bio": "website: https://yourbestmortgage.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "default (no source)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'swiss' (STYLES.md)"
+  },
+  "completeness": 0.786,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "facebook": "https://www.facebook.com/tptmscott",
+    "linkedin": "https://www.linkedin.com/in/scottbourke/?trk=hb_tab_pro_top",
+    "x": "https://x.com/reddeermortgage"
+  },
+  "bio": "Scott Bourke (spelled Bourke on site and footer image; sheet has Brouke) is a Red Deer, Alberta mortgage broker with 20+ years' experience and access to 68+ lenders. His site offers purchase, refinance, new build, HELOC and purchase-plus-improvements, with a strong private-lender and refinance angle. He combines mortgage brokering with real estate expertise and has chaired or co-chaired four Red Deer Kinsmen Dream Homes.",
+  "web": {
+    "url": "https://yourbestmortgage.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Trusted Mortgage Broker in Alberta",
+    "yearsInBusiness": "20+ years (about page)",
+    "serviceAreas": [
+      "Red Deer",
+      "Alberta"
+    ],
+    "specialties": [
+      "Purchase",
+      "Refinance",
+      "New builds",
+      "HELOC",
+      "Purchase plus improvements",
+      "Private mortgage lenders"
+    ],
+    "bookingUrl": "https://calendly.com/scott-yourbestmortgage",
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Sheet has no website; URL taken from the footer image. Business address on site: 96 Oswald Close, Red Deer AB T4P 0C2.",
+      "Threads: https://www.threads.net/@mortgagedude (no schema field).",
+      "No licence number on the site.",
+      "Search (check): Yelp (updated Apr 2026) lists 'Scott Bourke - The Place To Mortgage - Mortgage Alliance' 4.5 stars, 2 reviews; LinkedIn lists Verico Paragon Mortgage; older directories show Regional Mortgage Group / Mortgage Alliance. Brokerage affiliation conflicts across sources."
+    ],
+    "sources": [
+      {
+        "url": "https://yourbestmortgage.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://yourbestmortgage.ca/about-me/",
+        "what": "about"
+      },
+      {
+        "url": "https://yourbestmortgage.ca/contact-us/",
+        "what": "contact"
+      }
+    ],
+    "fonts": [
+      "Inter"
+    ],
+    "logoUrls": [
+      "https://yourbestmortgage.ca/wp-content/uploads/2024/12/logo.svg",
+      "https://yourbestmortgage.ca/wp-content/uploads/2024/12/logo-white.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

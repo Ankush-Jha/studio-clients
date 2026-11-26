@@ -1,0 +1,55 @@
+{
+ "id": "heloc-five-years",
+ "title": "The Five-Year Promise",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-18",
+ "format": "graphic-reel",
+ "engine": "films",
+ "style": "swiss-motion",
+ "lengthS": 53.5,
+ "fps": 30,
+ "size": "1080x1920",
+ "voice": "kokoro:af_bella",
+ "music": "original synthesized motorik marimba score (stops one bar before the $833 reveal) plus synthesized foley",
+ "topic": "HELOC interest-only payments: five years in, the $50,000 balance has not moved",
+ "tags": [
+  "heloc",
+  "interest-only",
+  "fcac-survey",
+  "payoff-plan",
+  "loop",
+  "swiss",
+  "mortgage-broker"
+ ],
+ "hook": "Five years of HELOC payments, and the balance is still $50,000.",
+ "logline": "Sixty interest-only payments land in sixty months and the $50,000 balance never moves; divide it into sixty pieces and the promise finally has a number: about $833 a month plus interest.",
+ "structure": "One 'statement page' that re-flows each beat: note row, orange balance slab, statement line, 60-month grid, caption row. Setup 0-18s (stuck balance, interest only, FCAC survey: over 25% mostly pay interest, 62% expected payoff in 5 years), turn 18-38s (slab splits into 60 orange cells = $833/mo + interest), ending 38-53.5s (check your statement, message me; cells cut to $0 or snap back to frame 1 for the loop). All text in y 280-1240.",
+ "device": "giant orange balance slab that holds still over a 60-month grid, then splits into 60 orange cells (one cell = $833) and snaps back into the opening frame; score stops one bar before the reveal",
+ "rejectedStyles": [
+  "spreadsheet (12px software chrome vanishes on a phone)",
+  "bauhaus-shapes (its demo is already a compounding-finance film)",
+  "pictogram-motion (numbers become small labels)",
+  "dataviz (charts read as homework in a reel)"
+ ],
+ "rejectedStructures": [
+  "odometer: one locked balance counter for 50s, nothing changes",
+  "promise-vs-reality split spread: two half-width pages make both numbers small and it shows the answer before the question"
+ ],
+ "files": {
+  "final": "~/Desktop/mortgage-reels/heloc-five-years.mp4",
+  "poster": "$R/graphic reels/heloc-five-years/poster.jpg",
+  "thumb": "library/thumbs/heloc-five-years.jpg",
+  "treatment": "$R/graphic reels/heloc-five-years/TREATMENT.md",
+  "project": "$R/graphic reels/heloc-five-years"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Caption file says: label as AI voice (Instagram AI label), add brokerage name and licence # in the caption for Ontario clients, use poster.jpg (frame 1) as cover, upload at highest quality.",
+  "Whisper hears 'HELOC' so Kokoro is fed 'heelock' for the spoken word; keep that respelling."
+ ],
+ "source": "seed",
+ "hookPattern": "number-stuck"
+}

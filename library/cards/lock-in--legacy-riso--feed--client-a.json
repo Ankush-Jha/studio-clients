@@ -1,0 +1,45 @@
+{
+ "id": "lock-in--legacy-riso--feed--client-a",
+ "title": "Should I lock in my variable? A 4-question check [legacy-riso, feed, client-a]",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-15",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "legacy-riso",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Should I lock in my variable? A 4-question check",
+ "tags": [
+  "stills",
+  "lock-in",
+  "legacy-riso",
+  "feed-format",
+  "group-3"
+ ],
+ "hook": "Should I lock in my variable? A 4-question check",
+ "logline": "Proof render of spec 'lock-in' in the legacy-riso style for client-a, feed format (2 slides).",
+ "structure": "2 slide(s), 1080x1350 (feed); slide types: cover, data",
+ "device": "early stills family 'riso' layout with placeholder client client-a",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/lock-in-g3/client-a",
+  "poster": "$R/engines/stills/out/lock-in-g3/client-a/01.jpg",
+  "thumb": "library/thumbs/lock-in--legacy-riso--feed--client-a.jpg",
+  "treatment": "$R/engines/stills/specs/lock-in.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 2
+}

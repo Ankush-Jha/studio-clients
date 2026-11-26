@@ -1,0 +1,96 @@
+{
+  "url": "https://yourbestmortgage.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "Scott Bourke (spelled Bourke on site and footer image; sheet has Brouke) is a Red Deer, Alberta mortgage broker with 20+ years' experience and access to 68+ lenders. His site offers purchase, refinance, new build, HELOC and purchase-plus-improvements, with a strong private-lender and refinance angle. He combines mortgage brokering with real estate expertise and has chaired or co-chaired four Red Deer Kinsmen Dream Homes.",
+  "tagline": "Trusted Mortgage Broker in Alberta",
+  "yearsInBusiness": "20+ years (about page)",
+  "specialties": [
+    "Purchase",
+    "Refinance",
+    "New builds",
+    "HELOC",
+    "Purchase plus improvements",
+    "Private mortgage lenders"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Red Deer",
+    "Alberta"
+  ],
+  "team": [
+    {
+      "name": "Scott Bourke",
+      "title": "Mortgage Broker",
+      "licence": null
+    }
+  ],
+  "licences": [],
+  "brokerage": {
+    "name": "Paragon Mortgage Inc. (from footer image; search: Verico Paragon Mortgage)",
+    "licence": null
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": "https://www.facebook.com/tptmscott",
+    "linkedin": "https://www.linkedin.com/in/scottbourke/?trk=hb_tab_pro_top",
+    "youtube": null,
+    "tiktok": null,
+    "x": "https://x.com/reddeermortgage"
+  },
+  "bookingUrl": "https://calendly.com/scott-yourbestmortgage",
+  "phones": [
+    "403-598-1055"
+  ],
+  "emails": [
+    "scott@yourbestmortgage.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#005cb9",
+      "where": "blue accent (buttons/headings)"
+    },
+    {
+      "hex": "#13aff0",
+      "where": "light blue; template default shared with other sites"
+    },
+    {
+      "hex": "#f1f1f1",
+      "where": "light grey background"
+    }
+  ],
+  "fonts": [
+    "Inter"
+  ],
+  "logoUrls": [
+    "https://yourbestmortgage.ca/wp-content/uploads/2024/12/logo.svg",
+    "https://yourbestmortgage.ca/wp-content/uploads/2024/12/logo-white.svg"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": 4.5,
+    "count": 2,
+    "source": "Yelp (via search, stale affiliation)"
+  },
+  "notes": [
+    "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "Sheet has no website; URL taken from the footer image. Business address on site: 96 Oswald Close, Red Deer AB T4P 0C2.",
+    "Threads: https://www.threads.net/@mortgagedude (no schema field).",
+    "No licence number on the site.",
+    "Search (check): Yelp (updated Apr 2026) lists 'Scott Bourke - The Place To Mortgage - Mortgage Alliance' 4.5 stars, 2 reviews; LinkedIn lists Verico Paragon Mortgage; older directories show Regional Mortgage Group / Mortgage Alliance. Brokerage affiliation conflicts across sources."
+  ],
+  "sources": [
+    {
+      "url": "https://yourbestmortgage.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://yourbestmortgage.ca/about-me/",
+      "what": "about"
+    },
+    {
+      "url": "https://yourbestmortgage.ca/contact-us/",
+      "what": "contact"
+    }
+  ],
+  "blocked": []
+}

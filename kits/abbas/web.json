@@ -1,0 +1,41 @@
+{
+  "url": null,
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": null,
+  "tagline": null,
+  "yearsInBusiness": null,
+  "specialties": [],
+  "languages": [],
+  "serviceAreas": [],
+  "team": [],
+  "licences": [],
+  "brokerage": {
+    "name": null,
+    "licence": null
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [],
+  "emails": [],
+  "brandColors": [],
+  "fonts": [],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Roster has only 'Abbas', Ottawa ON, no brokerage or licence. Web search surfaced Abbas El-Sarji (Abbas Financial, abbasfinancial.com, Mortgage Agent L1 with SJC Financial, Ottawa) as a possible match, plus unrelated Abbases (Ghulam Abbas, Spruce Grove AB; Ibrahim/Ali Abbas, realtors). Not confident enough to attribute; stopped without fetching any site. Ask the user for a surname/website."
+  ],
+  "sources": [],
+  "blocked": []
+}

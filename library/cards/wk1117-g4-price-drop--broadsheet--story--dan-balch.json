@@ -1,0 +1,47 @@
+{
+ "id": "wk1117-g4-price-drop--broadsheet--story--dan-balch",
+ "title": "What a price drop saves you each month [broadsheet, story, dan-balch]",
+ "clients": [
+  "dan-balch"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "broadsheet",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "What a price drop saves you each month",
+ "tags": [
+  "stills",
+  "wk1117-g4-price-drop",
+  "broadsheet",
+  "story-format",
+  "group-4"
+ ],
+ "hook": "Every $10K off, per month.",
+ "logline": "Proof render of spec 'wk1117-g4-price-drop' in the Front Page style for Dan Balch, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "A newspaper front page for one post: a fictional nameplate made from the series, an honest dateline, a Libre Franklin headline, Newsreader columns, and the chart standing in for the news photo.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1117-g4-price-drop--broadsheet--story/dan-balch",
+  "poster": "$R/engines/stills/out/wk1117-g4-price-drop--broadsheet--story/dan-balch/01.jpg",
+  "thumb": "library/thumbs/wk1117-g4-price-drop--broadsheet--story--dan-balch.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1117-g4-price-drop.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

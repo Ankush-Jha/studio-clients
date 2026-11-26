@@ -1,0 +1,86 @@
+{
+  "url": "https://rahulvinod.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "rahulvinod.ca is a stock Dominion Lending Centres template page for Rahul Vinod, Mortgage Associate with DLC Maritime Mortgage Group. It carries generic DLC copy on rates, purchase, refinance and calculators, with his contact block and licence numbers. Contact page lists an Antigonish, Nova Scotia address.",
+  "tagline": null,
+  "yearsInBusiness": null,
+  "specialties": [
+    "Home purchase",
+    "Refinance",
+    "Mortgage renewal",
+    "Home equity",
+    "Self-employed solutions",
+    "Commercial & leasing (DLC template)"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Atlantic Canada (Antigonish NS address)"
+  ],
+  "team": [
+    {
+      "name": "Rahul Vinod",
+      "title": "Mortgage Associate",
+      "licence": "Originator Licence #230047020"
+    }
+  ],
+  "licences": [
+    {
+      "label": "Originator licence",
+      "value": "#230047020",
+      "where": "contact page header"
+    },
+    {
+      "label": "Brokerage licence",
+      "value": "#2021-3000208",
+      "where": "contact page header"
+    }
+  ],
+  "brokerage": {
+    "name": "Dominion Lending Centres Maritime Mortgage Group",
+    "licence": "#2021-3000208"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/mortgages_by_rahul/",
+    "facebook": "https://www.facebook.com/profile.php?id=61550330122599",
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "506-260-3331"
+  ],
+  "emails": [
+    "rahulvinod@dominionlending.ca"
+  ],
+  "brandColors": [],
+  "fonts": [
+    "Raleway (template)"
+  ],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "Address on contact page: 21 James Street, Antigonish, NS B2G 1R7 (clients.json says Moncton NB / Calgary).",
+    "Twitter/YouTube links on the page are DLC corporate accounts, not Rahul's; omitted.",
+    "No site-specific brand colours (stock DLC template CSS), so brandColors left empty.",
+    "Search (check): no mortgage-profile hit for Rahul Vinod in Moncton; results pointed to a different Rahul (Bedi). No GBP rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://rahulvinod.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://rahulvinod.ca/about/contact/",
+      "what": "contact + licences"
+    }
+  ],
+  "blocked": []
+}

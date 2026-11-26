@@ -1,0 +1,47 @@
+{
+ "id": "deposit-trail--paper-trail--story--byran-peters",
+ "title": "One $8,000 deposit, no paper trail [paper-trail, story, byran-peters]",
+ "clients": [
+  "byran-peters"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "paper-trail",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "One $8,000 deposit, no paper trail",
+ "tags": [
+  "stills",
+  "deposit-trail",
+  "paper-trail",
+  "story-format",
+  "group-4"
+ ],
+ "hook": "deposit. No paper trail.",
+ "logline": "Proof render of spec 'deposit-trail' in the Paper Trail style for Byran Peters, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "Document realism: a rendered, clearly illustrative document on a flat desk, typed in Courier, stamped ILLUSTRATIVE and marked in red pencil, with the point set large on the desk.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/deposit-trail--paper-trail--story/byran-peters",
+  "poster": "$R/engines/stills/out/deposit-trail--paper-trail--story/byran-peters/01.jpg",
+  "thumb": "library/thumbs/deposit-trail--paper-trail--story--byran-peters.jpg",
+  "treatment": "$R/engines/stills/specs/library/deposit-trail.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

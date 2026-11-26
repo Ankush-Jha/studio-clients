@@ -1,0 +1,215 @@
+{
+  "id": "keith-crossland-dustin-moss",
+  "aliases": [],
+  "sheetId": "client-020",
+  "name": "Keith Crossland & Dustin Moss",
+  "people": [
+    {
+      "name": "Keith Crosland",
+      "email": "keith@mortgageconnection.ca",
+      "phone": "780-909-6466"
+    },
+    {
+      "name": "Dustin Moss",
+      "email": "dustin@mortgageconnection.ca",
+      "phone": "780-298-4663"
+    }
+  ],
+  "city": "Edmonton",
+  "province": "AB",
+  "region": "",
+  "group": 1,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Mortgage Connection",
+    "licence": "#13097"
+  },
+  "agent": {
+    "name": "Keith Crossland & Dustin Moss",
+    "title": "Partner & Mortgage Broker",
+    "licence": null
+  },
+  "contact": {
+    "phones": [
+      "780-909-6466",
+      "780-298-4663"
+    ],
+    "emails": [
+      "keith@mortgageconnection.ca",
+      "dustin@mortgageconnection.ca"
+    ],
+    "website": "https://mortgageconnection.ca/"
+  },
+  "services": [
+    "New Home Purchase",
+    "Refinancing",
+    "Mortgage Renewals",
+    "Second Mortgages",
+    "Commercial Mortgages",
+    "Alternative Lending"
+  ],
+  "audience": "Serves Edmonton, Calgary, Alberta; focus: New home purchase, Refinance, Home equity loans, Mortgage renewals, Second mortgage, Investment & vacation properties, Private mortgages, Commercial mortgages, Debt consolidation.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "MST",
+  "figma": "https://www.figma.com/design/u2X1YMEAyVI08beOWUwBNf/Keith-and-Dustin-Mortgages-%7C-SM-Posts",
+  "complianceLine": null,
+  "rules": [
+    {
+      "id": "r1",
+      "kind": "scope",
+      "text": "Aug 16, 2025 - Month End Report: please provide numbers for Edmonton and surrounding area. We don't do work in Calgary so don't want to post for their market.",
+      "appliesTo": [
+        "month-end-report"
+      ],
+      "since": "2025-08-16",
+      "source": "sheet special_requests",
+      "value": "Edmonton and surrounding area only; never Calgary"
+    },
+    {
+      "id": "r2",
+      "kind": "hashtags",
+      "text": "Sep 5, 2025 - Please don't hashtag Mortgageontario as we don't work there.",
+      "appliesTo": [
+        "all"
+      ],
+      "since": "2025-09-05",
+      "source": "sheet special_requests",
+      "value": "never #Mortgageontario"
+    }
+  ],
+  "assets": {
+    "photo": "assets/keith-crossland-dustin-moss/photo.png",
+    "footer": "assets/keith-crossland-dustin-moss/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/keith-crossland-dustin-moss/logo.png"
+    ],
+    "check": [
+      "assets/keith-crossland-dustin-moss/logo-2.png"
+    ]
+  },
+  "stills": {
+    "primary": "terminal",
+    "secondary": "swiss",
+    "variant": "a"
+  },
+  "missing": [
+    "complianceLine",
+    "agent.licence"
+  ],
+  "flags": [
+    "sheet note: Surname spelled 'Crossland' in name column, 'Crosland' in details",
+    "Asset to confirm: assets/keith-crossland-dustin-moss/logo-2.png (Mortgage Alliance; sat between rows 19-20, owner unclear)",
+    "website says phones ['780-909-6466 (Keith)', '780-298-4663 (Dustin)', '587-830-2059 (Edmonton/Calgary office)'] (kit has ['780-909-6466', '780-298-4663'])",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/). (both domains)",
+    "website note: Sheet has no website; used mortgageconnection.ca (email domain) and keithanddustinmortgages.ca (found by search).",
+    "website note: Staff pages: https://mortgageconnection.ca/staff/keith-crosland/ and /staff/dustin-moss/. Surname spelled Crosland on site (sheet: Crossland).",
+    "website note: Search (check): office 4432 Calgary Trail NW, Suite 206, Edmonton AB T6H 5W6; https://www.provenexpert.com/en-us/keith-and-dustin-mortgages/ ; also kandmortgage.com. No Google rating found.",
+    "website note: keithanddustinmortgages.ca socials: Instagram https://www.instagram.com/keithanddustinmortgages ; Facebook https://www.facebook.com/profile.php?id=61578011071382 (socials field holds Instagram of the duo and brokerage Facebook/LinkedIn)."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "people": "clients.json people",
+    "city": "clients.json location 'Edmonton (written 'City of Edminton' in sheet)'",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.name": "clients.json brokerage_name",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "posting": "clients.json posting_mode/posting_time/time_zone",
+    "figma": "clients.json figma_file",
+    "rules": "sheet special_requests (hand-mapped)",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "brokerage.licence": "website: https://mortgageconnection.ca/",
+    "agent.title": "website: https://mortgageconnection.ca/",
+    "audience": "website: https://mortgageconnection.ca/ (serviceAreas/specialties)",
+    "contact.website": "website: https://mortgageconnection.ca/",
+    "socials": "website: https://mortgageconnection.ca/",
+    "bio": "website: https://mortgageconnection.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'terminal' (STYLES.md)"
+  },
+  "completeness": 0.857,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/keithanddustinmortgages",
+    "facebook": "https://www.facebook.com/MortgageConnectionTeam",
+    "linkedin": "https://ca.linkedin.com/company/mortgageconnection"
+  },
+  "bio": "Keith Crosland and Dustin Moss are Edmonton-based Partner and Mortgage Brokers at Mortgage Connection, a Calgary/Edmonton brokerage that cites over 1,700 five-star reviews. Keith is an Edmonton native in banking since 2008 (ten years as a mortgage specialist); Dustin worked over 14 years at a Big 5 bank, the last seven in mortgages. They also run keithanddustinmortgages.ca, covering purchase, renewal, debt consolidation and refinance. Mortgage Connection donates a portion of funded mortgages to community causes.",
+  "web": {
+    "url": "https://mortgageconnection.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Trusted Mortgage Brokers in Calgary & Edmonton. Culture. Collaboration. Community.",
+    "yearsInBusiness": "Keith: banking since 2008; Dustin: 14+ years at a Big 5 bank (staff pages). Site says 'over 25 years lending experience' / 'two decades'",
+    "serviceAreas": [
+      "Edmonton",
+      "Calgary",
+      "Alberta"
+    ],
+    "specialties": [
+      "New home purchase",
+      "Refinance",
+      "Home equity loans",
+      "Mortgage renewals",
+      "Second mortgage",
+      "Investment & vacation properties",
+      "Private mortgages",
+      "Commercial mortgages",
+      "Debt consolidation"
+    ],
+    "testimonialsCount": 10,
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/). (both domains)",
+      "Sheet has no website; used mortgageconnection.ca (email domain) and keithanddustinmortgages.ca (found by search).",
+      "Staff pages: https://mortgageconnection.ca/staff/keith-crosland/ and /staff/dustin-moss/. Surname spelled Crosland on site (sheet: Crossland).",
+      "Search (check): office 4432 Calgary Trail NW, Suite 206, Edmonton AB T6H 5W6; https://www.provenexpert.com/en-us/keith-and-dustin-mortgages/ ; also kandmortgage.com. No Google rating found.",
+      "keithanddustinmortgages.ca socials: Instagram https://www.instagram.com/keithanddustinmortgages ; Facebook https://www.facebook.com/profile.php?id=61578011071382 (socials field holds Instagram of the duo and brokerage Facebook/LinkedIn)."
+    ],
+    "sources": [
+      {
+        "url": "https://mortgageconnection.ca/",
+        "what": "brokerage homepage"
+      },
+      {
+        "url": "https://mortgageconnection.ca/staff/keith-crosland/",
+        "what": "Keith bio"
+      },
+      {
+        "url": "https://mortgageconnection.ca/staff/dustin-moss/",
+        "what": "Dustin bio"
+      },
+      {
+        "url": "https://keithanddustinmortgages.ca/",
+        "what": "own site"
+      },
+      {
+        "url": "https://keithanddustinmortgages.ca/about-us/",
+        "what": "own about"
+      }
+    ],
+    "fonts": [
+      "DM Sans",
+      "Jost (keithanddustinmortgages.ca)",
+      "Open Sans",
+      "Poppins (mortgageconnection.ca)"
+    ],
+    "logoUrls": [
+      "https://keithanddustinmortgages.ca/wp-content/uploads/2025/06/logo.svg",
+      "https://mortgageconnection.ca/wp-content/uploads/2023/03/MortgageConnection_Logo_withTag-copy.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

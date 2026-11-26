@@ -1,0 +1,159 @@
+{
+  "id": "wise-equity",
+  "aliases": [],
+  "sheetId": "client-031",
+  "name": "Wise Equity",
+  "people": [],
+  "city": null,
+  "province": null,
+  "region": "",
+  "group": null,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Wise Equity",
+    "licence": "#13463"
+  },
+  "agent": {
+    "name": "Wise Equity",
+    "title": "",
+    "licence": "M19002342"
+  },
+  "contact": {
+    "phones": [
+      "(647) 955-7464"
+    ],
+    "emails": [
+      "info@wiseequity.ca"
+    ],
+    "website": "wiseequity.ca"
+  },
+  "services": [
+    "Mortgage + HELOC",
+    "Reverse mortgage",
+    "Smith Manoeuvre",
+    "Cash damming",
+    "Private investing",
+    "B2B partnerships",
+    "Financial planning",
+    "Home equity strategy"
+  ],
+  "audience": "Serves Canada (licensed across Canada; 3 provinces served per site); focus: Mortgage + HELOC, Reverse mortgage, Smith Manoeuvre, Cash damming, Private investing, B2B partnerships, Financial planning, Home equity strategy.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/FHWtfHcWyRSulmmdhzetFe/Rachit",
+  "complianceLine": "Wise Equity · Lic. M19002342 · Wise Equity · Brokerage Lic. #13463",
+  "rules": [],
+  "assets": {
+    "photo": null,
+    "footer": "assets/wise-equity/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/wise-equity/logo.png"
+    ],
+    "check": [
+      "assets/wise-equity/photo.png"
+    ]
+  },
+  "stills": {
+    "primary": null,
+    "secondary": null,
+    "variant": null
+  },
+  "missing": [
+    "agent.title",
+    "stills (no roster style assigned; needs a group first)",
+    "city",
+    "province",
+    "group",
+    "socials"
+  ],
+  "flags": [
+    "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+    "seed: Listed at the bottom of the sheet with no group",
+    "sheet note: No contact details in sheet",
+    "sheet note: Figma link points to a file named 'Rachit' — shared with Ranjit Singh and Krystian Catala; check it's correct",
+    "sheet photo note: Client doesnt want image",
+    "Asset to confirm: assets/wise-equity/photo.png (person not shown on footer; confirm who this is)",
+    "website note: robots.txt welcomes crawlers (Agent map at /llms).",
+    "website note: No team names, address or social links on fetched pages (home, /about/, /contact/).",
+    "website note: Search (check): LinkedIn lists Nathaniel Gardner at Wise Equity (broker praised in Google reviews); Trustpilot https://ca.trustpilot.com/review/wiseequity.ca ; Google Maps https://maps.app.goo.gl/opQiX4mFoBeLNcRPA.",
+    "website note: Footer image values (FSRAO #13463, Lic #M19002342) match the site header."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.licence": "footer image (read visually)",
+    "agent.licence": "footer image (read visually)",
+    "contact": "footer image (read visually)",
+    "figma": "clients.json figma_file",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "photo": "clients.json photo_notes: client doesn't want image assets",
+    "brokerage.name": "website: https://wiseequity.ca/",
+    "services": "website: https://wiseequity.ca/",
+    "audience": "website: https://wiseequity.ca/ (serviceAreas/specialties)",
+    "bio": "website: https://wiseequity.ca/",
+    "complianceLine": "composed from sheet/footer/website facts",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "default"
+  },
+  "completeness": 0.692,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {},
+  "bio": "Wise Equity is a Canadian home-equity strategy firm that helps homeowners use mortgage and HELOC structures, the Smith Manoeuvre, cash damming and private investing to build tax-efficient wealth and retirement income. The site claims 500+ families served, $100M+ in equity unlocked and service in three provinces, with an education-first, no-pressure approach and a free equity assessment. Brokerage and agent licences appear in the site header.",
+  "web": {
+    "url": "https://wiseequity.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Turn Your Home Into an Asset for Tax-Free Income",
+    "serviceAreas": [
+      "Canada (licensed across Canada; 3 provinces served per site)"
+    ],
+    "specialties": [
+      "Mortgage + HELOC",
+      "Reverse mortgage",
+      "Smith Manoeuvre",
+      "Cash damming",
+      "Private investing",
+      "B2B partnerships",
+      "Financial planning",
+      "Home equity strategy"
+    ],
+    "notes": [
+      "robots.txt welcomes crawlers (Agent map at /llms).",
+      "No team names, address or social links on fetched pages (home, /about/, /contact/).",
+      "Search (check): LinkedIn lists Nathaniel Gardner at Wise Equity (broker praised in Google reviews); Trustpilot https://ca.trustpilot.com/review/wiseequity.ca ; Google Maps https://maps.app.goo.gl/opQiX4mFoBeLNcRPA.",
+      "Footer image values (FSRAO #13463, Lic #M19002342) match the site header."
+    ],
+    "sources": [
+      {
+        "url": "https://wiseequity.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://wiseequity.ca/about/",
+        "what": "about"
+      },
+      {
+        "url": "https://wiseequity.ca/contact/",
+        "what": "contact"
+      }
+    ],
+    "fonts": [
+      "Playfair Display",
+      "Montserrat"
+    ],
+    "logoUrls": [
+      "https://wiseequity.ca/assets/images/hero-family-portrait.jpg (OG image, not a logo)"
+    ]
+  },
+  "colorsProvisional": true
+}

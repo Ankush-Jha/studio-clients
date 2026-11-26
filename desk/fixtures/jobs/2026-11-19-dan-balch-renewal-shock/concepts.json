@@ -1,0 +1,186 @@
+[
+  {
+    "id": "A",
+    "title": "The renewal letter",
+    "hook": {
+      "main": "Your renewal letter is not a quote. It's an opening offer.",
+      "alts": [
+        "The rate on page one is the bank's best guess at what you'll accept.",
+        "Signing the renewal letter is the most expensive thing you'll do this year."
+      ]
+    },
+    "angle": "Reframe the renewal letter as a negotiation document, then show the three questions to ask before signing.",
+    "clientFacts": [
+      "Dan Balch",
+      "London, ON",
+      "Mortgage Architects",
+      "Brokerage Lic. #12728",
+      "Renewals is a listed service"
+    ],
+    "format": "carousel",
+    "engine": "stills",
+    "style": "paper-trail",
+    "styleWhy": "The letter is the hero object; paper-trail stages documents as physical evidence.",
+    "device": "annotated document",
+    "structure": "object → reframe → 3 questions → CTA",
+    "beats": [
+      {
+        "t": "1",
+        "visual": "The renewal letter, rate circled",
+        "text": "This is not a quote.",
+        "voice": ""
+      },
+      {
+        "t": "2",
+        "visual": "Margin notes in red",
+        "text": "It's an opening offer.",
+        "voice": ""
+      },
+      {
+        "t": "3",
+        "visual": "Question card 1",
+        "text": "What would a new lender offer?",
+        "voice": ""
+      },
+      {
+        "t": "4",
+        "visual": "Question card 2",
+        "text": "Can I shorten the term?",
+        "voice": ""
+      },
+      {
+        "t": "5",
+        "visual": "Question card 3",
+        "text": "What does breaking cost later?",
+        "voice": ""
+      },
+      {
+        "t": "6",
+        "visual": "Footer + CTA",
+        "text": "Send me the letter before you sign.",
+        "voice": ""
+      }
+    ],
+    "slides": [],
+    "cta": "Send me your renewal letter before you sign it.",
+    "novelty": "No past piece for this client used a document as the hero object.",
+    "preview": "$R/engines/stills/out/deposit-trail--paper-trail/byran-peters/01.jpg"
+  },
+  {
+    "id": "B",
+    "title": "2021 vs 2026",
+    "hook": {
+      "main": "Same house. Same balance. $612 more a month.",
+      "alts": [
+        "The rate you locked in 2021 is about to expire.",
+        "Five years ago this payment was normal."
+      ]
+    },
+    "angle": "Side-by-side of a 2021 five-year fixed and the same balance renewing now; illustrative numbers with working shown.",
+    "clientFacts": [
+      "Dan Balch",
+      "Licensed Mortgage Broker · Lic. M08003485",
+      "Mortgage Renewals in London"
+    ],
+    "format": "carousel",
+    "engine": "stills",
+    "style": "broadsheet",
+    "styleWhy": "Broadsheet carries tables and numbers; strongest legibility for a comparison.",
+    "device": "split comparison",
+    "structure": "number → comparison table → why → 2 options → CTA",
+    "beats": [
+      {
+        "t": "1",
+        "visual": "Giant $612",
+        "text": "Same house. $612 more.",
+        "voice": ""
+      },
+      {
+        "t": "2",
+        "visual": "2021 column",
+        "text": "2021: 1.89% fixed",
+        "voice": ""
+      },
+      {
+        "t": "3",
+        "visual": "2026 column",
+        "text": "2026: illustrative 4.29%",
+        "voice": ""
+      },
+      {
+        "t": "4",
+        "visual": "Option cards",
+        "text": "Extend amortization or prepay",
+        "voice": ""
+      },
+      {
+        "t": "5",
+        "visual": "Footer + CTA",
+        "text": "Let's run your numbers.",
+        "voice": ""
+      }
+    ],
+    "slides": [],
+    "cta": "DM 'RENEWAL' and I'll run your numbers.",
+    "novelty": "Broadsheet used 3 times in the last 30 days for this client: flagged as repetitive.",
+    "preview": "$R/engines/stills/out/deposit-trail--broadsheet/dan-balch/01.jpg"
+  },
+  {
+    "id": "C",
+    "title": "The 120-day window",
+    "hook": {
+      "main": "You can lock a renewal rate 120 days early. Most people wait for the letter.",
+      "alts": [
+        "Day 120 is the day that matters, not the renewal date.",
+        "Your renewal starts four months before the letter arrives."
+      ]
+    },
+    "angle": "A countdown calendar: what to do at 120, 90, 30 and 0 days before renewal.",
+    "clientFacts": [
+      "Dan Balch",
+      "Mortgage Renewal / Transferring your mortgage"
+    ],
+    "format": "carousel",
+    "engine": "stills",
+    "style": "bento",
+    "styleWhy": "Bento grids hold a timeline of small, equal steps.",
+    "device": "countdown calendar",
+    "structure": "hook → 4 checkpoints → CTA",
+    "beats": [
+      {
+        "t": "1",
+        "visual": "Calendar, day 120 circled",
+        "text": "Day 120.",
+        "voice": ""
+      },
+      {
+        "t": "2",
+        "visual": "Tile: 120 days",
+        "text": "Shop and hold a rate",
+        "voice": ""
+      },
+      {
+        "t": "3",
+        "visual": "Tile: 90 days",
+        "text": "Compare against your lender",
+        "voice": ""
+      },
+      {
+        "t": "4",
+        "visual": "Tile: 30 days",
+        "text": "Paperwork in",
+        "voice": ""
+      },
+      {
+        "t": "5",
+        "visual": "Footer + CTA",
+        "text": "Book your 120-day check.",
+        "voice": ""
+      }
+    ],
+    "slides": [],
+    "cta": "Book your 120-day renewal check.",
+    "novelty": "Timeline device not used for this client before; 'tip-120-days' exists as a generic piece (different structure).",
+    "preview": "$R/engines/stills/out/fhsa-zero--bento/keaton-jim-thornton/01.jpg"
+  }
+]

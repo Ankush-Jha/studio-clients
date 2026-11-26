@@ -1,0 +1,170 @@
+{
+  "id": "anil-lakhiya",
+  "aliases": [],
+  "sheetId": "client-005",
+  "name": "Anil Lakhiya",
+  "people": [],
+  "city": null,
+  "province": null,
+  "region": "",
+  "group": null,
+  "video": null,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Legacy Mortgage Group",
+    "licence": null
+  },
+  "agent": {
+    "name": "Anil Lakhiya",
+    "title": "Mortgage Associate",
+    "licence": null
+  },
+  "contact": {
+    "phones": [
+      "780-719-7787"
+    ],
+    "emails": [
+      "anil@legacymortgagegroup.ca"
+    ],
+    "website": "https://aklmortgagesandwealth.ca/"
+  },
+  "services": [
+    "First time home buyer",
+    "New to Canada",
+    "Bridge Financing",
+    "Private lending",
+    "Commercial lending",
+    "Reverse Mortgages"
+  ],
+  "audience": "Serves Edmonton, Alberta, Across Canada (stated); focus: First-time home buyer, New to Canada, Private lending, Bridge financing, Reverse mortgage, Residential and commercial financing.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/5sANkKO6O2DdCD52dTeo8F/Anilkumar-Lakhiya",
+  "complianceLine": null,
+  "rules": [],
+  "assets": {
+    "photo": "assets/anil-lakhiya/photo.png",
+    "footer": "assets/anil-lakhiya/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/anil-lakhiya/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": null,
+    "secondary": null,
+    "variant": null
+  },
+  "missing": [
+    "video (footage reels allowed?)",
+    "stills (no roster style assigned; needs a group first)",
+    "complianceLine",
+    "brokerage.licence",
+    "agent.licence",
+    "city",
+    "province",
+    "group"
+  ],
+  "flags": [
+    "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+    "Footer website alwaystruefinancial.com differs from sheet website aklmortgagesandwealth.ca.",
+    "Brokerage name read from the footer image (Legacy Mortgage Group); licence numbers not shown anywhere.",
+    "Logo reads 'Always True Financial' with Legacy Mortgage Group.",
+    "Province unknown; treated as Ontario-strict: brokerage name + licence required before posting",
+    "website note: clients.json website aklmortgagesandwealth.ca redirects to alwaystruefinancial.com.",
+    "website note: Branding is inconsistent on the site: Always True Financial, AKL Mortgages & Wealth and Legacy Mortgage Group (mentioned as the brokerage) all appear. Confirm preferred name.",
+    "website note: No licence numbers on site. Office: Unit 206, 1230 91 Street SW, Edmonton AB T6X 0P2.",
+    "website note: Home page shows a 'Stellar Reviews' section and Google-posted testimonials, including at least one negative review quoted about the brokerage.",
+    "website note: WebSearch (3rd-party directory results, confidence: check): LinkedIn and AMBA list him at Legacy Mortgage Group (broker since Jan 2023); no Google rating found.",
+    "Accent #DEA74D has contrast 1.93:1 against paper (<3:1); pair with ink."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "languages": "default (no source)",
+    "brokerage.name": "footer image (read visually)",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "audience": "website: https://alwaystruefinancial.com/ (serviceAreas/specialties)",
+    "socials": "website: https://alwaystruefinancial.com/",
+    "bio": "website: https://alwaystruefinancial.com/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "default (no source)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "default"
+  },
+  "completeness": 0.571,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/anildoesmortgages",
+    "facebook": "https://www.facebook.com/AnilkumarLakhiya/",
+    "linkedin": "https://www.linkedin.com/in/anil-lakhiya-36500640/",
+    "tiktok": "https://www.tiktok.com/@anildoesmortgages"
+  },
+  "bio": "Anilkumar Lakhiya is a full-time mortgage broker and team lead in Edmonton with Legacy Mortgage Group, trading as Always True Financial (the site also names AKL Mortgages & Wealth). He has over a decade in finance and serves residential and commercial clients across Canada. The team page lists a licensed associate, an unlicensed underwriter and an assistant.",
+  "web": {
+    "url": "https://alwaystruefinancial.com/",
+    "fetched": "2026-11-19T14:40:00Z",
+    "tagline": "Mortgages Made Simple, Dreams Made Possible",
+    "yearsInBusiness": "10+ (about page: over a decade in finance)",
+    "serviceAreas": [
+      "Edmonton, Alberta",
+      "Across Canada (stated)"
+    ],
+    "specialties": [
+      "First-time home buyer",
+      "New to Canada",
+      "Private lending",
+      "Bridge financing",
+      "Reverse mortgage",
+      "Residential and commercial financing"
+    ],
+    "testimonialsCount": 9,
+    "notes": [
+      "clients.json website aklmortgagesandwealth.ca redirects to alwaystruefinancial.com.",
+      "Branding is inconsistent on the site: Always True Financial, AKL Mortgages & Wealth and Legacy Mortgage Group (mentioned as the brokerage) all appear. Confirm preferred name.",
+      "No licence numbers on site. Office: Unit 206, 1230 91 Street SW, Edmonton AB T6X 0P2.",
+      "Home page shows a 'Stellar Reviews' section and Google-posted testimonials, including at least one negative review quoted about the brokerage.",
+      "WebSearch (3rd-party directory results, confidence: check): LinkedIn and AMBA list him at Legacy Mortgage Group (broker since Jan 2023); no Google rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://alwaystruefinancial.com/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://alwaystruefinancial.com/about-us/",
+        "what": "bio"
+      },
+      {
+        "url": "https://alwaystruefinancial.com/team/",
+        "what": "team"
+      },
+      {
+        "url": "https://alwaystruefinancial.com/contact/",
+        "what": "contact"
+      },
+      {
+        "url": "https://web.amba.ca/Mortgage-Broker/Anilkumar-Lakhiya-5144",
+        "what": "AMBA (search, check)"
+      }
+    ],
+    "fonts": [
+      "Montserrat"
+    ],
+    "logoUrls": [
+      "https://alwaystruefinancial.com/wp-content/uploads/2026/01/logo.png"
+    ]
+  },
+  "colorsProvisional": true
+}

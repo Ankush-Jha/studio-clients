@@ -1,0 +1,47 @@
+{
+ "id": "wk1117-g1-october-number--terminal--story--scott-brouke",
+ "title": "Your city's October in one number [terminal, story, scott-brouke]",
+ "clients": [
+  "scott-brouke"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "terminal",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "Your city's October in one number",
+ "tags": [
+  "stills",
+  "wk1117-g1-october-number",
+  "terminal",
+  "story-format",
+  "group-1"
+ ],
+ "hook": "Our board’s number lands Nov 17.",
+ "logline": "Proof render of spec 'wk1117-g1-october-number' in the Terminal Card style for Scott Brouke, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "A generic market-terminal panel: one wide-to-narrow monospace, a command-line headline, dated data tables, zero-based charts with a crosshair, and the client accent as the one reverse-video alert.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1117-g1-october-number--terminal--story/scott-brouke",
+  "poster": "$R/engines/stills/out/wk1117-g1-october-number--terminal--story/scott-brouke/01.jpg",
+  "thumb": "library/thumbs/wk1117-g1-october-number--terminal--story--scott-brouke.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1117-g1-october-number.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

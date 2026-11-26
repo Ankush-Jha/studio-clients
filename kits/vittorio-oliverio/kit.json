@@ -1,0 +1,270 @@
+{
+  "id": "vittorio-oliverio",
+  "aliases": [],
+  "sheetId": "client-025",
+  "name": "Vittorio Oliverio",
+  "people": [],
+  "city": "Lethbridge",
+  "province": "AB",
+  "region": "",
+  "group": null,
+  "video": null,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Centum professional Mortgage Group Inc.",
+    "licence": null
+  },
+  "agent": {
+    "name": "Vittorio Oliverio",
+    "title": "Owner / Mortgage Broker (per search)",
+    "licence": null
+  },
+  "contact": {
+    "phones": [
+      "(403) 795 6054"
+    ],
+    "emails": [
+      "Vittorio@cpmg.ca"
+    ],
+    "website": "www.cpmg.ca"
+  },
+  "services": [
+    "First Time home buyers",
+    "Rental Mortgage",
+    "Refinancing",
+    "Mortgage Renewal",
+    "Bad Credit Mortgage"
+  ],
+  "audience": "Serves Lethbridge, Alberta; focus: First-time home buyers, Rental mortgages, Refinancing, Bruised-credit mortgages, Investment mortgages.",
+  "postingMode": "",
+  "postingTime": "9:30 AM (MST)",
+  "timeZone": "MST",
+  "figma": "https://www.figma.com/design/auYyHf6PDzbYWbi17gCjak/vittorio-oliverio-%7C-post",
+  "complianceLine": null,
+  "rules": [
+    {
+      "id": "r1",
+      "kind": "hashtags",
+      "text": "Hashtags: #MortgageBroker #CenterProfessionalMortgageGroup #Cpmg",
+      "appliesTo": [
+        "all"
+      ],
+      "since": "",
+      "source": "sheet special_requests",
+      "value": [
+        "#MortgageBroker",
+        "#CenterProfessionalMortgageGroup",
+        "#Cpmg"
+      ]
+    },
+    {
+      "id": "r2",
+      "kind": "rotation",
+      "text": "Use alternate associates on alternate days in the footer for the posts.",
+      "appliesTo": [
+        "static",
+        "carousel"
+      ],
+      "since": "",
+      "source": "sheet special_requests",
+      "value": "alternate associates on alternate days"
+    },
+    {
+      "id": "r3",
+      "kind": "footer",
+      "text": "For every associate use the phone number 403.380.4413 so the number is used and remembered.",
+      "appliesTo": [
+        "all"
+      ],
+      "since": "",
+      "source": "sheet special_requests",
+      "value": "403.380.4413"
+    },
+    {
+      "id": "r4",
+      "kind": "rotation",
+      "text": "15 July 2025 - Remove David from the posts for 4 weeks. Use Kim, Marty, Cara, Vittorio; put a hold on David and Clarke for 4 weeks.",
+      "appliesTo": [
+        "static",
+        "carousel"
+      ],
+      "since": "2025-07-15",
+      "source": "sheet special_requests",
+      "value": {
+        "use": [
+          "Kim",
+          "Marty",
+          "Cara",
+          "Vittorio"
+        ],
+        "hold": [
+          "David",
+          "Clarke"
+        ],
+        "weeks": 4
+      }
+    },
+    {
+      "id": "r5",
+      "kind": "rotation",
+      "text": "28 July 2025 - Skip David for a month; focus on Marty, Cara, Vittorio, Kim for August. In September add Clarke and Karen to the mix.",
+      "appliesTo": [
+        "static",
+        "carousel"
+      ],
+      "since": "2025-07-28",
+      "source": "sheet special_requests",
+      "value": {
+        "skip": [
+          "David"
+        ],
+        "august": [
+          "Marty",
+          "Cara",
+          "Vittorio",
+          "Kim"
+        ],
+        "september_add": [
+          "Clarke",
+          "Karen"
+        ]
+      }
+    },
+    {
+      "id": "r6",
+      "kind": "footer",
+      "text": "12 September 2025 - Use footers for Cara, Marry, Clarke, Karen, Vittorio.",
+      "appliesTo": [
+        "static",
+        "carousel"
+      ],
+      "since": "2025-09-12",
+      "source": "sheet special_requests",
+      "value": [
+        "Cara",
+        "Marry",
+        "Clarke",
+        "Karen",
+        "Vittorio"
+      ]
+    }
+  ],
+  "assets": {
+    "photo": "assets/vittorio-oliverio/photo.png",
+    "footer": "assets/vittorio-oliverio/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/vittorio-oliverio/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": null,
+    "secondary": null,
+    "variant": null
+  },
+  "missing": [
+    "video (footage reels allowed?)",
+    "associate footers for Cara, Marty/Marry, Clarke, Karen, Kim, David (only Vittorio's footer exists)",
+    "stills (no roster style assigned; needs a group first)",
+    "complianceLine",
+    "brokerage.licence",
+    "agent.licence",
+    "group"
+  ],
+  "flags": [
+    "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+    "sheet note: Footer phone for all associates: 403.380.4413",
+    "sheet note: Special requests lightly cleaned of typos; originals preserved in sheet",
+    "sheet photo note: We have only one image",
+    "Rotation requests overlap (15 Jul, 28 Jul, 12 Sep 2025); the 12 Sep 2025 request is the latest and does not list Kim. Sheet spells one associate 'Marry' (earlier 'Marty').",
+    "Hashtag text reads '#CenterProfessionalMortgageGroup' but the brokerage is 'Centum professional Mortgage Group Inc.'; kept exactly as the client wrote it.",
+    "website says phones ['403-380-4413'] (kit has ['(403) 795 6054'])",
+    "website says emails ['info@cpmg.ca'] (kit has ['Vittorio@cpmg.ca'])",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Address: 1261 2A Ave N, Lethbridge AB T1H 0G1.",
+    "website note: Site phone 403-380-4413 differs from clients.json (403) 795 6054 (the latter appears on third-party listings); Vittorio@cpmg.ca not shown on site (info@cpmg.ca).",
+    "website note: No licence numbers printed on the site.",
+    "website note: Search (check): https://www.centum.ca/agent/vittorio_oliverio ; https://www.provenexpert.com/en-us/vittorio-oliverio-centum-professional-mortgage-group-inc-mortgage-broker/ ; calgary page https://cpmg.ca/mortgage-broker-in-calgary/. No Google rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "clients.json location 'Lethbridge, Alberta'",
+    "province": "clients.json location 'Lethbridge, Alberta'",
+    "languages": "default (no source)",
+    "brokerage.name": "clients.json brokerage_name",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "posting": "clients.json posting_mode/posting_time/time_zone",
+    "figma": "clients.json figma_file",
+    "rules": "sheet special_requests (hand-mapped)",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "agent.title": "website: https://cpmg.ca/",
+    "audience": "website: https://cpmg.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://cpmg.ca/",
+    "bio": "website: https://cpmg.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "default"
+  },
+  "completeness": 0.714,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/cpmgmortgages",
+    "facebook": "https://www.facebook.com/centumprofessionalmortgagegroup/",
+    "linkedin": "https://www.linkedin.com/in/vittorio-oliverio-2b39ab21/"
+  },
+  "bio": "CPMG Mortgages (Centum Professional Mortgage Group) is Vittorio Oliverio's Lethbridge, Alberta brokerage. The site targets first-time buyers, homeowners and rental investors, citing more than a decade of industry experience and no cost to clients. It lists a team of six brokers (Marty Fekete, Cara Oliverio, Kim Holcek, Clarke Binning, David Boras, Daniel Hiebert) and offers case studies, a learning centre and a first-time-buyer guide.",
+  "web": {
+    "url": "https://cpmg.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Your Dream Home Deserves your Dream Mortgage",
+    "yearsInBusiness": "'More than a decade' (site); Centum profile in search says 29 years (check)",
+    "serviceAreas": [
+      "Lethbridge",
+      "Alberta"
+    ],
+    "specialties": [
+      "First-time home buyers",
+      "Rental mortgages",
+      "Refinancing",
+      "Bruised-credit mortgages",
+      "Investment mortgages"
+    ],
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Address: 1261 2A Ave N, Lethbridge AB T1H 0G1.",
+      "Site phone 403-380-4413 differs from clients.json (403) 795 6054 (the latter appears on third-party listings); Vittorio@cpmg.ca not shown on site (info@cpmg.ca).",
+      "No licence numbers printed on the site.",
+      "Search (check): https://www.centum.ca/agent/vittorio_oliverio ; https://www.provenexpert.com/en-us/vittorio-oliverio-centum-professional-mortgage-group-inc-mortgage-broker/ ; calgary page https://cpmg.ca/mortgage-broker-in-calgary/. No Google rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://cpmg.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://cpmg.ca/our-team/",
+        "what": "team"
+      },
+      {
+        "url": "https://cpmg.ca/contact-us/",
+        "what": "contact"
+      }
+    ],
+    "fonts": [
+      "Montserrat"
+    ],
+    "logoUrls": [
+      "https://cpmg.ca/wp-content/uploads/2026/04/logo.svg",
+      "https://cpmg.ca/wp-content/uploads/logo-2.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

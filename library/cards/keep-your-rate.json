@@ -1,0 +1,60 @@
+{
+ "id": "keep-your-rate",
+ "title": "Keep Your Rate",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-15",
+ "format": "graphic-reel",
+ "engine": "films",
+ "style": "brick-toy",
+ "lengthS": 55.5,
+ "fps": 24,
+ "size": "1080x1920",
+ "voice": "kokoro:am_onyx",
+ "music": "synthesized toy-pop score that stops dead twice and swells to brass for the scale reveal",
+ "topic": "Refinance vs HELOC or second mortgage when you hold a 3-4% mortgage and need $100K cash",
+ "tags": [
+  "refinance",
+  "heloc",
+  "second-mortgage",
+  "prepayment-penalty",
+  "brick-toy",
+  "loop",
+  "mortgage-broker"
+ ],
+ "hook": "Got a 3-4% mortgage and need cash? Don't refinance the whole thing. Not yet.",
+ "logline": "A homeowner with a gold tower of five $100K bricks at 3-4% needs one more brick and nearly lets a REFINANCE wrecking ball knock the whole tower down to get it.",
+ "structure": "One tower's near-miss. Setup 0-14s (hook, tower = $500K at 3-4%, need = one red $100K brick), turn 14-25s (wrecking ball swings, silence, collapse, prepayment penalty, then the film rewinds it), resolution 25-44s (red brick of HELOC or second mortgage snaps on top, caveats, see-saw: sometimes refinancing still wins), payoff 44-55s (crane to the kitchen-table calculator: run the numbers). Ends on the ball swinging in again = frame 1.",
+ "device": "gold tower of five $100K bricks, a brick wrecking ball labelled REFINANCE, a real rigid-body collapse then stop-motion rewind, one red brick snapped on top; camera on ones, bricks and character on twos",
+ "rejectedStyles": [
+  "data-physical (needs a published statistic with source line)",
+  "spreadsheet (12px chrome, homework feel)",
+  "bauhaus-shapes (explains the ratio, not the temptation)"
+ ],
+ "rejectedStructures": [
+  "countdown of mistakes: a list with no through-line or turn",
+  "before/after split: two half-width towers, answer shown before the question"
+ ],
+ "files": {
+  "final": "~/Desktop/mortgage-reels/keep-your-rate.mp4",
+  "poster": "$R/graphic reels/keep-your-rate/poster.jpg",
+  "thumb": "library/thumbs/keep-your-rate.jpg",
+  "treatment": "$R/graphic reels/keep-your-rate/TREATMENT.md",
+  "project": "$R/graphic reels/keep-your-rate",
+  "alt": [
+   "~/Desktop/mortgage-reels/keep-your-rate_ig.mp4"
+  ]
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "PLAYBOOK 'How the first three reels measure up': it ends on a generic 'Message me' end card; cut it and loop instead.",
+  "Safe area: text runs down to about y 1480, below the y 1248 bottom limit.",
+  "AI label: Kokoro TTS voiceover, so apply Instagram's AI label when posting.",
+  "Audio bitrate: the _ig file carries about 192 kbps AAC; re-encode to 128 kbps if posting through the API.",
+  "Frame rate: 24 fps (Brick Toy rate); new work should be 30 fps."
+ ],
+ "source": "seed",
+ "hookPattern": "viewer-situation-warning"
+}

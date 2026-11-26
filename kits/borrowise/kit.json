@@ -1,0 +1,160 @@
+{
+  "id": "borrowise",
+  "aliases": [],
+  "sheetId": "client-028",
+  "name": "Borrowise",
+  "people": [],
+  "city": null,
+  "province": "ON",
+  "region": "",
+  "group": 2,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": null,
+    "licence": null
+  },
+  "agent": {
+    "name": "Borrowise",
+    "title": "",
+    "licence": "#M24001608"
+  },
+  "contact": {
+    "phones": [],
+    "emails": [
+      "support@borrowise.ca"
+    ],
+    "website": "www.borrowise.ca"
+  },
+  "services": [
+    "First-time home buyers",
+    "Mortgage refinance",
+    "Reverse mortgage",
+    "Equity-based mortgages",
+    "HELOC",
+    "Bad credit mortgages"
+  ],
+  "audience": "Serves Ottawa, Ontario; focus: First-time home buyers, Mortgage refinance, Reverse mortgage, Equity-based mortgages, HELOC, Bad credit mortgages.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/EnGRRpQULgzZLVgcqLjcMO/Borrowise",
+  "complianceLine": null,
+  "rules": [],
+  "assets": {
+    "photo": null,
+    "footer": "assets/borrowise/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/borrowise/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "cutout",
+    "secondary": "magazine",
+    "variant": "a"
+  },
+  "missing": [
+    "agent.title",
+    "contact.phones",
+    "complianceLine",
+    "brokerage.name",
+    "brokerage.licence",
+    "city"
+  ],
+  "flags": [
+    "seed: Brand account; city not given in the sheet",
+    "sheet note: No contact details in sheet",
+    "sheet photo note: Client doesnt want image",
+    "Ontario: brokerage name + licence required before posting",
+    "website note: Site contains template/boilerplate text that does not belong to a Canadian brokerage: Irish references (RTE1 Morning Ireland, SEAI grants, ECB) and an unrelated 'invoicing' testimonial; do not reuse.",
+    "website note: bookingUrl is only a Calendly widget reference; no person-specific URL.",
+    "website note: WebSearch (3rd-party directory results, confidence: check): borrowise.ca/rates/ottawa and solo.to/borrowise: 'Borrowise and Mortgage Intelligence, Brokerage Lic: #10428', phone +1 343 353 0081, Unit 140 - 14 Colonnade Rd, Ottawa ON K2E 7M6 (3rd-party/own-pages, check). A 4.9 stars / 48 Google reviews figure appears on a web agency mockup page (superkreatives.ca) and is NOT verified.",
+    "website note: clients.json has no website, emails or licence for Borrowise; website and email taken from footer.png."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "contact": "footer image (read visually)",
+    "figma": "clients.json figma_file",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "photo": "clients.json photo_notes: client doesn't want image assets",
+    "stills": "engines/stills/library/roster.json",
+    "agent.licence": "website: https://borrowise.ca/ (Agent Licence, about page footer)",
+    "services": "website: https://borrowise.ca/",
+    "audience": "website: https://borrowise.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://borrowise.ca/",
+    "bio": "website: https://borrowise.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.ink": "default (no source)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'cutout' (STYLES.md)"
+  },
+  "completeness": 0.692,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/borrowisecanada?igsh=anhpaHdobGZkZ3lz",
+    "facebook": "https://www.facebook.com/profile.php?id=61566941206367",
+    "linkedin": "https://www.linkedin.com/company/105210780",
+    "x": "https://x.com/borrowiseca"
+  },
+  "bio": "Borrowise presents itself as a digital-first Ottawa mortgage brokerage offering first-time buyer, refinance, reverse mortgage, equity-based and HELOC mortgages, with online qualification and access to many lenders. The site claims to offer the lowest applicable rate up front, a 1% cashback option and a 150-day rate hold. Only an agent licence and a support email are published; no individual broker is named.",
+  "web": {
+    "url": "https://borrowise.ca/",
+    "fetched": "2026-11-19T14:40:00Z",
+    "tagline": "Custom Mortgage Solutions Built with your Need",
+    "serviceAreas": [
+      "Ottawa, Ontario"
+    ],
+    "specialties": [
+      "First-time home buyers",
+      "Mortgage refinance",
+      "Reverse mortgage",
+      "Equity-based mortgages",
+      "HELOC",
+      "Bad credit mortgages"
+    ],
+    "bookingUrl": "https://calendly.com (embedded widget; no specific booking URL captured)",
+    "notes": [
+      "Site contains template/boilerplate text that does not belong to a Canadian brokerage: Irish references (RTE1 Morning Ireland, SEAI grants, ECB) and an unrelated 'invoicing' testimonial; do not reuse.",
+      "bookingUrl is only a Calendly widget reference; no person-specific URL.",
+      "WebSearch (3rd-party directory results, confidence: check): borrowise.ca/rates/ottawa and solo.to/borrowise: 'Borrowise and Mortgage Intelligence, Brokerage Lic: #10428', phone +1 343 353 0081, Unit 140 - 14 Colonnade Rd, Ottawa ON K2E 7M6 (3rd-party/own-pages, check). A 4.9 stars / 48 Google reviews figure appears on a web agency mockup page (superkreatives.ca) and is NOT verified.",
+      "clients.json has no website, emails or licence for Borrowise; website and email taken from footer.png."
+    ],
+    "sources": [
+      {
+        "url": "https://borrowise.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://borrowise.ca/about-us/",
+        "what": "licence footer"
+      },
+      {
+        "url": "https://borrowise.ca/contact-us/",
+        "what": "FAQ"
+      },
+      {
+        "url": "https://solo.to/borrowise",
+        "what": "search, check"
+      }
+    ],
+    "fonts": [
+      "Gilroy",
+      "Mont"
+    ],
+    "logoUrls": [
+      "https://borrowise.ca/wp-content/uploads/2024/08/logo.svg",
+      "https://borrowise.ca/wp-content/uploads/2024/08/logo-white.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

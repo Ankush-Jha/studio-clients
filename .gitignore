@@ -1,0 +1,11 @@
+.DS_Store
+# renders are big and reproducible from the job's project files; keep the text track record
+jobs/**/project/
+jobs/**/*.mp4
+jobs/**/*.mov
+jobs/**/*.wav
+jobs/**/*.mp3
+jobs/**/*.jpg
+jobs/**/*.png
+jobs/**/*.gif
+jobs/**/frames/

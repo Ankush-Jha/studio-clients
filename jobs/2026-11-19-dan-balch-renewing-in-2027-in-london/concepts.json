@@ -1,0 +1,565 @@
+[
+  {
+    "id": "A",
+    "title": "Three 2027 renewals on one London street",
+    "hook": {
+      "main": "Three 2027 renewals. One payment jumps.",
+      "spoken": "Three neighbours on one London street renew in 2027. Same mortgage. Only one of them gets the payment jump.",
+      "pattern": "Same X, different outcome",
+      "alts": [
+        {
+          "pattern": "One question decides",
+          "text": "Will your 2027 renewal cost more? One date decides it, and it isn't renewal day."
+        },
+        {
+          "pattern": "Exact-number cold open",
+          "text": "+$402 or -$200 a month. Same $500K mortgage, same 2027 renewal year."
+        }
+      ]
+    },
+    "angle": "Every competitor tells 2027 renewers to brace for payment shock. Bank of Canada data says that only holds for people who signed before rates climbed. On one illustrative London street, three neighbours with the same $500,000 mortgage renew in 2027: the Feb 2022 signer pays about $402 more a month, while the Nov 2022 and Mar 2024 signers pay less at today's average rate. The viewer guesses which one before the reveal, then learns the two moves that matter for both groups, including the lender switch (Dan's renewals and transfers service) that no longer needs a new stress test.",
+    "clientFacts": [
+      "City: London, Ontario (the street and the dateline 'London, Ont.')",
+      "Service: 'Mortgage Renewal/ Transferring your mortgage' (the straight-switch slide is a transfer)",
+      "Service: 'Mortgage Renewals In London'",
+      "Service area: Komoka (caption line, not on slides)"
+    ],
+    "format": "carousel (feed 1080x1350, 9 slides: 1080x1080 square render + kit footer band)",
+    "engine": "broker-stills",
+    "style": "broadsheet",
+    "variant": "a",
+    "styleWhy": "This is a data story told against the received news ('renewal shock'), so the Front Page lets the reveal land as a correction on the record, with each neighbour's payment run as the graphic in place of a news photo and 'Continued on slide N' doing the swiping.",
+    "device": "A fictional front page, 'The 2027 Renewal Report', dateline London, Ont.: three neighbours A, B and C sit as three columns on the front page with their signing date and rate; the guess is set on slide 2; the inner pages are one graphic page per neighbour (halftone bars from $0: payment then vs payment at renewal, spot colour on the new payment).",
+    "structure": "Carousel 9: hook, second hook (pick one), three reveals, why, what to do if you pay less, save-worthy recap, one send CTA. Guess-then-reveal runs from slide 2 to slide 5.",
+    "mechanic": {
+      "type": "guess-then-reveal",
+      "how": "Slide 2 lists the three neighbours (A: Feb 2022 at 2.81%, B: Nov 2022 at 5.17%, C: Mar 2024 3-year at 5.43%) and says 'Pick the one whose payment jumps, then swipe.' Slides 3-5 reveal them one by one, so the viewer has to swipe to check their guess. Most people pick wrong, because they expect all three to go up."
+    },
+    "slides": [
+      {
+        "n": 1,
+        "role": "hook (front page)",
+        "type": "cover",
+        "text": "Kicker: London, Ont. · Renewing in 2027 | Headline: Three 2027 renewals. One payment jumps. | Dek: Same $500,000 mortgage, same street. Only the signing date differs.",
+        "visual": "Front page, variant a: nameplate 'The 2027 Renewal Report' in blackletter, ears 'Illustrative edition' / 'No. 01 of 09'. Art box: a three-column 'figure box' with A, B, C as big Franklin letters and their signing month under each (no payments yet). 'Continued on slide 2' jump line."
+      },
+      {
+        "n": 2,
+        "role": "second hook (the guess)",
+        "type": "steps",
+        "text": "Pick one before you swipe. | A · Signed Feb 2022 · 5-yr fixed at 2.81% | B · Signed Nov 2022 · 5-yr fixed at 5.17% | C · Signed Mar 2024 · 3-yr fixed at 5.43% | Whose payment jumps in 2027?",
+        "visual": "'In brief' box with a reversed label 'Your guess', items tagged A/B/C. Fine line: average rate on new uninsured mortgages that month (Bank of Canada). Illustrative neighbours."
+      },
+      {
+        "n": 3,
+        "role": "reveal A",
+        "type": "number",
+        "text": "Label: Neighbour A | Title: Feb 2022 signer: {delta} more a month | Callout: {a} now, {b} at renewal",
+        "calc": {
+          "kind": "payment-compare",
+          "principal": 425801.72,
+          "amortYears": 20,
+          "rates": [
+            2.81,
+            4.66
+          ]
+        },
+        "assumptions": "Illustrative. $500,000 borrowed Feb 2022, 25-year amortization, 2.81%, balance at Feb 2027 renewal $425,802 with 20 years left; renewal at 4.66% (Bank of Canada average for new uninsured 5-year+ fixed, Sep 2026). Semi-annual compounding. Your rate will differ.",
+        "visual": "Graphic page: two halftone bars from $0 ($2,318 then, $2,720 at renewal), the renewal bar in spot colour; 'Source and assumptions.' line."
+      },
+      {
+        "n": 4,
+        "role": "reveal B",
+        "type": "number",
+        "text": "Label: Neighbour B | Title: Nov 2022 signer: about $122 less a month | Callout: {a} now, {b} at renewal",
+        "calc": {
+          "kind": "payment-compare",
+          "principal": 443710.91,
+          "amortYears": 20,
+          "rates": [
+            5.17,
+            4.66
+          ]
+        },
+        "assumptions": "Illustrative. $500,000 borrowed Nov 2022, 25 years, 5.17%; balance at Nov 2027 renewal $443,711, 20 years left; renewal at 4.66% (Sep 2026 average). Semi-annual compounding.",
+        "visual": "Same graphic page grammar, bars now step down; the shorter renewal bar in spot colour. Copy uses calc fill for the saving (director: the payment-compare delta is negative here; print it as a saving, e.g. a {deltaAbs} fill or swap the rates order and word the title accordingly)."
+      },
+      {
+        "n": 5,
+        "role": "reveal C",
+        "type": "number",
+        "text": "Label: Neighbour C | Title: Mar 2024 signer: about $200 less a month | Callout: {a} now, {b} at renewal",
+        "calc": {
+          "kind": "payment-compare",
+          "principal": 469048.47,
+          "amortYears": 22,
+          "rates": [
+            5.43,
+            4.66
+          ]
+        },
+        "assumptions": "Illustrative. $500,000 borrowed Mar 2024, 25 years, 3-year fixed at 5.43% (Bank of Canada average, new uninsured 3- to 5-year fixed); balance at Mar 2027 renewal $469,048, 22 years left; renewal at 4.66%. Semi-annual compounding.",
+        "visual": "Graphic page, bars step down further; jump line 'Continued on slide 6'."
+      },
+      {
+        "n": 6,
+        "role": "the turn (why)",
+        "type": "point",
+        "text": "Eyebrow: Why | Text: The rate you signed decides more than the 2027 rate does. | Note: Signed below today's average? Expect a bigger payment. Signed above it? You may pay less.",
+        "visual": "Wood page: headline grows to fill; italic deck as the note."
+      },
+      {
+        "n": 7,
+        "role": "re-hook (what the lower group still misses)",
+        "type": "point",
+        "text": "Eyebrow: Paying less? | Text: A smaller payment is still not a reason to sign the first offer. | Note: Moving to another lender with the same balance and amortization needs no new stress test.",
+        "visual": "Wood page on a spot-colour flag; the note carries the straight-switch rule (insured and uninsured, federally regulated lenders; the new lender still approves you)."
+      },
+      {
+        "n": 8,
+        "role": "save-worthy recap",
+        "type": "recap",
+        "text": "Title: Your 2027 renewal, in brief | Find the rate you signed | Below about 4.66%: plan for a higher payment, start shopping 120 days out | Above it: you may pay less, still compare | Switching lenders, same balance: no new stress test",
+        "visual": "'In brief' box, items spread down the box, reversed label."
+      },
+      {
+        "n": 9,
+        "role": "CTA (send)",
+        "type": "cta",
+        "action": "send",
+        "text": "Headline: Send this to the neighbour who signed in early 2022. | Sub: They are the one renewal on the street that goes up.",
+        "visual": "'Notice to readers' double-ruled box; compliance block as the imprint ('Published by' Dan Balch, Licensed Mortgage Broker · Mortgage Architects · Lic. #12728)."
+      }
+    ],
+    "cta": "Send this to the neighbour who signed in early 2022.",
+    "sendTest": "A London homeowner who signed in late 2022 (and now learns they may pay less) forwards it to the friend or sibling who bought in the Feb 2022 rush. Adult kids send it to parents renewing in Komoka.",
+    "numbers": [
+      {
+        "claim": "A: $2,318 to $2,720 a month (+$402, from rounded figures)",
+        "working": "P=$500,000, 25y, 2.81%, semi-annual: payment 2,317.75; balance after 60 payments 425,801.72; payment on 425,801.72 over 20y at 4.66% = 2,720.43",
+        "result": "+$402/month (exact +$402.67)"
+      },
+      {
+        "claim": "B: $2,957 to $2,835 a month (about -$122)",
+        "working": "5.17%: payment 2,956.60; balance after 60 = 443,710.91; at 4.66% over 20y = 2,834.85",
+        "result": "-$122/month (exact -$121.75)"
+      },
+      {
+        "claim": "C: $3,032 to $2,832 a month (about -$200)",
+        "working": "5.43%: payment 3,031.61; balance after 36 = 469,048.47; at 4.66% over 22y = 2,831.94",
+        "result": "-$200/month (exact -$199.67)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Bank of Canada Valet V122667786: effective rate, new uninsured fixed mortgages 5 years and over (Feb 2022 2.81%, Nov 2022 5.17%, Sep 2026 4.66%)",
+        "url": "https://www.bankofcanada.ca/valet/observations/V122667786/json?start_date=2021-12-01",
+        "date": "2026-11-19 (fetched; latest observation 2026-09-01)"
+      },
+      {
+        "name": "Bank of Canada Valet V122667785: effective rate, new uninsured fixed mortgages 3 to under 5 years (Mar 2024 5.43%)",
+        "url": "https://www.bankofcanada.ca/valet/observations/V122667785/json?start_date=2024-01-01",
+        "date": "2026-11-19 (fetched)"
+      },
+      {
+        "name": "Bank of Canada Financial Stability Report 2026, Households (pandemic-era 5-year fixed renewals, payments up about 15% on average; others little change)",
+        "url": "https://www.bankofcanada.ca/publications/financial-stability-report/financial-stability-report-2026/households/",
+        "date": "2026-05-28"
+      },
+      {
+        "name": "OSFI: uninsured straight switches exempt from the MQR (Nov 21, 2024)",
+        "url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/osfi-exempts-uninsured-mortgage-straight-switches-prescribed-mqr-implements-portfolio-lti-limits",
+        "date": "2024-11-21"
+      },
+      {
+        "name": "Finance Canada: Straight switches and portfolio insurance",
+        "url": "https://www.canada.ca/en/department-finance/news/2024/12/straight-switches-and-portfolio-insurance.html",
+        "date": "2024-12"
+      }
+    ],
+    "risks": [
+      "4.66% is the Bank of Canada September 2026 average, before the Oct 28 hike and the November bond-yield climb. On render day, re-pull V122667786 (an October figure may be out) and recompute; the story holds if the renewal rate stays below 5.17% (B) and 5.43% (C). At 4.95% (nesto's advertised uninsured 5-year, Nov 15) B still pays less (about -$53) and C about -$125, while A rises about $469 (checked in Python).",
+      "Use 'average rate on new mortgages that month', never 'the rate everyone got'. No lender names.",
+      "O. Reg. 191/08: these are market averages in a worked example, not an advertised rate offer; still keep term and 'illustrative' next to every rate, and the APR question goes to compliance review."
+    ],
+    "build": "payment-compare covers every reveal (principal = balance at renewal, amortYears = years left: the old payment on that balance equals the original payment). The balances are inputs computed outside calc.mjs, so they go into script.json math[] with Python working. Slide 4/5 have a negative delta: word titles from the calc fill or order the rates so the copy reads as a saving. Broadsheet square format failed 'overlap' on a number slide once: keep titles short.",
+    "novelty": {
+      "command": "variety.py --client dan-balch --format carousel --style broadsheet --device \"front page with three neighbours' renewal columns, guess-then-reveal halftone payment bars\" --hook-pattern same-x-different-outcome --topic \"2027 mortgage renewal payment by signing year London\"",
+      "score": 1.0,
+      "conflicts": [],
+      "withDrafts": {
+        "score": 0.85,
+        "conflicts": [
+          {
+            "severity": "soft",
+            "rule": "style-used-in-last-7-days",
+            "detail": "'broadsheet' used for gaurav-makhija on 2026-11-16 (wk1118-g4-budget-verdict); 10 uses in 7 days"
+          }
+        ]
+      },
+      "note": "Dan's most recent draft is paper-trail (wk1118 budget verdict), so broadsheet is the right next style for this account. Group 2 already ran the 21-day renewal letter (annotated) and Group 3 the renewal-day lump sum; neither is the lead here."
+    },
+    "preview": "/Users/ankushjha/Work/bots/graphic reels/content-desk/statics/out/deposit-trail--broadsheet/dan-balch/01.jpg"
+  },
+  {
+    "id": "B",
+    "title": "The 20%-down trap: London's 2022 buyers",
+    "hook": {
+      "main": "20% down in 2022. Fewer options now.",
+      "spoken": "Bought in London in early 2022 with 20% down? At your 2027 renewal you may have fewer lenders to choose from than the buyer who put less down.",
+      "pattern": "Who the rule catches (short sweeping claim viewers want to check; LESSONS 2026-11-17/19)",
+      "alts": [
+        {
+          "pattern": "Exact-number cold open",
+          "text": "$825,221 then. $601,289 now. London's average price, and the start of your 2027 renewal."
+        },
+        {
+          "pattern": "Myth snapback",
+          "text": "20% down felt like the safe move in 2022. At a 2027 renewal, the buyer with less down can have more lenders to pick from."
+        }
+      ]
+    },
+    "angle": "London had one of Ontario's sharpest peak-to-now drops: the LSTAR average was $825,221 in Feb 2022 and $601,289 in Oct 2026, about 27% lower. A buyer who put exactly 20% down near the peak has an uninsured mortgage, and a new lender usually won't take an uninsured loan above 80% of today's value. In the illustrative example the loan is 93.5% of value at the Feb 2027 renewal. The twist people want to check: the neighbour who put the minimum down has an insured mortgage, which can usually still move. This is about which lenders can bid on a 2027 renewal, and Dan's renewals and transfers work lives there.",
+    "clientFacts": [
+      "City: London, Ontario (LSTAR region prices, Feb 2022 vs Oct 2026)",
+      "Service: 'Mortgage Renewal/ Transferring your mortgage' (who can transfer, who can't)",
+      "Province: Ontario (insured/uninsured rules, FSRA compliance line)",
+      "Service area: Komoka (caption only)"
+    ],
+    "format": "carousel (feed 1080x1350, 9 slides: square render + kit footer band)",
+    "engine": "broker-stills",
+    "style": "paper-trail",
+    "variant": "a",
+    "styleWhy": "The whole story is 'what the lender sees on paper', a 2022 mortgage statement against a 2027 value, so the Paper Trail desk lets the red pencil circle the one line that decides who can switch, and the slide-7 index card becomes a worksheet the viewer fills in with their own balance.",
+    "device": "One illustrative file on a navy-black desk: the Feb 2022 mortgage-advance line on the cover, then a statement whose balance line and 'value today' line are circled in red pencil, a typed slip with the LTV; the twist is two notice cards side by side (20% down: uninsured / less down: insured, the second circled); slide 7 is a blank index card with ruled lines for the viewer's own numbers; the CTA is the closed manila file.",
+    "structure": "Carousel 9: hook, local price proof (second hook), the rule, the worked example, the twist, what to do if over 80%, fill-in worksheet, recap, save CTA.",
+    "mechanic": {
+      "type": "fill-in-your-own-number worksheet + save",
+      "how": "Slide 7 is a typed index card with blanks: 'My balance $____ ÷ my home's value today $____ = ____%'. Under 80%: lenders can compete. Over 80%: start early. The viewer does the sum with their next statement, which is why they save it."
+    },
+    "slides": [
+      {
+        "n": 1,
+        "role": "hook",
+        "type": "cover",
+        "text": "Label: London · Renewing in 2027 | Headline: 20% down in 2022. Fewer options now. | Slip: Prices here fell. Your loan may now be over 80% of the home's value.",
+        "doc": {
+          "kind": "statement-line",
+          "amount": 660000,
+          "date": "Feb 2022",
+          "label": "Mortgage advanced"
+        },
+        "visual": "Desk = Dan's navy taken to near-black. Statement line 'Feb 2022 · Mortgage advanced · 660,000.00' circled in red pencil, ILLUSTRATIVE stamp, typed slip clipped bottom-left, 'Turn the page' cue."
+      },
+      {
+        "n": 2,
+        "role": "second hook (local proof)",
+        "type": "compare",
+        "text": "Title: London's average price | Left: Feb 2022 · $825,221 | Right: Oct 2026 · $601,289 | Verdict: About 27% lower. A new lender uses today's value, not your price.",
+        "visual": "Two notice cards (typed 'LSTAR average sale price'), the Oct 2026 card circled in red pencil; source line as the card footnote."
+      },
+      {
+        "n": 3,
+        "role": "the rule",
+        "type": "point",
+        "text": "Eyebrow: The rule | Text: Put 20% or more down? Your mortgage is uninsured. To move it, a new lender usually needs it at 80% of today's value or less. | Note: Your current lender can still renew you.",
+        "visual": "'Note to file' document; the note as the clipped slip."
+      },
+      {
+        "n": 4,
+        "role": "worked example",
+        "type": "stat",
+        "text": "Headline: Illustrative: bought Feb 2022 | Facts: Paid $825,000 · 20% down | Balance at Feb 2027 renewal: $562,058 | Value if it followed the average: $601,128 | Loan-to-value: 93.5% (emphasis)",
+        "visual": "Summary document typed in Courier; the 93.5% line circled in red pencil; footnote with assumptions: $660,000 at 2.81% (Bank of Canada average new uninsured 5-year+ fixed, Feb 2022), 25 years, semi-annual; value scaled by LSTAR average Feb 2022 to Oct 2026. Your home may differ; an appraisal decides."
+      },
+      {
+        "n": 5,
+        "role": "the twist (re-hook)",
+        "type": "compare",
+        "text": "Title: Same street, different down payment | Left: 20% down · uninsured · over 80% usually stays put | Right: Less than 20% down · insured · can usually still switch | Verdict: The insurance stays with the loan.",
+        "visual": "Two notice cards, the right one (insured) circled; verdict as a yellow-underlined desk note."
+      },
+      {
+        "n": 6,
+        "role": "what to do if over 80%",
+        "type": "point",
+        "text": "Eyebrow: Over 80%? | Text: Start before the letter. Get your lender's offer in writing early, and ask a broker which lenders can still look at your file. | Note: At maturity you can usually prepay any amount without a penalty.",
+        "visual": "'Note to file' with the second sentence circled."
+      },
+      {
+        "n": 7,
+        "role": "fill-in worksheet (engagement)",
+        "type": "steps",
+        "text": "Title: Your number | My balance: $______ | My home's value today: $______ | Balance ÷ value = ______% | Under 80%: lenders can compete for you | Over 80%: start early",
+        "visual": "Index card on its blue rules with blank typed lines for the viewer; pencil tick boxes by the last two lines."
+      },
+      {
+        "n": 8,
+        "role": "save-worthy recap",
+        "type": "recap",
+        "text": "Title: Before your 2027 renewal | Balance from your latest statement | A realistic value (recent sales on your street) | Divide | Over 80% and uninsured: plan 4 to 6 months out",
+        "visual": "Second index card, typed numbers 1-4."
+      },
+      {
+        "n": 9,
+        "role": "CTA (save)",
+        "type": "cta",
+        "action": "save",
+        "text": "Headline: Save this. Do the sum the day your next statement comes. | Sub: Renewing in London or Komoka in 2027? Start with this number.",
+        "visual": "Closed manila folder with the licence label (compliance block) and ILLUSTRATIVE FILE stamp."
+      }
+    ],
+    "cta": "Save this. Do the sum the day your next statement comes.",
+    "sendTest": "A London couple who bought in the Feb 2022 bidding wars sends it to the friends who bought the same spring ('this is us'); the friend who put 7% down sends it back with 'wait, we're fine?'. Realtors who sold in 2022 forward it to past clients.",
+    "numbers": [
+      {
+        "claim": "Average price about 27% lower",
+        "working": "(825,221 - 601,289) / 825,221 = 0.2714",
+        "result": "27.1% lower (LSTAR averages, Feb 2022 vs Oct 2026)"
+      },
+      {
+        "claim": "Balance at Feb 2027 renewal $562,058",
+        "working": "$660,000 (80% of $825,000), 25y, 2.81%, semi-annual: payment 3,059.43; balance after 60 payments 562,058.27",
+        "result": "$562,058"
+      },
+      {
+        "claim": "Value if it followed the average $601,128",
+        "working": "825,000 x 601,289 / 825,221 = 601,127.97",
+        "result": "$601,128"
+      },
+      {
+        "claim": "LTV 93.5%",
+        "working": "562,058.27 / 601,127.97 = 0.935",
+        "result": "93.5% (80% would be a balance of $480,902; gap about $81,156)"
+      },
+      {
+        "claim": "Minimum down at $825,000 (insured buyer)",
+        "working": "5% x 500,000 + 10% x 325,000 = 25,000 + 32,500",
+        "result": "$57,500 (about 7%)"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Global News / 980 CFPL: LSTAR February 2022 average $825,221, composite benchmark $749,000",
+        "url": "https://globalnews.ca/news/8656667/home-price-london-st-thomas-real-estate-february-lstar/",
+        "date": "2022-03-03"
+      },
+      {
+        "name": "LSTAR October 2026 release 'Housing Sales Remain Steady in October' (average $601,289; 557 sales), as reproduced by WOWA (updated 2026-11-09); LSTAR page itself did not render, so CHECK against lstar.ca before render",
+        "url": "https://lstar.ca/articles/housing-sales-remain-steady-in-october",
+        "date": "2026-11 (check)"
+      },
+      {
+        "name": "WOWA London housing market report (LSTAR data, Oct 2026 average $601,289; record $825,221 Feb 2022)",
+        "url": "https://wowa.ca/london-housing-market",
+        "date": "2026-11-09"
+      },
+      {
+        "name": "Bank of Canada Valet V122667786: effective rate, new uninsured fixed mortgages 5 years and over (Feb 2022 2.81%, Nov 2022 5.17%, Sep 2026 4.66%)",
+        "url": "https://www.bankofcanada.ca/valet/observations/V122667786/json?start_date=2021-12-01",
+        "date": "2026-11-19 (fetched; latest observation 2026-09-01)"
+      },
+      {
+        "name": "Broker explainers on the 80% LTV limit for uninsured switches (CMS Mortgages; Pekoe); rule basis: federally regulated lenders need default insurance above 80% LTV",
+        "url": "https://cmsmortgages.ca/can-you-switch-mortgage-lenders-if-gta-home-value-dropped/",
+        "date": "2026-11-19 (searched)"
+      },
+      {
+        "name": "Finance Canada: Straight switches and portfolio insurance",
+        "url": "https://www.canada.ca/en/department-finance/news/2024/12/straight-switches-and-portfolio-insurance.html",
+        "date": "2024-12"
+      },
+      {
+        "name": "OSFI: uninsured straight switches exempt from the MQR (Nov 21, 2024)",
+        "url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/osfi-exempts-uninsured-mortgage-straight-switches-prescribed-mqr-implements-portfolio-lti-limits",
+        "date": "2024-11-21"
+      }
+    ],
+    "risks": [
+      "The Oct 2026 LSTAR average ($601,289) is confirmed only through two secondary sources reproducing LSTAR (the lstar.ca page did not render). Per the 2026-11-17 LESSONS proposal, a 'check' figure stays off screen: open the LSTAR release before render or swap slide 2 to the confirmed Feb 2022 figure plus a dated caption-only reference.",
+      "Tone: this sits next to distress content (LESSONS: distress stats never in the hook). Keep it a planning post: 'may', 'usually', no 'trapped' or 'stuck' on screen, and the 'your lender can still renew you' line on slide 3.",
+      "The 80% rule is how federally regulated lenders work (insurance required above 80%); some credit unions and alternative lenders differ. Keep 'usually' and 'a new lender' wording; never imply private lending is the fix.",
+      "Insured switch: 'can usually still switch' plus the new lender's own approval; insured straight switches are stress-test exempt under the Mortgage Charter."
+    ],
+    "build": "Paper-trail renders cover doc, compare cards, stat summary document and index cards from existing slide types. There is no 'ltv' calc kind in lib/calc.mjs: the 27%, $562,058, $601,128 and 93.5% would be typed copy, which AUTHORING forbids ('numbers come from calc'). Director must either get a small 'ltv' calc kind added (balance after k payments, scaled value, ratio; plus a mathcheck rule) or treat it as a known gap at Gate 2. Slide 7 blanks must stay >= 28 px in square.",
+    "novelty": {
+      "command": "variety.py --client dan-balch --format carousel --style paper-trail --device \"a 2022 purchase statement on the desk, the loan-to-value line circled in red pencil, fill-in LTV worksheet\" --hook-pattern who-it-catches --topic \"2027 renewal home value equity loan-to-value London switch lenders\"",
+      "score": 1.0,
+      "conflicts": [],
+      "withDrafts": {
+        "score": 0.25,
+        "conflicts": [
+          {
+            "severity": "hard",
+            "rule": "same-style-as-last-piece",
+            "detail": "dan-balch's last piece (wk1118-g4-budget-verdict--paper-trail--story--dan-balch, 2026-11-16, draft) already used 'paper-trail'"
+          },
+          {
+            "severity": "soft",
+            "rule": "style-used-in-last-7-days",
+            "detail": "'paper-trail' used for jalal-khan on 2026-11-16; 9 uses in 7 days"
+          }
+        ]
+      },
+      "note": "Clean on the standard check, but a hard conflict once unposted drafts count: if the wk1118 paper-trail budget static posts first, this would be paper-trail twice in a row. If B is picked, either post the broadsheet price-drop draft in between, or run B in broadsheet ('Correction' box + graphic page of the two prices; it loses the fill-in index card). Also note this week's nightly plan has Dan on a paper-trail myth-stamp carousel ('Six mortgage claims'), a second reason to watch the paper-trail cadence."
+    },
+    "preview": "/Users/ankushjha/Work/bots/graphic reels/content-desk/statics/out/deposit-trail--paper-trail/byran-peters/01.jpg"
+  },
+  {
+    "id": "C",
+    "title": "Departures: London's 2027 renewal board",
+    "hook": {
+      "main": "Renewing by mid-March? Your window's open.",
+      "spoken": "If your mortgage renews by mid-March 2027, your shopping window is already open. Find your month on the board.",
+      "pattern": "Mark the date",
+      "alts": [
+        {
+          "pattern": "Costly mistake",
+          "text": "Waiting for the renewal letter gives you 21 days. Most lenders would have held a rate for 120."
+        },
+        {
+          "pattern": "Callout + deadline",
+          "text": "Renewing in 2027? Find your month on this board before Dec 9."
+        }
+      ]
+    },
+    "angle": "The landscape scan says nobody is running a renewal countdown. This turns the dates into a London/Komoka departure board: each 2027 renewal month shows when the 120-day rate-hold window opens, when the 21-day renewal letter has to arrive (the 'final call'), and a live status column. As of Nov 19, Jan to mid-March renewers are already inside their window, April opens Dec 2, and the Dec 9 Bank of Canada decision lands inside the window for January to April renewers. It is a lookup tool: you find your row, you act, you send it to the person on the mortgage with you.",
+    "clientFacts": [
+      "Service area: London and Komoka (board header 'LONDON · KOMOKA')",
+      "Service: 'Mortgage Renewals In London'",
+      "Service: 'Mortgage Renewal/ Transferring your mortgage' (slide 8: switching with the same balance needs no new stress test)",
+      "Province: Ontario (compliance line above the footer)"
+    ],
+    "format": "carousel (feed 1080x1350, 9 slides; board area above the kit footer band)",
+    "engine": "custom-html",
+    "style": "split-flap departure board (one-off, built in custom-html)",
+    "styleWhy": "This story is a timetable people search for their own row in, and only a departure board makes 'window open / final call' readable at a glance, with one continuous board running across the slide edges, which neither broadsheet nor paper-trail can build.",
+    "device": "A code-drawn split-flap board (charcoal housing, off-white flap tiles with a hairline split, every character live type in a mono face such as IBM Plex Mono or Geist Mono). Header 'LONDON · KOMOKA  |  RENEWALS 2027'. Columns: RENEWS · WINDOW OPENS · FINAL CALL · STATUS. Status lamps use Dan's sky blue (#13AFF0) for OPEN NOW, flat with no glow; navy (#002E6E) housing accents. Rows on slides 3-5 are one continuous board, cut across the slide seams so a row visibly continues into the next slide.",
+    "structure": "Carousel 9: hook board, second hook (120 vs 21), three board panels (Jan-Apr, May-Aug, Sep-Dec), what a hold does, why now (Dec 9), save-worthy recap, send CTA.",
+    "mechanic": {
+      "type": "find-your-row lookup with a countdown status column, plus a swipe cue that crosses the slide edge",
+      "how": "The cover ends with a board row cut by the right edge and an arrow ('Find your month ▸'). Slides 3-5 are one board split across three slides; the STATUS column counts down ('OPEN NOW', 'OPENS DEC 2', 'OPENS IN 43 DAYS') from the post date, computed in build.mjs. People swipe until they find their month, then send it to their co-borrower."
+    },
+    "slides": [
+      {
+        "n": 1,
+        "role": "hook",
+        "text": "LONDON · KOMOKA | RENEWALS 2027 | Renewing by mid-March? | Your window's open. | Find your month ▸",
+        "visual": "Full board, top half: flaps spell 'RENEWING BY MID-MARCH?' then a status row 'WINDOW · OPEN NOW' with a sky-blue lamp. Bottom row cut by the right edge, arrow cue. No logo; footer band below."
+      },
+      {
+        "n": 2,
+        "role": "second hook",
+        "text": "Most lenders hold a rate up to 120 days before renewal. | Your renewal letter only has to arrive 21 days before. | That gap is your shopping time.",
+        "visual": "Two big flap counters side by side: '120' (DAYS · RATE HOLD) and '021' (DAYS · LETTER); the 21 tile row in navy."
+      },
+      {
+        "n": 3,
+        "role": "board panel 1 (lookup)",
+        "text": "JAN 1 · opens SEP 3 · final call DEC 11 · OPEN NOW | FEB 1 · OCT 4 · JAN 11 · OPEN NOW | MAR 1 · NOV 1 · FEB 8 · OPEN NOW | APR 1 · DEC 2 · MAR 11 · OPENS DEC 2",
+        "visual": "Board rows for Jan-Apr maturities (dates computed for the 1st of each month; fine print: 'Renewing mid-month? Count back 120 days from your date.'). The last row is cut by the right edge and continues on slide 4."
+      },
+      {
+        "n": 4,
+        "role": "board panel 2",
+        "text": "MAY 1 · JAN 1 · APR 10 · OPENS JAN 1 | JUN 1 · FEB 1 · MAY 11 | JUL 1 · MAR 3 · JUN 10 | AUG 1 · APR 3 · JUL 11",
+        "visual": "Continuation of the same board; statuses show 'OPENS IN N DAYS' computed from the post date."
+      },
+      {
+        "n": 5,
+        "role": "board panel 3",
+        "text": "SEP 1 · MAY 4 · AUG 11 | OCT 1 · JUN 3 · SEP 10 | NOV 1 · JUL 4 · OCT 11 | DEC 1 · AUG 3 · NOV 10",
+        "visual": "End of the board; a closing rule and 'Times shown: 120 days and 21 days before the 1st of each month. Lender hold periods vary (often 90 to 120 days).'"
+      },
+      {
+        "n": 6,
+        "role": "re-hook (what a hold does)",
+        "text": "A rate hold locks an offer while you shop. | Rates rise before you sign? The held rate stands. | Rates fall? Ask if you get the lower one.",
+        "visual": "One board row 'RATE HOLD · LOCKED' with lamp; the three lines as flap rows."
+      },
+      {
+        "n": 7,
+        "role": "why now",
+        "text": "DEC 9 · Bank of Canada rate decision | It lands inside the window for Jan to Apr renewers. | Hike or hold, a held rate doesn't move.",
+        "visual": "Single board row 'DEC 09 · RATE DECISION · SCHEDULED'. No odds number, both outcomes named (research avoid list). Fine line: fixed rates follow bond yields; prime and variable follow the Bank's rate."
+      },
+      {
+        "n": 8,
+        "role": "save-worthy recap",
+        "text": "Find your month | Count back 120 days | Ask your lender and one other for a written hold | Switching with the same balance and amortization: no new stress test",
+        "visual": "Board as a checklist: four rows with a lamp that is on for 'Find your month'."
+      },
+      {
+        "n": 9,
+        "role": "CTA (send)",
+        "text": "Send this to whoever's name is on the mortgage with yours.",
+        "visual": "The board's last row reads 'CO-BORROWER · NOTIFIED?'; compliance line verbatim above the kit footer."
+      }
+    ],
+    "cta": "Send this to whoever's name is on the mortgage with yours.",
+    "sendTest": "One spouse finds their March row and sends it to the other ('ours is open'). Adult children in London send it to parents renewing in Komoka. Couples who split money admin forward it in the family chat.",
+    "numbers": [
+      {
+        "claim": "120 days from Nov 19, 2026 is Mar 19, 2027",
+        "working": "2026-11-19 + 120 days = 2027-03-19 (Python datetime)",
+        "result": "Renewals up to about Mar 19 are inside a 120-day window on Nov 19; recompute for the actual post date"
+      },
+      {
+        "claim": "Window open dates (120 days before the 1st)",
+        "working": "2027-01-01 - 120 d = 2026-09-03; Feb 1 -> Oct 4; Mar 1 -> Nov 1; Apr 1 -> Dec 2; May 1 -> Jan 1; Jun 1 -> Feb 1; Jul 1 -> Mar 3; Aug 1 -> Apr 3; Sep 1 -> May 4; Oct 1 -> Jun 3; Nov 1 -> Jul 4; Dec 1 -> Aug 3",
+        "result": "as on board"
+      },
+      {
+        "claim": "Final call dates (21 days before the 1st)",
+        "working": "Jan 1 -> Dec 11, 2026; Feb 1 -> Jan 11; Mar 1 -> Feb 8; Apr 1 -> Mar 11; May 1 -> Apr 10; Jun 1 -> May 11; Jul 1 -> Jun 10; Aug 1 -> Jul 11; Sep 1 -> Aug 11; Oct 1 -> Sep 10; Nov 1 -> Oct 11; Dec 1 -> Nov 10",
+        "result": "as on board"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Rate holds: most lenders hold a renewal or switch rate 90 to 120 days before maturity (lender practice, not a federal rule; MortgageSquad renewal guide)",
+        "url": "https://www.mortgagesquad.ca/mortgage-renewal-guide",
+        "date": "2026-11-19 (searched)"
+      },
+      {
+        "name": "FCAC: Renewing your mortgage (federally regulated lenders send the renewal statement at least 21 days before the term ends)",
+        "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+        "date": "2026-11-15 (accessed by research)"
+      },
+      {
+        "name": "Bank of Canada: Oct 28, 2026 hike to 2.50%; next decision Dec 9, 2026 (research_2026-11-19 boc-hike-oct28-dec9)",
+        "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
+        "date": "2026-10-28"
+      },
+      {
+        "name": "OSFI: uninsured straight switches exempt from the MQR (Nov 21, 2024)",
+        "url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/osfi-exempts-uninsured-mortgage-straight-switches-prescribed-mqr-implements-portfolio-lti-limits",
+        "date": "2024-11-21"
+      },
+      {
+        "name": "Finance Canada: Straight switches and portfolio insurance",
+        "url": "https://www.canada.ca/en/department-finance/news/2024/12/straight-switches-and-portfolio-insurance.html",
+        "date": "2024-12"
+      }
+    ],
+    "risks": [
+      "120 days is common lender practice, not a rule (bank-direct holds are often 90 days). Keep 'most lenders' and 'up to', and the fine line on slide 5.",
+      "The 21-day statement rule applies to federally regulated lenders; credit unions follow provincial rules. Fine print says so.",
+      "Statuses are date-dependent: build.mjs computes them from the scheduled post date; if the post slips, re-render.",
+      "Agency echo: the brian-wang 'portfolio-failing' reel (Nov 17, news-package) used split-flap boards. Different client and format, but the critic should make sure this board has its own look (housing colour, type, column logic).",
+      "Same-week overlap: the nightly plan gives Dan a face reel 'Renewal letter in hand: three checks' whose check 2 is the 120-day hold. If both run, space them a week apart or change that check."
+    ],
+    "build": "custom-html from bin/custom_html_skeleton.mjs: footer band and verbatim complianceLine on every slide, safe-box check above the footer top. Board tiles are HTML/CSS (no canvas text). Body type >= 28 px: 4 columns x 4 rows per panel fits at about 34-40 px mono; drop the year from dates to keep width. Procedural grain only, no gradients or glow on lamps. About 1-3 h build.",
+    "novelty": {
+      "command": "variety.py --client dan-balch --format carousel --style departure-board --device \"split-flap departure board of 2027 renewal months with a live status column (window open / opens on date)\" --hook-pattern mark-the-date --topic \"2027 renewal rate hold 120-day window London Komoka\"",
+      "score": 1.0,
+      "conflicts": [],
+      "withDrafts": {
+        "score": 1.0,
+        "conflicts": []
+      },
+      "note": "New engine and device for this account; the 'Dec 9 countdown' and renewal timing are open gaps in landscape_2026-11-19."
+    },
+    "preview": null
+  }
+]

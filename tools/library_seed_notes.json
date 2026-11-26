@@ -1,0 +1,401 @@
+{
+ "_comment": "Hand-extracted card fields (read from TREATMENT.md / SCRIPT.md / CAPTION.md / NOTES.md / plan.csv). Keys are card ids. seed_library.py merges these over the measured fields (length, fps, size, thumbs).",
+ "reels": {
+  "heloc-five-years": {
+   "project": "heloc-five-years",
+   "final": "~/Desktop/mortgage-reels/heloc-five-years.mp4",
+   "poster": "heloc-five-years/poster.jpg",
+   "title": "The Five-Year Promise",
+   "clients": [],
+   "generic": true,
+   "format": "graphic-reel",
+   "engine": "films",
+   "style": "swiss-motion",
+   "voice": "kokoro:af_bella",
+   "music": "original synthesized motorik marimba score (stops one bar before the $833 reveal) plus synthesized foley",
+   "topic": "HELOC interest-only payments: five years in, the $50,000 balance has not moved",
+   "tags": [
+    "heloc",
+    "interest-only",
+    "fcac-survey",
+    "payoff-plan",
+    "loop",
+    "swiss",
+    "mortgage-broker"
+   ],
+   "hookPattern": "number-stuck",
+   "hook": "Five years of HELOC payments, and the balance is still $50,000.",
+   "logline": "Sixty interest-only payments land in sixty months and the $50,000 balance never moves; divide it into sixty pieces and the promise finally has a number: about $833 a month plus interest.",
+   "structure": "One 'statement page' that re-flows each beat: note row, orange balance slab, statement line, 60-month grid, caption row. Setup 0-18s (stuck balance, interest only, FCAC survey: over 25% mostly pay interest, 62% expected payoff in 5 years), turn 18-38s (slab splits into 60 orange cells = $833/mo + interest), ending 38-53.5s (check your statement, message me; cells cut to $0 or snap back to frame 1 for the loop). All text in y 280-1240.",
+   "device": "giant orange balance slab that holds still over a 60-month grid, then splits into 60 orange cells (one cell = $833) and snaps back into the opening frame; score stops one bar before the reveal",
+   "rejectedStyles": [
+    "spreadsheet (12px software chrome vanishes on a phone)",
+    "bauhaus-shapes (its demo is already a compounding-finance film)",
+    "pictogram-motion (numbers become small labels)",
+    "dataviz (charts read as homework in a reel)"
+   ],
+   "rejectedStructures": [
+    "odometer: one locked balance counter for 50s, nothing changes",
+    "promise-vs-reality split spread: two half-width pages make both numbers small and it shows the answer before the question"
+   ],
+   "lessons": [
+    "Caption file says: label as AI voice (Instagram AI label), add brokerage name and licence # in the caption for Ontario clients, use poster.jpg (frame 1) as cover, upload at highest quality.",
+    "Whisper hears 'HELOC' so Kokoro is fed 'heelock' for the spoken word; keep that respelling."
+   ]
+  },
+  "heloc-piggy-bank": {
+   "project": "heloc-piggy-bank",
+   "final": "heloc-piggy-bank/heloc-piggy-bank.mp4",
+   "poster": "heloc-piggy-bank/poster.jpg",
+   "title": "Your Home Is Not a Piggy Bank",
+   "clients": [],
+   "generic": true,
+   "format": "graphic-reel",
+   "engine": "films",
+   "style": "midcentury-toon",
+   "voice": "kokoro:am_michael",
+   "music": "generated score at 120 BPM (1 bar = 2s), a chord per numbered rule",
+   "topic": "HELOC rules: credit line secured by the home, 65%/80% limits, variable rate, interest-only, borrow with purpose, tax deductibility",
+   "tags": [
+    "heloc",
+    "rules-card",
+    "mid-century",
+    "character-house",
+    "two-minute",
+    "mortgage-broker"
+   ],
+   "hookPattern": "myth-flip",
+   "hook": "A HELOC is not free money.",
+   "logline": "A calm narrator shows a homeowner that a HELOC is a credit line with their house as the collateral, and that the house is the one who pays when the rules are ignored.",
+   "structure": "Rules card with a held presenter and a house that reacts. 0:00-0:34 setup (money rains on a grinning house, stamp says no, what a HELOC is, the 65%/80% wall), 0:34-1:28 three numbered rules each a medallion the camera irises through (variable rate, interest-only, borrow with purpose), 1:28-2:00 tax warning, homeowner on a mustard rotary phone, dead-still end card for 3s. Placeholder CTA 'Your Name \u00b7 Mortgage Agent'.",
+   "device": "the house as a second character with a face (grin, worry, sweat, sag, calm) plus numbered medallions the camera irises through; off-register cel colour; one ground colour per scene",
+   "rejectedStyles": [],
+   "rejectedStructures": [
+    "straight explainer: eight cards in a row with nothing changing about the homeowner",
+    "before/after of one homeowner: adds a second story and pushes past two minutes"
+   ],
+   "lessons": [
+    "Longest reel (101s at 24 fps); later HELOC reels cut to about 55s at 30 fps.",
+    "Its end card is a dead-still 3s starburst with a placeholder CTA, not a loop."
+   ]
+  },
+  "heloc-rules": {
+   "project": "heloc-rules",
+   "final": "~/Desktop/mortgage-reels/heloc-rules.mp4",
+   "poster": "heloc-rules/poster.jpg",
+   "alt": [
+    "~/Desktop/mortgage-reels/heloc-rules_ig.mp4"
+   ],
+   "title": "HELOC Quest: A HELOC is not free money",
+   "clients": [],
+   "generic": true,
+   "format": "graphic-reel",
+   "engine": "films",
+   "style": "pixel-rpg",
+   "voice": "kokoro:am_michael",
+   "music": "synthesized chiptune",
+   "topic": "HELOC rules: collateral, 65%/80% limits, variable rate, interest-only minimums, borrow with purpose, tax",
+   "tags": [
+    "heloc",
+    "rules",
+    "pixel-rpg",
+    "game-metaphor",
+    "loop",
+    "mortgage-broker"
+   ],
+   "hookPattern": "myth-flip",
+   "hook": "A HELOC is not free money.",
+   "logline": "A homeowner opens a chest of gold that turns out to be chained to his own house, and has to learn three rules on the road before he can bring the chain home.",
+   "structure": "Quest up a vertical overworld. Setup 0-16.9s (gold, chain, what a HELOC is, 65%/80% limits drawn inside the house), rising 16.9-34s (Trial 1 Prime Storm = variable rate, Trial 2 Balance Slime = interest-only hits for 0 damage), turn and peak 34-43.9s (renovation builds a room; palette drains to grey, only the gold chain keeps colour; REPAYMENT PLAN floods colour back), ending 43.9-57.3s (sage: tax-deductible? usually only if used to earn income; choice menu 'Thinking about a HELOC? MESSAGE ME'; chest lid closes into frame 1).",
+   "device": "each HELOC rule becomes a game mechanic: a chain from gold to house in every shot, a hit that does 0 damage, an HP bar that will not move, palette collapse to grey, native 180x320 framebuffer at x6 with whole-frame x2 close-ups",
+   "rejectedStyles": [
+    "transit-map (needs 4 lines, 20 stations, tiny labels)",
+    "microgame (needs 5-6 mini art engines, frenzy outruns caveats)",
+    "paper-popup (heavy 3D, house too close to the piggy-bank film)"
+   ],
+   "rejectedStructures": [
+    "item shop and inventory: static, no travel or turn",
+    "turn-based duel with a mimic chest: frames HELOC as a trap, one screen for 50s"
+   ],
+   "lessons": [
+    "PLAYBOOK 'How the first three reels measure up': it ends on a generic 'Message me' choice menu; cut it and loop instead.",
+    "Safe area: text runs down to about y 1480, below the y 1248 bottom limit.",
+    "AI label: Kokoro TTS voiceover, so apply Instagram's AI label when posting.",
+    "Audio bitrate: the _ig file carries about 192 kbps AAC; re-encode to 128 kbps if posting through the API.",
+    "Frame rate: 24 fps (pixel-rpg STYLE.md sets it); new work should be 30 fps."
+   ]
+  },
+  "keep-your-rate": {
+   "project": "keep-your-rate",
+   "final": "~/Desktop/mortgage-reels/keep-your-rate.mp4",
+   "poster": "keep-your-rate/poster.jpg",
+   "alt": [
+    "~/Desktop/mortgage-reels/keep-your-rate_ig.mp4"
+   ],
+   "title": "Keep Your Rate",
+   "clients": [],
+   "generic": true,
+   "format": "graphic-reel",
+   "engine": "films",
+   "style": "brick-toy",
+   "voice": "kokoro:am_onyx",
+   "music": "synthesized toy-pop score that stops dead twice and swells to brass for the scale reveal",
+   "topic": "Refinance vs HELOC or second mortgage when you hold a 3-4% mortgage and need $100K cash",
+   "tags": [
+    "refinance",
+    "heloc",
+    "second-mortgage",
+    "prepayment-penalty",
+    "brick-toy",
+    "loop",
+    "mortgage-broker"
+   ],
+   "hookPattern": "viewer-situation-warning",
+   "hook": "Got a 3-4% mortgage and need cash? Don't refinance the whole thing. Not yet.",
+   "logline": "A homeowner with a gold tower of five $100K bricks at 3-4% needs one more brick and nearly lets a REFINANCE wrecking ball knock the whole tower down to get it.",
+   "structure": "One tower's near-miss. Setup 0-14s (hook, tower = $500K at 3-4%, need = one red $100K brick), turn 14-25s (wrecking ball swings, silence, collapse, prepayment penalty, then the film rewinds it), resolution 25-44s (red brick of HELOC or second mortgage snaps on top, caveats, see-saw: sometimes refinancing still wins), payoff 44-55s (crane to the kitchen-table calculator: run the numbers). Ends on the ball swinging in again = frame 1.",
+   "device": "gold tower of five $100K bricks, a brick wrecking ball labelled REFINANCE, a real rigid-body collapse then stop-motion rewind, one red brick snapped on top; camera on ones, bricks and character on twos",
+   "rejectedStyles": [
+    "data-physical (needs a published statistic with source line)",
+    "spreadsheet (12px chrome, homework feel)",
+    "bauhaus-shapes (explains the ratio, not the temptation)"
+   ],
+   "rejectedStructures": [
+    "countdown of mistakes: a list with no through-line or turn",
+    "before/after split: two half-width towers, answer shown before the question"
+   ],
+   "lessons": [
+    "PLAYBOOK 'How the first three reels measure up': it ends on a generic 'Message me' end card; cut it and loop instead.",
+    "Safe area: text runs down to about y 1480, below the y 1248 bottom limit.",
+    "AI label: Kokoro TTS voiceover, so apply Instagram's AI label when posting.",
+    "Audio bitrate: the _ig file carries about 192 kbps AAC; re-encode to 128 kbps if posting through the API.",
+    "Frame rate: 24 fps (Brick Toy rate); new work should be 30 fps."
+   ]
+  },
+  "mortgage-insurance": {
+   "project": "mortgage-insurance",
+   "final": "~/Desktop/mortgage-reels/mortgage-insurance.mp4",
+   "poster": "mortgage-insurance/poster.jpg",
+   "alt": [
+    "~/Desktop/mortgage-reels/mortgage-insurance_ig.mp4"
+   ],
+   "title": "Mortgage insurance is not a penalty",
+   "clients": [],
+   "generic": true,
+   "format": "graphic-reel",
+   "engine": "films",
+   "style": "isometric-picture-book",
+   "voice": "kokoro:af_heart",
+   "music": "synthesized score where every floor letter and prop rings a vibraphone or pizzicato note in key; silences at 12.4s and 40.6s",
+   "topic": "Canadian mortgage default insurance: under 20% down, protects the lender, enables 5% down, premium tiers, example $500K at 5% down, sales tax paid in cash",
+   "tags": [
+    "mortgage-default-insurance",
+    "first-time-buyer",
+    "isometric",
+    "journey",
+    "loop",
+    "mortgage-broker"
+   ],
+   "hookPattern": "myth-flip",
+   "hook": "Mortgage insurance is not a penalty.",
+   "logline": "A first-time buyer with only 5% saved walks one street to her front door and discovers that the insurance she thought was a penalty is the thing that lifts the barrier.",
+   "structure": "One street to the door. Setup 0-12s (under 20% down needs default insurance; the shield rises behind the bank, not her), turn 12.4-18.9s (silence, barrier sign flips 20% to 5%, barrier lifts on the downbeat), honest costs 19-40s (premium bars 4.00 / 3.10 / 2.80%, $19,000 crate on a $475,000 loan = $494,000, sales tax paid in cash at the closing counter), payoff 40.6-53.2s (door opens, roof lifts off, camera runs back to the start where the next buyer stands = loop).",
+   "device": "one continuous isometric street with each key number painted on the floor as the narrator says it; a barrier that flips from 20% to 5% and lifts; roof lifting off the house; faceless buyers as the diagram",
+   "rejectedStyles": [
+    "glass-product (no spatial continuity, heavy GPU)",
+    "memphis-diorama (a place you watch, not a story you follow)",
+    "tilt-shift (people become dots, text on signs unreadable)",
+    "lowpoly-island (no people or type grammar)",
+    "iso-infographic (colder floating board)"
+   ],
+   "rejectedStructures": [
+    "two buyers two ways with a rewind: turns into advice to buy sooner",
+    "penalty ticket myth that turns: list of flips, no travelling subject"
+   ],
+   "lessons": [
+    "PLAYBOOK 'How the first three reels measure up': it ends on a generic CTA/'Message me' card; cut it and loop instead (the film already loops back to the start of the street).",
+    "Safe area: text runs down to about y 1480, below the y 1248 bottom limit.",
+    "AI label: Kokoro TTS voiceover, so apply Instagram's AI label when posting.",
+    "Audio bitrate: the _ig file carries about 192 kbps AAC; re-encode to 128 kbps if posting through the API.",
+    "Frame rate: this one is already 30 fps (heloc-rules and keep-your-rate are the two 24 fps files)."
+   ]
+  },
+  "portfolio-failing": {
+   "project": "portfolio-failing",
+   "final": "portfolio-failing/out/brian_portfolio_reel.mp4",
+   "poster": "portfolio-failing/out/cover.jpg",
+   "title": "3 Reasons Your Portfolio Could Be Failing (Brian Wang)",
+   "clients": [
+    "brian-wang"
+   ],
+   "generic": false,
+   "format": "short-reel",
+   "engine": "films",
+   "style": "news-package",
+   "voice": "client's own voice (talking-head footage)",
+   "music": null,
+   "topic": "Investing in Canada: inflation, active funds trailing the TSX, tax structure (TFSA vs non-registered)",
+   "tags": [
+    "wealth",
+    "talking-head",
+    "news-package",
+    "engagement-tracker",
+    "guess-reveal",
+    "comment-prompt",
+    "caliber-wealth",
+    "toronto"
+   ],
+   "hookPattern": "list-promise",
+   "hook": "3 REASONS YOUR PORTFOLIO COULD BE FAILING (two-line headline in the strap over Brian on frame 1)",
+   "logline": "A Toronto wealth coach runs a three-item bulletin on why a portfolio quietly fails: inflation, fund performance (93-96% trailed the TSX), and tax structure ($5,000 gain costs about $1,000 in a non-registered account, $0 in a TFSA).",
+   "structure": "Round-up bulletin cut from Brian's own 4K talking-head footage: rundown becomes a persistent 1/3-2/3-3/3 tracker; full-frame inserts (split-flap CPI board, proportion bars, GUESS card then REVEAL 93-96% slam, tax card) cover jump cuts; the rundown returns ticked as a comment prompt 'Which one hits you: 1, 2 or 3?'; DM bubble types INVEST onto his brand card. 55.75s.",
+   "device": "persistent 1/3 2/3 3/3 tracker in the package row; guess-then-reveal board; split-flap boards; comment-vote recap; DM-keyword CTA (INVEST) carried onto the brand card; punch-ins at 1.10-1.20x anchored at head top",
+   "rejectedStyles": [],
+   "rejectedStructures": [
+    "cold open on the biggest number: breaks his spoken order",
+    "countdown 3 to 1: needs re-ordered audio and loses his own signposts"
+   ],
+   "lessons": [
+    "User waivers for this client only: on-camera presenter, burned-in captions and a brand end card are allowed here although PLAYBOOK forbids them elsewhere.",
+    "Graphic text stays at y <= 1248; face region y 590-1490 is kept clear of graphics and the IG right rail."
+   ]
+  },
+  "hukam-reel": {
+   "project": "hukam-reel",
+   "final": "hukam-reel/hukam-reel.mp4",
+   "alt": [
+    "hukam-reel/hukam-reel_share.mp4"
+   ],
+   "poster": "hukam-reel/poster.jpg",
+   "title": "Hukam (crayon-book version)",
+   "clients": [],
+   "generic": false,
+   "format": "short-reel",
+   "engine": "films",
+   "style": "crayon-book",
+   "voice": "speaker's own voice (enhanced MP3)",
+   "music": "soft synthesised harmonium drone on Sa = 92.5 Hz, ducked about 4 dB under speech",
+   "topic": "Hukam: a 57s devotional talk in romanised Punjabi on accepting both joy and sorrow (non-mortgage, not a client piece)",
+   "tags": [
+    "devotional",
+    "punjabi",
+    "talking-head",
+    "crayon",
+    "non-mortgage",
+    "speaker-video"
+   ],
+   "hookPattern": "verse-opening",
+   "hook": "Je sukh dey, taan tujhe aaraadhi, dukh bhi tujhe dhiyaayi.",
+   "logline": "A speaker's own video sits under a live-drawn crayon page that illustrates each verse; the page drops over him for about 2s to explain.",
+   "structure": "Layout 1080x1920: crayon-book page in the top 720px (seven pages of live-drawn graphics), the speaker's own video in the lower 1330px, hand-lettered Roman captions at the bottom. Full-screen moments where the page drops over him. 1367 frames at 24 fps.",
+   "device": "wax-crayon material physics (wax only on paper-tooth peaks, strokes boil on twos, hatched fills with overshoot, one watercolour wash resisted by white wax); page drops over the speaker to explain",
+   "rejectedStyles": [],
+   "rejectedStructures": [],
+   "lessons": [
+    "Same audio and layout as hukam-urban; compare the two styles side by side before choosing.",
+    "24 fps; new work should be 30 fps."
+   ]
+  },
+  "hukam-urban": {
+   "project": "hukam-urban",
+   "final": "hukam-urban/hukam-urban.mp4",
+   "alt": [
+    "hukam-urban/hukam-urban_share.mp4"
+   ],
+   "poster": "hukam-urban/poster.jpg",
+   "title": "Hukam (urban sketch version)",
+   "clients": [],
+   "generic": false,
+   "format": "short-reel",
+   "engine": "films",
+   "style": "urban-sketch",
+   "voice": "speaker's own voice (enhanced MP3)",
+   "music": "soft synthesised harmonium drone, ducked under speech",
+   "topic": "Hukam: a 57s devotional talk in romanised Punjabi on accepting both joy and sorrow (non-mortgage, not a client piece)",
+   "tags": [
+    "devotional",
+    "punjabi",
+    "talking-head",
+    "pen-and-wash",
+    "non-mortgage",
+    "speaker-video"
+   ],
+   "hookPattern": "verse-opening",
+   "hook": "Je sukh dey, taan tujhe aaraadhi, dukh bhi tujhe dhiyaayi.",
+   "logline": "The same talk as hukam-reel in a sepia fineliner and watercolour sketchbook; colour is withheld and arrives with meaning: the lamp, the turban, the dawn.",
+   "structure": "Layout 1080x1920: sketchbook page in the top 720px (sepia fineliner plus transparent watercolour that arrives with a wet front), the speaker's own video below, handwritten captions in the lower margin. 1367 frames at 24 fps.",
+   "device": "colour withheld until it carries meaning (lamp, turban, dawn); watercolour wet-front; cream cold-press paper tooth multiplied over everything",
+   "rejectedStyles": [],
+   "rejectedStructures": [],
+   "lessons": [
+    "Same audio and layout as hukam-reel; compare the two styles side by side before choosing.",
+    "24 fps; new work should be 30 fps."
+   ]
+  }
+ },
+ "greenbrix": {
+  "client": "krystian-catala",
+  "date": "2026-11-17",
+  "C1": {
+   "device": "the Declined Pile: bank files stamped DECLINED (textured red rubber stamp), each holding the one document that sank it; Greenbrix's lime file tab reopens them and runs from the cover into slide 2 as the seamless join",
+   "structure": "7 slides 1080x1350: cover (Krystian behind a stamped folder, lime sticky 'Not the final answer.'), business owner (tax return, declared income circled), rebuilder (credit gauge needle under 600), non-traditional earner (slips spilling out of a bank form), out of time (calendar), what we look at instead (property, equity, plan dividers), CTA index card on a lime YOUR FILE folder.",
+   "lessons": [
+    "BoC stat (about 9% of Toronto-CMA borrowers renewing in 2027 may be unable to refinance) is caption-only; wording must name the Financial Stability Report 2026 and say Toronto-area.",
+    "Confirm licence numbers #13645 and M12001607 on the FSRA register before posting."
+   ]
+  },
+  "C2": {
+   "device": "the bill pile: every debt is a perforated payment stub; an adding-machine tape runs the math and crosses the seam from slide 3 to 4 (1,350+400+560+300=2,610, then 105,000 x 11.99% / 12 = 1,049.13)",
+   "structure": "7 slides: stub-pile cover with $2,610 struck in lime and a green $1,049 slip crossing the edge, four stubs, $2,610 hero with tape, one green slip, about $1,560 freed with before/after stacked bars, 'The debt is still there' with 12 months as a brick wall, CTA with Krystian.",
+   "lessons": [
+    "Title says 'Five payments' but the plan lists four debts; slides say four. Client must confirm four or supply the fifth.",
+    "build.mjs throws if the checked math drifts."
+   ]
+  },
+  "C3": {
+   "device": "The Rail: one day-by-day timeline of logo bricks runs along the bottom of slides 1-4 and continues across every slide edge as a seamless panorama (Today, Day 1, Day 15+ Notice of Sale, five week-bricks for 35 days)",
+   "structure": "7 slides: Krystian with rail starting at TODAY, giant '1' with lender letter and missed-call card, Notice of Sale document stamped 15+ days, 7x5 brick calendar of 35 days, rail forks into 4 options, equity vs mortgage brick wall with the arrears brick, CTA with disclaimer.",
+   "lessons": [
+    "Caption claim 'Ontario's mortgage delinquency rate rose 52% in a year' is SOURCE NEEDED; cite it or delete before posting.",
+    "Disclaimer 'General information only, not legal advice' appears on slide 7 and in the caption."
+   ]
+  },
+  "C4": {
+   "device": "a thermal cost statement that prints one line per slide, hung from a printer slot, with a steel loupe doing real optical magnification of the newest line; a brick meter COSTS LISTED 1/4 to 4/4 and a TOTAL, FULL TERM line that stays blank until the CTA stamp IN WRITING",
+   "structure": "7 slides: loupe reading 'NO FINE PRINT' on the receipt, rate, lender fee, broker fee, legal and appraisal, receipt vs the alternative (lost deposit, power of sale, 20% cards), TOTAL slip stamped IN WRITING with Krystian. Loupe handle crosses the 1-2 seam.",
+   "lessons": [
+    "Three yellow placeholders must be filled by the client before posting: [X% to Y%] private rate range, [X%] lender fee, [How Greenbrix charges] broker fee basis."
+   ]
+  },
+  "C5": {
+   "device": "masonry arch of the logo's dark-to-lime bricks with a lime keystone; the arch crosses the seam between slides 6 and 7 and lands at 'Funds arrive' where Krystian stands",
+   "structure": "7 slides: whole arch between 'Your deadline' and 'Your funds' (right foot runs off the edge as swipe cue), SOLD / FOR SALE lawn signs with a gap arch, split-flap status board (Lender: pulled out), cheque stamped DUE NOW, giant 90% over ten bricks with the tenth missing, joined arch across slides 6-7. Fields alternate so no two neighbours match until the joined finale.",
+   "lessons": [
+    "No rates, fees or terms appear, so no placeholders were needed."
+   ]
+  },
+  "C6": {
+   "device": "architect's massing models drawn as isometric SVG: context buildings in white card, each deal built from Greenbrix bricks (logo gradient with running-bond mortar); cover shows all four deals on one plinth under a giant lime '4'",
+   "structure": "7 slides: four deals on a plinth, rentals with a dashed BANK LIMIT wall, storefront with apartments above, staked land parcel with NOTICE sign, fixer with scaffolding, deal sheet, CTA with Krystian. Slides 2-3 end with a BANK / GREENBRIX strip.",
+   "rejectedStructures": [
+    "icon tiles on a deal grid (previous attempt, replaced)"
+   ],
+   "lessons": [
+    "Cover copy changed from 'We fund them' to 'We look at them.' to avoid promising approval.",
+    "'You'll get a yes, a no or a number, quickly' is a service promise the client must be comfortable with."
+   ]
+  }
+ },
+ "staticStyleDevices": {
+  "_note": "device text for stills cards comes from each style.json summary at seed time; this map only holds overrides"
+ },
+ "motionDevices": {
+  "kinetic-hook": "kinetic typography cards (statement card, $7,800 paid. Still owes $150,000.), 6-12s, loops to frame 1",
+  "pop-hook": "Direction A Bold Pop: saturated colour blocks, giant numbers, snap zooms; hook, rise, stack (pattern interrupt), fix, back to hook",
+  "phone-pov": "CSS-3D phone on a dark set showing a generic bank app; notifications land, payment rises, twelve payments stack while the balance refuses to move, a self-set payment finally moves it",
+  "object-3d": "three.js night scene (house, $150,000 cash stack, payment coins that burn as interest) with camera fly-through, word-by-word captions and a hard colour-flip pattern interrupt",
+  "oc-pop-art": "sixties screen-print poster language: Ben-Day dots at 45 degrees, heavy black key lines, flat plates that never quite register, labels as paper slips",
+  "oc-game-show": "flat-vector rhythm game show on a fixed 120 BPM grid with toy bean contestants and a judgement word per round",
+  "oc-thermal": "house at night seen through a radiometric thermal camera (iron palette, spot meter, isotherm, scan line)"
+ }
+}

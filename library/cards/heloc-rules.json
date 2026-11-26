@@ -1,0 +1,59 @@
+{
+ "id": "heloc-rules",
+ "title": "HELOC Quest: A HELOC is not free money",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-15",
+ "format": "graphic-reel",
+ "engine": "films",
+ "style": "pixel-rpg",
+ "lengthS": 57.29,
+ "fps": 24,
+ "size": "1080x1920",
+ "voice": "kokoro:am_michael",
+ "music": "synthesized chiptune",
+ "topic": "HELOC rules: collateral, 65%/80% limits, variable rate, interest-only minimums, borrow with purpose, tax",
+ "tags": [
+  "heloc",
+  "rules",
+  "pixel-rpg",
+  "game-metaphor",
+  "loop",
+  "mortgage-broker"
+ ],
+ "hook": "A HELOC is not free money.",
+ "logline": "A homeowner opens a chest of gold that turns out to be chained to his own house, and has to learn three rules on the road before he can bring the chain home.",
+ "structure": "Quest up a vertical overworld. Setup 0-16.9s (gold, chain, what a HELOC is, 65%/80% limits drawn inside the house), rising 16.9-34s (Trial 1 Prime Storm = variable rate, Trial 2 Balance Slime = interest-only hits for 0 damage), turn and peak 34-43.9s (renovation builds a room; palette drains to grey, only the gold chain keeps colour; REPAYMENT PLAN floods colour back), ending 43.9-57.3s (sage: tax-deductible? usually only if used to earn income; choice menu 'Thinking about a HELOC? MESSAGE ME'; chest lid closes into frame 1).",
+ "device": "each HELOC rule becomes a game mechanic: a chain from gold to house in every shot, a hit that does 0 damage, an HP bar that will not move, palette collapse to grey, native 180x320 framebuffer at x6 with whole-frame x2 close-ups",
+ "rejectedStyles": [
+  "transit-map (needs 4 lines, 20 stations, tiny labels)",
+  "microgame (needs 5-6 mini art engines, frenzy outruns caveats)",
+  "paper-popup (heavy 3D, house too close to the piggy-bank film)"
+ ],
+ "rejectedStructures": [
+  "item shop and inventory: static, no travel or turn",
+  "turn-based duel with a mimic chest: frames HELOC as a trap, one screen for 50s"
+ ],
+ "files": {
+  "final": "~/Desktop/mortgage-reels/heloc-rules.mp4",
+  "poster": "$R/graphic reels/heloc-rules/poster.jpg",
+  "thumb": "library/thumbs/heloc-rules.jpg",
+  "treatment": "$R/graphic reels/heloc-rules/TREATMENT.md",
+  "project": "$R/graphic reels/heloc-rules",
+  "alt": [
+   "~/Desktop/mortgage-reels/heloc-rules_ig.mp4"
+  ]
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "PLAYBOOK 'How the first three reels measure up': it ends on a generic 'Message me' choice menu; cut it and loop instead.",
+  "Safe area: text runs down to about y 1480, below the y 1248 bottom limit.",
+  "AI label: Kokoro TTS voiceover, so apply Instagram's AI label when posting.",
+  "Audio bitrate: the _ig file carries about 192 kbps AAC; re-encode to 128 kbps if posting through the API.",
+  "Frame rate: 24 fps (pixel-rpg STYLE.md sets it); new work should be 30 fps."
+ ],
+ "source": "seed",
+ "hookPattern": "myth-flip"
+}

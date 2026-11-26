@@ -1,0 +1,110 @@
+{
+  "url": "https://michaelmarini.com/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "Michael Marini is a Toronto mortgage broker with The Mortgage Group (TMG), claiming nearly 20 years in residential mortgages across Toronto, the GTA and Ontario. Services include purchases, transfers, renewals, refinances, equity takeouts, debt consolidation, reverse mortgages, and programs for self-employed borrowers, doctors and veterinarians. The site claims over 10,000 funded mortgages and 24-hour pre-approvals.",
+  "tagline": "Find the Perfect Mortgage Solution with Me",
+  "yearsInBusiness": "Nearly 20 years (about page)",
+  "specialties": [
+    "Purchases",
+    "Transfers",
+    "Renewals",
+    "Refinances",
+    "Equity takeouts",
+    "Debt consolidation",
+    "Reverse mortgages",
+    "Self-employed mortgages",
+    "Doctors and veterinarian mortgages"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Toronto",
+    "GTA",
+    "Ontario"
+  ],
+  "team": [
+    {
+      "name": "Michael Marini",
+      "title": "Mortgage Agent/Broker",
+      "licence": "M08003409"
+    }
+  ],
+  "licences": [
+    {
+      "label": "FSRA licence",
+      "value": "M08003409",
+      "where": "about/contact footer"
+    },
+    {
+      "label": "FSRA brokerage",
+      "value": "#10315",
+      "where": "about/contact footer"
+    }
+  ],
+  "brokerage": {
+    "name": "The Mortgage Group (TMG)",
+    "licence": "#10315"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/michael.marini.mortgage.agent",
+    "facebook": "https://www.facebook.com/MichaelMariniTorontoMortgageBroker",
+    "linkedin": "https://www.linkedin.com/in/torontomortgages",
+    "youtube": null,
+    "tiktok": "https://www.tiktok.com/@toronto_mortgages",
+    "x": "https://x.com/MortgagesTO"
+  },
+  "bookingUrl": "https://calendly.com/admin-510",
+  "phones": [
+    "416-549-1676"
+  ],
+  "emails": [
+    "marini@michaelmarini.com"
+  ],
+  "brandColors": [
+    {
+      "hex": "#13aff0",
+      "where": "bright blue, most-used (buttons/links); same value appears on other sites on this WordPress template"
+    },
+    {
+      "hex": "#49525b",
+      "where": "slate text"
+    },
+    {
+      "hex": "#37589b",
+      "where": "secondary blue"
+    }
+  ],
+  "fonts": [
+    "Hanken Grotesk"
+  ],
+  "logoUrls": [
+    "https://michaelmarini.com/wp-content/uploads/2025/11/h-logo.svg",
+    "https://michaelmarini.com/wp-content/uploads/2025/11/f-logo.svg"
+  ],
+  "testimonialsCount": 9,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "Address: 60 Atlantic Ave, Toronto ON M6K 1X9. Copy also mentions 'Mortgages of Canada' (inconsistent branding).",
+    "Site licence/brokerage not in clients.json (null) so this fills a gap; site title reads 'Mortgage Agent L2' per search.",
+    "Search (check): Yelp https://www.yelp.ca/biz/michael-marini-the-mortgage-group-toronto ; Facebook shows 100% recommend from 27 reviews. No Google count found."
+  ],
+  "sources": [
+    {
+      "url": "https://michaelmarini.com/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://michaelmarini.com/about-us/",
+      "what": "about"
+    },
+    {
+      "url": "https://michaelmarini.com/contact/",
+      "what": "contact + licence"
+    }
+  ],
+  "blocked": []
+}

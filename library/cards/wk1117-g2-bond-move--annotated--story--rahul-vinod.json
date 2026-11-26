@@ -1,0 +1,47 @@
+{
+ "id": "wk1117-g2-bond-move--annotated--story--rahul-vinod",
+ "title": "The 0.18% bond move fixed rates follow [annotated, story, rahul-vinod]",
+ "clients": [
+  "rahul-vinod"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "annotated",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "The 0.18% bond move fixed rates follow",
+ "tags": [
+  "stills",
+  "wk1117-g2-bond-move",
+  "annotated",
+  "story-format",
+  "group-2"
+ ],
+ "hook": "Watch the bond, not the Bank.",
+ "logline": "Proof render of spec 'wk1117-g2-bond-move' in the Marker Markup style for Rahul Vinod, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "The broker's own photo (or document) marked up in felt-tip: circles, arrows, a hand-drawn timeline and short handwritten notes on tape, over confident flush-left grotesk type.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1117-g2-bond-move--annotated--story/rahul-vinod",
+  "poster": "$R/engines/stills/out/wk1117-g2-bond-move--annotated--story/rahul-vinod/01.jpg",
+  "thumb": "library/thumbs/wk1117-g2-bond-move--annotated--story--rahul-vinod.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1117-g2-bond-move.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

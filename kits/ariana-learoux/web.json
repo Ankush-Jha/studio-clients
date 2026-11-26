@@ -1,0 +1,99 @@
+{
+  "url": "https://arianaleroux.com/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Ariana Leroux is a Licensed Senior Mortgage Broker with DLC Brokers for Life (Dominion Lending Centres), serving Spruce Grove, Edmonton, St. Albert, Sherwood Park and Parkland County, and clients across Canada. The site says she accesses over 30 lenders and covers pre-approvals, renewals, first-time buyers, new builds, self-employed, newcomers and complex cases. She supports the Edmonton Food Bank and JCI Holiday Hamper Program.",
+  "tagline": "Real Life Mortgage Solutions",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Pre-approval",
+    "Renewals",
+    "First-time home buyer",
+    "New build mortgages",
+    "Self-employed",
+    "Newcomers to Canada",
+    "Complex mortgage solutions",
+    "Cash back mortgages",
+    "Refinancing",
+    "Purchase plus improvements"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Spruce Grove",
+    "Edmonton",
+    "St. Albert",
+    "Sherwood Park",
+    "Parkland County",
+    "Across Canada"
+  ],
+  "team": [
+    {
+      "name": "Ariana Leroux",
+      "title": "Licensed Senior Mortgage Broker",
+      "licence": null
+    }
+  ],
+  "licences": [],
+  "brokerage": {
+    "name": "DLC Brokers for Life (Dominion Lending Centres)",
+    "licence": null
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/leroux_mortgage/",
+    "facebook": "https://www.facebook.com/315674658496712",
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": "https://calendly.com/mortgages_with_ariana-wfy/book-a-call-from-website",
+  "phones": [
+    "780-952-4087"
+  ],
+  "emails": [
+    "ariana@brokersforlife.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#004282",
+      "where": "most-used brand blue in site CSS (headings/buttons)"
+    },
+    {
+      "hex": "#13aff0",
+      "where": "light blue accent (may be theme default)"
+    }
+  ],
+  "fonts": [
+    "Montserrat"
+  ],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Site also shows Threads and Google icons in header; Threads link not captured.",
+    "No licence numbers on site. Office: Suite 200, 10493 184 Street NW, Edmonton AB T5S 2L1.",
+    "WebSearch (3rd-party directory results, confidence: check): brokersforlife.ca/associates lists her; RECA-licensed since 2007; no Google rating found. clients.json slug 'ariana-learoux' spells the surname differently from the site (Leroux)."
+  ],
+  "sources": [
+    {
+      "url": "https://arianaleroux.com/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://arianaleroux.com/about-ariana/",
+      "what": "about"
+    },
+    {
+      "url": "https://arianaleroux.com/contact-us/",
+      "what": "contact"
+    },
+    {
+      "url": "https://brokersforlife.ca/associates/",
+      "what": "search, check"
+    }
+  ],
+  "blocked": []
+}

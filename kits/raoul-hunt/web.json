@@ -1,0 +1,100 @@
+{
+  "url": "https://huntformortgages.com/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "Raoul Hunt is a licensed mortgage broker in Ottawa who describes himself as Smith Manoeuvre certified. His site covers home purchase, refinance, renewal, debt consolidation and retirement funding, plus options for new-to-Canada, self-employed, credit-challenged and self-build clients. The brokerage shown in the footer is Tango Financial (ON), licence #13691. He publishes a monthly blog and mortgage calculators.",
+  "tagline": "Find the Right Mortgage Solution in Ontario",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Purchasing a home",
+    "Debt consolidation",
+    "Funding your retirement",
+    "Refinance",
+    "Renewals",
+    "Smith Manoeuvre",
+    "New to Canada",
+    "Self-employed",
+    "Credit repair",
+    "Self-build"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Ottawa",
+    "Ontario"
+  ],
+  "team": [
+    {
+      "name": "Raoul Hunt",
+      "title": "Licensed Mortgage Broker",
+      "licence": null
+    }
+  ],
+  "licences": [
+    {
+      "label": "Brokerage licence",
+      "value": "#13691",
+      "where": "footer: Tango Financial (ON) Brokerage License Number"
+    }
+  ],
+  "brokerage": {
+    "name": "Tango Financial (ON)",
+    "licence": "#13691"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/raoul_huntformortgages",
+    "facebook": "https://www.facebook.com/huntformortgages",
+    "linkedin": "https://www.linkedin.com/in/raoulhunt/",
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": "https://huntformortgages.com/book-a-discovery-call",
+  "phones": [
+    "613-317-4262"
+  ],
+  "emails": [
+    "raoul@huntformortgages.com",
+    "info@huntformortgages.com"
+  ],
+  "brandColors": [
+    {
+      "hex": "#27357c",
+      "where": "navy accent (buttons/headings)"
+    },
+    {
+      "hex": "#eff2ff",
+      "where": "pale blue section background"
+    }
+  ],
+  "fonts": [
+    "Roboto"
+  ],
+  "logoUrls": [
+    "https://huntformortgages.com/wp-content/uploads/2022/08/huntlogo.png"
+  ],
+  "testimonialsCount": 10,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "Individual broker licence number not on site (clients.json also none).",
+    "Search (check): blog posts list 'DLC The Mortgage Source, Licence # 10145' and Neighbourhood Mortgage Source; address 424 Catherine St, Ottawa K1R 5T8; phone 613-218-8798 appears elsewhere. This conflicts with Tango Financial #13691 on the main pages. Press release: https://www.accessnewswire.com/newsroom/en/real-estate/ottawa-mortgage-broker-unveils-enhanced-tools-for-spring-homebuyers-1014042. No GBP rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://huntformortgages.com/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://huntformortgages.com/about/",
+      "what": "about + brokerage"
+    },
+    {
+      "url": "https://huntformortgages.com/contact/",
+      "what": "contact"
+    }
+  ],
+  "blocked": []
+}

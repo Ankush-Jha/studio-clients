@@ -1,0 +1,157 @@
+{
+ "pass": true,
+ "fixed": [
+  "Caption: replaced aphorism-style line 'can matter more than the math' with 'which may suit a tight budget'",
+  "Added reviewBy 2026-12-09"
+ ],
+ "math": [
+  {
+   "claim": "2021 payment $2,139 (illustrative origin)",
+   "working": "$500,000, 2.09%, 25 yrs, semi-annual: i=(1+0.0209/2)^(1/6)-1; P=500000*i/(1-(1+i)^-300)",
+   "result": "$2,139.03",
+   "ok": true
+  },
+  {
+   "claim": "Balance after 5 years ≈ $420,000",
+   "working": "same loan, balance after 60 payments",
+   "result": "$419,643.53, rounded to $420,000",
+   "ok": true
+  },
+  {
+   "claim": "Fixed 4.34% = $2,612/mo",
+   "working": "$420,000, 240 months, semi-annual compounding",
+   "result": "$2,612.29 (+$473 vs 2021)",
+   "ok": true
+  },
+  {
+   "claim": "Variable 3.65% = $2,462/mo",
+   "working": "same formula (monthly compounding would give $2,468.33)",
+   "result": "$2,462.36",
+   "ok": true
+  },
+  {
+   "claim": "Starts $150 cheaper",
+   "working": "$2,612.29 - $2,462.36",
+   "result": "$149.92, shown $150",
+   "ok": true
+  },
+  {
+   "claim": "Hike 1: 3.90% = $2,516, $96 to go",
+   "working": "pmt at 3.90%; $2,612.29 - $2,516.15",
+   "result": "$2,516.15; $96.14",
+   "ok": true
+  },
+  {
+   "claim": "Each 0.25% ≈ $54/mo",
+   "working": "$2,516.15 - $2,462.36",
+   "result": "$53.79 (≈ $12.81 per $100K over 20 yrs; PLAYBOOK $13-14 is for 25 yrs)",
+   "ok": true
+  },
+  {
+   "claim": "Hike 2: 4.15% = $2,571, $41 to go",
+   "working": "pmt at 4.15% = $2,570.54; on-screen gap uses shown figures $2,612 - $2,571",
+   "result": "$41 shown (exact $41.74)",
+   "ok": true
+  },
+  {
+   "claim": "Hike 3: 4.40% = $2,626, $14 over fixed",
+   "working": "pmt at 4.40% = $2,625.54; on-screen gap uses shown figures $2,626 - $2,612",
+   "result": "$14 shown (exact $13.25)",
+   "ok": true
+  },
+  {
+   "claim": "Insured hike count = 3",
+   "working": "4.34 - 3.65 = 0.69; 0.69 / 0.25 = 2.76; round up",
+   "result": "3",
+   "ok": true
+  },
+  {
+   "claim": "Uninsured hike count = 4",
+   "working": "nesto Nov 19: 4.95 - 4.10 = 0.85; 0.85 / 0.25 = 3.4; round up. Check: 4.85% var $2,726.01 < 4.95% fixed $2,748.60; 5.10% var $2,782.65 > fixed",
+   "result": "4",
+   "ok": true
+  },
+  {
+   "claim": "5-year interest, fixed 4.34%",
+   "working": "60-month schedule, $420,000, 240 months",
+   "result": "$82,792, shown $82,800",
+   "ok": true
+  },
+  {
+   "claim": "5-year interest, variable hold 3.65%",
+   "working": "60-month schedule",
+   "result": "$69,302, shown $69,300",
+   "ok": true
+  },
+  {
+   "claim": "5-year interest, one hike that sticks (3.90% from month 2)",
+   "working": "payment re-set on remaining amortization at the change",
+   "result": "$74,086, shown $74,100",
+   "ok": true
+  },
+  {
+   "claim": "5-year interest, three hikes in 6 months (3.90% m2, 4.15% m4, 4.40% m6)",
+   "working": "payment re-set at each change",
+   "result": "$83,144, shown $83,100 (fixed ahead by about $350)",
+   "ok": true
+  },
+  {
+   "claim": "Uninsured 5-year interest (caption context, not on slides)",
+   "working": "fixed 4.95% $94,798; var hold 4.10% $78,088; three hikes by m6 $91,997; four hikes by m8 $96,290",
+   "result": "fixed comes out ahead only at about four early hikes",
+   "ok": true
+  },
+  {
+   "claim": "Prime 4.70%; variable = prime - 1.05%",
+   "working": "4.70 - 1.05",
+   "result": "3.65%",
+   "ok": true
+  },
+  {
+   "claim": "Days to the Dec 9 decision",
+   "working": "Nov 19 to Dec 9, 2026",
+   "result": "20 days",
+   "ok": true
+  },
+  {
+   "claim": "Dates",
+   "working": "Oct 28, 2026 and Dec 9, 2026 are both Wednesdays; Valet V39079 shows 2.25% to 2.50% effective Oct 29",
+   "result": "verified",
+   "ok": true
+  }
+ ],
+ "sources": [
+  {
+   "what": "Insured 5-yr fixed 4.34%, 5-yr variable 3.65% (P-1.05), 'as of Nov 18, 2026 6:20 p.m.'",
+   "url": "https://www.ratehub.ca/best-mortgage-rates",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "Uninsured renewal rates 4.95% fixed / 4.10% variable; prime 4.70% after the Oct 28 hike",
+   "url": "https://www.nesto.ca/mortgage-rates/",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "Overnight target 2.50% since Oct 29, 2026 (2.25% before)",
+   "url": "https://www.bankofcanada.ca/valet/observations/V39079/json?recent=60",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "Next decision Wed Dec 9, 2026",
+   "url": "https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/",
+   "checked": "2026-11-19 (concept stage)"
+  }
+ ],
+ "compliance": {
+  "province": "ON",
+  "complianceLine": "kit.complianceLine on all slides and caption line 2",
+  "apr": "placeholder [TODO: brokerage] / [to be confirmed by the brokerage] kept visible; broker of record must supply wording",
+  "copycheck": "all PASS",
+  "ai_label": "not needed (carousel, no voice)",
+  "banned_words": "none",
+  "composite": "labelled Illustrative example"
+ },
+ "blocking": [],
+ "proofOnly": true,
+ "proofReason": "APR placeholder unresolved: O. Reg. 191/08 s.18 requires APR with advertised rates. Do not post until broker of record supplies wording. Rates expire Dec 9, 2026."
+}

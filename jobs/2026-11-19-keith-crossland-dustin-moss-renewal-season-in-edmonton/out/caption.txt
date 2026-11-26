@@ -1,0 +1,28 @@
+Mortgage renewal Edmonton: same wall, same mortgage, about $7,000 apart in interest.
+Keith Crosland & Dustin Moss · Mortgage Connection · [compliance line: TODO]
+
+Illustrative example. Two Edmonton neighbours in one semi-detached house each have $300,000 left on a 20-year amortization, with the same bank, renewing the same month.
+
+The left side waits for the bank's letter. Lenders only have to send it 21 days before the term ends, and if you do nothing the renewal may be automatic. They sign the first offer at 4.94%: about $1,962 a month.
+
+The right side starts about 120 days out, asks other lenders to hold a rate and compares. At 4.44% the payment is about $1,882 a month.
+
+That's about $80 a month. Over the 5-year term it adds up to about $7,032 more in interest, and the left side still owes about $2,235 more at the end.
+
+Renewing in March? Day 120 is now (Nov 19 + 120 days = Mar 19).
+
+A straight switch at renewal (same balance, same amortization) doesn't need a new stress test, but the new lender still has to approve you.
+
+Assumptions: semi-annual compounding; the first offer is assumed to be 0.50% above the shopped rate, and your own gap may differ. 4.44% is the insured 5-year fixed reference on nesto as of Nov 19, 2026 (uninsured is 4.95%, and which applies depends on your mortgage), not an offer. Rates are 5-year fixed, before any fees, so your APR may differ. Rates change daily.
+
+Send this to the neighbour renewing next.
+
+#EdmontonMortgage #MortgageRenewal #YEGRealEstate #AlbertaMortgage #EdmontonHomeowners
+
+---
+POSTING NOTES (do not paste):
+- PROOF ONLY: replace [compliance line: TODO] (on screen and in line 2) with the client's compliance line before posting.
+- Turn on Instagram's AI label when posting: the voiceover is AI-generated (Kokoro am_liam).
+- Bridge line (35-41 s) is a DRAFT pending Keith & Dustin's approval. Surname is 'Crosland' everywhere (client website and staff page), on screen, in the subtitles and in the voice.
+- Post before Dec 1, 2026 (the 'Day 120 is now' line expires). Re-check nesto 4.44% and RAE $410,683 on posting day.
+- Optional: add a Sound Collection track in-app; keep it under the voice.

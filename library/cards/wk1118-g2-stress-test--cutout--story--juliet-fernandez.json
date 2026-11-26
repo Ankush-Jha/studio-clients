@@ -1,0 +1,47 @@
+{
+ "id": "wk1118-g2-stress-test--cutout--story--juliet-fernandez",
+ "title": "Stress test check: 4.44% still qualifies at 6.44% [cutout, story, juliet-fernandez]",
+ "clients": [
+  "juliet-fernandez"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "cutout",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "Stress test check: 4.44% still qualifies at 6.44%",
+ "tags": [
+  "stills",
+  "wk1118-g2-stress-test",
+  "cutout",
+  "story-format",
+  "group-2"
+ ],
+ "hook": "Still tested 2% higher.",
+ "logline": "Proof render of spec 'wk1118-g2-stress-test' in the Paper Cut-out style for Juliet Fernandez, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "Layered construction paper built in SVG: deckled torn edges with a white fibre core, tight neutral shadows, three papers plus the client accent; headlines are set on torn strips pasted onto the board.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1118-g2-stress-test--cutout--story/juliet-fernandez",
+  "poster": "$R/engines/stills/out/wk1118-g2-stress-test--cutout--story/juliet-fernandez/01.jpg",
+  "thumb": "library/thumbs/wk1118-g2-stress-test--cutout--story--juliet-fernandez.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1118-g2-stress-test.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

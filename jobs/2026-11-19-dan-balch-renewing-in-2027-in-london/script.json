@@ -1,0 +1,432 @@
+{
+ "forClient": "dan-balch",
+ "format": "Carousel (feed 1080x1350: 9 slides rendered 1080x1080 square in broadsheet variant a + Dan's 1080-px footer band via footer_compose.py)",
+ "engine": "broker-stills",
+ "style": "broadsheet",
+ "variant": "a",
+ "title": "Three 2027 renewals on one London street",
+ "hook": "Three 2027 renewals. One payment jumps.",
+ "hookAlts": [
+  "[One question decides] Will your 2027 renewal cost more? One date decides it, and it isn't renewal day.",
+  "[Exact-number cold open] +$402 or −$200 a month. Same $500K borrowed, same 2027 renewal year."
+ ],
+ "mechanic": {
+  "type": "guess-then-reveal",
+  "how": "Slide 1 shows A, B, C with signing months only; slide 2 sets the guess ('Whose payment jumps in 2027?') with each rate; slides 3-5 reveal one neighbour per page, so the swipe is the answer. Slide 6 explains why, slide 7 re-hooks the people who got the good news."
+ },
+ "beats": [
+  {
+   "t": "Slide 1 (hook (front page))",
+   "visual": "Front page, variant a: nameplate 'The 2027 Renewal Report' (blackletter) between ears 'Illustrative edition' and 'No. 01 of 09'; dateline with London, Ont.; headline grows to fill; figure box with A, B, C as big Franklin letters and the three signing months under them (no payments yet: the guess must stay open). Standfirst + 'Continued on slide 2' jump. Licence line in the imprint.",
+   "text": "One street, three mortgages | Three 2027 renewals. One payment jumps. | Three London neighbours each borrowed {principal} over {amort} years, at different times. | A  B  C / Signed Feb 2022 · Nov 2022 · Mar 2024",
+   "voice": ""
+  },
+  {
+   "t": "Slide 2 (second hook (the guess))",
+   "visual": "'In brief' box relabelled 'Your guess' (reversed label), three spot-square items A/B/C, italic deck with the source note. Nothing revealed yet.",
+   "text": "Your guess | Whose payment jumps in 2027? | A: signed Feb 2022 (5-yr fixed, {rA}) | B: signed Nov 2022 (5-yr fixed, {rB}) | C: signed Mar 2024 (3-yr fixed, {rC}) | Pick one, then swipe. Rates: Bank of Canada monthly averages.",
+   "voice": ""
+  },
+  {
+   "t": "Slide 3 (reveal A (the jump))",
+   "visual": "Graphic page: title, two halftone bars from $0 (now vs 2027), the 2027 bar solid spot colour, callout column with the 2027 payment, 'Source and assumptions.' line, 'Chart: computed, illustrative.' caption. Bars step up: the only page where the spot bar is longer.",
+   "text": "Signed Feb 2022 · 5-yr fixed | A pays {delta} more a month | {b} / a month at renewal, was {a}",
+   "voice": ""
+  },
+  {
+   "t": "Slide 4 (reveal B)",
+   "visual": "Graphic page: title, two halftone bars from $0 (now vs 2027), the 2027 bar solid spot colour, callout column with the 2027 payment, 'Source and assumptions.' line, 'Chart: computed, illustrative.' caption. Bars step down.",
+   "text": "Signed Nov 2022 · 5-yr fixed | B pays {delta} less a month | {a} / a month at renewal, was {b}",
+   "voice": ""
+  },
+  {
+   "t": "Slide 5 (reveal C)",
+   "visual": "Graphic page: title, two halftone bars from $0 (now vs 2027), the 2027 bar solid spot colour, callout column with the 2027 payment, 'Source and assumptions.' line, 'Chart: computed, illustrative.' caption. Bars step down.",
+   "text": "Signed Mar 2024 · 3-yr fixed | C pays {delta} less a month | {a} / a month at renewal, was {b}",
+   "voice": ""
+  },
+  {
+   "t": "Slide 6 (the turn (why only A))",
+   "visual": "Wood page: section flag, headline grows to fill, italic deck above the imprint.",
+   "text": "Why only A | Your payment goes up only if you renew above the rate you signed. | Same years left. A signed at {rA}. B and C signed above {avg}, the September average.",
+   "voice": ""
+  },
+  {
+   "t": "Slide 7 (re-hook (the lower group still shops))",
+   "visual": "Wood page: section flag, big spot-colour figure, headline grows to fill, italic deck above the imprint.",
+   "text": "Paying less? Still shop | {delta}/mo | What each 0.25% is worth on B's balance (illustrative). Compare before you sign. | Same balance and years at a new lender: no new stress test. You still need their approval.",
+   "voice": ""
+  },
+  {
+   "t": "Slide 8 (save-worthy recap)",
+   "visual": "'In brief' box with reversed label, five items spread down the box with spot-colour square bullets. The save slide.",
+   "text": "In brief | Your 2027 renewal | Find the rate you signed. | Renewing above it? Budget for a bigger payment. | Below it? It may drop. Compare anyway. | Start shopping about {hold} days out. | Same balance, new lender: no new stress test.",
+   "voice": ""
+  },
+  {
+   "t": "Slide 9 (CTA (send))",
+   "visual": "'Notice to readers' double-ruled box (or the client-colour notice treatment the style picks by client hash); compliance block as the imprint ('Published by'). No jump line: last slide.",
+   "text": "Send this to the neighbour who signed in early 2022. | Their 2027 payment is the one that may jump.",
+   "voice": ""
+  }
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "role": "hook (front page)",
+   "type": "cover",
+   "kicker": "One street, three mortgages",
+   "headline": "Three 2027 renewals. One payment jumps.",
+   "dek": "Three London neighbours each borrowed {principal} over {amort} years, at different times.",
+   "figure": "A  B  C",
+   "figureLabel": "Signed Feb 2022 · Nov 2022 · Mar 2024",
+   "calc": {
+    "kind": "payment",
+    "principal": 500000,
+    "annualPct": 2.81,
+    "amortYears": 25
+   },
+   "calcNote": "Used for the {principal} and {amort} fills only; figure takes art priority on the broadsheet cover, so no chart shows."
+  },
+  {
+   "n": 2,
+   "role": "second hook (the guess)",
+   "type": "recap",
+   "label": "Your guess",
+   "title": "Whose payment jumps in 2027?",
+   "items": [
+    {
+     "text": "A: signed Feb 2022",
+     "tag": "5-yr fixed, {rA}"
+    },
+    {
+     "text": "B: signed Nov 2022",
+     "tag": "5-yr fixed, {rB}"
+    },
+    {
+     "text": "C: signed Mar 2024",
+     "tag": "3-yr fixed, {rC}"
+    }
+   ],
+   "note": "Pick one, then swipe. Rates: Bank of Canada monthly averages.",
+   "calc": {
+    "kind": "facts",
+    "values": {
+     "rA": "2.81%",
+     "rB": "5.17%",
+     "rC": "5.43%",
+     "avg": "4.66%"
+    }
+   },
+   "typeNote": "recap, not steps: steps prints 1./2./3. beside A/B/C; recap gives the spot-colour square bullet."
+  },
+  {
+   "n": 3,
+   "role": "reveal A (the jump)",
+   "type": "number",
+   "label": "Signed Feb 2022 · 5-yr fixed",
+   "title": "A pays {delta} more a month",
+   "calc": {
+    "kind": "payment-compare",
+    "principal": 425801.72,
+    "amortYears": 20,
+    "rates": [
+     2.81,
+     4.66
+    ]
+   },
+   "rowLabels": [
+    "Now, {rateA}",
+    "2027, {rateB}"
+   ],
+   "callout": "{b}",
+   "calloutSub": "a month at renewal, was {a}",
+   "assumptions": "Illustrative composite: $500,000 over 25 years, 5-yr fixed at {rateA} (Feb 2022 average). Balance {principal}, {amort} years left. Renews at {rateB}: Bank of Canada average, new 5-yr+ fixed, Sep 2026. Semi-annual compounding. Illustrative market averages, not an offer."
+  },
+  {
+   "n": 4,
+   "role": "reveal B",
+   "type": "number",
+   "label": "Signed Nov 2022 · 5-yr fixed",
+   "title": "B pays {delta} less a month",
+   "calc": [
+    {
+     "kind": "payment-compare",
+     "principal": 443710.91,
+     "amortYears": 20,
+     "rates": [
+      5.17,
+      4.66
+     ]
+    },
+    {
+     "kind": "payment-compare",
+     "principal": 443710.91,
+     "amortYears": 20,
+     "rates": [
+      4.66,
+      5.17
+     ]
+    }
+   ],
+   "calcNote": "Two calcs on purpose. calcs[0] (old rate first) draws the chart: bars now, then 2027, renewal bar highlighted. calcs[1] (rates reversed) is merged last, so its fills win: {a}=renewal $2,835, {b}=now $2,957, {delta}=+$122, {rateA}=4.66%, {rateB}=5.17%. Without it {delta} prints '−$122'.",
+   "rowLabels": [
+    "Now, {rateB}",
+    "2027, {rateA}"
+   ],
+   "callout": "{a}",
+   "calloutSub": "a month at renewal, was {b}",
+   "assumptions": "Illustrative composite: $500,000 over 25 years, 5-yr fixed at {rateB} (Nov 2022 average). Balance {principal}, {amort} years left. Renews at {rateA}: Bank of Canada average, new 5-yr+ fixed, Sep 2026. Semi-annual compounding. Illustrative market averages, not an offer."
+  },
+  {
+   "n": 5,
+   "role": "reveal C",
+   "type": "number",
+   "label": "Signed Mar 2024 · 3-yr fixed",
+   "title": "C pays {delta} less a month",
+   "calc": [
+    {
+     "kind": "payment-compare",
+     "principal": 469048.47,
+     "amortYears": 22,
+     "rates": [
+      5.43,
+      4.66
+     ]
+    },
+    {
+     "kind": "payment-compare",
+     "principal": 469048.47,
+     "amortYears": 22,
+     "rates": [
+      4.66,
+      5.43
+     ]
+    }
+   ],
+   "calcNote": "Same two-calc pattern as slide 4: {a}=renewal $2,832, {b}=now $3,032, {delta}=+$200.",
+   "rowLabels": [
+    "Now, {rateB}",
+    "2027, {rateA}"
+   ],
+   "callout": "{a}",
+   "calloutSub": "a month at renewal, was {b}",
+   "assumptions": "Illustrative composite: $500,000 over 25 years, 3-yr fixed at {rateB} (Mar 2024 average, 3- to 5-yr terms). Balance {principal}, {amort} years left. Renews at {rateA}: Bank of Canada average, new 5-yr+ fixed, Sep 2026. Semi-annual compounding. Illustrative market averages, not an offer."
+  },
+  {
+   "n": 6,
+   "role": "the turn (why only A)",
+   "type": "point",
+   "eyebrow": "Why only A",
+   "text": "Your payment goes up only if you renew above the rate you signed.",
+   "note": "Same years left. A signed at {rA}. B and C signed above {avg}, the September average.",
+   "calc": {
+    "kind": "facts",
+    "values": {
+     "rA": "2.81%",
+     "rB": "5.17%",
+     "rC": "5.43%",
+     "avg": "4.66%"
+    }
+   }
+  },
+  {
+   "n": 7,
+   "role": "re-hook (the lower group still shops)",
+   "type": "point",
+   "eyebrow": "Paying less? Still shop",
+   "figure": "{delta}/mo",
+   "text": "What each 0.25% is worth on B's balance (illustrative). Compare before you sign.",
+   "note": "Same balance and years at a new lender: no new stress test. You still need their approval.",
+   "calc": {
+    "kind": "payment-compare",
+    "principal": 443710.91,
+    "amortYears": 20,
+    "rates": [
+     4.41,
+     4.66
+    ]
+   },
+   "calcNote": "{delta} = $2,835 − $2,776 = $59 (rounded figures; exact $58.75). The '0.25%' in the text is the gap between the two calc rates; the director may swap it for {rateDiff} (prints 0.25%)."
+  },
+  {
+   "n": 8,
+   "role": "save-worthy recap",
+   "type": "recap",
+   "label": "In brief",
+   "title": "Your 2027 renewal",
+   "items": [
+    {
+     "text": "Find the rate you signed."
+    },
+    {
+     "text": "Renewing above it? Budget for a bigger payment."
+    },
+    {
+     "text": "Below it? It may drop. Compare anyway."
+    },
+    {
+     "text": "Start shopping about {hold} days out."
+    },
+    {
+     "text": "Same balance, new lender: no new stress test."
+    }
+   ],
+   "calc": {
+    "kind": "facts",
+    "values": {
+     "hold": "120"
+    }
+   }
+  },
+  {
+   "n": 9,
+   "role": "CTA (send)",
+   "type": "cta",
+   "action": "send",
+   "headline": "Send this to the neighbour who signed in early 2022.",
+   "sub": "Their 2027 payment is the one that may jump."
+  }
+ ],
+ "specNotes": {
+  "series": "2027 Renewal Report (nameplate prints 'The 2027 Renewal Report'; slide 1 kicker differs from the series so it is not skipped)",
+  "date": "render date",
+  "reviewBy": "2026-12-19 (30 days from the Nov 19 rate pull; re-pull Bank of Canada V122667786 on render day per Gate 1)",
+  "id": "renewals-2027-street",
+  "group": 4,
+  "byClient": "Single-client post: copy may sit top-level or under byClient.dan-balch. Profile facts on slides: London (dateline 'London, Ont.' + cover dek); renewals/transfers service (slide 7 straight switch, slide 8). Komoka is caption-only.",
+  "squareRisk": "Broadsheet number slides failed 'overlap' in square once. Titles here are 6 words and there is no takeaway line; if a reveal still fails, drop calloutSub to 'at renewal' before touching type size.",
+  "renderDayRule": "If the new Bank of Canada figure differs from 4.66%, change the renewal rate in calcs on slides 3-5, the facts value 'avg' on slides 2/6, the caption and math[]. The story holds while the renewal rate stays below 5.17%. Above 5.17% B's payment rises too and the hook 'One payment jumps' becomes false: send back to strategist.",
+  "sources": [
+   {
+    "fact": "Average rate, new uninsured fixed 5 yr+: Feb 2022 2.81%, Nov 2022 5.17%, Sep 2026 4.66% (latest observation as of Nov 19, 2026)",
+    "url": "https://www.bankofcanada.ca/valet/observations/V122667786/json?start_date=2021-12-01",
+    "date": "retrieved 2026-11-19"
+   },
+   {
+    "fact": "Average rate, new uninsured fixed 3 to <5 yr: Mar 2024 5.43%",
+    "url": "https://www.bankofcanada.ca/valet/observations/V122667785/json?start_date=2024-01-01",
+    "date": "retrieved 2026-11-19"
+   },
+   {
+    "fact": "Uninsured straight switches at renewal exempt from the prescribed MQR (stress test); insured under the Canadian Mortgage Charter; lender underwriting still applies",
+    "url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/osfi-exempts-uninsured-mortgage-straight-switches-prescribed-mqr-implements-portfolio-lti-limits",
+    "date": "2024-11-21"
+   },
+   {
+    "fact": "Straight switches and portfolio insurance (insured side)",
+    "url": "https://www.canada.ca/en/department-finance/news/2024/12/straight-switches-and-portfolio-insurance.html",
+    "date": "2024-12"
+   },
+   {
+    "fact": "Many lenders hold a renewal rate up to 120 days",
+    "url": "graphic reels/content-desk/research/research_2026-11-19.json#renewal-wave-2026-27",
+    "date": "2026-11-19"
+   },
+   {
+    "fact": "Pandemic-era 5-year fixed renewals: payments up about 15% on average (context, caption-free)",
+    "url": "https://www.bankofcanada.ca/publications/financial-stability-report/financial-stability-report-2026/households/",
+    "date": "2026-05-28"
+   }
+  ]
+ },
+ "cover": "Reel/story cover 1080x1920: slide 1 rendered with --format story --only 1 (no footer). Front page above the fold: nameplate spanning the column, headline 'Three 2027 renewals. One payment jumps.' inside the centre 3:4 band (y 240-1680), A B C figure box under it, fold line + faint column rules below y 1248 so the grid crop still reads as a newspaper. No logo.",
+ "caption": "Mortgage renewal London Ontario 2027: three neighbours renew, and only one payment jumps.\nDan Balch, Licensed Mortgage Broker · Lic. M08003485 · Mortgage Architects · Brokerage Lic. #12728\n\nIllustrative example. Three London neighbours each borrowed $500,000 over 25 years.\nA signed a 5-year fixed in Feb 2022 at 2.81%.\nB signed a 5-year fixed in Nov 2022 at 5.17%.\nC signed a 3-year fixed in Mar 2024 at 5.43%.\n(Those are Bank of Canada monthly averages for new uninsured fixed mortgages.)\n\nAll three renew in 2027. At 4.66%, the September 2026 average for a new 5-year fixed, and with the same years left:\nA: $2,318 to $2,720 a month (+$402)\nB: $2,957 to $2,835 (−$122)\nC: $3,032 to $2,832 (−$200)\n\nThe rule behind it: keep the same years left, and your payment goes up only if you renew above the rate you signed. Rates have moved since September, so check your own number.\n\nA smaller payment still isn't a reason to sign the first offer. On B's balance, each 0.25% is about $59 a month. Moving to another lender at renewal with the same balance and amortization doesn't need a new stress test, though the new lender still has to approve you.\n\nRenewing in London or Komoka in 2027? Send this to the neighbour who signed in early 2022.\n\nIllustrative market averages, not an offer or advice. Semi-annual compounding, payments rounded to the dollar. Your rate, term and APR depend on your lender and approval. Sources: Bank of Canada mortgage rate data (to Sep 2026, retrieved Nov 19, 2026); OSFI straight-switch exemption (Nov 21, 2024).",
+ "hashtags": [
+  "#LondonOntario",
+  "#LdnOnt",
+  "#MortgageRenewal",
+  "#KomokaOntario",
+  "#OntarioMortgage"
+ ],
+ "cta": "Send this to the neighbour who signed in early 2022.",
+ "sendTest": "A London homeowner who signed in late 2022 or 2024 (and learns they may pay less) forwards it to the friend or sibling who bought in the early-2022 rush; adult kids send it to parents renewing in Komoka. The CTA names the recipient, so the sender knows exactly who to tag.",
+ "math": [
+  {
+   "claim": "Composite inputs: each neighbour borrowed $500,000 over 25 years (slide 1 {principal}/{amort}, all assumptions lines)",
+   "working": "Illustrative composite, not a real client. Slide 1 calc payment {principal:500000, annualPct:2.81, amortYears:25} prints $500,000 and 25.",
+   "result": "$500,000, 25 years"
+  },
+  {
+   "claim": "Rates: A 2.81% (Feb 2022, 5-yr+), B 5.17% (Nov 2022, 5-yr+), C 5.43% (Mar 2024, 3 to <5 yr), renewal 4.66% (Sep 2026, 5-yr+)",
+   "working": "Bank of Canada Valet V122667786 and V122667785, effective rate on new uninsured fixed mortgages, re-pulled 2026-11-19; latest observation 2026-09-01 = 4.66%",
+   "result": "2.81% / 5.17% / 5.43% / 4.66%"
+  },
+  {
+   "claim": "Balances at renewal: A $425,802 (20 yrs left), B $443,711 (20 yrs left), C $469,048 (22 yrs left)",
+   "working": "Semi-annual compounding: i = (1 + r/200)^(1/6) − 1; pmt = P·i/(1−(1+i)^−300); balance after k payments = P(1+i)^k − pmt((1+i)^k − 1)/i. A: k=60 at 2.81% = 425,801.72. B: k=60 at 5.17% = 443,710.91. C: k=36 at 5.43% = 469,048.47 (Python-checked).",
+   "result": "425,801.72 / 443,710.91 / 469,048.47 (calc principal inputs)"
+  },
+  {
+   "claim": "A: $2,318 now, $2,720 at renewal, $402 more a month",
+   "working": "Payment on 425,801.72 over 20 yrs at 2.81% = 2,317.75 (equals the original payment on $500,000/25 yrs, as it must); at 4.66% = 2,720.43. Rounded 2,720 − 2,318 = 402 (exact 402.67, +17.4%). calc.mjs fills: a $2,318, b $2,720, delta $402.",
+   "result": "+$402/month"
+  },
+  {
+   "claim": "B: $2,957 now, $2,835 at renewal, $122 less a month",
+   "working": "Payment on 443,710.91 over 20 yrs at 5.17% = 2,956.60 (= original); at 4.66% = 2,834.85. Rounded 2,957 − 2,835 = 122 (exact 121.75). Reversed second calc gives {delta} $122.",
+   "result": "−$122/month"
+  },
+  {
+   "claim": "C: $3,032 now, $2,832 at renewal, $200 less a month",
+   "working": "Payment on 469,048.47 over 22 yrs at 5.43% = 3,031.61 (= original); at 4.66% = 2,831.94. Rounded 3,032 − 2,832 = 200 (exact 199.67).",
+   "result": "−$200/month"
+  },
+  {
+   "claim": "Slide 6 rule: with the same years left, the payment rises only if the renewal rate is above the signed rate",
+   "working": "The remaining balance re-amortized over the remaining years at the original rate reproduces the original payment exactly (checked: 2,317.75 / 2,956.60 / 3,031.61). Payment rises with rate, so break-even is the signed rate: A 2.81%, B 5.17%, C 5.43%.",
+   "result": "break-even = rate signed"
+  },
+  {
+   "claim": "Slide 7: each 0.25% on B's balance is about $59 a month",
+   "working": "443,710.91 over 20 yrs: 4.66% = 2,834.85, 4.41% = 2,776.10. Rounded 2,835 − 2,776 = 59 (exact 58.75).",
+   "result": "$59/month"
+  },
+  {
+   "claim": "Slide 8: start shopping about 120 days out",
+   "working": "Research renewal-wave-2026-27: many lenders hold a rate for up to 120 days (lender-specific; worded 'about')",
+   "result": "120 days"
+  },
+  {
+   "claim": "Sensitivity (not on slides): at a 4.95% renewal rate",
+   "working": "A 2,786.57 (+469, exact +468.81); B 2,903.77 (−53); C 2,906.37 (−126). The hook stays true for any renewal rate between 2.81% and 5.17%.",
+   "result": "story holds below 5.17%"
+  }
+ ],
+ "whyThisClient": "Dan is in London (Komoka office) and lists 'Mortgage Renewals In London' and 'Mortgage Renewal/ Transferring your mortgage' as services: the reveal sells a renewal review and slide 7 sells the transfer. Broadsheet is his roster primary, he has no pieces in history yet, and a front page suits a story told against the received news ('2027 renewal shock'). The guess-then-reveal on one street gives this account its own device; other Group 4 renewal posts used the renewal letter and the lump sum.",
+ "researchIds": [
+  "renewal-wave-2026-27",
+  "boc-hike-oct28-dec9",
+  "trend-reels-reach-carousels-saves"
+ ],
+ "complianceNotes": [
+  "Ontario O. Reg. 188/08 s.6: brokerage name and licence (Mortgage Architects, Lic. #12728) print on every slide via the licence slot; agent name, title and Lic. M08003485 come through the footer band and caption line 2 (the token has no agent-licence field).",
+  "O. Reg. 191/08 s.18: rates shown are Bank of Canada market averages in a worked example, not advertised offers; every rate carries its term and month and the slides say 'Not an offer'. Ask compliance whether an APR line is still required; if yes, add it to the assumptions lines (it stays a visible TODO until supplied).",
+  "Neighbours A, B and C are labelled illustrative composites; no real clients, streets, lenders or testimonials.",
+  "Straight-switch wording keeps both conditions (same balance, same amortization) and 'you still need their approval'. Never say the stress test is gone; it still applies to purchases and refinances.",
+  "No 'guaranteed', 'best rate' or 'lowest rate'. Outcomes use 'may'.",
+  "Rate premise dated Sep 2026; reviewBy 2026-12-19. Re-pull on render day (Gate 1 note) and retire or re-render after review date.",
+  "Sound Collection track only if a sound is added for Reels surfacing.",
+  "CHECKER: s.18 APR rule applies to an advertised rate or payment offered by the brokerage. These are BoC market averages in a worked example, not offered rates, so APR is probably not triggered, but this is not certain. Kept 'Illustrative market averages, not an offer' on slides 3-5 and caption. Flag for broker of record (Mortgage Architects #12728) before posting: proof-only for posting, not blocking production."
+ ],
+ "needs": [
+  "Render day: re-pull Bank of Canada V122667786; if an October figure is out, update the renewal rate everywhere listed in specNotes.renderDayRule.",
+  "Compliance answer on the APR line for market-average rates in Ontario.",
+  "Footer phone (519) 438 7025 differs from the sheet (519) 854 7025: footer is used as supplied; nothing retyped. User to confirm.",
+  "Kit accent is provisional (colorsProvisional: true); confirm Dan's green before posting."
+ ],
+ "fr": null,
+ "frNote": "Not needed: Ontario client, English only (kit languages: en).",
+ "wordCounts": {
+  "note": "PLAYBOOK carousel: about 20 words a slide; broadsheet QA warns above 40 non-fine words.",
+  "slide1": 32,
+  "slide2": 38,
+  "slide3": 18,
+  "slide4": 18,
+  "slide5": 18,
+  "slide6": 32,
+  "slide7": 35,
+  "slide8": 39,
+  "slide9": 20
+ }
+}

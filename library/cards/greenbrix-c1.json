@@ -1,0 +1,51 @@
+{
+ "id": "greenbrix-c1",
+ "title": "Greenbrix C1: 4 people the bank turns away",
+ "clients": [
+  "krystian-catala"
+ ],
+ "generic": false,
+ "date": "2026-11-17",
+ "format": "carousel",
+ "engine": "custom-html",
+ "style": "greenbrix-brick-objects",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Equity-based lending: 4 people the bank turns away",
+ "tags": [
+  "greenbrix",
+  "private-lending",
+  "ontario",
+  "carousel",
+  "seamless-join",
+  "brick-motif",
+  "equity-based-lending"
+ ],
+ "hook": "The bank said no. That is not the final answer.",
+ "logline": "Seven-slide Greenbrix Capital carousel for Krystian Catala: 4 people the bank turns away.",
+ "structure": "7 slides 1080x1350: cover (Krystian behind a stamped folder, lime sticky 'Not the final answer.'), business owner (tax return, declared income circled), rebuilder (credit gauge needle under 600), non-traditional earner (slips spilling out of a bank form), out of time (calendar), what we look at instead (property, equity, plan dividers), CTA index card on a lime YOUR FILE folder.",
+ "device": "the Declined Pile: bank files stamped DECLINED (textured red rubber stamp), each holding the one document that sank it; Greenbrix's lime file tab reopens them and runs from the cover into slide 2 as the seamless join",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/graphic reels/clients/greenbrix/FINAL/C1",
+  "poster": "$R/graphic reels/clients/greenbrix/FINAL/C1/C1-1.png",
+  "thumb": "library/thumbs/greenbrix-c1.jpg",
+  "treatment": "$R/graphic reels/clients/greenbrix/C1/NOTES.md",
+  "project": "$R/graphic reels/clients/greenbrix/C1",
+  "caption": "$R/graphic reels/clients/greenbrix/FINAL/C1/caption.txt"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "BoC stat (about 9% of Toronto-CMA borrowers renewing in 2027 may be unable to refinance) is caption-only; wording must name the Financial Stability Report 2026 and say Toronto-area.",
+  "Confirm licence numbers #13645 and M12001607 on the FSRA register before posting."
+ ],
+ "source": "seed",
+ "hookPattern": "list-promise",
+ "slides": 7
+}

@@ -1,0 +1,47 @@
+{
+ "id": "wk1117-g1-october-number--bento--story--michael-marini",
+ "title": "Your city's October in one number [bento, story, michael-marini]",
+ "clients": [
+  "michael-marini"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "bento",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "Your city's October in one number",
+ "tags": [
+  "stills",
+  "wk1117-g1-october-number",
+  "bento",
+  "story-format",
+  "group-1"
+ ],
+ "hook": "The GTA average price slipped.",
+ "logline": "Proof render of spec 'wk1117-g1-october-number' in the Bento Ledger style for Michael Marini, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "A ledger-dashboard of unequal square tiles on cool stone: one hero tile in the client colour, one ink tile, paper tiles, every tile one number with a micro-visual drawn on one shared scale.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1117-g1-october-number--bento--story/michael-marini",
+  "poster": "$R/engines/stills/out/wk1117-g1-october-number--bento--story/michael-marini/01.jpg",
+  "thumb": "library/thumbs/wk1117-g1-october-number--bento--story--michael-marini.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1117-g1-october-number.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

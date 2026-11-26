@@ -1,0 +1,123 @@
+{
+  "url": "https://www.caliberwealthmanagement.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Caliber Wealth Management Inc. (CWMI) is a Richmond Hill, Ontario firm powered by Financial Horizons that offers a holistic approach across life insurance, investments and lending. Brian Wang is Co-Founder, Operator and Wealth Coach, with 21+ years in insurance and investment management and 12+ years as a Mortgage Agent Level 2 via Caliber Mortgage. The team also includes co-founder Bredy Leow and several wealth coaches.",
+  "tagline": "Building and protecting your wealth. Tailored strategies for your financial future. We craft the blueprint for your legacy.",
+  "yearsInBusiness": "Brian: 21+ years insurance/investments, 12+ years mortgage agent",
+  "specialties": [
+    "Life insurance",
+    "Investments",
+    "Retirement planning",
+    "Lending",
+    "Private lending",
+    "Becoming the Bank",
+    "1st/2nd/private mortgages via Caliber Mortgage",
+    "HELOC",
+    "Reverse mortgage"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Richmond Hill, Ontario"
+  ],
+  "team": [
+    {
+      "name": "Brian Wang",
+      "title": "Co-Founder, Operator and Wealth Coach",
+      "licence": null
+    },
+    {
+      "name": "Bredy Leow",
+      "title": "Co-Founder",
+      "licence": null
+    },
+    {
+      "name": "Lynn Cheuk",
+      "title": "Wealth Coach / Life Insurance Advisor",
+      "licence": null
+    },
+    {
+      "name": "Lisa O'Bonsawin",
+      "title": "Wealth Coach / Life Insurance Advisor",
+      "licence": null
+    },
+    {
+      "name": "Victor Lamba",
+      "title": "Wealth Coach / Life Insurance Advisor",
+      "licence": null
+    }
+  ],
+  "licences": [],
+  "brokerage": {
+    "name": "Caliber Wealth Management Inc. (powered by Financial Horizons MGA)",
+    "licence": null
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "437-425-2600"
+  ],
+  "emails": [
+    "brian.wang@caliberwealthmanagement.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#1E3A5F",
+      "where": "navy in site CSS"
+    },
+    {
+      "hex": "#2C5AA0",
+      "where": "blue accent in site CSS"
+    },
+    {
+      "hex": "#4A7BA7",
+      "where": "light blue accent"
+    },
+    {
+      "hex": "#F8FAFB",
+      "where": "light background"
+    }
+  ],
+  "fonts": [
+    "Bitter",
+    "Raleway"
+  ],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Site is a JS app (Wix); text fetched with the headless browser tool, robots allowed.",
+    "Office: 8-175 West Beaver Creek, Richmond Hill ON L4B 3M1; hours 10am to 6pm 7 days, by appointment.",
+    "No licence numbers on the site. Footer says 'Securities and advisory services offered through licensed professionals'. See $R/graphic reels/portfolio-failing/research/FACTS.md for licence/compliance flags (life licence #05089990 unverified).",
+    "WebSearch (3rd-party directory results, confidence: check): a Dominion Lending Centres page lists him as Mortgage Agent Level 2, Caliber Mortgage, licence #M14000885 (3rd-party, check; not on his own site). Company registry shows status 'Active - Dissolution Pending (Non-compliance)' (canadacompanyregistry.com, check). No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://www.caliberwealthmanagement.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://www.caliberwealthmanagement.ca/team",
+      "what": "team"
+    },
+    {
+      "url": "https://www.caliberwealthmanagement.ca/contact",
+      "what": "contact"
+    },
+    {
+      "url": "https://www.caliberwealthmanagement.ca/lending",
+      "what": "lending services"
+    }
+  ],
+  "blocked": []
+}

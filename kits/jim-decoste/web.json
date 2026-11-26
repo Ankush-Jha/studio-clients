@@ -1,0 +1,96 @@
+{
+  "url": "https://jimdecoste.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Jim DeCoste (MB / CFA) is a Mortgage Broker with Dominion Lending Centres Maritime Mortgage Group in Antigonish, Nova Scotia. The site is a standard DLC template covering purchase, refinance, renewal, home equity, CHIP, self-employed and commercial, plus current rate comparisons. It states DLC has over 2,300 members and access to 230+ lenders.",
+  "tagline": "Whether you are a first-time buyer or an experienced buyer with excellent credit, Dominion Lending Centres has access to the very best products and rates available across Canada.",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Home purchase",
+    "Refinance",
+    "Mortgage renewal",
+    "Home equity",
+    "CHIP",
+    "Self-employed",
+    "Commercial & leasing"
+  ],
+  "languages": [
+    "English",
+    "French (site toggle)"
+  ],
+  "serviceAreas": [
+    "Antigonish, Nova Scotia"
+  ],
+  "team": [
+    {
+      "name": "Jim DeCoste",
+      "title": "Mortgage Broker, MB / CFA",
+      "licence": "Originator Licence #2021-3000209"
+    }
+  ],
+  "licences": [
+    {
+      "label": "Originator Licence",
+      "value": "#2021-3000209",
+      "where": "homepage header"
+    },
+    {
+      "label": "Brokerage Licence",
+      "value": "#2021-3000208",
+      "where": "homepage header"
+    }
+  ],
+  "brokerage": {
+    "name": "Dominion Lending Centres Maritime Mortgage Group",
+    "licence": "#2021-3000208"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "(902) 968-1727 (cell)",
+    "902-752-0986 (tel)",
+    "902-752-1444 (fax)"
+  ],
+  "emails": [
+    "jdecoste@dominionlending.ca"
+  ],
+  "brandColors": [],
+  "fonts": [
+    "Arial"
+  ],
+  "logoUrls": [],
+  "testimonialsCount": 10,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Facebook/Twitter/YouTube links on the site are DLC corporate accounts (DominionLendingCentresCanada, DLCCanadaInc, DLCcanada), not Jim's; socials left null.",
+    "Homepage rate table shows 3.70% variable and 4.70% prime, evidently stale; do not reuse.",
+    "Address: 21 James Street, Antigonish NS. Testimonials page has about 10 client quotes.",
+    "No distinctive brand colours: site uses a generic DLC template.",
+    "WebSearch (3rd-party directory results, confidence: check): no Google rating found; directory listings repeat the same contact details."
+  ],
+  "sources": [
+    {
+      "url": "https://jimdecoste.ca/",
+      "what": "homepage, licences"
+    },
+    {
+      "url": "https://jimdecoste.ca/about/",
+      "what": "contact"
+    },
+    {
+      "url": "https://jimdecoste.ca/about/client-testimonials/",
+      "what": "testimonials"
+    }
+  ],
+  "blocked": []
+}

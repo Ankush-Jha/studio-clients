@@ -1,0 +1,190 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "id": "stills.count",
+      "name": "Carousel slide count",
+      "status": "pass",
+      "value": 8,
+      "expected": "2-20",
+      "detail": ""
+    },
+    {
+      "id": "stills.dimensions",
+      "name": "Dimensions",
+      "status": "pass",
+      "value": "1080x1350",
+      "expected": "1080x1350|1440 carousel, 1080x1920 story/cover, 1080x1080 square; one size per set",
+      "detail": ""
+    },
+    {
+      "id": "stills.format",
+      "name": "Format / sRGB",
+      "status": "pass",
+      "value": [
+        "JPEG"
+      ],
+      "expected": "JPEG/PNG, RGB, sRGB (or untagged)",
+      "detail": ""
+    },
+    {
+      "id": "stills.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "max 0.42 MB",
+      "expected": "<= 8 MB each",
+      "detail": ""
+    },
+    {
+      "id": "stills.footer_band",
+      "name": "Client footer band (used as supplied)",
+      "status": "warn",
+      "value": "9 footer words near the edge",
+      "expected": "client artwork, not edited",
+      "detail": "01.jpg:'amit_khurana@centum.ca'; 02.jpg:'amit_khurana@centum.ca'; 03.jpg:'amit_khurana@centum.ca'; 04.jpg:'amit_khurana@centum.ca'"
+    },
+    {
+      "id": "stills.margins",
+      "name": "Text inside 60 px side margins",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "x 60 .. W-60",
+      "detail": ""
+    },
+    {
+      "id": "stills.gridcrop",
+      "name": "Text inside 3:4 grid crop of slide 1 (x34-1046, y0-1350)",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "inside crop",
+      "detail": ""
+    },
+    {
+      "id": "stills.contrast",
+      "name": "Text contrast >= 4.5:1 (WCAG AA)",
+      "status": "warn",
+      "value": "23 low-contrast lines",
+      "expected": ">= 4.5:1",
+      "detail": "01.jpg 'Pick' 3.5:1; 01.jpg '2 30v 4' 3.5:1; 01.jpg 'Answer on Slide 6' 3.3:1; 01.jpg 'VARIABLE' 3.3:1; 01.jpg 'Rates as of Nov 18, 2026' 3.8:1; 02.jpg 'at 2.09%, 25-year amortizati' 3.7:1"
+    },
+    {
+      "id": "stills.words",
+      "name": "Words per slide <= 40",
+      "status": "warn",
+      "value": "01.jpg=56, 02.jpg=67, 03.jpg=60, 04.jpg=76, 05.jpg=61, 06.jpg=68, 07.jpg=71, 08.jpg=75",
+      "expected": "<= 40 (carousel ~20)",
+      "detail": "01.jpg=43; 02.jpg=55; 03.jpg=48; 04.jpg=66; 05.jpg=48; 06.jpg=56; 07.jpg=59; 08.jpg=62"
+    },
+    {
+      "id": "copy.banned",
+      "name": "Banned phrases",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash",
+      "name": "Em-dash count",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.kit_rules",
+      "name": "Client kit rules",
+      "status": "skip",
+      "value": null,
+      "expected": null,
+      "detail": "/Users/ankushjha/Work/bots/kits/amit-khurana/kit.json has no rules"
+    },
+    {
+      "id": "copy.rate_disclosure",
+      "name": "Rate shown with APR and term",
+      "status": "pass",
+      "value": {
+        "rates": [
+          "4.34%",
+          "3.65%",
+          "4.70%",
+          "1.05%",
+          "4.95%",
+          "4.10%",
+          "4.70%",
+          "1.05%",
+          "2.09%"
+        ],
+        "apr": true,
+        "term": true
+      },
+      "expected": "APR + term wording (O. Reg. 191/08 s.18)",
+      "detail": ""
+    },
+    {
+      "id": "copy.compliance_line",
+      "name": "Compliance line present",
+      "status": "pass",
+      "value": true,
+      "expected": "Amit Khurana, Mortgage Agent Level 2 \u00b7 Lic. M12000871 \u00b7 Centum Indigo Mortgages Corp. \u00b7 Brokerage Lic. #12141",
+      "detail": "Ontario ads need brokerage name + licence (O. Reg. 188/08 s.6)"
+    },
+    {
+      "id": "copy.hashtags",
+      "name": "Hashtags <= 5",
+      "status": "pass",
+      "value": 5,
+      "expected": "<= 5",
+      "detail": ""
+    },
+    {
+      "id": "copy.line1_search",
+      "name": "Caption line 1 has a search phrase",
+      "status": "pass",
+      "value": "Fixed or variable at renewal: it takes three quarter-point hikes before variable costs mor",
+      "expected": "topic phrase (mortgage/renewal/HELOC...) in line 1",
+      "detail": ""
+    },
+    {
+      "id": "dup.near",
+      "name": "Near-duplicate vs library/jobs/radar",
+      "status": "pass",
+      "value": {
+        "nearest": {
+          "distance": 23.0,
+          "client": null,
+          "path": "library/cards/heloc-rules.json"
+        },
+        "indexed": 364,
+        "checked": 8
+      },
+      "expected": "dist > 10 (fail <= 6 other client, warn <= 10)",
+      "detail": "index has 364 items"
+    }
+  ],
+  "frames": [
+    "qa/frames/01.jpg",
+    "qa/frames/02.jpg",
+    "qa/frames/03.jpg",
+    "qa/frames/04.jpg",
+    "qa/frames/05.jpg",
+    "qa/frames/06.jpg",
+    "qa/frames/07.jpg",
+    "qa/frames/08.jpg"
+  ],
+  "contact": "qa/contact.jpg",
+  "at": "2026-11-19T20:57:55+05:30",
+  "kind": "stills",
+  "client": "amit-khurana",
+  "summary": {
+    "pass": 13,
+    "warn": 3,
+    "fail": 0,
+    "skip": 1
+  },
+  "elapsed_s": 1.9,
+  "runtime_s": {
+    "stills": 1.3
+  },
+  "gridcrop": "qa/gridcrop.jpg"
+}

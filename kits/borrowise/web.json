@@ -1,0 +1,97 @@
+{
+  "url": "https://borrowise.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Borrowise presents itself as a digital-first Ottawa mortgage brokerage offering first-time buyer, refinance, reverse mortgage, equity-based and HELOC mortgages, with online qualification and access to many lenders. The site claims to offer the lowest applicable rate up front, a 1% cashback option and a 150-day rate hold. Only an agent licence and a support email are published; no individual broker is named.",
+  "tagline": "Custom Mortgage Solutions Built with your Need",
+  "yearsInBusiness": null,
+  "specialties": [
+    "First-time home buyers",
+    "Mortgage refinance",
+    "Reverse mortgage",
+    "Equity-based mortgages",
+    "HELOC",
+    "Bad credit mortgages"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Ottawa, Ontario"
+  ],
+  "team": [],
+  "licences": [
+    {
+      "label": "Agent Licence",
+      "value": "#M24001608",
+      "where": "about page footer"
+    }
+  ],
+  "brokerage": {
+    "name": null,
+    "licence": null
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/borrowisecanada?igsh=anhpaHdobGZkZ3lz",
+    "facebook": "https://www.facebook.com/profile.php?id=61566941206367",
+    "linkedin": "https://www.linkedin.com/company/105210780",
+    "youtube": null,
+    "tiktok": null,
+    "x": "https://x.com/borrowiseca"
+  },
+  "bookingUrl": "https://calendly.com (embedded widget; no specific booking URL captured)",
+  "phones": [],
+  "emails": [
+    "support@borrowise.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#F9F9F8",
+      "where": "theme-color meta (off-white)"
+    },
+    {
+      "hex": "#d9534f",
+      "where": "accent red in CSS (may be theme default)"
+    },
+    {
+      "hex": "#cc3366",
+      "where": "#c36 accent in CSS"
+    }
+  ],
+  "fonts": [
+    "Gilroy",
+    "Mont"
+  ],
+  "logoUrls": [
+    "https://borrowise.ca/wp-content/uploads/2024/08/logo.svg",
+    "https://borrowise.ca/wp-content/uploads/2024/08/logo-white.svg"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Site contains template/boilerplate text that does not belong to a Canadian brokerage: Irish references (RTE1 Morning Ireland, SEAI grants, ECB) and an unrelated 'invoicing' testimonial; do not reuse.",
+    "bookingUrl is only a Calendly widget reference; no person-specific URL.",
+    "WebSearch (3rd-party directory results, confidence: check): borrowise.ca/rates/ottawa and solo.to/borrowise: 'Borrowise and Mortgage Intelligence, Brokerage Lic: #10428', phone +1 343 353 0081, Unit 140 - 14 Colonnade Rd, Ottawa ON K2E 7M6 (3rd-party/own-pages, check). A 4.9 stars / 48 Google reviews figure appears on a web agency mockup page (superkreatives.ca) and is NOT verified.",
+    "clients.json has no website, emails or licence for Borrowise; website and email taken from footer.png."
+  ],
+  "sources": [
+    {
+      "url": "https://borrowise.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://borrowise.ca/about-us/",
+      "what": "licence footer"
+    },
+    {
+      "url": "https://borrowise.ca/contact-us/",
+      "what": "FAQ"
+    },
+    {
+      "url": "https://solo.to/borrowise",
+      "what": "search, check"
+    }
+  ],
+  "blocked": []
+}

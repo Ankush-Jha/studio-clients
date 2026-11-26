@@ -1,0 +1,108 @@
+{
+  "pass": true,
+  "at": "2026-11-18T12:58:10Z",
+  "contact": "$R/graphic reels/heloc-five-years/out/contact_sheet.jpg",
+  "frames": [
+    "$R/graphic reels/heloc-five-years/out/review1.jpg",
+    "$R/graphic reels/heloc-five-years/out/review2.jpg",
+    "$R/graphic reels/heloc-five-years/out/review3.jpg"
+  ],
+  "checks": [
+    {
+      "id": "size",
+      "name": "Frame size",
+      "status": "pass",
+      "value": "1080×1920",
+      "expected": "1080×1920",
+      "detail": ""
+    },
+    {
+      "id": "duration",
+      "name": "Duration",
+      "status": "pass",
+      "value": "53.5 s",
+      "expected": "≤ 90 s",
+      "detail": ""
+    },
+    {
+      "id": "fps",
+      "name": "Frame rate",
+      "status": "pass",
+      "value": "30",
+      "expected": "24–30",
+      "detail": ""
+    },
+    {
+      "id": "loudness",
+      "name": "Loudness",
+      "status": "pass",
+      "value": "-14.2 LUFS",
+      "expected": "-14 ±1",
+      "detail": ""
+    },
+    {
+      "id": "safezone",
+      "name": "IG safe zones",
+      "status": "pass",
+      "value": "0 text in UI zones",
+      "expected": "0",
+      "detail": ""
+    },
+    {
+      "id": "captions",
+      "name": "Burned captions",
+      "status": "pass",
+      "value": "98% WER match",
+      "expected": "≥ 95%",
+      "detail": ""
+    },
+    {
+      "id": "spelling",
+      "name": "On-screen spelling",
+      "status": "pass",
+      "value": "0 errors",
+      "expected": "0",
+      "detail": "tesseract + dictionary"
+    },
+    {
+      "id": "math",
+      "name": "Math check",
+      "status": "pass",
+      "value": "1/1",
+      "expected": "all",
+      "detail": "$833/mo"
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance line",
+      "status": "warn",
+      "value": "not on screen",
+      "expected": "caption or end card",
+      "detail": "Add brokerage + licence in caption before posting"
+    },
+    {
+      "id": "caption",
+      "name": "Caption length",
+      "status": "warn",
+      "value": "2,104 chars",
+      "expected": "≤ 2,000",
+      "detail": "Trim the first-comment text"
+    },
+    {
+      "id": "grid",
+      "name": "Grid crop 3:4",
+      "status": "pass",
+      "value": "headline inside",
+      "expected": "inside",
+      "detail": ""
+    },
+    {
+      "id": "variety",
+      "name": "Variety vs history",
+      "status": "skip",
+      "value": "—",
+      "expected": "",
+      "detail": "client history empty"
+    }
+  ]
+}

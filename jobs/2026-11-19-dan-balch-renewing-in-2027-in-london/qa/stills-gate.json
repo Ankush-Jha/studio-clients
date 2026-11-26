@@ -1,0 +1,298 @@
+{
+ "date": "2026-11-19",
+ "strict": true,
+ "renders": [
+  {
+   "render": "renewals-2027-street--broadsheet--square/dan-balch",
+   "style": "broadsheet",
+   "format": "square",
+   "client": "dan-balch",
+   "slides": 9,
+   "minContrast": 7.3,
+   "minBodyPx": 28,
+   "minFinePx": 19,
+   "maxWords": 39,
+   "fail": 0,
+   "warn": 0,
+   "todo": 0
+  },
+  {
+   "render": "renewals-2027-street--broadsheet--story/dan-balch",
+   "style": "broadsheet",
+   "format": "story",
+   "client": "dan-balch",
+   "slides": 1,
+   "minContrast": 7.43,
+   "minBodyPx": 28,
+   "minFinePx": 19,
+   "maxWords": 32,
+   "fail": 0,
+   "warn": 0,
+   "todo": 0
+  }
+ ],
+ "fails": [
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/01.jpg ~ _agency/dec9-variable--bento--square/gregory-hernandez/01.jpg",
+   "detail": "dH 10 pH 6"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/03.jpg ~ _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/05.jpg",
+   "detail": "dH 11 pH 2"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/04.jpg ~ _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/02.jpg",
+   "detail": "dH 10 pH 14"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/04.jpg ~ _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/06.jpg",
+   "detail": "dH 9 pH 12"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/05.jpg ~ _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/06.jpg",
+   "detail": "dH 15 pH 8"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/06.jpg ~ _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/01.jpg",
+   "detail": "dH 9 pH 16"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/06.jpg ~ _agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/01.jpg",
+   "detail": "dH 15 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/06.jpg ~ _agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/05.jpg",
+   "detail": "dH 6 pH 14"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--bento/gregory-hernandez/07.jpg ~ _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/08.jpg",
+   "detail": "dH 6 pH 6"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--swiss/michael-marini/05.jpg ~ _agency/wk1118-g1-new-pr-down--swiss/jim-decoste/02.jpg",
+   "detail": "dH 7 pH 14"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--swiss/michael-marini/06.jpg ~ _agency/wk1118-g1-new-pr-down--swiss/michael-marini/07.jpg",
+   "detail": "dH 13 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--swiss/michael-marini/07.jpg ~ _agency/wk1118-g1-new-pr-down--swiss/michael-marini/08.jpg",
+   "detail": "dH 16 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--terminal/keith-crossland-dustin-moss/01.jpg ~ _agency/dec9-variable--terminal--square/keith-crossland-dustin-moss/01.jpg",
+   "detail": "dH 9 pH 14"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--terminal/keith-crossland-dustin-moss/01.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/01.jpg",
+   "detail": "dH 19 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--terminal/keith-crossland-dustin-moss/07.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/keith-crossland-dustin-moss/08.jpg",
+   "detail": "dH 13 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--terminal/sahil-rihani/02.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/03.jpg",
+   "detail": "dH 8 pH 14"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--terminal/sahil-rihani/04.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/06.jpg",
+   "detail": "dH 20 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--terminal/sahil-rihani/05.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/06.jpg",
+   "detail": "dH 19 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/dec9-variable--terminal--story/keith-crossland-dustin-moss/01.jpg ~ _agency/wk1117-g1-october-number--terminal--story/scott-brouke/01.jpg",
+   "detail": "dH 17 pH 4"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/deposit-trail--broadsheet/georges/03.jpg ~ _agency/wk1118-g1-new-pr-down--swiss/scott-brouke/01.jpg",
+   "detail": "dH 17 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/deposit-trail--broadsheet--story/dan-balch/01.jpg ~ renewals-2027-street--broadsheet--story/dan-balch/01.jpg",
+   "detail": "dH 14 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/deposit-trail--paper-trail/byran-peters/01.jpg ~ _agency/deposit-trail--paper-trail--square/byran-peters/01.jpg",
+   "detail": "dH 12 pH 6"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/deposit-trail--paper-trail--story/byran-peters/01.jpg ~ _agency/wk1117-g4-price-drop--paper-trail--story/byran-peters/01.jpg",
+   "detail": "dH 12 pH 6"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/deposit-trail--paper-trail--story/byran-peters/01.jpg ~ _agency/wk1118-g4-budget-verdict--paper-trail--story/dan-balch/01.jpg",
+   "detail": "dH 19 pH 8"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/deposit-trail--paper-trail--story/byran-peters/01.jpg ~ _agency/wk1118-g4-budget-verdict--paper-trail--story/jalal-khan/01.jpg",
+   "detail": "dH 18 pH 4"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/gift-or-cosign--isometric--story/abbas/01.jpg ~ _agency/wk1118-g3-no-credit-score--isometric--story/nav-utppal/01.jpg",
+   "detail": "dH 8 pH 8"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/heloc-paul--magazine/akshat-chauhan/01.jpg ~ _agency/wk1118-g2-stress-test--magazine--story/borrowise/01.jpg",
+   "detail": "dH 22 pH 16"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/heloc-paul--magazine/amit-khurana/02.jpg ~ _agency/wk1118-g1-new-pr-down--swiss/scott-brouke/06.jpg",
+   "detail": "dH 20 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/renewal-21-days--annotated--story/rahul-vinod/01.jpg ~ _agency/wk1117-g2-bond-move--annotated--story/rahul-vinod/01.jpg",
+   "detail": "dH 14 pH 16"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/renewal-lump-sum--bold-type/adrian-biccum/04.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/keith-crossland-dustin-moss/02.jpg",
+   "detail": "dH 20 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/renewal-lump-sum--bold-type/akaalinder-dhaliwal/05.jpg ~ _agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/02.jpg",
+   "detail": "dH 19 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/renewal-lump-sum--riso--story/nav-utppal/01.jpg ~ _agency/wk1117-g3-months-supply--riso--story/nav-utppal/01.jpg",
+   "detail": "dH 14 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/renewal-lump-sum--riso--story/nav-utppal/01.jpg ~ _agency/wk1118-g3-no-credit-score--riso--story/adrian-biccum/01.jpg",
+   "detail": "dH 16 pH 8"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1117-g1-october-number--terminal--story/scott-brouke/01.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/04.jpg",
+   "detail": "dH 19 pH 6"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1117-g3-months-supply--riso--story/nav-utppal/01.jpg ~ _agency/wk1118-g3-no-credit-score--riso--story/adrian-biccum/01.jpg",
+   "detail": "dH 12 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1117-g4-price-drop--broadsheet--story/dan-balch/01.jpg ~ _agency/wk1118-g4-budget-verdict--broadsheet--story/byran-peters/01.jpg",
+   "detail": "dH 15 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1117-g4-price-drop--broadsheet--story/jalal-khan/01.jpg ~ _agency/wk1118-g4-budget-verdict--broadsheet--story/gaurav-makhija/01.jpg",
+   "detail": "dH 19 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1117-g4-price-drop--paper-trail--story/byran-peters/01.jpg ~ _agency/wk1118-g4-budget-verdict--paper-trail--story/jalal-khan/01.jpg",
+   "detail": "dH 10 pH 8"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1117-g4-price-drop--paper-trail--story/gaurav-makhija/01.jpg ~ _agency/wk1118-g4-budget-verdict--paper-trail--story/georges/01.jpg",
+   "detail": "dH 9 pH 14"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/04.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/keith-crossland-dustin-moss/04.jpg",
+   "detail": "dH 19 pH 10"
+  },
+  {
+   "kind": "near-duplicate",
+   "where": "_agency/wk1118-g1-new-pr-down--swiss/scott-brouke/06.jpg ~ _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/02.jpg",
+   "detail": "dH 16 pH 10"
+  }
+ ],
+ "warns": [
+  {
+   "kind": "roster-same-metro",
+   "where": "amit-khurana / karven-wu",
+   "detail": "magazine, cutout"
+  },
+  {
+   "kind": "roster-same-metro",
+   "where": "amit-khurana / rahul-vinod",
+   "detail": "magazine"
+  },
+  {
+   "kind": "roster-same-metro",
+   "where": "karven-wu / rahul-vinod",
+   "detail": "magazine"
+  }
+ ],
+ "todos": [],
+ "math": [],
+ "glyphs": [],
+ "palette": [],
+ "roster": [
+  {
+   "a": "amit-khurana",
+   "b": "karven-wu",
+   "shared": [
+    "magazine",
+    "cutout"
+   ],
+   "rule": "same metro, same variant"
+  },
+  {
+   "a": "amit-khurana",
+   "b": "rahul-vinod",
+   "shared": [
+    "magazine"
+   ],
+   "rule": "same metro, same variant"
+  },
+  {
+   "a": "karven-wu",
+   "b": "rahul-vinod",
+   "shared": [
+    "magazine"
+   ],
+   "rule": "same metro, same variant"
+  }
+ ],
+ "neardup": {
+  "exit": 1,
+  "summary": "Slides: 312   pairs: 48516   gate: one hash <= 10/64 and the other <= 20/64 fails (min over identity/mirror/invert)\n  cross-client : 43902 pairs, closest 2/64, median 24/64\n  cross-post   : 3020 pairs, closest 10/64, median 24/64\n  same-client  : 9 pairs, closest 20/64, median 24/64  (info only)\n  within-post  : 1585 pairs, closest 2/64, median 22/64  (info only)\n  review (1214): _agency/boc-rate-day/client-b/01.jpg~_agency/dec9-variable--swiss/michael-marini/06.jpg d31/p16; _agency/boc-rate-day/client-b/01.jpg~_agency/deposit-trail--broadsheet--square/dan-balch/01.jpg d22/p16; _agency/boc-rate-day/client-b/01.jpg~_agency/fhsa-zero-keaton/keaton-jim-thornton/01.jpg d19/p18; _agency/boc-rate-day/client-b/01.jpg~_agency/gift-or-cosign--isometric/akaalinder-dhaliwal/05.jpg d23/p16; _agency/boc-rate-day/client-b/01.jpg~_agency/heloc-paul--cutout/ariana-learoux/04.jpg d16/p30; _agency/boc-rate-day/client-b/01.jpg~_agency/heloc-paul--magazine/amit-khurana/03.jpg d22/p16; _agency/boc-rate-day/client-b/01.jpg~_agency/renewal-lump-sum--riso/nav-utppal/04.jpg d23/p14; _agency/boc-rate-day/client-b/01.jpg~_agency/wk1117-g1-october-number--terminal--story/gregory-hernandez/01.jpg d33/p14; _agency/boc-rate-day/client-b/01.jpg~_agency/wk1117-g1-october-number--terminal--story/scott-brouke/01.jpg d29/p14; _agency/boc-rate-day/client-b/01.jpg~_agency/wk1117-g4-price-drop--broadsheet--story/dan-balch/01.jpg d28/p16\nFAIL: 41 near-duplicate pair(s):\n  _agency/dec9-variable--bento/gregory-hernandez/01.jpg  ~  _agency/dec9-variable--bento--square/gregory-hernandez/01.jpg  dH 10 pH 6 (identity)\n  _agency/dec9-variable--bento/gregory-hernandez/03.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/05.jpg  dH 11 pH 2 (identity)\n  _agency/dec9-variable--bento/gregory-hernandez/04.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/02.jpg  dH 10 pH 14 (identity)\n  _agency/dec9-variable--bento/gregory-hernandez/04.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/06.jpg  dH 9 pH 12 (identity)\n  _agency/dec9-variable--bento/gregory-hernandez/05.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/06.jpg  dH 15 pH 8 (identity)\n  _agency/dec9-variable--bento/gregory-hernandez/06.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/01.jpg  dH 9 pH 16 (identity)\n  _agency/dec9-variable--bento/gregory-hernandez/06.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/01.jpg  dH 15 pH 10 (mirror)\n  _agency/dec9-variable--bento/gregory-hernandez/06.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/05.jpg  dH 6 pH 14 (identity)\n  _agency/dec9-variable--bento/gregory-hernandez/07.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/gregory-hernandez/08.jpg  dH 6 pH 6 (identity)\n  _agency/dec9-variable--swiss/michael-marini/05.jpg  ~  _agency/wk1118-g1-new-pr-down--swiss/jim-decoste/02.jpg  dH 7 pH 14 (identity)\n  _agency/dec9-variable--swiss/michael-marini/06.jpg  ~  _agency/wk1118-g1-new-pr-down--swiss/michael-marini/07.jpg  dH 13 pH 10 (identity)\n  _agency/dec9-variable--swiss/michael-marini/07.jpg  ~  _agency/wk1118-g1-new-pr-down--swiss/michael-marini/08.jpg  dH 16 pH 10 (identity)\n  _agency/dec9-variable--terminal/keith-crossland-dustin-moss/01.jpg  ~  _agency/dec9-variable--terminal--square/keith-crossland-dustin-moss/01.jpg  dH 9 pH 14 (identity)\n  _agency/dec9-variable--terminal/keith-crossland-dustin-moss/01.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/01.jpg  dH 19 pH 10 (identity)\n  _agency/dec9-variable--terminal/keith-crossland-dustin-moss/07.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/keith-crossland-dustin-moss/08.jpg  dH 13 pH 10 (identity)\n  _agency/dec9-variable--terminal/sahil-rihani/02.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/03.jpg  dH 8 pH 14 (identity)\n  _agency/dec9-variable--terminal/sahil-rihani/04.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/06.jpg  dH 20 pH 10 (identity)\n  _agency/dec9-variable--terminal/sahil-rihani/05.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/06.jpg  dH 19 pH 10 (identity)\n  _agency/dec9-variable--terminal--story/keith-crossland-dustin-moss/01.jpg  ~  _agency/wk1117-g1-october-number--terminal--story/scott-brouke/01.jpg  dH 17 pH 4 (identity)\n  _agency/deposit-trail--broadsheet/georges/03.jpg  ~  _agency/wk1118-g1-new-pr-down--swiss/scott-brouke/01.jpg  dH 17 pH 10 (mirror)\n  _agency/deposit-trail--broadsheet--story/dan-balch/01.jpg  ~  renewals-2027-street--broadsheet--story/dan-balch/01.jpg  dH 14 pH 10 (identity)\n  _agency/deposit-trail--paper-trail/byran-peters/01.jpg  ~  _agency/deposit-trail--paper-trail--square/byran-peters/01.jpg  dH 12 pH 6 (identity)\n  _agency/deposit-trail--paper-trail--story/byran-peters/01.jpg  ~  _agency/wk1117-g4-price-drop--paper-trail--story/byran-peters/01.jpg  dH 12 pH 6 (identity)\n  _agency/deposit-trail--paper-trail--story/byran-peters/01.jpg  ~  _agency/wk1118-g4-budget-verdict--paper-trail--story/dan-balch/01.jpg  dH 19 pH 8 (identity)\n  _agency/deposit-trail--paper-trail--story/byran-peters/01.jpg  ~  _agency/wk1118-g4-budget-verdict--paper-trail--story/jalal-khan/01.jpg  dH 18 pH 4 (identity)\n  _agency/gift-or-cosign--isometric--story/abbas/01.jpg  ~  _agency/wk1118-g3-no-credit-score--isometric--story/nav-utppal/01.jpg  dH 8 pH 8 (identity)\n  _agency/heloc-paul--magazine/akshat-chauhan/01.jpg  ~  _agency/wk1118-g2-stress-test--magazine--story/borrowise/01.jpg  dH 22 pH 16 (identity)\n  _agency/heloc-paul--magazine/amit-khurana/02.jpg  ~  _agency/wk1118-g1-new-pr-down--swiss/scott-brouke/06.jpg  dH 20 pH 10 (identity)\n  _agency/renewal-21-days--annotated--story/rahul-vinod/01.jpg  ~  _agency/wk1117-g2-bond-move--annotated--story/rahul-vinod/01.jpg  dH 14 pH 16 (identity)\n  _agency/renewal-lump-sum--bold-type/adrian-biccum/04.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/keith-crossland-dustin-moss/02.jpg  dH 20 pH 10 (invert)\n  _agency/renewal-lump-sum--bold-type/akaalinder-dhaliwal/05.jpg  ~  _agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/02.jpg  dH 19 pH 10 (identity)\n  _agency/renewal-lump-sum--riso--story/nav-utppal/01.jpg  ~  _agency/wk1117-g3-months-supply--riso--story/nav-utppal/01.jpg  dH 14 pH 10 (identity)\n  _agency/renewal-lump-sum--riso--story/nav-utppal/01.jpg  ~  _agency/wk1118-g3-no-credit-score--riso--story/adrian-biccum/01.jpg  dH 16 pH 8 (identity)\n  _agency/wk1117-g1-october-number--terminal--story/scott-brouke/01.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/04.jpg  dH 19 pH 6 (identity)\n  _agency/wk1117-g3-months-supply--riso--story/nav-utppal/01.jpg  ~  _agency/wk1118-g3-no-credit-score--riso--story/adrian-biccum/01.jpg  dH 12 pH 10 (identity)\n  _agency/wk1117-g4-price-drop--broadsheet--story/dan-balch/01.jpg  ~  _agency/wk1118-g4-budget-verdict--broadsheet--story/byran-peters/01.jpg  dH 15 pH 10 (identity)\n  _agency/wk1117-g4-price-drop--broadsheet--story/jalal-khan/01.jpg  ~  _agency/wk1118-g4-budget-verdict--broadsheet--story/gaurav-makhija/01.jpg  dH 19 pH 10 (identity)\n  _agency/wk1117-g4-price-drop--paper-trail--story/byran-peters/01.jpg  ~  _agency/wk1118-g4-budget-verdict--paper-trail--story/jalal-khan/01.jpg  dH 10 pH 8 (identity)\n  _agency/wk1117-g4-price-drop--paper-trail--story/gaurav-makhija/01.jpg  ~  _agency/wk1118-g4-budget-verdict--paper-trail--story/georges/01.jpg  dH 9 pH 14 (identity)\n  _agency/wk1118-g1-new-pr-down--bento/keaton-jim-thornton/04.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/keith-crossland-dustin-moss/04.jpg  dH 19 pH 10 (invert)\n  _agency/wk1118-g1-new-pr-down--swiss/scott-brouke/06.jpg  ~  _agency/wk1118-g1-new-pr-down--terminal/sahil-rihani/02.jpg  dH 16 pH 10 (invert)"
+ },
+ "checked": {
+  "audits": 11,
+  "runs": 130,
+  "jpgs": 10
+ }
+}

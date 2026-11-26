@@ -1,0 +1,165 @@
+{
+  "id": "karven-wu",
+  "aliases": [],
+  "sheetId": "client-018",
+  "name": "Karven Wu",
+  "people": [],
+  "city": "Barrie",
+  "province": "ON",
+  "region": "",
+  "group": 2,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Caliber Mortgage Inc. & Dominion Lending Centers",
+    "licence": "#13368"
+  },
+  "agent": {
+    "name": "Karven Wu",
+    "title": "Mortgage Agent Level 1",
+    "licence": "M23008143"
+  },
+  "contact": {
+    "phones": [
+      "(416)-662-6318",
+      "(905) 597-9116"
+    ],
+    "emails": [
+      "karven.wu@kwmortgageadvisory.ca"
+    ],
+    "website": "https://kwmortgageadvisory.ca/"
+  },
+  "services": [
+    "Conventional Mortgage",
+    "Refinance Mortgage",
+    "Residential Mortgage",
+    "Private Mortgage"
+  ],
+  "audience": "Serves Toronto, GTA; focus: Conventional/purchase mortgage, Refinance, Residential mortgage / renewal, Private mortgage, Alternative mortgage, First-time homebuyer, Mortgage switching, Realtor partnerships.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "EST",
+  "figma": "https://www.figma.com/design/wS8wgAJ0RdMQ407E3KJVbA/Karven-Wu-%7C-SM-Posts",
+  "complianceLine": "Karven Wu, Mortgage Agent Level 1 · Lic. M23008143 · Caliber Mortgage Inc. & Dominion Lending Centers · Brokerage Lic. #13368",
+  "rules": [],
+  "assets": {
+    "photo": null,
+    "footer": "assets/karven-wu/footer.png",
+    "footerAlt": "assets/karven-wu/footer-alt.png",
+    "logos": [
+      "assets/karven-wu/logo.png",
+      "assets/karven-wu/logo-2.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "cutout",
+    "secondary": "magazine",
+    "variant": "a"
+  },
+  "missing": [
+    "assets.photo"
+  ],
+  "flags": [
+    "City conflict: sheet says 'Barrie', roster/seed says 'Richmond Hill'. Sheet used.",
+    "Footer title reads 'Mortgage Specialist at BMO'; sheet says 'Mortgage Agent Level 1' with Caliber Mortgage Inc. & Dominion Lending Centers. Confirm which brand he posts under.",
+    "website says brokerage name 'Caliber Mortgage (Dominion Lending Centres)' (kit has 'Caliber Mortgage Inc. & Dominion Lending Centers')",
+    "website says emails ['karven.wu@calibermortgage.ca'] (kit has ['karven.wu@kwmortgageadvisory.ca'])",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Office: Unit 8, 175 West Beaver Creek Road, Richmond Hill ON L4B 3M1 (clients.json says Barrie).",
+    "website note: The two homepage/about testimonials name 'Dustin and Keith' (leftover template copy from another broker); do not reuse as Karven's reviews.",
+    "website note: Phone (905) 597-9116 from clients.json is not on the site.",
+    "website note: Search (check): a Karven Wu also appears as a RE/MAX Excel agent on realtor.ca; identity not confirmed same person. No GBP rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "clients.json location 'Barrie, Ontario'",
+    "province": "clients.json location 'Barrie, Ontario'",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.name": "clients.json brokerage_name",
+    "brokerage.licence": "clients.json brokerage_license_no",
+    "agent.licence": "clients.json agent_license_no",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "posting": "clients.json posting_mode/posting_time/time_zone",
+    "figma": "clients.json figma_file",
+    "footer": "assets/_provenance.json (verified)",
+    "footerAlt": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "complianceLine": "composed from sheet/footer facts above",
+    "audience": "website: https://kwmortgageadvisory.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://kwmortgageadvisory.ca/",
+    "bio": "website: https://kwmortgageadvisory.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'cutout' (STYLES.md)"
+  },
+  "completeness": 0.929,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/karvenwu/",
+    "facebook": "https://www.facebook.com/people/KW-Mortgage-Services/100068704453898/",
+    "linkedin": "https://www.linkedin.com/in/karven-wu-385469389",
+    "x": "https://x.com/KWMortgage1118"
+  },
+  "bio": "Karven Wu is a Mortgage Agent Level 1 (licence M23008143) with Caliber Mortgage, based in Richmond Hill, Ontario. The site cites over five years in financial services and nearly five as a licensed agent, and covers first-time buyers, refinance, residential, private and alternative mortgages. It promotes a free mortgage app, flat legal fees and a Home Buyer Helper, and a realtor partnership message. Market focus is Toronto and the GTA.",
+  "web": {
+    "url": "https://kwmortgageadvisory.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "More Than Simply a Mortgage",
+    "yearsInBusiness": "Over 5 years in financial services; nearly 5 as licensed agent (about page)",
+    "serviceAreas": [
+      "Toronto",
+      "GTA"
+    ],
+    "specialties": [
+      "Conventional/purchase mortgage",
+      "Refinance",
+      "Residential mortgage / renewal",
+      "Private mortgage",
+      "Alternative mortgage",
+      "First-time homebuyer",
+      "Mortgage switching",
+      "Realtor partnerships"
+    ],
+    "testimonialsCount": 2,
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Office: Unit 8, 175 West Beaver Creek Road, Richmond Hill ON L4B 3M1 (clients.json says Barrie).",
+      "The two homepage/about testimonials name 'Dustin and Keith' (leftover template copy from another broker); do not reuse as Karven's reviews.",
+      "Phone (905) 597-9116 from clients.json is not on the site.",
+      "Search (check): a Karven Wu also appears as a RE/MAX Excel agent on realtor.ca; identity not confirmed same person. No GBP rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://kwmortgageadvisory.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://kwmortgageadvisory.ca/about-us/",
+        "what": "about + licence"
+      },
+      {
+        "url": "https://kwmortgageadvisory.ca/contact-us/",
+        "what": "contact + brokerage licence"
+      }
+    ],
+    "fonts": [
+      "Hanken Grotesk"
+    ],
+    "logoUrls": [
+      "https://kwmortgageadvisory.ca/wp-content/uploads/logo.svg",
+      "https://kwmortgageadvisory.ca/wp-content/uploads/logo2.png"
+    ]
+  },
+  "colorsProvisional": true
+}

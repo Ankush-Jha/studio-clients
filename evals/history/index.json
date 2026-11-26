@@ -1,0 +1,66 @@
+[
+ {
+  "date": "2026-11-21",
+  "overall": 62,
+  "suites": {
+   "radar": 73,
+   "intel": 68,
+   "kits": 42,
+   "creative": 69,
+   "library": 25,
+   "pipeline": 86,
+   "intake": 70,
+   "golden": null
+  },
+  "fails": 12,
+  "warns": 19
+ },
+ {
+  "date": "2026-11-22",
+  "overall": 62,
+  "suites": {
+   "radar": 63,
+   "intel": 77,
+   "kits": 42,
+   "creative": 69,
+   "library": 25,
+   "pipeline": 86,
+   "intake": 70,
+   "golden": null
+  },
+  "fails": 12,
+  "warns": 20
+ },
+ {
+  "date": "2026-11-23",
+  "overall": 62,
+  "suites": {
+   "radar": 63,
+   "intel": 77,
+   "kits": 42,
+   "creative": 69,
+   "library": 25,
+   "pipeline": 86,
+   "intake": 70,
+   "golden": null
+  },
+  "fails": 12,
+  "warns": 20
+ },
+ {
+  "date": "2026-11-26",
+  "overall": 61,
+  "suites": {
+   "radar": null,
+   "intel": 100,
+   "kits": 42,
+   "creative": 65,
+   "library": 25,
+   "pipeline": 85,
+   "intake": 40,
+   "golden": null
+  },
+  "fails": 9,
+  "warns": 12
+ }
+]

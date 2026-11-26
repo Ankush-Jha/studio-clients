@@ -1,0 +1,88 @@
+{
+  "url": "https://brilliantinvestor.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "Brilliant Mortgages (brilliantinvestor.ca) is a one-page GoDaddy site offering mortgage guidance for purchase, refinance and investment, with access to dozens of lenders. The footer names Robert Cheszes as mortgage agent under Mortgage Outlet Inc. and lists a Toronto address. It offers a mortgage-renewal tracker and a Calendly consult link.",
+  "tagline": "Better Mortgages Better Lending",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Mortgage purchase",
+    "Refinance",
+    "Investment mortgages",
+    "Mortgage renewal tracking"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Nationwide (site claim: lenders nationwide)"
+  ],
+  "team": [
+    {
+      "name": "Robert Cheszes",
+      "title": "Mortgage Agent",
+      "licence": "M2000206 (as printed; clients.json has M20000206)"
+    }
+  ],
+  "licences": [
+    {
+      "label": "Mortgage Agent",
+      "value": "M2000206",
+      "where": "footer 'Lic Mortgage Agent M2000206' (7 digits, likely typo of M20000206)"
+    }
+  ],
+  "brokerage": {
+    "name": "Mortgage Outlet Inc.",
+    "licence": "#12628"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/robcmortgagebroker/",
+    "facebook": null,
+    "linkedin": "https://www.linkedin.com/in/robert-cheszes",
+    "youtube": "https://www.youtube.com/@robertcheszes8376",
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": "https://calendly.com/mortgagesbyrobert/mortgage-consult",
+  "phones": [
+    "4168772617"
+  ],
+  "emails": [],
+  "brandColors": [
+    {
+      "hex": "#202F18",
+      "where": "theme-color meta (dark green)"
+    },
+    {
+      "hex": "#2867b2",
+      "where": "link/button blue in page CSS"
+    }
+  ],
+  "fonts": [
+    "Noto Sans",
+    "Poppins",
+    "Bitter",
+    "Sanchez"
+  ],
+  "logoUrls": [
+    "https://img1.wsimg.com/isteam/ip/891ace49-ff8b-4d0d-a7df-fd7742e047aa/Bi%20Logo_Icon%20(1).png",
+    "https://img1.wsimg.com/isteam/ip/891ace49-ff8b-4d0d-a7df-fd7742e047aa/blob-e9a57bb.png"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "Address: 85 Scarsdale Rd #107, Toronto ON M3B 2R2.",
+    "Footer phone 4168772617 differs from clients.json +1 647-584-0999; footer email not shown (clients.json rob@brilliantinvestor.ca).",
+    "/about and /contact return 404 (single-page site).",
+    "Search (check): Mortgage Outlet team page lists #M20000206, Mortgage Agent L2, 250 Consumers Rd Ste 905 Toronto, (647) 501-4663: https://mortgageoutlet.ca/our-team/ ; older DLC page https://brilliantinvestment.ca/ (dated). No GBP rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://brilliantinvestor.ca/",
+      "what": "homepage (only page)"
+    }
+  ],
+  "blocked": []
+}

@@ -1,0 +1,134 @@
+{
+  "id": "2026-11-19-group-2-dec9-rate-call",
+  "created": "2026-11-19T11:30:00Z",
+  "updated": "2026-11-19T13:24:00Z",
+  "client": "group:2",
+  "format": "static",
+  "topic": "Dec 9 rate decision: variable holders, what changes",
+  "brief": {
+    "raw": "static for group 2 on the Dec 9 rate decision",
+    "by": "chat"
+  },
+  "status": "producing",
+  "engine": "stills",
+  "style": "swiss",
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": "2026-11-19T11:30:00Z",
+      "ended": "2026-11-19T11:30:50Z",
+      "summary": "Group 2 · 6 clients · static 1080×1350",
+      "outputs": []
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-19T11:30:52Z",
+      "ended": "2026-11-19T11:49:00Z",
+      "summary": "3 concepts",
+      "outputs": [
+        "concepts.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "done",
+      "started": "2026-11-19T11:49:01Z",
+      "ended": "2026-11-19T12:05:00Z",
+      "summary": "Picked C",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "done",
+      "started": "2026-11-19T12:05:01Z",
+      "ended": "2026-11-19T12:20:00Z",
+      "summary": "72% odds (BlueGamma, Nov 18): single source, labelled",
+      "outputs": [
+        "check.json"
+      ]
+    },
+    {
+      "id": "director",
+      "status": "running",
+      "started": "2026-11-19T12:20:02Z",
+      "ended": null,
+      "summary": "Rendering client 4 of 6",
+      "outputs": [
+        "$R/engines/stills/out/dec9-variable--swiss/michael-marini/01.jpg",
+        "$R/engines/stills/out/dec9-variable--bento/gregory-hernandez/01.jpg",
+        "$R/engines/stills/out/dec9-variable--terminal/sahil-rihani/01.jpg"
+      ]
+    },
+    {
+      "id": "critic",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "gate2",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": "C",
+  "gates": {
+    "g1": {
+      "at": "2026-11-19T12:05:00Z",
+      "decision": "pick",
+      "choice": "C",
+      "notes": "",
+      "by": "desk"
+    },
+    "g2": {
+      "at": null,
+      "decision": null,
+      "notes": ""
+    }
+  },
+  "outputs": [
+    {
+      "kind": "image",
+      "path": "$R/engines/stills/out/dec9-variable--swiss/michael-marini/01.jpg",
+      "w": 1080,
+      "h": 1350
+    }
+  ],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": null
+  },
+  "log": [
+    {
+      "t": "2026-11-19T13:10:00Z",
+      "node": "director",
+      "msg": "michael-marini done (swiss)"
+    },
+    {
+      "t": "2026-11-19T13:18:00Z",
+      "node": "director",
+      "msg": "gregory-hernandez done (bento)"
+    },
+    {
+      "t": "2026-11-19T13:24:00Z",
+      "node": "director",
+      "msg": "sahil-rihani rendering…"
+    }
+  ]
+}

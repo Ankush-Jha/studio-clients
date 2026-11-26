@@ -1,0 +1,162 @@
+{
+  "id": "nav-utppal",
+  "aliases": [],
+  "sheetId": "client-022",
+  "name": "Nav Utppal",
+  "people": [],
+  "city": "Toronto",
+  "province": "ON",
+  "region": "",
+  "group": 3,
+  "video": true,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Next Mortgage",
+    "licence": "#13727"
+  },
+  "agent": {
+    "name": "Nav Utppal",
+    "title": "",
+    "licence": "M25000941"
+  },
+  "contact": {
+    "phones": [
+      "6472742016"
+    ],
+    "emails": [
+      "nav@fidesmortgages.ca"
+    ],
+    "website": "https://www.fidesmortgages.ca/"
+  },
+  "services": [
+    "Purchase Mortgage",
+    "Refinancing Mortgage",
+    "Renewal Mortgage",
+    "Second Mortgage",
+    "Third Mortgage",
+    "Blanket Mortgage",
+    "HELOC",
+    "Bridge Loan",
+    "Business Loan",
+    "Equipment Leasing"
+  ],
+  "audience": "Serves Ontario (Scarborough, Whitby per search); focus: Commercial mortgages, Private mortgages, Residential mortgages, Refinance / existing mortgages, Agent recruitment.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "EST",
+  "figma": "https://www.figma.com/design/a2ahU0eS0A35KTWCcASc3j/Nav-Utppal-%7C-SM",
+  "complianceLine": "Nav Utppal · Lic. M25000941 · Next Mortgage · Brokerage Lic. #13727",
+  "rules": [],
+  "assets": {
+    "photo": "assets/nav-utppal/photo.png",
+    "footer": "assets/nav-utppal/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/nav-utppal/logo.png"
+    ],
+    "check": [
+      "assets/nav-utppal/logo-2.png"
+    ]
+  },
+  "stills": {
+    "primary": "riso",
+    "secondary": "isometric",
+    "variant": "a"
+  },
+  "missing": [
+    "agent.title"
+  ],
+  "flags": [
+    "Footer carries a FIDES Mortgages logo; sheet says brokerage 'Next Mortgage'. Footer spells the name 'Nav Uppal'.",
+    "Asset to confirm: assets/nav-utppal/logo-2.png (Dominion Lending; sheet does not mention DLC for Nav)",
+    "website says brokerage name 'Dominion Lending Centres Fides Mortgages (Fides Mortgages)' (kit has 'Next Mortgage')",
+    "website says phones ['416-572-3597 (Fides)', '647-274-2016 (Nav, navmortgages.ca)'] (kit has ['6472742016'])",
+    "website says emails ['navu@dominionlending.ca'] (kit has ['nav@fidesmortgages.ca'])",
+    "website note: fidesmortgages.ca robots.txt has only a Sitemap line (no disallow).",
+    "website note: Sheet has no website; used footer image brand (Fides). Nav's own site https://navmortgages.ca/ is a stock DLC template (colours/fonts generic, so omitted); robots.txt only blocks /wp-admin/.",
+    "website note: Nav's footer spells 'Nav Uppal' (sheet: 'Nav Utppal'). Footer says License M25000941 and Brokerage FSRA 13727, matching clients.json numbers.",
+    "website note: clients.json brokerage name 'Next Mortgage'; navmortgages.ca says 'Dominion Lending Centres Fides Mortgages'. Search (check): nextmortgages.ca also exists; offices 2225 Markham Rd #302 Scarborough and 228 Brock St N Whitby."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "content-desk seed/roster",
+    "province": "clients.json location 'Ontario'",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.name": "clients.json brokerage_name",
+    "brokerage.licence": "clients.json brokerage_license_no",
+    "agent.licence": "clients.json agent_license_no",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "posting": "clients.json posting_mode/posting_time/time_zone",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "complianceLine": "composed from sheet/footer facts above",
+    "audience": "website: https://www.fidesmortgages.ca/ (serviceAreas/specialties)",
+    "contact.website": "website: https://www.fidesmortgages.ca/",
+    "socials": "website: https://www.fidesmortgages.ca/",
+    "bio": "website: https://www.fidesmortgages.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'riso' (STYLES.md)"
+  },
+  "completeness": 1.0,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/fidesmortgages/",
+    "facebook": "https://www.facebook.com/profile.php?id=61572257445296",
+    "linkedin": "https://www.linkedin.com/company/fidesmortgages",
+    "youtube": "https://www.youtube.com/@FidesMortgages"
+  },
+  "bio": "Fides Mortgages is the brokerage site linked from Nav's footer; it describes a team of 50+ agents and 100+ lender partners, led by CEO Varan K., offering commercial, private, residential and existing-mortgage solutions and recruiting new agents. Nav Uppal does not appear by name on this page. Nav's own DLC page (navmortgages.ca) shows him as Mortgage Agent Level 1 under Dominion Lending Centres Fides Mortgages.",
+  "web": {
+    "url": "https://www.fidesmortgages.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Mortgage solutions built on trust.",
+    "serviceAreas": [
+      "Ontario (Scarborough, Whitby per search)"
+    ],
+    "specialties": [
+      "Commercial mortgages",
+      "Private mortgages",
+      "Residential mortgages",
+      "Refinance / existing mortgages",
+      "Agent recruitment"
+    ],
+    "notes": [
+      "fidesmortgages.ca robots.txt has only a Sitemap line (no disallow).",
+      "Sheet has no website; used footer image brand (Fides). Nav's own site https://navmortgages.ca/ is a stock DLC template (colours/fonts generic, so omitted); robots.txt only blocks /wp-admin/.",
+      "Nav's footer spells 'Nav Uppal' (sheet: 'Nav Utppal'). Footer says License M25000941 and Brokerage FSRA 13727, matching clients.json numbers.",
+      "clients.json brokerage name 'Next Mortgage'; navmortgages.ca says 'Dominion Lending Centres Fides Mortgages'. Search (check): nextmortgages.ca also exists; offices 2225 Markham Rd #302 Scarborough and 228 Brock St N Whitby."
+    ],
+    "sources": [
+      {
+        "url": "https://www.fidesmortgages.ca/",
+        "what": "brokerage homepage"
+      },
+      {
+        "url": "https://navmortgages.ca/about/about-dominion-lending-centres/",
+        "what": "Nav licence header"
+      }
+    ],
+    "fonts": [
+      "Montserrat",
+      "Proxima Nova",
+      "Caslon GraComD"
+    ],
+    "logoUrls": [
+      "https://cdn.prod.website-files.com/6786ebbeb81c887d49c12af3/6999dec0f344f8da1880ea6a_Fides-logo-black.png",
+      "https://cdn.prod.website-files.com/6786ebbeb81c887d49c12af3/679da40190da90e3b84ad063_fides-logo-OG.jpg"
+    ]
+  },
+  "colorsProvisional": true
+}

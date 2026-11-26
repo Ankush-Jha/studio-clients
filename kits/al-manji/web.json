@@ -1,0 +1,87 @@
+{
+  "url": "https://6ix.ca/team-member/al-manji/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Al Manji is a Mortgage Agent Level 2 on the 6ix Mortgage Group team (Mortgage Architects broker licence 12728). His profile says his financial-industry experience spans 15 years, including a mutual fund licence and work with major banks. 6ix Mortgage Group covers purchase, refinance, renewal, commercial and private mortgages.",
+  "tagline": null,
+  "yearsInBusiness": "15 (profile text, financial industry)",
+  "specialties": [
+    "Purchase",
+    "First-time home buyer",
+    "Investment property",
+    "Refinance",
+    "Second mortgages",
+    "Renewal",
+    "Commercial",
+    "Private"
+  ],
+  "languages": [],
+  "serviceAreas": [],
+  "team": [
+    {
+      "name": "Al Manji",
+      "title": "Mortgage Agent: Level 2",
+      "licence": null
+    }
+  ],
+  "licences": [],
+  "brokerage": {
+    "name": "Mortgage Architects Inc. (6ix Mortgage Group)",
+    "licence": "12728"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "647-284-7014"
+  ],
+  "emails": [
+    "al.manji@6ix.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#887833",
+      "where": "gold accent in 6ix.ca CSS (company site)"
+    },
+    {
+      "hex": "#333333",
+      "where": "text colour"
+    }
+  ],
+  "fonts": [
+    "Raleway"
+  ],
+  "logoUrls": [
+    "https://6ix.ca/wp-content/uploads/2023/06/6ix-logo-mortgage-architects.png"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "almanji.superkreatives.com (website in clients.json) does not resolve in DNS (checked via fetch and dig); the profile was taken from the company page 6ix.ca instead.",
+    "6ix.ca social links (facebook.com/6ix.mtg, instagram.com/6ix.mortgage) are company accounts, not Al's, so socials left null.",
+    "No individual licence number on 6ix.ca page. Search result mortgagearchitects.ca/almanji (3rd-party, check) shows licence #M10001827 and brokerage #12728; clients.json has no agent licence.",
+    "WebSearch (3rd-party directory results, confidence: check): LinkedIn Oshawa; directory shows 6ix Mortgage Group at 1129 Brock St S, Whitby. ZoomInfo suggests a possible affiliation change; verify on FSRA registry. No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://6ix.ca/team-member/al-manji/",
+      "what": "profile, licence, contact"
+    },
+    {
+      "url": "https://www.mortgagearchitects.ca/almanji",
+      "what": "search result, check"
+    }
+  ],
+  "blocked": [
+    "almanji.superkreatives.com: DNS does not resolve"
+  ]
+}

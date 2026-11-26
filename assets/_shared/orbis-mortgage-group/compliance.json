@@ -1,0 +1,22 @@
+{
+  "_comment": "Carried over from the original kit's CLAUDE.md (end-card wording and licence numbers). forbid_patterns and numbers/claims policies are Claude's proposed defaults, NOT confirmed by Orbis or FSRA. Confirm with the brokerage compliance contact.",
+  "regulator": "FSRA (Ontario)",
+  "reviewer": { "name": "", "contact": "", "turnaround": "" },
+  "require_all_strings": [
+    "M17000370",
+    "13476",
+    "Orbis Mortgage Group"
+  ],
+  "require_disclaimer": "General information only, not financial advice. Options depend on your situation and are subject to lender approval (O.A.C.).",
+  "forbid_patterns": [
+    "guaranteed",
+    "best rate",
+    "lowest rate",
+    "pre-approved for sure",
+    "no credit check"
+  ],
+  "numbers_policy": "No rates, payments, savings or percentages on screen unless Orbis supplies the figure with its source and date. Charts and diagrams without client data must be labelled ILLUSTRATION.",
+  "claims_policy": "Educational language only: 'may', 'depending on your situation', 'subject to approval'. No promises of approval, savings or outcomes.",
+  "min_end_card_seconds": 3,
+  "min_disclaimer_px_at_1080w": 24
+}

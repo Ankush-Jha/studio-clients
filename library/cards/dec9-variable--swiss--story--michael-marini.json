@@ -1,0 +1,47 @@
+{
+ "id": "dec9-variable--swiss--story--michael-marini",
+ "title": "Dec 9 rate call: one variable mortgage, hike or hold [swiss, story, michael-marini]",
+ "clients": [
+  "michael-marini"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "swiss",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "Dec 9 rate call: one variable mortgage, hike or hold",
+ "tags": [
+  "stills",
+  "dec9-variable",
+  "swiss",
+  "story-format",
+  "group-1"
+ ],
+ "hook": "Dec 9 decides one number on a $600K variable.",
+ "logline": "Proof render of spec 'dec9-variable' in the Swiss Data Poster style for Michael Marini, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "International Typographic Style: one grotesk, a visible 12-column grid, flush-left type and data drawn as exact geometry in one signal colour.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/dec9-variable--swiss--story/michael-marini",
+  "poster": "$R/engines/stills/out/dec9-variable--swiss--story/michael-marini/01.jpg",
+  "thumb": "library/thumbs/dec9-variable--swiss--story--michael-marini.jpg",
+  "treatment": "$R/engines/stills/specs/library/dec9-variable.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

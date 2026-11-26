@@ -1,0 +1,51 @@
+{
+ "id": "greenbrix-c3",
+ "title": "Greenbrix C3: Power of sale in Ontario: the timeline and your options",
+ "clients": [
+  "krystian-catala"
+ ],
+ "generic": false,
+ "date": "2026-11-17",
+ "format": "carousel",
+ "engine": "custom-html",
+ "style": "greenbrix-brick-objects",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Power of sale and arrears: Power of sale in Ontario: the timeline and your options",
+ "tags": [
+  "greenbrix",
+  "private-lending",
+  "ontario",
+  "carousel",
+  "seamless-join",
+  "brick-motif",
+  "power-of-sale-and-arrears"
+ ],
+ "hook": "Behind on your mortgage in Ontario? Here is the timeline.",
+ "logline": "Seven-slide Greenbrix Capital carousel for Krystian Catala: Power of sale in Ontario: the timeline and your options.",
+ "structure": "7 slides: Krystian with rail starting at TODAY, giant '1' with lender letter and missed-call card, Notice of Sale document stamped 15+ days, 7x5 brick calendar of 35 days, rail forks into 4 options, equity vs mortgage brick wall with the arrears brick, CTA with disclaimer.",
+ "device": "The Rail: one day-by-day timeline of logo bricks runs along the bottom of slides 1-4 and continues across every slide edge as a seamless panorama (Today, Day 1, Day 15+ Notice of Sale, five week-bricks for 35 days)",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/graphic reels/clients/greenbrix/FINAL/C3",
+  "poster": "$R/graphic reels/clients/greenbrix/FINAL/C3/C3-1.png",
+  "thumb": "library/thumbs/greenbrix-c3.jpg",
+  "treatment": "$R/graphic reels/clients/greenbrix/C3/NOTES.md",
+  "project": "$R/graphic reels/clients/greenbrix/C3",
+  "caption": "$R/graphic reels/clients/greenbrix/FINAL/C3/caption.txt"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Caption claim 'Ontario's mortgage delinquency rate rose 52% in a year' is SOURCE NEEDED; cite it or delete before posting.",
+  "Disclaimer 'General information only, not legal advice' appears on slide 7 and in the caption."
+ ],
+ "source": "seed",
+ "hookPattern": "claim-statement",
+ "slides": 7
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "A",
+    "title": "The five-year promise",
+    "hook": {
+      "main": "Five years of HELOC payments. The balance hasn't moved.",
+      "alts": []
+    },
+    "angle": "A number that refuses to move while time runs past it.",
+    "clientFacts": [
+      "Karven Wu",
+      "Barrie, ON"
+    ],
+    "format": "graphic-reel",
+    "engine": "films",
+    "style": "swiss-motion",
+    "styleWhy": "Giant numeral held still inside a changing grid.",
+    "device": "frozen numeral",
+    "structure": "hook → survey → math → check → CTA",
+    "beats": [],
+    "slides": [],
+    "cta": "Message me for a payoff plan.",
+    "novelty": "",
+    "preview": "$R/graphic reels/heloc-five-years/poster.jpg"
+  }
+]

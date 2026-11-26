@@ -1,0 +1,2125 @@
+{
+  "meta": {
+    "database": "Client Sheet",
+    "source_sheet": "https://docs.google.com/spreadsheets/d/1uK1dmkPJbZjh4ZitELLwJOZ6oX66zfob3cgFFP4iRX8/edit#gid=0",
+    "source_tab": "Sheet1",
+    "exported_on": "2026-11-19",
+    "client_count": 30,
+    "status_legend_in_sheet": {
+      "green": "Good To Go",
+      "blue": "Medium Challenges",
+      "red": "Difficult Situations"
+    },
+    "field_guide": {
+      "id": "Stable ID = client-<sheet row number>. Use this to link anything to a client.",
+      "sheet_row": "Row in the original Google Sheet, for tracing back.",
+      "people": "Filled only when one client entry covers several people (each with own email/phone/license).",
+      "brokerage_license_no": "Brokerage FSRA / brokerage licence number as written in the sheet.",
+      "agent_license_no": "Individual agent licence number as written in the sheet.",
+      "other_ids": "Numbers in the sheet whose label (brokerage vs agent) was unclear.",
+      "posting_mode": "'Autoposting' or 'Send to Review' where given.",
+      "photo_notes": "Notes from the Photos / Photo Status column (e.g. client doesn't want images).",
+      "assets": "Images from the sheet, full resolution. photo = profile photo (column J), footer = post footer banner (column N), logos = brokerage/brand logos (column O; several when the client uses more than one). 'file' is relative to this folder.",
+      "has_photo / has_footer / has_logo": "Quick true/false flags for filtering.",
+      "raw_client_details": "The client-details cell exactly as written, for anything the structured fields miss."
+    },
+    "data_quality_flags": [
+      "Serial number column (S. no.) is empty in the sheet; 'id' is used instead.",
+      "Posting Status column is empty for all clients.",
+      "Rows 26, 28, 31 (Scott Brouke, Borrowise, Wise Equity) have no contact details.",
+      "Rows 29, 31, 32 share the same Figma file ('Rachit').",
+      "Rows 26, 28, 31 have no contact details in text, but their footer images show them (e.g. Scott Bourke's phone/email).",
+      "No profile photo in the sheet for: Jim DeCoste, Michael Marini, Borrowise (sheet says client doesn't want image).",
+      "Logo placement to double-check: Caliber Mortgage logo sits in Keaton Thornton's row (Caliber is listed as Karven Wu's brokerage); Mortgage Connection logo sits in Michael Marini's row (Mortgage Connection is Keith & Dustin's brokerage)."
+    ]
+  },
+  "clients": [
+    {
+      "id": "client-003",
+      "sheet_row": 3,
+      "name": "Kulbhushan Narang",
+      "people": [],
+      "emails": [
+        "kulbhushan.narang@orbismortgage.ca"
+      ],
+      "phones": [
+        "905-581-8188"
+      ],
+      "website": "www.loansbykulbhushan.com",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": "FSRA#13476",
+      "agent_license_no": "M17000370",
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Mortgage renewal",
+        "Mortgage for foreign nationals",
+        "Renovation loan",
+        "Refinancing and consolidation of debts",
+        "Investment and multi-residential properties",
+        "New in Canada",
+        "New purchase",
+        "Commercial mortgages and new construction",
+        "Solutions for autonomous workers",
+        "Plan B mortgage services",
+        "Transfer to a different lender"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/icbQS8U0UAZ2o66ycO9GYm/Kulbhusan-Narang-%7C-SM-Posts",
+      "notes": [],
+      "raw_client_details": "kulbhushan.narang@orbismortgage.ca\nwww.loansbykulbhushan.com\n905-581-8188\nFSRA#13476\n# M17000370",
+      "assets": {
+        "photo": {
+          "file": "assets/kulbhushan-narang/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 3,
+          "source_image": "image70.png",
+          "width": 155,
+          "height": 150
+        },
+        "footer": {
+          "file": "assets/kulbhushan-narang/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 3,
+          "source_image": "image91.png",
+          "width": 1080,
+          "height": 148
+        },
+        "logos": [
+          {
+            "file": "assets/kulbhushan-narang/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 3,
+            "source_image": "image65.png",
+            "width": 203,
+            "height": 51
+          }
+        ]
+      },
+      "asset_folder": "assets/kulbhushan-narang/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-004",
+      "sheet_row": 4,
+      "name": "Sahil Rihani",
+      "people": [],
+      "emails": [
+        "mortgagesbyrihani@gmail.com"
+      ],
+      "phones": [
+        "647-924-4029"
+      ],
+      "website": "https://mortgagesbyrihani.ca/",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": "M22004113",
+      "designation": "Mortgage Agent Level 2",
+      "other_ids": [
+        "13654"
+      ],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "First Time Home buyers",
+        "Renewals",
+        "Purchases",
+        "Commercial mortgages",
+        "HELOCS",
+        "Residential mortgages",
+        "B Lenders"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/UamP9CpD8JYnGmaAto1NqI/Sahil-SM-Post",
+      "notes": [],
+      "raw_client_details": "mortgagesbyrihani@gmail.com\nhttps://mortgagesbyrihani.ca/\n647-924-4029\nMortgage Agent Level 2\nM22004113\n13654",
+      "assets": {
+        "photo": {
+          "file": "assets/sahil-rihani/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 4,
+          "source_image": "image88.png",
+          "width": 138,
+          "height": 166
+        },
+        "footer": {
+          "file": "assets/sahil-rihani/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 4,
+          "source_image": "image83.png",
+          "width": 1080,
+          "height": 166
+        },
+        "logos": [
+          {
+            "file": "assets/sahil-rihani/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 4,
+            "source_image": "image68.png",
+            "width": 98,
+            "height": 84
+          }
+        ]
+      },
+      "asset_folder": "assets/sahil-rihani/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-005",
+      "sheet_row": 5,
+      "name": "Anil Lakhiya",
+      "people": [],
+      "emails": [
+        "anil@legacymortgagegroup.ca"
+      ],
+      "phones": [
+        "780-719-7787"
+      ],
+      "website": "https://aklmortgagesandwealth.ca/",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": "Mortgage Associate",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "First time home buyer",
+        "New to Canada",
+        "Bridge Financing",
+        "Private lending",
+        "Commercial lending",
+        "Reverse Mortgages"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/5sANkKO6O2DdCD52dTeo8F/Anilkumar-Lakhiya",
+      "notes": [],
+      "raw_client_details": "anil@legacymortgagegroup.ca\nhttps://aklmortgagesandwealth.ca/\n780-719-7787\nMortgage Associate",
+      "assets": {
+        "photo": {
+          "file": "assets/anil-lakhiya/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 5,
+          "source_image": "image19.png",
+          "width": 163,
+          "height": 182
+        },
+        "footer": {
+          "file": "assets/anil-lakhiya/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 5,
+          "source_image": "image90.png",
+          "width": 1080,
+          "height": 182
+        },
+        "logos": [
+          {
+            "file": "assets/anil-lakhiya/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 5,
+            "source_image": "image11.png",
+            "width": 170,
+            "height": 74
+          }
+        ]
+      },
+      "asset_folder": "assets/anil-lakhiya/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-006",
+      "sheet_row": 6,
+      "name": "Juliet fernandez",
+      "people": [],
+      "emails": [
+        "juliet.fernandez@mtgarc.ca"
+      ],
+      "phones": [
+        "780-868-6142"
+      ],
+      "website": "https://fernandezmortgages.ca/",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": "#12728",
+      "agent_license_no": null,
+      "designation": "Mortgage Agent Level 2",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Mortgage Refinancing",
+        "Renewal & Transfers",
+        "DEBT Consolidation",
+        "Investment Property Financing",
+        "Private & Alternative Lending",
+        "Home Purchase Loans",
+        "Self - Employed Mortgage",
+        "New Construction loans",
+        "Credit -Challenged solutions"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/HGyVQQt2T8375DoqvQXKh4/juliet---Christian",
+      "notes": [],
+      "raw_client_details": "juliet.fernandez@mtgarc.ca\nhttps://fernandezmortgages.ca/\n780-868-6142\nMortgage Agent Level 2\nBrokerage number : #12728",
+      "assets": {
+        "photo": {
+          "file": "assets/juliet-fernandez/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 6,
+          "source_image": "image21.png",
+          "width": 191,
+          "height": 172
+        },
+        "footer": {
+          "file": "assets/juliet-fernandez/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 6,
+          "source_image": "image18.png",
+          "width": 1080,
+          "height": 176
+        },
+        "logos": [
+          {
+            "file": "assets/juliet-fernandez/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 6,
+            "source_image": "image9.png",
+            "width": 223,
+            "height": 42
+          }
+        ]
+      },
+      "asset_folder": "assets/juliet-fernandez/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-007",
+      "sheet_row": 7,
+      "name": "Ariana learoux",
+      "people": [],
+      "emails": [
+        "ariana@brokersforlife.ca"
+      ],
+      "phones": [
+        "780.952.4087"
+      ],
+      "website": "https://arianaleroux.com/",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": "Senior Mortgage Broker",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Mortgage Pre Approval",
+        "Mortgage Up for Renewal",
+        "First Time Home Buyer",
+        "Complex Mortgage Solutions",
+        "New Build Mortgages",
+        "Mortgages for Self Employed",
+        "Newcomers to Canada",
+        "Refinancing Your Home"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/ZNO1lma4gW25mx2SWWvT7f/Ariana-Leroux",
+      "notes": [
+        "Name spelled 'learoux' in sheet; website and Figma use 'Leroux'"
+      ],
+      "raw_client_details": "ariana@brokersforlife.ca\nhttps://arianaleroux.com/\n780.952.4087\nSenior Mortgage Broker",
+      "assets": {
+        "photo": {
+          "file": "assets/ariana-learoux/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 7,
+          "source_image": "image13.png",
+          "width": 176,
+          "height": 164
+        },
+        "footer": {
+          "file": "assets/ariana-learoux/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 7,
+          "source_image": "image36.png",
+          "width": 1080,
+          "height": 164
+        },
+        "logos": [
+          {
+            "file": "assets/ariana-learoux/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 7,
+            "source_image": "image5.png",
+            "width": 156,
+            "height": 90
+          }
+        ]
+      },
+      "asset_folder": "assets/ariana-learoux/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-008",
+      "sheet_row": 8,
+      "name": "Robert Cheszes",
+      "people": [],
+      "emails": [
+        "rob@brilliantinvestor.ca"
+      ],
+      "phones": [
+        "+1 647-584-0999"
+      ],
+      "website": "brilliantinvestor.ca",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": "M20000206",
+      "designation": "Mortgage Agent Level 2",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "First time home buyer",
+        "Private lending",
+        "Commercial lending",
+        "Reverse Mortgages",
+        "Mortgage Refinancing",
+        "Renewal & Transfers"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/WdFdO1kp4S5njtSFJAtBPE/Robert-Cheszes-%7C-SM-Posts",
+      "notes": [],
+      "raw_client_details": "rob@brilliantinvestor.ca\nbrilliantinvestor.ca\n+1 647-584-0999\nMortgage Agent Level 2\nM20000206",
+      "assets": {
+        "photo": {
+          "file": "assets/robert-cheszes/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 8,
+          "source_image": "image15.png",
+          "width": 328,
+          "height": 342
+        },
+        "footer": {
+          "file": "assets/robert-cheszes/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 8,
+          "source_image": "image86.png",
+          "width": 1080,
+          "height": 165
+        },
+        "logos": [
+          {
+            "file": "assets/robert-cheszes/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 8,
+            "source_image": "image1.png",
+            "width": 208,
+            "height": 51
+          }
+        ]
+      },
+      "asset_folder": "assets/robert-cheszes/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-009",
+      "sheet_row": 9,
+      "name": "Adrian Biccum",
+      "people": [],
+      "emails": [
+        "adrian@mfco.ca"
+      ],
+      "phones": [
+        "905-730-4446"
+      ],
+      "website": "www.yourmortgageminute.ca",
+      "location": "Hamilton, Ontario",
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": "M20000156",
+      "designation": "Professional Mortgage Agent Level 2",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Mortgage Refinancing",
+        "Renewal & Transfers",
+        "Self - Employed Mortgage",
+        "First time home buyer"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/auV0eqJf3sWhQJ510V6KDt/Adrian-Biccum-%7C%7C-SM-post",
+      "notes": [],
+      "raw_client_details": "adrian@mfco.ca\nwww.yourmortgageminute.ca\n905-730-4446\nHamilton, Ontario\nPROFESSIONAL MORTGAGE AGENT LEVEL 2\nM20000156",
+      "assets": {
+        "photo": {
+          "file": "assets/adrian-biccum/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 9,
+          "source_image": "image2.png",
+          "width": 160,
+          "height": 163
+        },
+        "footer": {
+          "file": "assets/adrian-biccum/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 9,
+          "source_image": "image14.png",
+          "width": 1079,
+          "height": 163
+        },
+        "logos": [
+          {
+            "file": "assets/adrian-biccum/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 9,
+            "source_image": "image27.png",
+            "width": 275,
+            "height": 81
+          }
+        ]
+      },
+      "asset_folder": "assets/adrian-biccum/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-010",
+      "sheet_row": 10,
+      "name": "Byran Peters",
+      "people": [],
+      "emails": [
+        "byran.peters@migroup.ca",
+        "bpmortgages@gmail.com"
+      ],
+      "phones": [
+        "289-675-4390"
+      ],
+      "website": "www.bpmortgages.ca",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": "13626",
+      "agent_license_no": "M16001371",
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "First time buyers",
+        "Reverse",
+        "Separation",
+        "Debt consolidation",
+        "Bruised credit",
+        "2nd mortgages",
+        "Prev bankruptcy or proposals"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/UfMuvLDuuoD5dEu01hQjhj/Byran-Peters",
+      "notes": [],
+      "raw_client_details": "byran.peters@migroup.ca / bpmortgages@gmail.com\nwww.bpmortgages.ca\n289-675-4390\nLic number M16001371\nbrokerage lic number 13626",
+      "assets": {
+        "photo": {
+          "file": "assets/byran-peters/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 10,
+          "source_image": "image7.png",
+          "width": 208,
+          "height": 157
+        },
+        "footer": {
+          "file": "assets/byran-peters/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 10,
+          "source_image": "image39.png",
+          "width": 1080,
+          "height": 157
+        },
+        "logos": [
+          {
+            "file": "assets/byran-peters/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 10,
+            "source_image": "image3.png",
+            "width": 214,
+            "height": 67
+          }
+        ]
+      },
+      "asset_folder": "assets/byran-peters/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-011",
+      "sheet_row": 11,
+      "name": "Amit khurana",
+      "people": [],
+      "emails": [
+        "amit_khurana@centum.ca"
+      ],
+      "phones": [
+        "647-341-2785"
+      ],
+      "website": "www.amitkhurana.ca",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": "#12141",
+      "agent_license_no": "M12000871",
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Self - Employed Mortgage",
+        "Reverse Mortgage",
+        "First Time Buyer Mortgage",
+        "Private Mortgage",
+        "Debt Consolidation",
+        "Rent to own",
+        "Construction financing",
+        "Bruised/Bad Credit mortgage",
+        "Mortgage Refinance & Renewal"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/tS133UwkiwrWubrcPwbGT8/Amit-khurana-%7C-SM-post",
+      "notes": [],
+      "raw_client_details": "amit_khurana@centum.ca\nwww.amitkhurana.ca\n647-341-2785\nLic.: M12000871\nLic. #12141",
+      "assets": {
+        "photo": {
+          "file": "assets/amit-khurana/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 11,
+          "source_image": "image26.png",
+          "width": 178,
+          "height": 170
+        },
+        "footer": {
+          "file": "assets/amit-khurana/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 11,
+          "source_image": "image4.png",
+          "width": 1080,
+          "height": 170
+        },
+        "logos": [
+          {
+            "file": "assets/amit-khurana/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 11,
+            "source_image": "image17.png",
+            "width": 796,
+            "height": 243
+          }
+        ]
+      },
+      "asset_folder": "assets/amit-khurana/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-012",
+      "sheet_row": 12,
+      "name": "Raoul Hunt",
+      "people": [],
+      "emails": [
+        "raoul@huntformortgages.com"
+      ],
+      "phones": [
+        "613-317-4262"
+      ],
+      "website": "www.huntformortgages.com",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": "Mortgage Broker",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Strategic Renewals & rate",
+        "Purchase financing",
+        "Tax - efficient Mortgage",
+        "Refinance",
+        "Debt Consolidation",
+        "Debt Reduction",
+        "Pre- Retirement Planning",
+        "Smith Manoeuvre Planning & Implementation"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/D7iEPwwx2KKeEWBjWDbGYC/Raoul-Hunt-%7C-SM-Posts",
+      "notes": [],
+      "raw_client_details": "raoul@huntformortgages.com\nwww.huntformortgages.com\n613-317-4262\nMortgage Broker",
+      "assets": {
+        "photo": {
+          "file": "assets/raoul-hunt/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 12,
+          "source_image": "image31.png",
+          "width": 148,
+          "height": 149
+        },
+        "footer": {
+          "file": "assets/raoul-hunt/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 12,
+          "source_image": "image45.png",
+          "width": 1080,
+          "height": 149
+        },
+        "logos": [
+          {
+            "file": "assets/raoul-hunt/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 12,
+            "source_image": "image6.png",
+            "width": 145,
+            "height": 75
+          },
+          {
+            "file": "assets/raoul-hunt/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 12,
+            "source_image": "image8.png",
+            "width": 137,
+            "height": 89
+          }
+        ]
+      },
+      "asset_folder": "assets/raoul-hunt/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-013",
+      "sheet_row": 13,
+      "name": "Al Manji",
+      "people": [],
+      "emails": [
+        "al.manji@6ix.ca"
+      ],
+      "phones": [
+        "(647) 284-7014"
+      ],
+      "website": "https://almanji.superkreatives.com/",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": "Mortgage Agent",
+      "other_ids": [
+        "12728"
+      ],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Home Purchase",
+        "Private Mortgage",
+        "Mortgage Renewal",
+        "Investment Properties"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/dr4ZkxoOxOVDVE9AVvYXVv/Al-Manji",
+      "notes": [],
+      "raw_client_details": "al.manji@6ix.ca\nhttps://almanji.superkreatives.com/\n(647) 284-7014\nMortgage Agent\n12728",
+      "assets": {
+        "photo": {
+          "file": "assets/al-manji/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 13,
+          "source_image": "image20.png",
+          "width": 205,
+          "height": 178
+        },
+        "footer": {
+          "file": "assets/al-manji/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 13,
+          "source_image": "image23.png",
+          "width": 1080,
+          "height": 178
+        },
+        "logos": [
+          {
+            "file": "assets/al-manji/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 13,
+            "source_image": "image12.png",
+            "width": 106,
+            "height": 61
+          },
+          {
+            "file": "assets/al-manji/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 13,
+            "source_image": "image10.png",
+            "width": 196,
+            "height": 56
+          }
+        ]
+      },
+      "asset_folder": "assets/al-manji/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-014",
+      "sheet_row": 14,
+      "name": "Dan Balch",
+      "people": [],
+      "emails": [
+        "dan@danbalch.ca"
+      ],
+      "phones": [
+        "(519) 854 7025"
+      ],
+      "website": "https://danbalch.com",
+      "location": "London, Ontario",
+      "brokerage_name": "Mortgage Architects",
+      "brokerage_license_no": "#12728",
+      "agent_license_no": "M08003485",
+      "designation": "Licensed Mortgage Broker",
+      "other_ids": [],
+      "time_zone": "EST (Eastern Standard Time) | Greenwich Mean Time",
+      "posting_time": "11:00 AM",
+      "posting_mode": "Autoposting",
+      "services": [
+        "Mortgage Refinancing",
+        "Mortgage Renewals In London",
+        "Mortgage Renewal/ Transferring your mortgage"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/oDQO7DgAkxVpCPrTM0HPV8/Dan-Balch",
+      "notes": [
+        "Phone number still to be confirmed (per sheet)"
+      ],
+      "raw_client_details": "dan@danbalch.ca\nhttps://danbalch.com\n(519) 854 7025 (We have to confirm)\nLondon, Ontario\n-\nMortgage Architects\n#12728\nM08003485\nLicensed Mortgage Broker",
+      "assets": {
+        "photo": {
+          "file": "assets/dan-balch/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 14,
+          "source_image": "image84.png",
+          "width": 142,
+          "height": 146
+        },
+        "footer": {
+          "file": "assets/dan-balch/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 14,
+          "source_image": "image25.png",
+          "width": 1080,
+          "height": 146
+        },
+        "logos": [
+          {
+            "file": "assets/dan-balch/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 14,
+            "source_image": "image16.png",
+            "width": 224,
+            "height": 45
+          }
+        ]
+      },
+      "asset_folder": "assets/dan-balch/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-015",
+      "sheet_row": 15,
+      "name": "Gaurav Makhija",
+      "people": [],
+      "emails": [
+        "edanmortgages@gmail.com"
+      ],
+      "phones": [
+        "437-445-5151"
+      ],
+      "website": "edanmortgages.com",
+      "location": null,
+      "brokerage_name": "edan Mortgages",
+      "brokerage_license_no": "#10394",
+      "agent_license_no": "M24001012",
+      "designation": "Mortgage Agent Level 2",
+      "other_ids": [],
+      "time_zone": "EST (Eastern Standard Time)",
+      "posting_time": "10:00 AM",
+      "posting_mode": "Send to Review",
+      "services": [
+        "Purchase",
+        "Private Mortgages",
+        "First-Time Homebuyer",
+        "Commercial Mortgages",
+        "Mortgage Refinance",
+        "Mortgage Renewal"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/YZCAxEZ6tU9GMPGDexDOzB/Gaurav-Makhija-%7C-SM-Post",
+      "notes": [],
+      "raw_client_details": "edanmortgages@gmail.com\nedanmortgages.com\n437-445-5151\nedan Mortgages\n#10394\nFSCO License# M24001012\nMortgage Agent Level 2",
+      "assets": {
+        "photo": {
+          "file": "assets/gaurav-makhija/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 15,
+          "source_image": "image28.png",
+          "width": 144,
+          "height": 140
+        },
+        "footer": {
+          "file": "assets/gaurav-makhija/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 15,
+          "source_image": "image46.png",
+          "width": 1080,
+          "height": 140
+        },
+        "logos": [
+          {
+            "file": "assets/gaurav-makhija/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 15,
+            "source_image": "image34.png",
+            "width": 176,
+            "height": 92
+          }
+        ]
+      },
+      "asset_folder": "assets/gaurav-makhija/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-016",
+      "sheet_row": 16,
+      "name": "Gregory Hernandez",
+      "people": [],
+      "emails": [
+        "gregory.everaldo.hernandez@gmail.com",
+        "gregory.hernandez@groupeorbis.com"
+      ],
+      "phones": [
+        "514-515-4734"
+      ],
+      "website": "https://gregoryhernandez.ca/",
+      "location": "Montreal, Quebec",
+      "brokerage_name": "Orbis Mortgage",
+      "brokerage_license_no": "#13476",
+      "agent_license_no": null,
+      "designation": "Mortgage broker",
+      "other_ids": [],
+      "time_zone": "EST (Eastern Standard Time) / 6:30pm IST",
+      "posting_time": "8:00 AM EST",
+      "posting_mode": null,
+      "services": [
+        "New purchase",
+        "Rental Investment",
+        "Auto-construction",
+        "Land finance",
+        "Commercial lending",
+        "Alternate and private",
+        "Zero Down Mortgage",
+        "Mortgage Refinance"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/LzfsFYrHnRztGY8zOHCpAz/Gregory-Hernandez-%7C-SM",
+      "notes": [
+        "Agent license no. still to be confirmed with client (per sheet)"
+      ],
+      "raw_client_details": "gregory.everaldo.hernandez@gmail.com\ngregory.hernandez@groupeorbis.com\nhttps://gregoryhernandez.ca/\n514-515-4734\nMontreal, Quebec\n----------------\nOrbis Mortgage\n#13476\n(We have to confirm with client)\nMortgage broker",
+      "assets": {
+        "photo": {
+          "file": "assets/gregory-hernandez/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 16,
+          "source_image": "image94.png",
+          "width": 126,
+          "height": 118
+        },
+        "footer": {
+          "file": "assets/gregory-hernandez/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 16,
+          "source_image": "image30.png",
+          "width": 1080,
+          "height": 120
+        },
+        "logos": [
+          {
+            "file": "assets/gregory-hernandez/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 16,
+            "source_image": "image24.png",
+            "width": 504,
+            "height": 125
+          }
+        ]
+      },
+      "asset_folder": "assets/gregory-hernandez/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-017",
+      "sheet_row": 17,
+      "name": "Jim DeCoste",
+      "people": [],
+      "emails": [
+        "jdecoste@dominionlending.ca"
+      ],
+      "phones": [
+        "(902)-968-1727"
+      ],
+      "website": "https://jimdecoste.ca/",
+      "location": "Antigonish, Nova Scotia",
+      "brokerage_name": "Dominion Lending Centres Maritime Mortgage Group",
+      "brokerage_license_no": "NS Broker License # 3000209 | NB Broker License # 220044097",
+      "agent_license_no": null,
+      "designation": "Mortgage Owner",
+      "other_ids": [],
+      "time_zone": "AST (Atlantic Standard Time)",
+      "posting_time": "10:00 AM",
+      "posting_mode": "Autoposting",
+      "services": [
+        "First time home buyer mortgage",
+        "Heloc",
+        "Renewal mortgage",
+        "Refinance mortage"
+      ],
+      "special_requests": [],
+      "photo_notes": "Client doesnt want image",
+      "figma_file": "https://www.figma.com/design/eziZ81Sl6EeIUZbYJ1zZir/Jim-DeCoste",
+      "notes": [],
+      "raw_client_details": "jdecoste@dominionlending.ca\nhttps://jimdecoste.ca/\n(902)-968-1727\nAntigonish, Nova Scotia\nDominion Lending Centres Maritime Mortgage Group\nNS Broker License # - 3000209 | NB Broker License # - 220044097\nMortgage Owner",
+      "assets": {
+        "photo": null,
+        "footer": {
+          "file": "assets/jim-decoste/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 17,
+          "source_image": "image32.png",
+          "width": 2048,
+          "height": 353
+        },
+        "logos": [
+          {
+            "file": "assets/jim-decoste/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 17,
+            "source_image": "image43.png",
+            "width": 493,
+            "height": 91
+          }
+        ]
+      },
+      "asset_folder": "assets/jim-decoste/",
+      "has_photo": false,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-018",
+      "sheet_row": 18,
+      "name": "Karven Wu",
+      "people": [],
+      "emails": [
+        "karven.wu@kwmortgageadvisory.ca"
+      ],
+      "phones": [
+        "(416)-662-6318",
+        "(905) 597-9116"
+      ],
+      "website": "https://kwmortgageadvisory.ca/",
+      "location": "Barrie, Ontario",
+      "brokerage_name": "Caliber Mortgage Inc. & Dominion Lending Centers",
+      "brokerage_license_no": "FSRA #13368",
+      "agent_license_no": "M23008143",
+      "designation": "Mortgage Agent Level 1",
+      "other_ids": [],
+      "time_zone": "EST (Eastern Standard Time)",
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Conventional Mortgage",
+        "Refinance Mortgage",
+        "Residential Mortgage",
+        "Private Mortgage"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/wS8wgAJ0RdMQ407E3KJVbA/Karven-Wu-%7C-SM-Posts",
+      "notes": [],
+      "raw_client_details": "karven.wu@kwmortgageadvisory.ca\nhttps://kwmortgageadvisory.ca/\n(416)-662-6318 | (905) 597-9116\nBarrie, Ontario\nCaliber Mortgage Inc. & Dominion Lending Centers\nFSRA: #13368\nLicense #M23008143\nMortgage Agent Level 1",
+      "assets": {
+        "photo": {
+          "file": "assets/karven-wu/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 18,
+          "source_image": "image40.png",
+          "width": 327,
+          "height": 324
+        },
+        "footer": {
+          "file": "assets/karven-wu/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 18,
+          "source_image": "image41.png",
+          "width": 2048,
+          "height": 307
+        },
+        "logos": [
+          {
+            "file": "assets/karven-wu/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 18,
+            "source_image": "image29.png",
+            "width": 293,
+            "height": 130
+          },
+          {
+            "file": "assets/karven-wu/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 18,
+            "source_image": "image38.png",
+            "width": 322,
+            "height": 151
+          }
+        ]
+      },
+      "asset_folder": "assets/karven-wu/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-019",
+      "sheet_row": 19,
+      "name": "Keaton Thornton & Jim Thornton",
+      "people": [
+        {
+          "name": "Keaton Thornton",
+          "designation": "Mortgage Agent Level 1",
+          "email": "keaton@krtmortgages.ca",
+          "phone": "226-450-4216",
+          "agent_license_no": "M22000917"
+        },
+        {
+          "name": "Jim Thornton",
+          "designation": "Mortgage Broker",
+          "email": "contact@jimthornton.ca",
+          "phone": "905-921-1805",
+          "agent_license_no": "M08002211"
+        }
+      ],
+      "emails": [
+        "keaton@krtmortgages.ca",
+        "contact@jimthornton.ca"
+      ],
+      "phones": [
+        "226-450-4216",
+        "905-921-1805"
+      ],
+      "website": "pinnaclemortgagessolutions.ca",
+      "location": "Brantford, Ontario",
+      "brokerage_name": "RMA (Real Mortgage Associates) & PinnacleMortgagesSolutions.ca",
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": "EST (Eastern Standard Time)",
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Making a Purchase",
+        "Refinance your Mortgage",
+        "Mortgage Renewal",
+        "Reverse Mortgage"
+      ],
+      "special_requests": [
+        "3 Nov - Please stop using 'best rates' in all future posts. I have already made the change in this post.",
+        "Always use Jim's Outro for Reels",
+        "Use Keaton's footer for all the static posts."
+      ],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/XdkMwWdgayJb0ZwLbzk3Sy/Keaton-Thornton-%7C-SM",
+      "notes": [],
+      "raw_client_details": "Keaton Thornton\nMortgage Agent Level 1\nkeaton@krtmortgages.ca\n226-450-4216\nLicense #M22000917\nJim Thornton\nMorgage Broker\ncontact@jimthornton.ca\n905-921-1805\nLicense #M08002211\npinnaclemortgagessolutions.ca\nBrantford, Ontario\nRMA (Real Mortgage Associates) & PinnacleMortgagesSolutions.ca\n-",
+      "assets": {
+        "photo": {
+          "file": "assets/keaton-thornton-jim-thornton/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 19,
+          "source_image": "image92.png",
+          "width": 335,
+          "height": 383
+        },
+        "footer": {
+          "file": "assets/keaton-thornton-jim-thornton/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 19,
+          "source_image": "image22.png",
+          "width": 1080,
+          "height": 191
+        },
+        "logos": [
+          {
+            "file": "assets/keaton-thornton-jim-thornton/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 19,
+            "source_image": "image33.png",
+            "width": 456,
+            "height": 134
+          }
+        ]
+      },
+      "asset_folder": "assets/keaton-thornton-jim-thornton/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-020",
+      "sheet_row": 20,
+      "name": "Keith Crossland & Dustin Moss",
+      "people": [
+        {
+          "name": "Keith Crosland",
+          "email": "keith@mortgageconnection.ca",
+          "phone": "780-909-6466"
+        },
+        {
+          "name": "Dustin Moss",
+          "email": "dustin@mortgageconnection.ca",
+          "phone": "780-298-4663"
+        }
+      ],
+      "emails": [
+        "keith@mortgageconnection.ca",
+        "dustin@mortgageconnection.ca"
+      ],
+      "phones": [
+        "780-909-6466",
+        "780-298-4663"
+      ],
+      "website": null,
+      "location": "Edmonton (written 'City of Edminton' in sheet)",
+      "brokerage_name": "Mortgage Connection",
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": "MST (Mountain Standard Time)",
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "New Home Purchase",
+        "Refinancing",
+        "Mortgage Renewals",
+        "Second Mortgages",
+        "Commercial Mortgages",
+        "Alternative Lending"
+      ],
+      "special_requests": [
+        "Aug 16, 2025 - Month End Report: please provide numbers for Edmonton and surrounding area. We don't do work in Calgary so don't want to post for their market.",
+        "Sep 5, 2025 - Please don't hashtag Mortgageontario as we don't work there."
+      ],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/u2X1YMEAyVI08beOWUwBNf/Keith-and-Dustin-Mortgages-%7C-SM-Posts",
+      "notes": [
+        "Surname spelled 'Crossland' in name column, 'Crosland' in details"
+      ],
+      "raw_client_details": "Keith Crosland\nkeith@mortgageconnection.ca\n780-909-6466\nDustin Moss\ndustin@mortgageconnection.ca\n780-298-4663\nCity of Edminton\nMortgage Connection\n-\n-\n-",
+      "assets": {
+        "photo": {
+          "file": "assets/keith-crossland-dustin-moss/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 20,
+          "source_image": "image67.png",
+          "width": 846,
+          "height": 775
+        },
+        "footer": {
+          "file": "assets/keith-crossland-dustin-moss/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 20,
+          "source_image": "image47.png",
+          "width": 2048,
+          "height": 250
+        },
+        "logos": [
+          {
+            "file": "assets/keith-crossland-dustin-moss/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 20,
+            "source_image": "image44.png",
+            "width": 492,
+            "height": 118
+          },
+          {
+            "file": "assets/keith-crossland-dustin-moss/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 20,
+            "source_image": "image37.png",
+            "width": 720,
+            "height": 110
+          }
+        ]
+      },
+      "asset_folder": "assets/keith-crossland-dustin-moss/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-021",
+      "sheet_row": 21,
+      "name": "Michael Marini",
+      "people": [],
+      "emails": [],
+      "phones": [
+        "416-549-1676"
+      ],
+      "website": "www.michaelmarini.com",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "All Residential Type Mortgages",
+        "Purchases",
+        "Transfers",
+        "Renewals",
+        "Refinances",
+        "HELOCS",
+        "Equity Take Outs",
+        "Rental / Investment Properties",
+        "Self Employed Mortgages",
+        "Doctors and Veterinarian Mortgages"
+      ],
+      "special_requests": [],
+      "photo_notes": "Client doesnt want image",
+      "figma_file": "https://www.figma.com/design/J7zwkaErDYp81m8iAe7Yqh/Michael-Marini-%7C-SM-Posts",
+      "notes": [
+        "Services were written in the 'Special request' column of the sheet"
+      ],
+      "raw_client_details": "www.michaelmarini.com\n416-549-1676",
+      "assets": {
+        "photo": null,
+        "footer": {
+          "file": "assets/michael-marini/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 21,
+          "source_image": "image48.png",
+          "width": 2048,
+          "height": 288
+        },
+        "logos": [
+          {
+            "file": "assets/michael-marini/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 21,
+            "source_image": "image81.png",
+            "width": 888,
+            "height": 146
+          },
+          {
+            "file": "assets/michael-marini/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 21,
+            "source_image": "image35.png",
+            "width": 426,
+            "height": 126
+          }
+        ]
+      },
+      "asset_folder": "assets/michael-marini/",
+      "has_photo": false,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-022",
+      "sheet_row": 22,
+      "name": "Nav Utppal",
+      "people": [],
+      "emails": [
+        "nav@fidesmortgages.ca"
+      ],
+      "phones": [
+        "6472742016"
+      ],
+      "website": null,
+      "location": "Ontario",
+      "brokerage_name": "Next Mortgage",
+      "brokerage_license_no": "#13727",
+      "agent_license_no": "M25000941",
+      "designation": null,
+      "other_ids": [],
+      "time_zone": "EST (Eastern Standard Time)",
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "Purchase Mortgage",
+        "Refinancing Mortgage",
+        "Renewal Mortgage",
+        "Second Mortgage",
+        "Third Mortgage",
+        "Blanket Mortgage",
+        "HELOC",
+        "Bridge Loan",
+        "Business Loan",
+        "Equipment Leasing"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/a2ahU0eS0A35KTWCcASc3j/Nav-Utppal-%7C-SM",
+      "notes": [],
+      "raw_client_details": "nav@fidesmortgages.ca\n-\n6472742016\nOntario\nNext Mortgage\n#13727\nM25000941",
+      "assets": {
+        "photo": {
+          "file": "assets/nav-utppal/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 22,
+          "source_image": "image73.png",
+          "width": 316,
+          "height": 290
+        },
+        "footer": {
+          "file": "assets/nav-utppal/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 22,
+          "source_image": "image95.png",
+          "width": 1080,
+          "height": 145
+        },
+        "logos": [
+          {
+            "file": "assets/nav-utppal/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 22,
+            "source_image": "image42.png",
+            "width": 361,
+            "height": 102
+          },
+          {
+            "file": "assets/nav-utppal/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 22,
+            "source_image": "image38.png",
+            "width": 322,
+            "height": 151
+          }
+        ]
+      },
+      "asset_folder": "assets/nav-utppal/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-023",
+      "sheet_row": 23,
+      "name": "Jalal Khan",
+      "people": [],
+      "emails": [
+        "vanjk1970@gmail.com"
+      ],
+      "phones": [
+        "778 886 4471"
+      ],
+      "website": "https://mortgagebyjalal.ca/",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": "MB607231",
+      "designation": "Mortgage Broker",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "First-Time Homebuyer Mortgages",
+        "Home Financing",
+        "Private Mortgages",
+        "Bruised Credit Issues",
+        "Refinance"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/cI9CG9jGVxS2s2VdP8wUnp/Noel-Giborees---Jalal-Khan-%7C-SM-Posts",
+      "notes": [],
+      "raw_client_details": "vanjk1970@gmail.com\nhttps://mortgagebyjalal.ca/\n778 886 4471\nLicense Number MB607231\nMortgage Broker",
+      "assets": {
+        "photo": {
+          "file": "assets/jalal-khan/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 23,
+          "source_image": "image52.png",
+          "width": 338,
+          "height": 315
+        },
+        "footer": {
+          "file": "assets/jalal-khan/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 23,
+          "source_image": "image60.png",
+          "width": 2048,
+          "height": 299
+        },
+        "logos": [
+          {
+            "file": "assets/jalal-khan/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 23,
+            "source_image": "image74.png",
+            "width": 390,
+            "height": 74
+          },
+          {
+            "file": "assets/jalal-khan/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 23,
+            "source_image": "image49.png",
+            "width": 173,
+            "height": 185
+          }
+        ]
+      },
+      "asset_folder": "assets/jalal-khan/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-024",
+      "sheet_row": 24,
+      "name": "Rahul Vinod",
+      "people": [],
+      "emails": [
+        "rahulvinod@dominionlending.ca"
+      ],
+      "phones": [
+        "506-260-3331"
+      ],
+      "website": "rahulvinod.ca",
+      "location": "Moncton, New Brunswick, Calgary",
+      "brokerage_name": "Dominion Lending Centres Maritime Mortgage Group",
+      "brokerage_license_no": "#2021-3000208",
+      "agent_license_no": "230047020",
+      "designation": "Mortgage Associate",
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [
+        "First Time Mortgage",
+        "Second Mortgage",
+        "Residential Mortgages",
+        "Refinance Mortgage",
+        "Private Mortgages"
+      ],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/NegXAH1Slpxm9MHgon2Btw/Rahul-Vinod-%7C-SM",
+      "notes": [],
+      "raw_client_details": "rahulvinod@dominionlending.ca\nrahulvinod.ca\n506-260-3331\nMoncton, New Brunswick, Calgary\nDominion Lending Centres Maritime Mortgage Group\nBrokerage Licence #2021-3000208\n230047020\nMortgage Associate",
+      "assets": {
+        "photo": {
+          "file": "assets/rahul-vinod/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 24,
+          "source_image": "image80.png",
+          "width": 560,
+          "height": 643
+        },
+        "footer": {
+          "file": "assets/rahul-vinod/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 24,
+          "source_image": "image56.png",
+          "width": 2048,
+          "height": 250
+        },
+        "logos": [
+          {
+            "file": "assets/rahul-vinod/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 24,
+            "source_image": "image77.png",
+            "width": 404,
+            "height": 116
+          },
+          {
+            "file": "assets/rahul-vinod/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 24,
+            "source_image": "image79.png",
+            "width": 143,
+            "height": 144
+          }
+        ]
+      },
+      "asset_folder": "assets/rahul-vinod/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-025",
+      "sheet_row": 25,
+      "name": "Vittorio Oliverio",
+      "people": [],
+      "emails": [
+        "Vittorio@cpmg.ca"
+      ],
+      "phones": [
+        "(403) 795 6054"
+      ],
+      "website": "www.cpmg.ca",
+      "location": "Lethbridge, Alberta",
+      "brokerage_name": "Centum professional Mortgage Group Inc.",
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": "MST (Mountain Standard Time)",
+      "posting_time": "9:30 AM (MST)",
+      "posting_mode": null,
+      "services": [
+        "First Time home buyers",
+        "Rental Mortgage",
+        "Refinancing",
+        "Mortgage Renewal",
+        "Bad Credit Mortgage"
+      ],
+      "special_requests": [
+        "Hashtags: #MortgageBroker #CenterProfessionalMortgageGroup #Cpmg",
+        "Use alternate associates on alternate days in the footer for the posts.",
+        "For every associate use the phone number 403.380.4413 so the number is used and remembered.",
+        "15 July 2025 - Remove David from the posts for 4 weeks. Use Kim, Marty, Cara, Vittorio; put a hold on David and Clarke for 4 weeks.",
+        "28 July 2025 - Skip David for a month; focus on Marty, Cara, Vittorio, Kim for August. In September add Clarke and Karen to the mix.",
+        "12 September 2025 - Use footers for Cara, Marry, Clarke, Karen, Vittorio."
+      ],
+      "photo_notes": "We have only one image",
+      "figma_file": "https://www.figma.com/design/auYyHf6PDzbYWbi17gCjak/vittorio-oliverio-%7C-post",
+      "notes": [
+        "Footer phone for all associates: 403.380.4413",
+        "Special requests lightly cleaned of typos; originals preserved in sheet"
+      ],
+      "raw_client_details": "Vittorio@cpmg.ca\nwww.cpmg.ca\n(403) 795 6054\nLethbridge, Alberta\nCentum professional Mortgage Group Inc.",
+      "assets": {
+        "photo": {
+          "file": "assets/vittorio-oliverio/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 25,
+          "source_image": "image54.png",
+          "width": 340,
+          "height": 308
+        },
+        "footer": {
+          "file": "assets/vittorio-oliverio/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 25,
+          "source_image": "image50.png",
+          "width": 2048,
+          "height": 291
+        },
+        "logos": [
+          {
+            "file": "assets/vittorio-oliverio/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 25,
+            "source_image": "image75.png",
+            "width": 200,
+            "height": 59
+          }
+        ]
+      },
+      "asset_folder": "assets/vittorio-oliverio/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-026",
+      "sheet_row": 26,
+      "name": "Scott Brouke",
+      "people": [],
+      "emails": [],
+      "phones": [],
+      "website": null,
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/BikB1rXf0lKFhtqSUWNzNT/Scott-Bourke",
+      "notes": [
+        "No contact details in sheet",
+        "Name spelled 'Brouke' in sheet, 'Bourke' in Figma"
+      ],
+      "raw_client_details": "",
+      "assets": {
+        "photo": {
+          "file": "assets/scott-brouke/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 26,
+          "source_image": "image59.png",
+          "width": 339,
+          "height": 307
+        },
+        "footer": {
+          "file": "assets/scott-brouke/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 26,
+          "source_image": "image62.png",
+          "width": 2048,
+          "height": 292
+        },
+        "logos": [
+          {
+            "file": "assets/scott-brouke/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 26,
+            "source_image": "image55.png",
+            "width": 422,
+            "height": 125
+          }
+        ]
+      },
+      "asset_folder": "assets/scott-brouke/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-027",
+      "sheet_row": 27,
+      "name": "Akshat Chauhan",
+      "people": [],
+      "emails": [
+        "info@akshatchauhan.ca"
+      ],
+      "phones": [
+        "(587) 830-3777"
+      ],
+      "website": "https://akshatchauhan.ca/",
+      "location": "Calgary",
+      "brokerage_name": "Mortgage Architects",
+      "brokerage_license_no": "#12728",
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/wXIynCNAkglvTxL82BxMas/Akshat-Chauhan",
+      "notes": [],
+      "raw_client_details": "info@akshatchauhan.ca\nhttps://akshatchauhan.ca/\n(587) 830-3777\nCalgary\nMortgage Architects\n#12728",
+      "assets": {
+        "photo": {
+          "file": "assets/akshat-chauhan/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 27,
+          "source_image": "image63.png",
+          "width": 417,
+          "height": 454
+        },
+        "footer": {
+          "file": "assets/akshat-chauhan/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 27,
+          "source_image": "image61.png",
+          "width": 2048,
+          "height": 430
+        },
+        "logos": [
+          {
+            "file": "assets/akshat-chauhan/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 27,
+            "source_image": "image51.png",
+            "width": 570,
+            "height": 113
+          }
+        ]
+      },
+      "asset_folder": "assets/akshat-chauhan/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-028",
+      "sheet_row": 28,
+      "name": "Borrowise",
+      "people": [],
+      "emails": [],
+      "phones": [],
+      "website": null,
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [],
+      "special_requests": [],
+      "photo_notes": "Client doesnt want image",
+      "figma_file": "https://www.figma.com/design/EnGRRpQULgzZLVgcqLjcMO/Borrowise",
+      "notes": [
+        "No contact details in sheet"
+      ],
+      "raw_client_details": "",
+      "assets": {
+        "photo": null,
+        "footer": {
+          "file": "assets/borrowise/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 28,
+          "source_image": "image53.png",
+          "width": 2048,
+          "height": 239
+        },
+        "logos": [
+          {
+            "file": "assets/borrowise/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 28,
+            "source_image": "image64.png",
+            "width": 212,
+            "height": 213
+          }
+        ]
+      },
+      "asset_folder": "assets/borrowise/",
+      "has_photo": false,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-029",
+      "sheet_row": 29,
+      "name": "Ranjit Singh",
+      "people": [],
+      "emails": [
+        "ranjitsingh@akal.ca"
+      ],
+      "phones": [
+        "647-518-3690"
+      ],
+      "website": null,
+      "location": "GTA",
+      "brokerage_name": "Akal mortgages co.",
+      "brokerage_license_no": "LIC#10845",
+      "agent_license_no": "M23007539",
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/FHWtfHcWyRSulmmdhzetFe/Rachit",
+      "notes": [
+        "Figma link points to a file named 'Rachit' — same link used for Wise Equity and Krystian Catala; check it's correct"
+      ],
+      "raw_client_details": "ranjitsingh@akal.ca\n647-518-3690\nGTA\nAkal mortgages co.\nLIC#10845,\nM23007539",
+      "assets": {
+        "photo": {
+          "file": "assets/ranjit-singh/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 29,
+          "source_image": "image71.png",
+          "width": 925,
+          "height": 1275
+        },
+        "footer": {
+          "file": "assets/ranjit-singh/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 29,
+          "source_image": "image58.png",
+          "width": 1080,
+          "height": 183
+        },
+        "logos": [
+          {
+            "file": "assets/ranjit-singh/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 29,
+            "source_image": "image66.png",
+            "width": 298,
+            "height": 113
+          }
+        ]
+      },
+      "asset_folder": "assets/ranjit-singh/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-030",
+      "sheet_row": 30,
+      "name": "Georges Madi",
+      "people": [],
+      "emails": [
+        "gmadi@xperto.ca"
+      ],
+      "phones": [
+        "+1 (514) 839-9356"
+      ],
+      "website": "https://www.georgesmadi.com/en",
+      "location": "Montreal",
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/xMRxFv4xxJ7CNFwU3Obhjy/Georges-Madi",
+      "notes": [],
+      "raw_client_details": "gmadi@xperto.ca\nhttps://www.georgesmadi.com/en\n+1 (514) 839-9356\nMontreal",
+      "assets": {
+        "photo": {
+          "file": "assets/georges-madi/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 30,
+          "source_image": "image78.png",
+          "width": 172,
+          "height": 227
+        },
+        "footer": {
+          "file": "assets/georges-madi/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 30,
+          "source_image": "image85.png",
+          "width": 1080,
+          "height": 157
+        },
+        "logos": [
+          {
+            "file": "assets/georges-madi/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 30,
+            "source_image": "image87.png",
+            "width": 955,
+            "height": 86
+          }
+        ]
+      },
+      "asset_folder": "assets/georges-madi/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-031",
+      "sheet_row": 31,
+      "name": "Wise Equity",
+      "people": [],
+      "emails": [],
+      "phones": [],
+      "website": null,
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [],
+      "special_requests": [],
+      "photo_notes": "Client doesnt want image",
+      "figma_file": "https://www.figma.com/design/FHWtfHcWyRSulmmdhzetFe/Rachit",
+      "notes": [
+        "No contact details in sheet",
+        "Figma link points to a file named 'Rachit' — shared with Ranjit Singh and Krystian Catala; check it's correct"
+      ],
+      "raw_client_details": "",
+      "assets": {
+        "photo": {
+          "file": "assets/wise-equity/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 31,
+          "source_image": "image82.png",
+          "width": 1548,
+          "height": 1657
+        },
+        "footer": {
+          "file": "assets/wise-equity/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 31,
+          "source_image": "image76.png",
+          "width": 1942,
+          "height": 192
+        },
+        "logos": [
+          {
+            "file": "assets/wise-equity/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 31,
+            "source_image": "image89.png",
+            "width": 610,
+            "height": 91
+          }
+        ]
+      },
+      "asset_folder": "assets/wise-equity/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    },
+    {
+      "id": "client-032",
+      "sheet_row": 32,
+      "name": "Krystian Catala",
+      "people": [],
+      "emails": [
+        "krystian@greenbrix.ca"
+      ],
+      "phones": [
+        "416-460-2215"
+      ],
+      "website": "greenbrix.ca",
+      "location": null,
+      "brokerage_name": null,
+      "brokerage_license_no": null,
+      "agent_license_no": null,
+      "designation": null,
+      "other_ids": [
+        "#13645"
+      ],
+      "time_zone": null,
+      "posting_time": null,
+      "posting_mode": null,
+      "services": [],
+      "special_requests": [],
+      "photo_notes": null,
+      "figma_file": "https://www.figma.com/design/FHWtfHcWyRSulmmdhzetFe/Rachit",
+      "notes": [
+        "Figma link points to a file named 'Rachit' — shared with Ranjit Singh and Wise Equity; check it's correct"
+      ],
+      "raw_client_details": "krystian@greenbrix.ca\ngreenbrix.ca\n416-460-2215\n#13645",
+      "assets": {
+        "photo": {
+          "file": "assets/krystian-catala/photo.png",
+          "source_column": "J (Photos / Photo Status)",
+          "sheet_row": 32,
+          "source_image": "image57.png",
+          "width": 354,
+          "height": 339
+        },
+        "footer": {
+          "file": "assets/krystian-catala/footer.png",
+          "source_column": "N (Footers)",
+          "sheet_row": 32,
+          "source_image": "image72.png",
+          "width": 1942,
+          "height": 339
+        },
+        "logos": [
+          {
+            "file": "assets/krystian-catala/logo.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 32,
+            "source_image": "image69.png",
+            "width": 348,
+            "height": 196
+          },
+          {
+            "file": "assets/krystian-catala/logo-2.png",
+            "source_column": "O (Logo Branding)",
+            "sheet_row": 32,
+            "source_image": "image93.png",
+            "width": 296,
+            "height": 130
+          }
+        ]
+      },
+      "asset_folder": "assets/krystian-catala/",
+      "has_photo": true,
+      "has_footer": true,
+      "has_logo": true
+    }
+  ]
+}

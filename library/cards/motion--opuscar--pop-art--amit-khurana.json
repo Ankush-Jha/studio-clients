@@ -1,0 +1,45 @@
+{
+ "id": "motion--films--pop-art--amit-khurana",
+ "title": "Interest-only HELOC: the payment moves, the balance doesn't [oc-pop-art, amit-khurana]",
+ "clients": [
+  "amit-khurana"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "short-reel",
+ "engine": "motion",
+ "style": "oc-pop-art",
+ "lengthS": 19.17,
+ "fps": 30,
+ "size": "1080x1920",
+ "voice": null,
+ "music": "synthesised SFX only (cue-timed)",
+ "topic": "Interest-only HELOC: the payment moves, the balance does not",
+ "tags": [
+  "motion-template-test",
+  "oc-pop-art",
+  "heloc",
+  "interest-only"
+ ],
+ "hook": "Paul's HELOC: $7,800 paid, still owes $150,000",
+ "logline": "Template test render of 'oc-pop-art' on the heloc-paul data block for amit-khurana: $150,000 balance, 12 payments of $650 = $7,800, balance unchanged.",
+ "structure": "Looping 12-15s HTML/GSAP motion piece rendered frame by frame in Chromium; no voiceover; loops to frame 1.",
+ "device": "sixties screen-print poster language: Ben-Day dots at 45 degrees, heavy black key lines, flat plates that never quite register, labels as paper slips",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/motion/out/films/pop-art/amit-khurana.mp4",
+  "poster": "$R/engines/motion/out/films/pop-art/amit-khurana.poster.jpg",
+  "thumb": "library/thumbs/motion--films--pop-art--amit-khurana.jpg",
+  "treatment": "",
+  "project": "$R/engines/motion"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Test render of a motion template, not a delivered piece; compliance placeholders (agent name, licence) were still open."
+ ],
+ "source": "seed",
+ "hookPattern": "number-stuck"
+}

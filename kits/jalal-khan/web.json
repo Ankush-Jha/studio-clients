@@ -1,0 +1,111 @@
+{
+  "url": "https://mortgagebyjalal.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Jalal Khan is a licensed Mortgage Broker at Vancouver Mortgage Solutions (VMS), described on the site as a boutique broker experience. The site lists first-time buyer, home financing, private, bruised credit, reverse and refinance mortgages. A second broker, Noel Giborees, is listed on the about page.",
+  "tagline": "Future-Ready Mortgage Solutions for Your Perfect Home",
+  "yearsInBusiness": null,
+  "specialties": [
+    "First-time homebuyer",
+    "Home financing",
+    "Private mortgages",
+    "Bruised credit",
+    "Reverse mortgage",
+    "Refinance"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Vancouver, British Columbia"
+  ],
+  "team": [
+    {
+      "name": "Jalal Khan",
+      "title": "Licensed Mortgage Broker",
+      "licence": "MB607231"
+    },
+    {
+      "name": "Noel Giborees",
+      "title": "Licensed mortgage professional",
+      "licence": "MB607230"
+    }
+  ],
+  "licences": [
+    {
+      "label": "License Number (Jalal Khan)",
+      "value": "MB607231",
+      "where": "about page"
+    },
+    {
+      "label": "License Number (Noel Giborees)",
+      "value": "MB607230",
+      "where": "about page"
+    }
+  ],
+  "brokerage": {
+    "name": "Vancouver Mortgage Solutions (VMS)",
+    "licence": null
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/optima_mortgages",
+    "facebook": "https://www.facebook.com/people/Optima-Mortgages/61565370521879",
+    "linkedin": "https://www.linkedin.com/company/optima-mortgages",
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "778-886-4471",
+    "778-320-3664"
+  ],
+  "emails": [
+    "vanjk1970@gmail.com",
+    "jalal.khan@mtgarc.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#254e6e",
+      "where": "muted navy brand colour in site CSS"
+    },
+    {
+      "hex": "#13aff0",
+      "where": "light blue (may be theme default)"
+    }
+  ],
+  "fonts": [
+    "Hanken Grotesk"
+  ],
+  "logoUrls": [
+    "https://mortgagebyjalal.ca/wp-content/uploads/logo.png"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Social links point to 'Optima Mortgages' accounts, a different name; confirm they belong to Jalal before use.",
+    "Contact page shows licence 'MB6047230' (typo/inconsistent with MB607231) and a stray mailto marini@michaelmarini.com, suggesting copied template.",
+    "Site mentions Mortgage Architects email (mtgarc.ca) as well as Vancouver Mortgage Solutions; affiliation unclear.",
+    "WebSearch (3rd-party directory results, confidence: check): BCFSA lists Jalal Hussen Khan under Vancouver Mortgage Solutions Inc. (expiry shown 4 July 2026, now past: check status); mortgagearchitects.ca lists him in Delta. No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://mortgagebyjalal.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://mortgagebyjalal.ca/about-us/",
+      "what": "about, licence"
+    },
+    {
+      "url": "https://mortgagebyjalal.ca/contact-us/",
+      "what": "contact"
+    },
+    {
+      "url": "https://www.bcfsa.ca/submortgage-broker/fb14a8cd-fe12-ec11-b6e6-000d3a09e1c2",
+      "what": "search, check"
+    }
+  ],
+  "blocked": []
+}

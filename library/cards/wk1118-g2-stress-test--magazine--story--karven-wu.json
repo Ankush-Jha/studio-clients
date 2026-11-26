@@ -1,0 +1,47 @@
+{
+ "id": "wk1118-g2-stress-test--magazine--story--karven-wu",
+ "title": "Stress test check: 4.44% still qualifies at 6.44% [magazine, story, karven-wu]",
+ "clients": [
+  "karven-wu"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "magazine",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "Stress test check: 4.44% still qualifies at 6.44%",
+ "tags": [
+  "stills",
+  "wk1118-g2-stress-test",
+  "magazine",
+  "story-format",
+  "group-2"
+ ],
+ "hook": "The gap on $800K, monthly.",
+ "logline": "Proof render of spec 'wk1118-g2-stress-test' in the Editorial Cover style for Karven Wu, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "A consumer-magazine issue: the cover is a saturated accent field with a didone masthead, cover lines that point to the slides inside, and one hero; inner slides are editorial spreads.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1118-g2-stress-test--magazine--story/karven-wu",
+  "poster": "$R/engines/stills/out/wk1118-g2-stress-test--magazine--story/karven-wu/01.jpg",
+  "thumb": "library/thumbs/wk1118-g2-stress-test--magazine--story--karven-wu.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1118-g2-stress-test.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

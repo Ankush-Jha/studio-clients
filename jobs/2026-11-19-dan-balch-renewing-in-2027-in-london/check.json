@@ -1,0 +1,48 @@
+{
+ "pass": true,
+ "proofOnly": true,
+ "fixed": [
+  "Slide 5 assumptions: added missing 'Semi-annual compounding.'",
+  "Slides 3-5 assumptions and caption: 'Not an offer' -> 'Illustrative market averages, not an offer'",
+  "Slide 9 sub and beat: 'most likely to jump' -> 'may jump' (unsupported superlative)"
+ ],
+ "math": [
+  {
+   "claim": "A 2,318 -> 2,720 (+402)",
+   "working": "bal 425,801.72; pmt 2317.75 @2.81, 2720.43 @4.66, 20y",
+   "result": "+$402",
+   "ok": true
+  },
+  {
+   "claim": "B 2,957 -> 2,835 (-122)",
+   "working": "bal 443,710.91; 2956.60, 2834.85",
+   "result": "-$122",
+   "ok": true
+  },
+  {
+   "claim": "C 3,032 -> 2,832 (-200)",
+   "working": "bal 469,048.47 (36 pmts); 3031.61, 2831.94, 22y",
+   "result": "-$200",
+   "ok": true
+  },
+  {
+   "claim": "0.25% on B = $59",
+   "working": "2834.85-2776.10=58.75",
+   "result": "$59",
+   "ok": true
+  }
+ ],
+ "sources": [
+  "BoC Valet V122667786 (2.81 Feb22, 5.17 Nov22, 4.66 Sep26) re-fetched 2026-11-19",
+  "BoC Valet V122667785 (5.43 Mar24) re-fetched 2026-11-19",
+  "OSFI straight-switch exemption 2024-11-21 (not re-fetched)"
+ ],
+ "compliance": {
+  "ontario188_08": "brokerage name+licence via kit line, ok",
+  "s18": "Likely not triggered: market averages in a worked example, not an advertised offer; uncertain, so disclaimer kept and flagged for broker of record",
+  "reviewBy": "2026-12-19",
+  "aiLabel": "n/a (no voice)",
+  "copycheck": "pass"
+ },
+ "blocking": []
+}

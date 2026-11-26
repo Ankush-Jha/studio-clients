@@ -1,0 +1,110 @@
+{
+  "url": "https://edanmortgages.com",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Gaurav Makhija is a Mortgage Agent Level 2 running Edan Mortgages in Mississauga, powered by GNE Mortgage Inc. (licence 10394). The site covers purchase, private, first-time buyer, commercial, refinance, renewal, HELOC/second, self-employed, multi-family, CMHC-insured and fix-and-flip mortgages. It quotes 48-72 hour approvals.",
+  "tagline": "Navigating Mortgages to Unlock a Simpler Future.",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Purchase",
+    "Private mortgages",
+    "First-time homebuyer",
+    "Commercial mortgages",
+    "Refinance",
+    "Renewal",
+    "HELOC/second mortgage",
+    "Self-employed",
+    "Multi-family",
+    "CMHC insured",
+    "Fix and flip"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Mississauga",
+    "Greater Toronto Area"
+  ],
+  "team": [
+    {
+      "name": "Gaurav Makhija",
+      "title": "Mortgage Agent Level 2",
+      "licence": "M24001012"
+    }
+  ],
+  "licences": [
+    {
+      "label": "FSCO Licence",
+      "value": "M24001012",
+      "where": "contact page footer / about"
+    }
+  ],
+  "brokerage": {
+    "name": "GNE Mortgage Inc.",
+    "licence": "10394"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/edan_mortgages",
+    "facebook": "https://www.facebook.com/profile.php?id=61558368641247",
+    "linkedin": "https://www.linkedin.com/in/gaurav-makhija-16a3977",
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "437-445-5151"
+  ],
+  "emails": [
+    "gaurav@edanmortgages.com",
+    "edanmortgages@gmail.com"
+  ],
+  "brandColors": [
+    {
+      "hex": "#c28300",
+      "where": "gold/amber brand accent in site CSS"
+    },
+    {
+      "hex": "#13aff0",
+      "where": "light blue (may be theme default)"
+    }
+  ],
+  "fonts": [
+    "DM Sans",
+    "Libre Caslon Text"
+  ],
+  "logoUrls": [
+    "https://edanmortgages.com/wp-content/uploads/2025/09/logo.svg"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Footer says 'Powered by GNE Mortgage inc. (Lic No:- 10394)'; clients.json lists brokerage 'edan Mortgages #10394' (name differs, number matches).",
+    "Address: 989 Derry Rd E #407, Mississauga ON L5T 2J8. About page spells name 'Gaurrav Makhijaa'.",
+    "WebSearch (3rd-party directory results, confidence: check): LinkedIn: Managing Director of Edan Mortgages; Mortgage Centre listing GNE Mortgages (#10394). No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://edanmortgages.com",
+      "what": "homepage"
+    },
+    {
+      "url": "https://edanmortgages.com/about-us/",
+      "what": "about"
+    },
+    {
+      "url": "https://edanmortgages.com/contact-us/",
+      "what": "licence footer"
+    },
+    {
+      "url": "https://edanmortgages.com/mortgage-services/",
+      "what": "services"
+    },
+    {
+      "url": "https://www.linkedin.com/in/gaurav-makhija-16a3977/",
+      "what": "search result only, not opened"
+    }
+  ],
+  "blocked": []
+}

@@ -1,0 +1,159 @@
+{
+  "id": "jalal-khan",
+  "aliases": [],
+  "sheetId": "client-023",
+  "name": "Jalal Khan",
+  "people": [],
+  "city": "Fraser Valley",
+  "province": "BC",
+  "region": "",
+  "group": 4,
+  "video": true,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Vancouver Mortgage Solutions (VMS)",
+    "licence": null
+  },
+  "agent": {
+    "name": "Jalal Khan",
+    "title": "Mortgage Broker",
+    "licence": "MB607231"
+  },
+  "contact": {
+    "phones": [
+      "778 886 4471"
+    ],
+    "emails": [
+      "vanjk1970@gmail.com"
+    ],
+    "website": "https://mortgagebyjalal.ca/"
+  },
+  "services": [
+    "First-Time Homebuyer Mortgages",
+    "Home Financing",
+    "Private Mortgages",
+    "Bruised Credit Issues",
+    "Refinance"
+  ],
+  "audience": "Serves Vancouver, British Columbia; focus: First-time homebuyer, Home financing, Private mortgages, Bruised credit, Reverse mortgage, Refinance.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/cI9CG9jGVxS2s2VdP8wUnp/Noel-Giborees---Jalal-Khan-%7C-SM-Posts",
+  "complianceLine": "Jalal Khan, Mortgage Broker · Lic. MB607231",
+  "rules": [],
+  "assets": {
+    "photo": "assets/jalal-khan/photo.png",
+    "footer": "assets/jalal-khan/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/jalal-khan/logo.png",
+      "assets/jalal-khan/logo-2.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "broadsheet",
+    "secondary": "paper-trail",
+    "variant": "b"
+  },
+  "missing": [
+    "brokerage.licence"
+  ],
+  "flags": [
+    "Sheet licence MB607231; footer prints MB6047231. Confirm.",
+    "Logos read Mortgage Architects and Vancouver Mortgage Solutions; brokerage name and licence not confirmed.",
+    "website says title 'Licensed Mortgage Broker' (kit has 'Mortgage Broker')",
+    "website says phones ['778-320-3664'] (kit has ['778 886 4471'])",
+    "website says emails ['jalal.khan@mtgarc.ca'] (kit has ['vanjk1970@gmail.com'])",
+    "website note: Social links point to 'Optima Mortgages' accounts, a different name; confirm they belong to Jalal before use.",
+    "website note: Contact page shows licence 'MB6047230' (typo/inconsistent with MB607231) and a stray mailto marini@michaelmarini.com, suggesting copied template.",
+    "website note: Site mentions Mortgage Architects email (mtgarc.ca) as well as Vancouver Mortgage Solutions; affiliation unclear.",
+    "website note: WebSearch (3rd-party directory results, confidence: check): BCFSA lists Jalal Hussen Khan under Vancouver Mortgage Solutions Inc. (expiry shown 4 July 2026, now past: check status); mortgagearchitects.ca lists him in Delta. No Google rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "content-desk seed/roster",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "agent.licence": "clients.json agent_license_no",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "complianceLine": "composed from sheet/footer facts above",
+    "brokerage.name": "website: https://mortgagebyjalal.ca/",
+    "audience": "website: https://mortgagebyjalal.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://mortgagebyjalal.ca/",
+    "bio": "website: https://mortgagebyjalal.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'broadsheet' (STYLES.md)"
+  },
+  "completeness": 0.929,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/optima_mortgages",
+    "facebook": "https://www.facebook.com/people/Optima-Mortgages/61565370521879",
+    "linkedin": "https://www.linkedin.com/company/optima-mortgages"
+  },
+  "bio": "Jalal Khan is a licensed Mortgage Broker at Vancouver Mortgage Solutions (VMS), described on the site as a boutique broker experience. The site lists first-time buyer, home financing, private, bruised credit, reverse and refinance mortgages. A second broker, Noel Giborees, is listed on the about page.",
+  "web": {
+    "url": "https://mortgagebyjalal.ca/",
+    "fetched": "2026-11-19T14:40:00Z",
+    "tagline": "Future-Ready Mortgage Solutions for Your Perfect Home",
+    "serviceAreas": [
+      "Vancouver, British Columbia"
+    ],
+    "specialties": [
+      "First-time homebuyer",
+      "Home financing",
+      "Private mortgages",
+      "Bruised credit",
+      "Reverse mortgage",
+      "Refinance"
+    ],
+    "notes": [
+      "Social links point to 'Optima Mortgages' accounts, a different name; confirm they belong to Jalal before use.",
+      "Contact page shows licence 'MB6047230' (typo/inconsistent with MB607231) and a stray mailto marini@michaelmarini.com, suggesting copied template.",
+      "Site mentions Mortgage Architects email (mtgarc.ca) as well as Vancouver Mortgage Solutions; affiliation unclear.",
+      "WebSearch (3rd-party directory results, confidence: check): BCFSA lists Jalal Hussen Khan under Vancouver Mortgage Solutions Inc. (expiry shown 4 July 2026, now past: check status); mortgagearchitects.ca lists him in Delta. No Google rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://mortgagebyjalal.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://mortgagebyjalal.ca/about-us/",
+        "what": "about, licence"
+      },
+      {
+        "url": "https://mortgagebyjalal.ca/contact-us/",
+        "what": "contact"
+      },
+      {
+        "url": "https://www.bcfsa.ca/submortgage-broker/fb14a8cd-fe12-ec11-b6e6-000d3a09e1c2",
+        "what": "search, check"
+      }
+    ],
+    "fonts": [
+      "Hanken Grotesk"
+    ],
+    "logoUrls": [
+      "https://mortgagebyjalal.ca/wp-content/uploads/logo.png"
+    ]
+  },
+  "colorsProvisional": true
+}

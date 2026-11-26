@@ -1,0 +1,162 @@
+{
+  "id": "adrian-biccum",
+  "aliases": [],
+  "sheetId": "client-009",
+  "name": "Adrian Biccum",
+  "people": [],
+  "city": "Hamilton",
+  "province": "ON",
+  "region": "",
+  "group": 3,
+  "video": true,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": null,
+    "licence": null
+  },
+  "agent": {
+    "name": "Adrian Biccum",
+    "title": "Professional Mortgage Agent Level 2",
+    "licence": "M20000156"
+  },
+  "contact": {
+    "phones": [
+      "905-730-4446"
+    ],
+    "emails": [
+      "adrian@mfco.ca"
+    ],
+    "website": "www.yourmortgageminute.ca"
+  },
+  "services": [
+    "Mortgage Refinancing",
+    "Renewal & Transfers",
+    "Self - Employed Mortgage",
+    "First time home buyer"
+  ],
+  "audience": "Serves Hamilton, Ontario; focus: Mortgage renewals, Refinances, First-time and next-home buyers, Self-employed mortgages.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/auV0eqJf3sWhQJ510V6KDt/Adrian-Biccum-%7C%7C-SM-post",
+  "complianceLine": null,
+  "rules": [],
+  "assets": {
+    "photo": "assets/adrian-biccum/photo.png",
+    "footer": "assets/adrian-biccum/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/adrian-biccum/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "bold-type",
+    "secondary": "riso",
+    "variant": "a"
+  },
+  "missing": [
+    "complianceLine",
+    "brokerage.name",
+    "brokerage.licence"
+  ],
+  "flags": [
+    "Logo reads 'Your Mortgage Minute' and his email domain is mfco.ca; brokerage of record not confirmed.",
+    "Ontario: brokerage name + licence required before posting",
+    "website says phones ['905-730-4446 (cell)', '905-529-2521 ext 208 (office)', '905-525-9701 (fax)'] (kit has ['905-730-4446'])",
+    "website note: Site does not name the brokerage; email domain mfco.ca and search results indicate Mortgage Financial Corporation (MFCO), 12 Ray Street South, Hamilton (not stated on site, confidence: check).",
+    "website note: WebSearch (3rd-party directory results, confidence: check): mfco.ca/meet-the-team lists him; no Google rating/count found in results.",
+    "website note: Home page shows 5 Google testimonials via Trustindex widget.",
+    "Accent #13AFF0 has contrast 2.23:1 against paper (<3:1); pair with ink."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "clients.json location 'Hamilton, Ontario'",
+    "province": "clients.json location 'Hamilton, Ontario'",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "agent.licence": "clients.json agent_license_no",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "audience": "website: https://yourmortgageminute.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://yourmortgageminute.ca/",
+    "bio": "website: https://yourmortgageminute.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "default (no source)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'bold-type' (STYLES.md)"
+  },
+  "completeness": 0.786,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/adrianbiccum",
+    "facebook": "https://www.facebook.com/yourmortgageminute/",
+    "linkedin": "https://www.linkedin.com/in/adrian-biccum-93590827a/",
+    "youtube": "https://www.youtube.com/channel/UCoMT7yfqgSixA-LcIiXPkbQ",
+    "tiktok": "https://www.tiktok.com/@yourmortgageminute",
+    "x": "https://x.com/adrianbiccum"
+  },
+  "bio": "Adrian Biccum is a Professional Mortgage Agent Level 2 in Hamilton, Ontario, who runs the Your Mortgage Minute brand ('I Am Results'). The site focuses on renewals, refinances, first-time and next-home buyers and self-employed borrowers, with online application and call booking. His contact page quotes 15+ years of experience and 30+ five-star reviews.",
+  "web": {
+    "url": "https://yourmortgageminute.ca/",
+    "fetched": "2026-11-19T14:40:00Z",
+    "tagline": "No Need to Waste Your Time. Get personalized mortgage solutions tailored to your unique financial situation and goals.",
+    "yearsInBusiness": "15+ (contact page counter)",
+    "serviceAreas": [
+      "Hamilton, Ontario"
+    ],
+    "specialties": [
+      "Mortgage renewals",
+      "Refinances",
+      "First-time and next-home buyers",
+      "Self-employed mortgages"
+    ],
+    "bookingUrl": "https://calendly.com/adrian-biccum",
+    "testimonialsCount": 6,
+    "notes": [
+      "Site does not name the brokerage; email domain mfco.ca and search results indicate Mortgage Financial Corporation (MFCO), 12 Ray Street South, Hamilton (not stated on site, confidence: check).",
+      "WebSearch (3rd-party directory results, confidence: check): mfco.ca/meet-the-team lists him; no Google rating/count found in results.",
+      "Home page shows 5 Google testimonials via Trustindex widget."
+    ],
+    "sources": [
+      {
+        "url": "https://yourmortgageminute.ca/",
+        "what": "homepage, licence"
+      },
+      {
+        "url": "https://yourmortgageminute.ca/about-us/",
+        "what": "bio, mission"
+      },
+      {
+        "url": "https://yourmortgageminute.ca/contact-us/",
+        "what": "phones, social, counters"
+      },
+      {
+        "url": "https://yourmortgageminute.ca/mortgage-refinance-renewal/",
+        "what": "services"
+      },
+      {
+        "url": "https://mfco.ca/meet-the-team/",
+        "what": "search result, brokerage (check)"
+      }
+    ],
+    "fonts": [
+      "Inter"
+    ],
+    "logoUrls": [
+      "https://yourmortgageminute.ca/wp-content/uploads/logo.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

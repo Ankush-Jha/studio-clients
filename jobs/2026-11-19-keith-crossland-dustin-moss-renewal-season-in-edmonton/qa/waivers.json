@@ -1,0 +1,4 @@
+[
+ {"check": "safe zone",
+  "reason": "Round 2: every OCR hit outside the zone is halftone-dot/window-art noise below y 1250 ('ee', 'ce', 'Co,', '6', '0'); listed per frame and checked against full-size crops of t=12/30/36 s. All real text (HUD y 304+, headlines, captions to y 1229, footnote to 1234, 'Your guess?' to 1224, plate to 1244) sits inside x 65-1015 / y 270-1248. Waived per critic fix 1 ('halftone noise, rely on the manual pass')."}
+]

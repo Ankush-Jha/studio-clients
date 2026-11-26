@@ -1,0 +1,49 @@
+{
+ "id": "hukam-urban",
+ "title": "Hukam (urban sketch version)",
+ "clients": [],
+ "generic": false,
+ "date": "2026-11-14",
+ "format": "short-reel",
+ "engine": "films",
+ "style": "urban-sketch",
+ "lengthS": 56.96,
+ "fps": 24,
+ "size": "1080x1920",
+ "voice": "speaker's own voice (enhanced MP3)",
+ "music": "soft synthesised harmonium drone, ducked under speech",
+ "topic": "Hukam: a 57s devotional talk in romanised Punjabi on accepting both joy and sorrow (non-mortgage, not a client piece)",
+ "tags": [
+  "devotional",
+  "punjabi",
+  "talking-head",
+  "pen-and-wash",
+  "non-mortgage",
+  "speaker-video"
+ ],
+ "hook": "Je sukh dey, taan tujhe aaraadhi, dukh bhi tujhe dhiyaayi.",
+ "logline": "The same talk as hukam-reel in a sepia fineliner and watercolour sketchbook; colour is withheld and arrives with meaning: the lamp, the turban, the dawn.",
+ "structure": "Layout 1080x1920: sketchbook page in the top 720px (sepia fineliner plus transparent watercolour that arrives with a wet front), the speaker's own video below, handwritten captions in the lower margin. 1367 frames at 24 fps.",
+ "device": "colour withheld until it carries meaning (lamp, turban, dawn); watercolour wet-front; cream cold-press paper tooth multiplied over everything",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/graphic reels/hukam-urban/hukam-urban.mp4",
+  "poster": "$R/graphic reels/hukam-urban/poster.jpg",
+  "thumb": "library/thumbs/hukam-urban.jpg",
+  "treatment": "$R/graphic reels/hukam-urban/TREATMENT.md",
+  "project": "$R/graphic reels/hukam-urban",
+  "alt": [
+   "$R/graphic reels/hukam-urban/hukam-urban_share.mp4"
+  ]
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Same audio and layout as hukam-reel; compare the two styles side by side before choosing.",
+  "24 fps; new work should be 30 fps."
+ ],
+ "source": "seed",
+ "hookPattern": "verse-opening"
+}

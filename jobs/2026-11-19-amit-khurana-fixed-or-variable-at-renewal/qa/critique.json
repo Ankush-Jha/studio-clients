@@ -1,0 +1,10 @@
+{"round":2,"pass":true,
+"scores":{"1_thumb_stop":4,"2_hook_alignment":4,"3_one_idea_one_device":5,"4_pacing":4,"5_typography":4,"6_craft":5,"7_brand_fit":4,"8_originality":4,"9_truth_maths":5,"10_compliance":4,"11_sound":"n/a","12_payoff_action":4},
+"fixes":[
+{"n":1,"where":"slide 1 swipe tag","what":"Optional: pull 'Swipe' arrow in ~25px so it ends at x<=1050 and is not clipped in the 3:4 grid crop.","why":"Arrow tip at x~1075 is cut in qa/gridcrop.jpg; minor."},
+{"n":2,"where":"slides 3 and 7","what":"Before posting, replace the yellow 'APR [TODO: brokerage]' tag and the caption '[to be confirmed by the brokerage]' with the brokerage-confirmed APR. Piece stays PROOF until then.","why":"Placeholder is intentional but must not go live."}],
+"verified":[
+"R1#1 contact.jpg out of out/: improved, dimension check passes, no coded FAIL.",
+"R1#2 slide 2 headline margin: improved, text starts at x~65.",
+"R1#3 footer email: waived as client artwork (waivers.json); email still clipped in grid crop of slide 1 but is client footer.",
+"R1#4 annotation size/contrast and slide 7 footnote: improved, notes larger and darker, footnotes at 2 lines or less; some contrast WARNs remain, not a fail."]}

@@ -1,0 +1,199 @@
+{
+  "id": "brian-wang",
+  "aliases": [],
+  "sheetId": null,
+  "name": "Brian Wang",
+  "people": [],
+  "city": "Toronto",
+  "province": "ON",
+  "region": "",
+  "group": null,
+  "video": true,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Caliber Wealth Management",
+    "licence": null
+  },
+  "agent": {
+    "name": "Brian Wang",
+    "title": "Wealth Coach / Life Insurance Advisor",
+    "licence": "#05089990"
+  },
+  "contact": {
+    "phones": [
+      "(437) 425-2600"
+    ],
+    "emails": [
+      "brian.wang@caliberwealthmanagement.ca"
+    ],
+    "website": "https://www.caliberwealthmanagement.ca/"
+  },
+  "services": [
+    "Life insurance",
+    "Investments",
+    "Retirement planning",
+    "Lending",
+    "Private lending",
+    "Becoming the Bank",
+    "1st/2nd/private mortgages via Caliber Mortgage",
+    "HELOC",
+    "Reverse mortgage"
+  ],
+  "audience": "Serves Richmond Hill, Ontario; focus: Life insurance, Investments, Retirement planning, Lending, Private lending, Becoming the Bank, 1st/2nd/private mortgages via Caliber Mortgage, HELOC, Reverse mortgage.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "",
+  "complianceLine": "Brian Wang, Wealth Coach / Life Insurance Advisor · Lic. #05089990 · Caliber Wealth Management",
+  "rules": [
+    {
+      "id": "r1",
+      "kind": "scope",
+      "text": "Not a mortgage broker: wealth coach / life insurance advisor. Never use mortgage-broker copy or the mortgage compliance line.",
+      "appliesTo": [
+        "all"
+      ],
+      "since": "",
+      "source": "task brief",
+      "value": "not a mortgage broker"
+    },
+    {
+      "id": "r2",
+      "kind": "scope",
+      "text": "Footage reels allowed.",
+      "appliesTo": [
+        "footage-reel"
+      ],
+      "since": "",
+      "source": "task brief",
+      "value": "allowed"
+    },
+    {
+      "id": "r3",
+      "kind": "outro",
+      "text": "Reels end on his brand card with 'For information only. Not investment advice.'",
+      "appliesTo": [
+        "reel",
+        "graphic-reel",
+        "short-reel",
+        "footage-reel"
+      ],
+      "since": "",
+      "source": "task brief",
+      "value": "brand card + For information only. Not investment advice."
+    }
+  ],
+  "assets": {
+    "photo": null,
+    "footer": "assets/brian-wang/brand-card.png",
+    "footerAlt": null,
+    "logos": [],
+    "check": []
+  },
+  "stills": {
+    "primary": null,
+    "secondary": null,
+    "variant": null
+  },
+  "missing": [
+    "standalone logo file (logo exists only inside the brand card)",
+    "standalone photo (photo exists only inside the brand card)",
+    "assets.photo",
+    "stills (no roster style assigned; needs a group first)",
+    "group",
+    "socials"
+  ],
+  "flags": [
+    "not in client sheet (task brief + brand card)",
+    "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+    "Not a mortgage broker; the Ontario mortgage-brokerage rule does not apply. Insurance/advice wording to be confirmed with the client. Required footer note: 'For information only. Not investment advice.'",
+    "website says brokerage name 'Caliber Wealth Management Inc. (powered by Financial Horizons MGA)' (kit has 'Caliber Wealth Management')",
+    "website says title 'Co-Founder, Operator and Wealth Coach' (kit has 'Wealth Coach / Life Insurance Advisor')",
+    "website note: Site is a JS app (Wix); text fetched with the headless browser tool, robots allowed.",
+    "website note: Office: 8-175 West Beaver Creek, Richmond Hill ON L4B 3M1; hours 10am to 6pm 7 days, by appointment.",
+    "website note: No licence numbers on the site. Footer says 'Securities and advisory services offered through licensed professionals'. See $R/graphic reels/portfolio-failing/research/FACTS.md for licence/compliance flags (life licence #05089990 unverified).",
+    "website note: WebSearch (3rd-party directory results, confidence: check): a Dominion Lending Centres page lists him as Mortgage Agent Level 2, Caliber Mortgage, licence #M14000885 (3rd-party, check; not on his own site). Company registry shows status 'Active - Dissolution Pending (Non-compliance)' (canadacompanyregistry.com, check). No Google rating found."
+  ],
+  "provenance": {
+    "name": "task brief",
+    "city": "task brief (Toronto)",
+    "province": "task brief (Toronto)",
+    "languages": "default (no source)",
+    "brokerage.name": "task brief + brand card image (read visually)",
+    "agent.licence": "task brief + brand card image (read visually)",
+    "agent.title": "task brief + brand card image (read visually)",
+    "contact": "task brief + brand card image",
+    "rules": "task brief",
+    "footer": "assets/brian-wang/brand-card.png (brand card; end card)",
+    "complianceLine": "task brief + brand card image (read visually)",
+    "video": "task brief (footage reels allowed)",
+    "services": "website: https://www.caliberwealthmanagement.ca/",
+    "audience": "website: https://www.caliberwealthmanagement.ca/ (serviceAreas/specialties)",
+    "contact.website": "website: https://www.caliberwealthmanagement.ca/",
+    "bio": "website: https://www.caliberwealthmanagement.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "default"
+  },
+  "completeness": 0.692,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "brandRefs": [
+    "assets/brian-wang/brand-card.png"
+  ],
+  "socials": {},
+  "bio": "Caliber Wealth Management Inc. (CWMI) is a Richmond Hill, Ontario firm powered by Financial Horizons that offers a holistic approach across life insurance, investments and lending. Brian Wang is Co-Founder, Operator and Wealth Coach, with 21+ years in insurance and investment management and 12+ years as a Mortgage Agent Level 2 via Caliber Mortgage. The team also includes co-founder Bredy Leow and several wealth coaches.",
+  "web": {
+    "url": "https://www.caliberwealthmanagement.ca/",
+    "fetched": "2026-11-19T14:40:00Z",
+    "tagline": "Building and protecting your wealth. Tailored strategies for your financial future. We craft the blueprint for your legacy.",
+    "yearsInBusiness": "Brian: 21+ years insurance/investments, 12+ years mortgage agent",
+    "serviceAreas": [
+      "Richmond Hill, Ontario"
+    ],
+    "specialties": [
+      "Life insurance",
+      "Investments",
+      "Retirement planning",
+      "Lending",
+      "Private lending",
+      "Becoming the Bank",
+      "1st/2nd/private mortgages via Caliber Mortgage",
+      "HELOC",
+      "Reverse mortgage"
+    ],
+    "notes": [
+      "Site is a JS app (Wix); text fetched with the headless browser tool, robots allowed.",
+      "Office: 8-175 West Beaver Creek, Richmond Hill ON L4B 3M1; hours 10am to 6pm 7 days, by appointment.",
+      "No licence numbers on the site. Footer says 'Securities and advisory services offered through licensed professionals'. See $R/graphic reels/portfolio-failing/research/FACTS.md for licence/compliance flags (life licence #05089990 unverified).",
+      "WebSearch (3rd-party directory results, confidence: check): a Dominion Lending Centres page lists him as Mortgage Agent Level 2, Caliber Mortgage, licence #M14000885 (3rd-party, check; not on his own site). Company registry shows status 'Active - Dissolution Pending (Non-compliance)' (canadacompanyregistry.com, check). No Google rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://www.caliberwealthmanagement.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://www.caliberwealthmanagement.ca/team",
+        "what": "team"
+      },
+      {
+        "url": "https://www.caliberwealthmanagement.ca/contact",
+        "what": "contact"
+      },
+      {
+        "url": "https://www.caliberwealthmanagement.ca/lending",
+        "what": "lending services"
+      }
+    ],
+    "fonts": [
+      "Bitter",
+      "Raleway"
+    ]
+  },
+  "colorsProvisional": true
+}

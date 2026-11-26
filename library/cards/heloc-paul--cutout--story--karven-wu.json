@@ -1,0 +1,47 @@
+{
+ "id": "heloc-paul--cutout--story--karven-wu",
+ "title": "Paul's HELOC: $7,800 paid, still owes $150,000 [cutout, story, karven-wu]",
+ "clients": [
+  "karven-wu"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "cutout",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "Paul's HELOC: $7,800 paid, still owes $150,000",
+ "tags": [
+  "stills",
+  "heloc-paul",
+  "cutout",
+  "story-format",
+  "group-2"
+ ],
+ "hook": "$7,800 in HELOC payments. The balance never moved.",
+ "logline": "Proof render of spec 'heloc-paul' in the Paper Cut-out style for Karven Wu, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "Layered construction paper built in SVG: deckled torn edges with a white fibre core, tight neutral shadows, three papers plus the client accent; headlines are set on torn strips pasted onto the board.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/heloc-paul--cutout--story/karven-wu",
+  "poster": "$R/engines/stills/out/heloc-paul--cutout--story/karven-wu/01.jpg",
+  "thumb": "library/thumbs/heloc-paul--cutout--story--karven-wu.jpg",
+  "treatment": "$R/engines/stills/specs/library/heloc-paul.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

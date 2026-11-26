@@ -1,0 +1,61 @@
+{
+ "id": "mortgage-insurance",
+ "title": "Mortgage insurance is not a penalty",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-15",
+ "format": "graphic-reel",
+ "engine": "films",
+ "style": "isometric-picture-book",
+ "lengthS": 53.17,
+ "fps": 30,
+ "size": "1080x1920",
+ "voice": "kokoro:af_heart",
+ "music": "synthesized score where every floor letter and prop rings a vibraphone or pizzicato note in key; silences at 12.4s and 40.6s",
+ "topic": "Canadian mortgage default insurance: under 20% down, protects the lender, enables 5% down, premium tiers, example $500K at 5% down, sales tax paid in cash",
+ "tags": [
+  "mortgage-default-insurance",
+  "first-time-buyer",
+  "isometric",
+  "journey",
+  "loop",
+  "mortgage-broker"
+ ],
+ "hook": "Mortgage insurance is not a penalty.",
+ "logline": "A first-time buyer with only 5% saved walks one street to her front door and discovers that the insurance she thought was a penalty is the thing that lifts the barrier.",
+ "structure": "One street to the door. Setup 0-12s (under 20% down needs default insurance; the shield rises behind the bank, not her), turn 12.4-18.9s (silence, barrier sign flips 20% to 5%, barrier lifts on the downbeat), honest costs 19-40s (premium bars 4.00 / 3.10 / 2.80%, $19,000 crate on a $475,000 loan = $494,000, sales tax paid in cash at the closing counter), payoff 40.6-53.2s (door opens, roof lifts off, camera runs back to the start where the next buyer stands = loop).",
+ "device": "one continuous isometric street with each key number painted on the floor as the narrator says it; a barrier that flips from 20% to 5% and lifts; roof lifting off the house; faceless buyers as the diagram",
+ "rejectedStyles": [
+  "glass-product (no spatial continuity, heavy GPU)",
+  "memphis-diorama (a place you watch, not a story you follow)",
+  "tilt-shift (people become dots, text on signs unreadable)",
+  "lowpoly-island (no people or type grammar)",
+  "iso-infographic (colder floating board)"
+ ],
+ "rejectedStructures": [
+  "two buyers two ways with a rewind: turns into advice to buy sooner",
+  "penalty ticket myth that turns: list of flips, no travelling subject"
+ ],
+ "files": {
+  "final": "~/Desktop/mortgage-reels/mortgage-insurance.mp4",
+  "poster": "$R/graphic reels/mortgage-insurance/poster.jpg",
+  "thumb": "library/thumbs/mortgage-insurance.jpg",
+  "treatment": "$R/graphic reels/mortgage-insurance/TREATMENT.md",
+  "project": "$R/graphic reels/mortgage-insurance",
+  "alt": [
+   "~/Desktop/mortgage-reels/mortgage-insurance_ig.mp4"
+  ]
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "PLAYBOOK 'How the first three reels measure up': it ends on a generic CTA/'Message me' card; cut it and loop instead (the film already loops back to the start of the street).",
+  "Safe area: text runs down to about y 1480, below the y 1248 bottom limit.",
+  "AI label: Kokoro TTS voiceover, so apply Instagram's AI label when posting.",
+  "Audio bitrate: the _ig file carries about 192 kbps AAC; re-encode to 128 kbps if posting through the API.",
+  "Frame rate: this one is already 30 fps (heloc-rules and keep-your-rate are the two 24 fps files)."
+ ],
+ "source": "seed",
+ "hookPattern": "myth-flip"
+}

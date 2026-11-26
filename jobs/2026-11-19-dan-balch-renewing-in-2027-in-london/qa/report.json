@@ -1,0 +1,186 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "id": "stills.count",
+      "name": "Carousel slide count",
+      "status": "pass",
+      "value": 10,
+      "expected": "2-20",
+      "detail": ""
+    },
+    {
+      "id": "stills.dimensions",
+      "name": "Dimensions",
+      "status": "pass",
+      "value": "1080x1350",
+      "expected": "1080x1350|1440 carousel, 1080x1920 story/cover, 1080x1080 square; one size per set",
+      "detail": ""
+    },
+    {
+      "id": "stills.format",
+      "name": "Format / sRGB",
+      "status": "pass",
+      "value": [
+        "JPEG"
+      ],
+      "expected": "JPEG/PNG, RGB, sRGB (or untagged)",
+      "detail": ""
+    },
+    {
+      "id": "stills.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "max 0.26 MB",
+      "expected": "<= 8 MB each",
+      "detail": ""
+    },
+    {
+      "id": "stills.margins",
+      "name": "Text inside 60 px side margins",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "x 60 .. W-60",
+      "detail": ""
+    },
+    {
+      "id": "stills.gridcrop",
+      "name": "Text inside 3:4 grid crop of slide 1 (x34-1046, y0-1350)",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "inside crop",
+      "detail": ""
+    },
+    {
+      "id": "stills.contrast",
+      "name": "Text contrast >= 4.5:1 (WCAG AA)",
+      "status": "pass",
+      "value": "all >= 4.5",
+      "expected": ">= 4.5:1",
+      "detail": ""
+    },
+    {
+      "id": "stills.words",
+      "name": "Words per slide <= 40",
+      "status": "warn",
+      "value": "01.jpg=56, 02.jpg=51, 03.jpg=87, 04.jpg=91, 05.jpg=89, 06.jpg=48, 07.jpg=64, 08.jpg=61, 09.jpg=44, cover.jpg=56",
+      "expected": "<= 40 (carousel ~20)",
+      "detail": "01.jpg=48; 02.jpg=43; 03.jpg=79; 04.jpg=83; 05.jpg=81; 07.jpg=56; 08.jpg=53; cover.jpg=48"
+    },
+    {
+      "id": "copy.banned",
+      "name": "Banned phrases",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash",
+      "name": "Em-dash count",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.kit_rules",
+      "name": "Client kit rules",
+      "status": "skip",
+      "value": null,
+      "expected": null,
+      "detail": "/Users/ankushjha/Work/bots/kits/dan-balch/kit.json has no rules"
+    },
+    {
+      "id": "copy.rate_disclosure",
+      "name": "Rate shown with APR and term",
+      "status": "pass",
+      "value": {
+        "rates": [
+          "2.81%",
+          "5.17%",
+          "5.43%"
+        ],
+        "apr": true,
+        "term": true
+      },
+      "expected": "APR + term wording (O. Reg. 191/08 s.18)",
+      "detail": ""
+    },
+    {
+      "id": "copy.compliance_line",
+      "name": "Compliance line present",
+      "status": "pass",
+      "value": true,
+      "expected": "Dan Balch, Licensed Mortgage Broker \u00b7 Lic. M08003485 \u00b7 Mortgage Architects \u00b7 Brokerage Lic. #12728",
+      "detail": "Ontario ads need brokerage name + licence (O. Reg. 188/08 s.6)"
+    },
+    {
+      "id": "copy.hashtags",
+      "name": "Hashtags <= 5",
+      "status": "pass",
+      "value": 5,
+      "expected": "<= 5",
+      "detail": ""
+    },
+    {
+      "id": "copy.line1_search",
+      "name": "Caption line 1 has a search phrase",
+      "status": "pass",
+      "value": "Mortgage renewal London Ontario 2027: three neighbours renew, and only one payment jumps.",
+      "expected": "topic phrase (mortgage/renewal/HELOC...) in line 1",
+      "detail": ""
+    },
+    {
+      "id": "copy.banned@script",
+      "name": "Banned phrases [script]",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash@script",
+      "name": "Em-dash count [script]",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.rate_disclosure@script",
+      "name": "Rate shown with APR and term [script]",
+      "status": "pass",
+      "value": "no advertised rate",
+      "expected": "",
+      "detail": ""
+    }
+  ],
+  "frames": [
+    "qa/frames/01.jpg",
+    "qa/frames/02.jpg",
+    "qa/frames/03.jpg",
+    "qa/frames/04.jpg",
+    "qa/frames/05.jpg",
+    "qa/frames/06.jpg",
+    "qa/frames/07.jpg",
+    "qa/frames/08.jpg",
+    "qa/frames/09.jpg",
+    "qa/frames/cover.jpg"
+  ],
+  "contact": "qa/contact.jpg",
+  "at": "2026-11-19T20:55:47+05:30",
+  "kind": "stills",
+  "client": "dan-balch",
+  "summary": {
+    "pass": 16,
+    "warn": 1,
+    "fail": 0,
+    "skip": 1
+  },
+  "elapsed_s": 1.6,
+  "runtime_s": {
+    "stills": 1.5
+  },
+  "gridcrop": "qa/gridcrop.jpg"
+}

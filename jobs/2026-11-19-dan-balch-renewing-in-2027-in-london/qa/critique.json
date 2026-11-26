@@ -1,0 +1,14 @@
+{"round":2,"pass":true,
+"scores":{"1_thumb_stop":4,"2_hook_alignment":5,"3_one_idea_one_device":5,"4_pacing":4,"5_typography":4,"6_craft":4,"7_brand_fit":4,"8_originality":3,"9_truth_maths":5,"10_compliance":4,"11_sound":null,"12_payoff_action":4},
+"reasons":{"1":"Slide 1 headline and blue ABC hold in the 3:4 crop; headline is 8 words.","5":"Dead band is now about 100px (was 230) and dates/captions are darker; source text on 3-5 still around 20px and the gate still WARNs on contrast and word count.","8":"Broadsheet device not checkable against recent pieces from files alone.","10":"Brokerage, licence, illustrative labels, sources present; no advertised rate; caption lacks APR by design, flagged for broker review."},
+"fixes":[
+{"n":1,"where":"optional, all slides y~1150-1240","what":"Remaining ~90px cream gap above the footer could be tightened; not blocking.","why":"Polish only."},
+{"n":2,"where":"slides 3-5 source box","what":"Optionally raise source text and trim words (gate WARN 87-91 words).","why":"Phone legibility; not blocking."}
+],
+"verified":[
+{"n":1,"result":"improved","note":"cover.jpg is now 1080x1350, filled, matches slide 1; Dimensions check passes."},
+{"n":2,"result":"improved","note":"Dead band reduced from about 230px to about 100px; imprint sits closer to footer."},
+{"n":3,"result":"improved","note":"Header dates and captions visibly darker and larger; gate contrast WARN remains for the contact sheet and some lines."},
+{"n":4,"result":"improved","note":"Gate 16 pass, 0 fail."},
+{"n":5,"result":"improved","note":"Slide 9 italic line now has clear space under 'early 2022.'"}
+]}

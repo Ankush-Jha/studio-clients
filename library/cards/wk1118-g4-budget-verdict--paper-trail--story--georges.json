@@ -1,0 +1,47 @@
+{
+ "id": "wk1118-g4-budget-verdict--paper-trail--story--georges",
+ "title": "Budget 2026: my verdict in 45 seconds [paper-trail, story, georges]",
+ "clients": [
+  "georges-madi"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "paper-trail",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "Budget 2026: my verdict in 45 seconds",
+ "tags": [
+  "stills",
+  "wk1118-g4-budget-verdict",
+  "paper-trail",
+  "story-format",
+  "group-4"
+ ],
+ "hook": "Ban extension: still only proposed.",
+ "logline": "Proof render of spec 'wk1118-g4-budget-verdict' in the Paper Trail style for Georges, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "Document realism: a rendered, clearly illustrative document on a flat desk, typed in Courier, stamped ILLUSTRATIVE and marked in red pencil, with the point set large on the desk.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1118-g4-budget-verdict--paper-trail--story/georges",
+  "poster": "$R/engines/stills/out/wk1118-g4-budget-verdict--paper-trail--story/georges/01.jpg",
+  "thumb": "library/thumbs/wk1118-g4-budget-verdict--paper-trail--story--georges.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1118-g4-budget-verdict.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

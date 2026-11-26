@@ -1,0 +1,394 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "id": "spec.resolution",
+      "name": "Resolution",
+      "status": "pass",
+      "value": "1080x1920",
+      "expected": "1080x1920",
+      "detail": ""
+    },
+    {
+      "id": "spec.codec",
+      "name": "Codec / profile",
+      "status": "pass",
+      "value": "h264 High",
+      "expected": "h264 High",
+      "detail": ""
+    },
+    {
+      "id": "spec.pix_fmt",
+      "name": "Pixel format",
+      "status": "pass",
+      "value": "yuv420p",
+      "expected": "yuv420p",
+      "detail": ""
+    },
+    {
+      "id": "spec.color_tags",
+      "name": "BT.709 colour tags (limited range)",
+      "status": "pass",
+      "value": {
+        "color_space": "bt709",
+        "color_primaries": "bt709",
+        "color_transfer": "bt709",
+        "color_range": "tv"
+      },
+      "expected": "bt709 / bt709 / bt709 / tv",
+      "detail": ""
+    },
+    {
+      "id": "spec.fps",
+      "name": "Frame rate",
+      "status": "pass",
+      "value": 30.0,
+      "expected": ">= 30 (24 = warn)",
+      "detail": ""
+    },
+    {
+      "id": "spec.cfr",
+      "name": "Constant frame rate",
+      "status": "pass",
+      "value": "r=30.000 avg=30.000",
+      "expected": "r == avg",
+      "detail": ""
+    },
+    {
+      "id": "spec.video_bitrate",
+      "name": "Video bitrate",
+      "status": "pass",
+      "value": "9.77 Mbps",
+      "expected": "< 25 Mbps",
+      "detail": ""
+    },
+    {
+      "id": "spec.audio_codec",
+      "name": "Audio codec / rate",
+      "status": "pass",
+      "value": "aac 48000 Hz",
+      "expected": "aac 48000 Hz",
+      "detail": ""
+    },
+    {
+      "id": "spec.audio_bitrate",
+      "name": "Audio bitrate",
+      "status": "pass",
+      "value": "128 kbps",
+      "expected": "<= 128 kbps (API/scheduler posting)",
+      "detail": ""
+    },
+    {
+      "id": "spec.faststart",
+      "name": "+faststart (moov before mdat)",
+      "status": "pass",
+      "value": "ftyp moov",
+      "expected": "moov first",
+      "detail": ""
+    },
+    {
+      "id": "spec.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "55.7 MB",
+      "expected": "< 300 MB",
+      "detail": ""
+    },
+    {
+      "id": "spec.duration",
+      "name": "Duration",
+      "status": "pass",
+      "value": "45.0 s",
+      "expected": "<= 180 s (fail); 15-90 s",
+      "detail": ""
+    },
+    {
+      "id": "audio.loudness",
+      "name": "Integrated loudness",
+      "status": "pass",
+      "value": "-14.0 LUFS",
+      "expected": "-14 +/-1 LUFS",
+      "detail": ""
+    },
+    {
+      "id": "audio.truepeak",
+      "name": "True peak",
+      "status": "pass",
+      "value": "-1.1 dBTP",
+      "expected": "<= -1 dBTP",
+      "detail": ""
+    },
+    {
+      "id": "video.black",
+      "name": "Black frames",
+      "status": "pass",
+      "value": 0,
+      "expected": "none > 0.5 s",
+      "detail": ""
+    },
+    {
+      "id": "video.frozen",
+      "name": "Frozen stretches > 4 s",
+      "status": "pass",
+      "value": 0,
+      "expected": "none > 4 s",
+      "detail": ""
+    },
+    {
+      "id": "video.safezone",
+      "name": "Text inside safe zone (x65-1015, y270-1248)",
+      "status": "warn",
+      "value": "16/16 sampled frames have OCR text outside",
+      "expected": "0 frames",
+      "detail": "WAIVED: Round 2: every OCR hit outside the zone is halftone-dot/window-art noise below y 1250 ('ee', 'ce', 'Co,', '6', '0'); listed per frame and checked against full-size crops of t=12/30/36 s. All real text (HUD y 304+, headlines, captions to y 1229, footnote to 1234, 'Your guess?' to 1224, plate to 1244) sits inside x 65-1015 / y 270-1248. Waived per critic fix 1 ('halftone noise, rely on the manual pass'). | t=0.0s: 'ee,'@(668,1347)-(706,1362) | t=3.0s: 'Sek)'@(338,1309)-(352,1319), 'ee'@(716,1362)-(738,1372), 'Se'@(727,1381)-(749,1392) | t=6.0s: 'ce'@(386,1345)-(409,1355), 'ee'@(114,1356)-(136,1367), 'Co,'@(720,1417)-(759,1433) | t=9.0s: '@ee'@(91,1422)-(198,1436), '6'@(152,1513)-(171,1538), 'ce'@(653,1625)-(685,1640)"
+    },
+    {
+      "id": "video.hook_frame0",
+      "name": "Hook text in frame 1",
+      "status": "pass",
+      "value": "10 words: '2026 RAE OCT EDMONTON SEMI AVG $410,683 Guess the Bap ee,'",
+      "expected": ">= 2 words in frame 0",
+      "detail": ""
+    },
+    {
+      "id": "video.contrast",
+      "name": "Caption/text contrast >= 4.5:1 (sampled frames)",
+      "status": "warn",
+      "value": "1 low-contrast lines",
+      "expected": ">= 4.5:1",
+      "detail": "t=6s 'Ceo,' 4.3:1"
+    },
+    {
+      "id": "video.loop_seam",
+      "name": "Loop seam (first vs last frame PSNR)",
+      "status": "pass",
+      "value": "47.9 dB",
+      "expected": ">= 20 dB if loop",
+      "detail": "informational: script does not say loop"
+    },
+    {
+      "id": "video.wer",
+      "name": "Caption accuracy (whisper WER vs script)",
+      "status": "pass",
+      "value": "3.1%",
+      "expected": "<= 5% (fail > 8%)",
+      "detail": "model ggml-small.en-q5_1.bin; 128 ref words; heard: 'Two Edmontan neighbors share a wall, and their mortgages renew the same month. But in five years, one of them pays thousands more in interest. The left side wai'"
+    },
+    {
+      "id": "stills.count",
+      "name": "Image count",
+      "status": "pass",
+      "value": 1,
+      "expected": "single static / cover / story",
+      "detail": ""
+    },
+    {
+      "id": "stills.dimensions",
+      "name": "Dimensions",
+      "status": "pass",
+      "value": "1080x1920",
+      "expected": "1080x1350|1440 carousel, 1080x1920 story/cover, 1080x1080 square; one size per set",
+      "detail": ""
+    },
+    {
+      "id": "stills.format",
+      "name": "Format / sRGB",
+      "status": "pass",
+      "value": [
+        "JPEG"
+      ],
+      "expected": "JPEG/PNG, RGB, sRGB (or untagged)",
+      "detail": ""
+    },
+    {
+      "id": "stills.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "max 0.88 MB",
+      "expected": "<= 8 MB each",
+      "detail": ""
+    },
+    {
+      "id": "stills.margins",
+      "name": "Text inside 60 px side margins",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "x 60 .. W-60",
+      "detail": ""
+    },
+    {
+      "id": "stills.gridcrop",
+      "name": "Text inside 3:4 grid crop of slide 1 (x0-1080, y240-1680)",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "inside crop",
+      "detail": ""
+    },
+    {
+      "id": "stills.contrast",
+      "name": "Text contrast >= 4.5:1 (WCAG AA)",
+      "status": "warn",
+      "value": "1 low-contrast lines",
+      "expected": ">= 4.5:1",
+      "detail": "cover.jpg 'Guess the' 3.1:1"
+    },
+    {
+      "id": "stills.words",
+      "name": "Words per slide <= 40",
+      "status": "pass",
+      "value": "cover.jpg=19",
+      "expected": "<= 40 (carousel ~20)",
+      "detail": ""
+    },
+    {
+      "id": "copy.banned",
+      "name": "Banned phrases",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash",
+      "name": "Em-dash count",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.kit_rules",
+      "name": "Client kit rules",
+      "status": "pass",
+      "value": {
+        "banned_hit": [],
+        "required_missing": []
+      },
+      "expected": "1 banned / 0 required",
+      "detail": ""
+    },
+    {
+      "id": "copy.rate_disclosure",
+      "name": "Rate shown with APR and term",
+      "status": "pass",
+      "value": {
+        "rates": [
+          "4.44%",
+          "0.50%",
+          "4.44%"
+        ],
+        "apr": true,
+        "term": true
+      },
+      "expected": "APR + term wording (O. Reg. 191/08 s.18)",
+      "detail": ""
+    },
+    {
+      "id": "copy.compliance_line",
+      "name": "Compliance line present",
+      "status": "pass",
+      "value": "not required",
+      "expected": null,
+      "detail": ""
+    },
+    {
+      "id": "copy.hashtags",
+      "name": "Hashtags <= 5",
+      "status": "pass",
+      "value": 5,
+      "expected": "<= 5",
+      "detail": ""
+    },
+    {
+      "id": "copy.line1_search",
+      "name": "Caption line 1 has a search phrase",
+      "status": "pass",
+      "value": "Mortgage renewal Edmonton: same wall, same mortgage, about $7,000 apart in interest.",
+      "expected": "topic phrase (mortgage/renewal/HELOC...) in line 1",
+      "detail": ""
+    },
+    {
+      "id": "copy.banned@script",
+      "name": "Banned phrases [script]",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash@script",
+      "name": "Em-dash count [script]",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.rate_disclosure@script",
+      "name": "Rate shown with APR and term [script]",
+      "status": "pass",
+      "value": "no advertised rate",
+      "expected": "",
+      "detail": ""
+    },
+    {
+      "id": "dup.near",
+      "name": "Near-duplicate vs library/jobs/radar",
+      "status": "pass",
+      "value": {
+        "nearest": {
+          "distance": 19.5,
+          "client": null,
+          "path": "library/cards/heloc-five-years.json"
+        },
+        "indexed": 456,
+        "checked": 2
+      },
+      "expected": "dist > 10 (fail <= 6 other client, warn <= 10)",
+      "detail": "index has 456 items"
+    }
+  ],
+  "frames": [
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t000.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t003.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t006.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t009.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t012.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t015.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t018.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t021.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t024.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t027.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t030.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t033.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t036.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t039.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t042.00.jpg",
+    "qa/frames/keith-crossland-dustin-moss-renewal-edmonton_t044.90.jpg",
+    "qa/frames/cover.jpg"
+  ],
+  "contact": "qa/contact.jpg",
+  "at": "2026-11-19T22:54:06+05:30",
+  "kind": "video",
+  "client": "keith-crossland-dustin-moss",
+  "summary": {
+    "pass": 37,
+    "warn": 3,
+    "fail": 0,
+    "skip": 0
+  },
+  "elapsed_s": 25.1,
+  "runtime_s": {
+    "keith-crossland-dustin-moss-renewal-edmonton.mp4": 20.4,
+    "stills": 1.6
+  },
+  "scene_cuts": {
+    "keith-crossland-dustin-moss-renewal-edmonton.mp4": [
+      23.4
+    ]
+  },
+  "transcript": {
+    "keith-crossland-dustin-moss-renewal-edmonton.mp4": "Two Edmontan neighbors share a wall, and their mortgages renew the same month. But in five years, one of them pays thousands more in interest. The left side waits for the bank's letter, which can come just 21 days out. So they sign off on the first offer. The right side starts four months early, renewing in March, day 120 is about now. They get other lenders to hold a rate, then compare. Say the first offer is half a point higher. That's about $80 a month. Over five years, what's your guess? About $7,000 more in interest. Keith Crossland and Dustin Moss spent years inside big banks. They treat the first offer as a starting point. Send this to the neighbor renewing next."
+  },
+  "gridcrop": "qa/gridcrop.jpg"
+}

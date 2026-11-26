@@ -1,0 +1,60 @@
+{
+  "id": "2026-11-19-dan-balch-renewing-in-2027-in-london",
+  "title": "Renewing in 2027 in London: three neighbours, one payment jumps",
+  "clients": [
+    "dan-balch"
+  ],
+  "generic": false,
+  "date": "2026-11-19",
+  "format": "carousel",
+  "engine": "stills",
+  "style": "broadsheet",
+  "lengthS": null,
+  "fps": null,
+  "size": "1080x1350",
+  "voice": null,
+  "music": null,
+  "topic": "Renewing in 2027 in London",
+  "tags": [
+    "stills",
+    "broadsheet",
+    "carousel",
+    "feed-format",
+    "renewal",
+    "london-ontario",
+    "test-run",
+    "producer-test-pick"
+  ],
+  "hook": "Three 2027 renewals. One payment jumps.",
+  "logline": "Test run for Dan Balch: a fictional 'Renewal Report' front page with three London neighbours (A, B, C) renewing in 2027; guess-then-reveal on slides 2-5, one send CTA.",
+  "structure": "9 slides, 1080x1350 feed (1080x1080 render + kit footer band): hook, second hook, three reveals, why, what to do if you pay less, save-worthy recap, send CTA.",
+  "device": "A fictional front page, 'The 2027 Renewal Report', dateline London, Ont.: three neighbours A, B and C sit as three columns on the front page with their signing date and rate; the guess is set on slide 2; the inner pages are one graphic page per neighbour (halftone bars from $0: payment then vs payment at renewal, spot colour on the new payment).",
+  "rejectedStyles": [
+    "paper-trail (concept B)",
+    "split-flap departure board, custom-html (concept C)"
+  ],
+  "rejectedStructures": [
+    "B: hook, local price proof, the rule, worked example, the twist, what to do if over 80%, fill-in worksheet, recap, save CTA",
+    "C: hook board, second hook (120 vs 21), three board panels, what a hold does, why now, recap, send CTA"
+  ],
+  "files": {
+    "final": "$R/jobs/2026-11-19-dan-balch-renewing-in-2027-in-london/out",
+    "poster": "$R/jobs/2026-11-19-dan-balch-renewing-in-2027-in-london/out/01.jpg",
+    "thumb": "library/thumbs/2026-11-19-dan-balch-renewing-in-2027-in-london.jpg",
+    "treatment": "$R/jobs/2026-11-19-dan-balch-renewing-in-2027-in-london/script.json",
+    "project": "$R/jobs/2026-11-19-dan-balch-renewing-in-2027-in-london/project",
+    "caption": "$R/jobs/2026-11-19-dan-balch-renewing-in-2027-in-london/out/caption.txt"
+  },
+  "status": "approved",
+  "feedback": [
+    "g1 (2026-11-19, by producer-test, NOT the user's): pick A. Producer test pick, not a user or client decision. Note: Test run (producer pick, not the user's): A, three renewals on one street, broadsheet. Re-pull the BoC average renewal rate on render day; all balances via calc/math.",
+    "g2 (2026-11-19, by desk): approve, no notes."
+  ],
+  "performance": null,
+  "lessons": [
+    "Proof-only: hold posting until the broker of record confirms the s.18 wording, phone and accent colour (checker, check.json)."
+  ],
+  "source": "job",
+  "hookPattern": "guess-then-reveal",
+  "slides": 9
+}

@@ -1,0 +1,53 @@
+{
+ "id": "portfolio-failing",
+ "title": "3 Reasons Your Portfolio Could Be Failing (Brian Wang)",
+ "clients": [
+  "brian-wang"
+ ],
+ "generic": false,
+ "date": "2026-11-17",
+ "format": "short-reel",
+ "engine": "films",
+ "style": "news-package",
+ "lengthS": 55.73,
+ "fps": 30,
+ "size": "1080x1920",
+ "voice": "client's own voice (talking-head footage)",
+ "music": null,
+ "topic": "Investing in Canada: inflation, active funds trailing the TSX, tax structure (TFSA vs non-registered)",
+ "tags": [
+  "wealth",
+  "talking-head",
+  "news-package",
+  "engagement-tracker",
+  "guess-reveal",
+  "comment-prompt",
+  "caliber-wealth",
+  "toronto"
+ ],
+ "hook": "3 REASONS YOUR PORTFOLIO COULD BE FAILING (two-line headline in the strap over Brian on frame 1)",
+ "logline": "A Toronto wealth coach runs a three-item bulletin on why a portfolio quietly fails: inflation, fund performance (93-96% trailed the TSX), and tax structure ($5,000 gain costs about $1,000 in a non-registered account, $0 in a TFSA).",
+ "structure": "Round-up bulletin cut from Brian's own 4K talking-head footage: rundown becomes a persistent 1/3-2/3-3/3 tracker; full-frame inserts (split-flap CPI board, proportion bars, GUESS card then REVEAL 93-96% slam, tax card) cover jump cuts; the rundown returns ticked as a comment prompt 'Which one hits you: 1, 2 or 3?'; DM bubble types INVEST onto his brand card. 55.75s.",
+ "device": "persistent 1/3 2/3 3/3 tracker in the package row; guess-then-reveal board; split-flap boards; comment-vote recap; DM-keyword CTA (INVEST) carried onto the brand card; punch-ins at 1.10-1.20x anchored at head top",
+ "rejectedStyles": [],
+ "rejectedStructures": [
+  "cold open on the biggest number: breaks his spoken order",
+  "countdown 3 to 1: needs re-ordered audio and loses his own signposts"
+ ],
+ "files": {
+  "final": "$R/graphic reels/portfolio-failing/out/brian_portfolio_reel.mp4",
+  "poster": "$R/graphic reels/portfolio-failing/out/cover.jpg",
+  "thumb": "library/thumbs/portfolio-failing.jpg",
+  "treatment": "$R/graphic reels/portfolio-failing/TREATMENT.md",
+  "project": "$R/graphic reels/portfolio-failing"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "User waivers for this client only: on-camera presenter, burned-in captions and a brand end card are allowed here although PLAYBOOK forbids them elsewhere.",
+  "Graphic text stays at y <= 1248; face region y 590-1490 is kept clear of graphics and the IG right rail."
+ ],
+ "source": "seed",
+ "hookPattern": "list-promise"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "wk1117-g2-bond-move--cutout--story--ariana-learoux",
+ "title": "The 0.18% bond move fixed rates follow [cutout, story, ariana-learoux]",
+ "clients": [
+  "ariana-learoux"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "cutout",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "The 0.18% bond move fixed rates follow",
+ "tags": [
+  "stills",
+  "wk1117-g2-bond-move",
+  "cutout",
+  "story-format",
+  "group-2"
+ ],
+ "hook": "Each 0.25% on $400K, monthly.",
+ "logline": "Proof render of spec 'wk1117-g2-bond-move' in the Paper Cut-out style for Ariana Learoux, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "Layered construction paper built in SVG: deckled torn edges with a white fibre core, tight neutral shadows, three papers plus the client accent; headlines are set on torn strips pasted onto the board.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1117-g2-bond-move--cutout--story/ariana-learoux",
+  "poster": "$R/engines/stills/out/wk1117-g2-bond-move--cutout--story/ariana-learoux/01.jpg",
+  "thumb": "library/thumbs/wk1117-g2-bond-move--cutout--story--ariana-learoux.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1117-g2-bond-move.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

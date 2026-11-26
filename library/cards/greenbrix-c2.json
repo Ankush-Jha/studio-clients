@@ -1,0 +1,52 @@
+{
+ "id": "greenbrix-c2",
+ "title": "Greenbrix C2: Five payments into one",
+ "clients": [
+  "krystian-catala"
+ ],
+ "generic": false,
+ "date": "2026-11-17",
+ "format": "carousel",
+ "engine": "custom-html",
+ "style": "greenbrix-brick-objects",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Debt consolidation; private second mortgages: Five payments into one",
+ "tags": [
+  "greenbrix",
+  "private-lending",
+  "ontario",
+  "carousel",
+  "seamless-join",
+  "brick-motif",
+  "debt-consolidation",
+  "private-second-mortgages"
+ ],
+ "hook": "$2,610 a month in debt payments. Then $1,049.",
+ "logline": "Seven-slide Greenbrix Capital carousel for Krystian Catala: Five payments into one.",
+ "structure": "7 slides: stub-pile cover with $2,610 struck in lime and a green $1,049 slip crossing the edge, four stubs, $2,610 hero with tape, one green slip, about $1,560 freed with before/after stacked bars, 'The debt is still there' with 12 months as a brick wall, CTA with Krystian.",
+ "device": "the bill pile: every debt is a perforated payment stub; an adding-machine tape runs the math and crosses the seam from slide 3 to 4 (1,350+400+560+300=2,610, then 105,000 x 11.99% / 12 = 1,049.13)",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/graphic reels/clients/greenbrix/FINAL/C2",
+  "poster": "$R/graphic reels/clients/greenbrix/FINAL/C2/C2-1.png",
+  "thumb": "library/thumbs/greenbrix-c2.jpg",
+  "treatment": "$R/graphic reels/clients/greenbrix/C2/NOTES.md",
+  "project": "$R/graphic reels/clients/greenbrix/C2",
+  "caption": "$R/graphic reels/clients/greenbrix/FINAL/C2/caption.txt"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Title says 'Five payments' but the plan lists four debts; slides say four. Client must confirm four or supply the fifth.",
+  "build.mjs throws if the checked math drifts."
+ ],
+ "source": "seed",
+ "hookPattern": "claim-statement",
+ "slides": 7
+}

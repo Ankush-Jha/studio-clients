@@ -1,0 +1,45 @@
+{
+ "id": "tip-120-days--legacy-ledger--feed--client-a",
+ "title": "Renewal tip: mark the date 120 days out [legacy-ledger, feed, client-a]",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-15",
+ "format": "static",
+ "engine": "stills",
+ "style": "legacy-ledger",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Renewal tip: mark the date 120 days out",
+ "tags": [
+  "stills",
+  "tip-120-days",
+  "legacy-ledger",
+  "feed-format",
+  "group-1"
+ ],
+ "hook": "Renewal tip: mark the date 120 days out",
+ "logline": "Proof render of spec 'tip-120-days' in the legacy-ledger style for client-a, feed format (1 slide).",
+ "structure": "1 slide(s), 1080x1350 (feed); slide types: tip",
+ "device": "early stills family 'ledger' layout with placeholder client client-a",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/tip-120-days/client-a",
+  "poster": "$R/engines/stills/out/tip-120-days/client-a/01.jpg",
+  "thumb": "library/thumbs/tip-120-days--legacy-ledger--feed--client-a.jpg",
+  "treatment": "$R/engines/stills/specs/tip-120-days.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

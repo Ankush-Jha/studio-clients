@@ -1,0 +1,111 @@
+{
+  "url": "https://www.greenbrix.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "Greenbrix Capital Inc. is an Ontario brokerage specialising in private mortgages, with institutional and B-side options for residential, commercial, gas station, manufacturing, construction, mixed-use, land and multi-unit rental properties. Krystian Catala is President and Mortgage Broker (M12001607), working on private lending, commercial, construction and development financing. The site calls Greenbrix an independently owned franchise of the Dominion Lending Centres network (FSRA licence #13645).",
+  "tagline": "Mortgage financing for homes, businesses & complex properties.",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Private mortgages",
+    "B-side mortgages",
+    "Institutional mortgages",
+    "Residential",
+    "Commercial",
+    "Gas station financing",
+    "Manufacturing financing",
+    "Construction financing",
+    "Mixed-use",
+    "Land financing",
+    "Multi-unit rentals",
+    "Power of sale"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Ontario (properties in Ontario only)"
+  ],
+  "team": [
+    {
+      "name": "Krystian Catala",
+      "title": "President, Mortgage Broker",
+      "licence": "M12001607"
+    },
+    {
+      "name": "Aimee Novack",
+      "title": "Mortgage Agent Level 2, Head of Compliance, Mortgage Fulfillment Officer",
+      "licence": "M18002534"
+    },
+    {
+      "name": "Orlando Catala",
+      "title": "Vice President, Mortgage Agent Level 2",
+      "licence": "M19000851"
+    }
+  ],
+  "licences": [
+    {
+      "label": "FSRA brokerage licence",
+      "value": "#13645",
+      "where": "about page footer text"
+    },
+    {
+      "label": "Broker licence (Krystian Catala)",
+      "value": "M12001607",
+      "where": "about page"
+    }
+  ],
+  "brokerage": {
+    "name": "Greenbrix Capital Inc. (Dominion Lending Centres franchise)",
+    "licence": "#13645"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "905 884 9911",
+    "416-460-2215 (Krystian direct)",
+    "416-817-3130 (Aimee)"
+  ],
+  "emails": [
+    "Krystian@Greenbrix.ca",
+    "deals@greenbrix.ca",
+    "Aimee@Greenbrix.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#faf8f5",
+      "where": "warm off-white page background (theme-color meta)"
+    }
+  ],
+  "fonts": [],
+  "logoUrls": [
+    "https://www.greenbrix.ca/images/greenbrix-capital-logo.png",
+    "https://www.greenbrix.ca/images/dominion-lending-centres-logo.png"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "robots.txt allows all crawlers. Site is a Tailwind SPA with CSS variables; accent colours not extracted (check logo).",
+    "greenbrix.ca (no www) reset the connection; www.greenbrix.ca worked. No social links on fetched pages.",
+    "/contact path serves the homepage. Direct line 416-460-2215 matches clients.json.",
+    "Search (check): Mortgage Alliance page lists Krystian with Ontario licence 13645 and kcatala@mortgagealliance.com (conflicts with the site's DLC franchise statement); older about page https://greenbrix.ca/about-us/ says 15+ years experience."
+  ],
+  "sources": [
+    {
+      "url": "https://www.greenbrix.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://www.greenbrix.ca/about",
+      "what": "team + licences"
+    }
+  ],
+  "blocked": []
+}

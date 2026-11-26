@@ -1,0 +1,146 @@
+{
+  "id": "2026-11-18-ariana-learoux-heloc-paul",
+  "created": "2026-11-18T08:10:00Z",
+  "updated": "2026-11-18T11:05:00Z",
+  "client": "ariana-learoux",
+  "format": "carousel",
+  "topic": "Paul's HELOC: what happened when he only paid the interest",
+  "brief": {
+    "raw": "carousel for Ariana about HELOC story",
+    "by": "chat"
+  },
+  "status": "gate2",
+  "engine": "stills",
+  "style": "cutout",
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": "2026-11-18T08:10:00Z",
+      "ended": "2026-11-18T08:10:40Z",
+      "summary": "Client ariana-learoux · carousel 1080×1350",
+      "outputs": []
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-18T08:10:42Z",
+      "ended": "2026-11-18T08:30:00Z",
+      "summary": "3 concepts",
+      "outputs": [
+        "concepts.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "done",
+      "started": "2026-11-18T08:30:01Z",
+      "ended": "2026-11-18T09:02:00Z",
+      "summary": "Picked B",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "done",
+      "started": "2026-11-18T09:02:01Z",
+      "ended": "2026-11-18T09:12:00Z",
+      "summary": "Story numbers checked",
+      "outputs": []
+    },
+    {
+      "id": "director",
+      "status": "done",
+      "started": "2026-11-18T09:12:01Z",
+      "ended": "2026-11-18T10:40:00Z",
+      "summary": "7 slides rendered @2x",
+      "outputs": [
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/01@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/02@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/03@2x.png"
+      ]
+    },
+    {
+      "id": "critic",
+      "status": "done",
+      "started": "2026-11-18T10:40:01Z",
+      "ended": "2026-11-18T11:04:59Z",
+      "summary": "QA 7 pass · 1 fail",
+      "outputs": [
+        "qa/report.json"
+      ]
+    },
+    {
+      "id": "gate2",
+      "status": "waiting",
+      "started": "2026-11-18T11:05:00Z",
+      "ended": null,
+      "summary": "Waiting for approval",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": "B",
+  "gates": {
+    "g1": {
+      "at": "2026-11-18T09:02:00Z",
+      "decision": "pick",
+      "choice": "B",
+      "notes": "",
+      "by": "chat"
+    },
+    "g2": {
+      "at": null,
+      "decision": null,
+      "notes": ""
+    }
+  },
+  "outputs": [
+    {
+      "kind": "carousel",
+      "path": [
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/01@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/02@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/03@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/04@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/05@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/06@2x.png",
+        "$R/engines/stills/out/heloc-paul--cutout/ariana-learoux/png/07@2x.png"
+      ],
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "caption",
+      "path": "out/caption.txt"
+    },
+    {
+      "kind": "contact",
+      "path": "$R/engines/stills/out/heloc-paul--cutout/karven-wu/contact.jpg"
+    }
+  ],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": false
+  },
+  "log": [
+    {
+      "t": "2026-11-18T10:40:00Z",
+      "node": "director",
+      "msg": "7 slides exported (PNG @2x)"
+    },
+    {
+      "t": "2026-11-18T11:04:59Z",
+      "node": "critic",
+      "msg": "Fail: compliance line missing (no brokerage on file)"
+    }
+  ]
+}

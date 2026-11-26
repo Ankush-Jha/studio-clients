@@ -1,0 +1,47 @@
+{
+ "id": "renewal-21-days--annotated--feed--rahul-vinod",
+ "title": "Surprise! Your renewal offer, 21 days out [annotated, feed, rahul-vinod]",
+ "clients": [
+  "rahul-vinod"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "annotated",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Surprise! Your renewal offer, 21 days out",
+ "tags": [
+  "stills",
+  "renewal-21-days",
+  "annotated",
+  "feed-format",
+  "group-2"
+ ],
+ "hook": "The renewal offer only has to arrive",
+ "logline": "Proof render of spec 'renewal-21-days' in the Marker Markup style for Rahul Vinod, feed format (4 slides).",
+ "structure": "4 slide(s), 1080x1350 (feed); slide types: cover, compare, point, cta",
+ "device": "The broker's own photo (or document) marked up in felt-tip: circles, arrows, a hand-drawn timeline and short handwritten notes on tape, over confident flush-left grotesk type.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/renewal-21-days--annotated/rahul-vinod",
+  "poster": "$R/engines/stills/out/renewal-21-days--annotated/rahul-vinod/01.jpg",
+  "thumb": "library/thumbs/renewal-21-days--annotated--feed--rahul-vinod.jpg",
+  "treatment": "$R/engines/stills/specs/library/renewal-21-days.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 4
+}

@@ -1,0 +1,47 @@
+{
+ "id": "wk1118-g1-new-pr-down--swiss--feed--scott-brouke",
+ "title": "New PR? The down payment on a $600K home [swiss, feed, scott-brouke]",
+ "clients": [
+  "scott-brouke"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "swiss",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "New PR? The down payment on a $600K home",
+ "tags": [
+  "stills",
+  "wk1118-g1-new-pr-down",
+  "swiss",
+  "feed-format",
+  "group-1"
+ ],
+ "hook": "Minimum down on $600K, new PR.",
+ "logline": "Proof render of spec 'wk1118-g1-new-pr-down' in the Swiss Data Poster style for Scott Brouke, feed format (8 slides).",
+ "structure": "8 slide(s), 1080x1350 (feed); slide types: cover, point, compare, point, compare, point, recap, cta",
+ "device": "International Typographic Style: one grotesk, a visible 12-column grid, flush-left type and data drawn as exact geometry in one signal colour.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1118-g1-new-pr-down--swiss/scott-brouke",
+  "poster": "$R/engines/stills/out/wk1118-g1-new-pr-down--swiss/scott-brouke/01.jpg",
+  "thumb": "library/thumbs/wk1118-g1-new-pr-down--swiss--feed--scott-brouke.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1118-g1-new-pr-down.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 8
+}

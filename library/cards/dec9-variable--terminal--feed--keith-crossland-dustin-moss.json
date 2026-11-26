@@ -1,0 +1,47 @@
+{
+ "id": "dec9-variable--terminal--feed--keith-crossland-dustin-moss",
+ "title": "Dec 9 rate call: one variable mortgage, hike or hold [terminal, feed, keith-crossland-dustin-moss]",
+ "clients": [
+  "keith-crossland-dustin-moss"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "terminal",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Dec 9 rate call: one variable mortgage, hike or hold",
+ "tags": [
+  "stills",
+  "dec9-variable",
+  "terminal",
+  "feed-format",
+  "group-1"
+ ],
+ "hook": "A $400K variable, hike or hold.",
+ "logline": "Proof render of spec 'dec9-variable' in the Terminal Card style for Keith Crossland & Dustin Moss, feed format (7 slides).",
+ "structure": "7 slide(s), 1080x1350 (feed); slide types: cover, number, compare, point, point, recap, cta",
+ "device": "A generic market-terminal panel: one wide-to-narrow monospace, a command-line headline, dated data tables, zero-based charts with a crosshair, and the client accent as the one reverse-video alert.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/dec9-variable--terminal/keith-crossland-dustin-moss",
+  "poster": "$R/engines/stills/out/dec9-variable--terminal/keith-crossland-dustin-moss/01.jpg",
+  "thumb": "library/thumbs/dec9-variable--terminal--feed--keith-crossland-dustin-moss.jpg",
+  "treatment": "$R/engines/stills/specs/library/dec9-variable.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 7
+}

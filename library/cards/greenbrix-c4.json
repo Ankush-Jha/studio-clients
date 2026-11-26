@@ -1,0 +1,50 @@
+{
+ "id": "greenbrix-c4",
+ "title": "Greenbrix C4: What a private mortgage really costs",
+ "clients": [
+  "krystian-catala"
+ ],
+ "generic": false,
+ "date": "2026-11-17",
+ "format": "carousel",
+ "engine": "custom-html",
+ "style": "greenbrix-brick-objects",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Private first and second mortgages: What a private mortgage really costs",
+ "tags": [
+  "greenbrix",
+  "private-lending",
+  "ontario",
+  "carousel",
+  "seamless-join",
+  "brick-motif",
+  "private-first-and-second-mortgages"
+ ],
+ "hook": "What a private mortgage really costs. No fine print.",
+ "logline": "Seven-slide Greenbrix Capital carousel for Krystian Catala: What a private mortgage really costs.",
+ "structure": "7 slides: loupe reading 'NO FINE PRINT' on the receipt, rate, lender fee, broker fee, legal and appraisal, receipt vs the alternative (lost deposit, power of sale, 20% cards), TOTAL slip stamped IN WRITING with Krystian. Loupe handle crosses the 1-2 seam.",
+ "device": "a thermal cost statement that prints one line per slide, hung from a printer slot, with a steel loupe doing real optical magnification of the newest line; a brick meter COSTS LISTED 1/4 to 4/4 and a TOTAL, FULL TERM line that stays blank until the CTA stamp IN WRITING",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/graphic reels/clients/greenbrix/FINAL/C4",
+  "poster": "$R/graphic reels/clients/greenbrix/FINAL/C4/C4-1.png",
+  "thumb": "library/thumbs/greenbrix-c4.jpg",
+  "treatment": "$R/graphic reels/clients/greenbrix/C4/NOTES.md",
+  "project": "$R/graphic reels/clients/greenbrix/C4",
+  "caption": "$R/graphic reels/clients/greenbrix/FINAL/C4/caption.txt"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Three yellow placeholders must be filled by the client before posting: [X% to Y%] private rate range, [X%] lender fee, [How Greenbrix charges] broker fee basis."
+ ],
+ "source": "seed",
+ "hookPattern": "claim-statement",
+ "slides": 7
+}

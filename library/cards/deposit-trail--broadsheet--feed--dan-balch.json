@@ -1,0 +1,47 @@
+{
+ "id": "deposit-trail--broadsheet--feed--dan-balch",
+ "title": "One $8,000 deposit, no paper trail [broadsheet, feed, dan-balch]",
+ "clients": [
+  "dan-balch"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "broadsheet",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "One $8,000 deposit, no paper trail",
+ "tags": [
+  "stills",
+  "deposit-trail",
+  "broadsheet",
+  "feed-format",
+  "group-4"
+ ],
+ "hook": "An $8,000 deposit with no paper trail can stall an approval.",
+ "logline": "Proof render of spec 'deposit-trail' in the Front Page style for Dan Balch, feed format (8 slides).",
+ "structure": "8 slide(s), 1080x1350 (feed); slide types: cover, point, point, point, point, point, recap, cta",
+ "device": "A newspaper front page for one post: a fictional nameplate made from the series, an honest dateline, a Libre Franklin headline, Newsreader columns, and the chart standing in for the news photo.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/deposit-trail--broadsheet/dan-balch",
+  "poster": "$R/engines/stills/out/deposit-trail--broadsheet/dan-balch/01.jpg",
+  "thumb": "library/thumbs/deposit-trail--broadsheet--feed--dan-balch.jpg",
+  "treatment": "$R/engines/stills/specs/library/deposit-trail.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 8
+}

@@ -1,0 +1,11 @@
+{"round":2,"pass":true,
+"scores":{"1_thumb_stop":5,"2_hook_alignment":4,"3_one_idea_one_device":5,"4_pacing":4,"5_typography":4,"6_craft":5,"7_brand_fit":4,"8_originality":4,"9_truth_maths":5,"10_compliance":4,"11_sound":4,"12_payoff_action":5},
+"notes":{"safezone":"Waiver confirmed on full-size frames (t0,12,15,27,30,36,44.9): all text, chips, headlines, cards and the compliance plate sit within y~300-1245; nothing real above y270 or below y1248. Below-zone content is halftone dots, the yellow A/B/C letters and house base/characters (illustration, no text).",
+"2":"Frame 0 now carries 'Guess the gap' pill plus 'Same wall, same renewal'; cover matches frame 0.",
+"5":"Disclaimer now 2 lines ~30px, readable; 'Your guess?' no longer covers rate cards; chips start y~303."},
+"coded":{"fail":[],"warn":["safezone (waived, verified)","contrast cover 'Guess the' 3.1:1","contrast t=6 'Ceo,' 4.3:1"]},
+"fixes":[
+{"n":1,"where":"00:33-00:42","what":"Optional polish: the +$7,032 stamp hides the 4.94% card, leaving clipped '$1,9xx/mo' fragments peeking under the stamp; fade or hide the 4.94% card while the stamp is up.","why":"Minor clutter, not blocking."},
+{"n":2,"where":"cover.jpg / 00:06","what":"Optional: darken the white 'Guess the' on the navy pill or the small yellow on cream to reach 4.5:1.","why":"Residual contrast warns 3.1 and 4.3."},
+{"n":3,"where":"posting","what":"Proof markers remain: replace [compliance line: TODO] and remove DRAFT tag after Keith and Dustin approve the bridge line; re-check nesto 4.44% and RAE on posting day.","why":"Intentional PROOF items, must be cleared before publishing."}],
+"verified":["Fix1 chips/safe zone: improved, chips now y~303, waiver verified","Fix2 Your guess sticker: improved, cards legible at 30s","Fix3 disclaimer: improved, 2 lines larger","Fix4 contrast: mostly improved, two small warns remain","Fix5 name: resolved to Crosland everywhere (caption, plate, SRT); WER no longer FAIL","Fix6 hook: improved, Guess the gap at frame 0","Fix7 15s headline complete, final frame matches frame 0: improved"]}

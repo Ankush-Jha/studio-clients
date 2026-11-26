@@ -1,0 +1,45 @@
+{
+ "id": "boc-rate-day--legacy-riso--feed--client-b",
+ "title": "Bank of Canada rate day: 2.50%, next decision Dec 9 [legacy-riso, feed, client-b]",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-15",
+ "format": "static",
+ "engine": "stills",
+ "style": "legacy-riso",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Bank of Canada rate day: 2.50%, next decision Dec 9",
+ "tags": [
+  "stills",
+  "boc-rate-day",
+  "legacy-riso",
+  "feed-format",
+  "group-3"
+ ],
+ "hook": "Bank of Canada rate day: 2.50%, next decision Dec 9",
+ "logline": "Proof render of spec 'boc-rate-day' in the legacy-riso style for client-b, feed format (1 slide).",
+ "structure": "1 slide(s), 1080x1350 (feed); slide types: rateday",
+ "device": "early stills family 'riso' layout with placeholder client client-b",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/boc-rate-day/client-b",
+  "poster": "$R/engines/stills/out/boc-rate-day/client-b/01.jpg",
+  "thumb": "library/thumbs/boc-rate-day--legacy-riso--feed--client-b.jpg",
+  "treatment": "$R/engines/stills/specs/boc-rate-day.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

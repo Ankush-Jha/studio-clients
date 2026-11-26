@@ -1,0 +1,480 @@
+[
+ {
+  "id": "A",
+  "title": "The 120-day line",
+  "hookPattern": "callout-deadline",
+  "hook": {
+   "main": "Renewing by spring? Board before Dec 9.",
+   "spoken": "Renewing your mortgage by next spring? Your route runs through December 9th.",
+   "alts": [
+    {
+     "pattern": "mark-the-date",
+     "onScreen": "Mark Dec 9 on your renewal route.",
+     "spoken": "Mark December 9th on your renewal route, even if your mortgage matures in March."
+    },
+    {
+     "pattern": "costly-mistake",
+     "onScreen": "Waiting for the letter costs you time.",
+     "spoken": "The renewal mistake is waiting for the letter. It only has to arrive 21 days before your term ends."
+    }
+   ]
+  },
+  "angle": "Edmonton renewers maturing between now and spring 2027 face two moving parts before they sign: the Bank of Canada's Dec 9 decision (prime, variable payments) and bond yields (fixed rates). The renewal is drawn as one printed transit line from TODAY to MATURITY that crosses the North Saskatchewan River; the bank's letter is a station near the very end (day 21), the rate hold is the first station (up to 120 days), and at the Dec 9 interchange the variable branch forks HIKE/HOLD while the held fixed line runs straight through. Edmonton's own number (benchmark $417,200, down 0.9% in a year, RAE Oct 2026) says the appraisal is unlikely to be the obstacle for most renewers here, so the calendar is the risk. Fills the 'nobody runs a Dec 9 countdown' gap in landscape_2026-11-19.",
+  "clientFacts": [
+   "City: Edmonton (kit.json city) -> the line crosses a flat blue North Saskatchewan River band; Edmonton numbers only, per kit rule r1",
+   "Service: Mortgage Renewals (kit.json services)",
+   "Brokerage and people: Keith Crosland & Dustin Moss, Mortgage Connection (kit.json brokerage, people) printed in the map's cartouche on the payoff beat",
+   "Local market: RAE Oct 2026 MLS HPI composite benchmark $417,200, -0.9% y/y (sourced, dated)"
+  ],
+  "format": "graphic-reel",
+  "engine": "opuscar",
+  "style": "transit-map",
+  "styleWhy": "Transit Map's native move is a line that exists only as far as its pen tip has travelled and an interchange that lands with weight when a second line arrives, which is exactly this story: a 120-day route you board early, with Dec 9 as the junction where the variable branch splits.",
+  "rejectedStyles": [
+   "countdown (a launch clock has no route, so the day-21 letter station and the fork are lost)",
+   "pictogram-motion (signs and objects, but no single journey to ride)"
+  ],
+  "device": "One printed metro-map sheet on a dark table, laid out for 9:16: the Renewal Line runs top (TODAY) to bottom (MATURITY) with day-stops; a flat blue river band crosses mid-sheet; station 'DAY 21: BANK'S LETTER' sits two stops from the end; at the 'DEC 9' interchange the variable branch forks into HIKE and HOLD while the held-fixed line runs straight; a small mechanical counter printed on the sheet counts days to Dec 9.",
+  "mechanic": "Countdown tracker plus find-your-station: the on-sheet counter shows days to Dec 9 from the posting date, and a pause beat asks viewers to find their maturity month (JAN / FEB / MAR stations in big type) and count back 120 days to their boarding date.",
+  "structure": "Callout + deadline, then problem (letter comes late) -> solution (board early with a hold) -> twist (Dec 9 fork) -> personal action (find your station) -> loop to the counter. 45 s.",
+  "beats": [
+   {
+    "t": "0-3",
+    "visual": "Low macro on the paper; a glowing pen tip lights the TODAY stop and the mechanical counter clacks to the days-to-Dec-9 number (20 if posted Nov 19).",
+    "text": "Renewing by spring? Board before Dec 9.",
+    "voice": "Renewing your mortgage by next spring? Your route runs through December 9th."
+   },
+   {
+    "t": "3-8",
+    "visual": "Camera pulls back to show the whole line; far down, one station prints in red: DAY 21: BANK'S LETTER, two stops from MATURITY.",
+    "text": "The letter can come 21 days out",
+    "voice": "But your lender only has to send the renewal letter 21 days before your term ends."
+   },
+   {
+    "t": "8-13",
+    "visual": "The pen tip races back up to the top; first station after TODAY lights: RATE HOLD, up to 120 days. A ticket stub prints beside it.",
+    "text": "Rate holds: up to 120 days",
+    "voice": "So board early. Many lenders will hold a rate for up to 120 days."
+   },
+   {
+    "t": "13-19",
+    "visual": "The line dives under the flat blue river band (North Saskatchewan, unlabelled river shape); station APPRAISAL prints a note: Edmonton benchmark $417,200, down 0.9% in a year (RAE, Oct 2026).",
+    "text": "Edmonton values held: $417,200",
+    "voice": "Edmonton values barely moved this year, so the appraisal should hold up. The calendar is the real risk."
+   },
+   {
+    "t": "19-27",
+    "visual": "DEC 9 interchange lands with weight; the variable branch forks: HIKE (+$39/mo on a $300,000 variable, illustrative) and HOLD (+$0). Counter visible in the corner.",
+    "text": "Dec 9: hike or hold",
+    "voice": "On December 9th the Bank of Canada decides. A hike adds about thirty-nine dollars a month on a three-hundred-thousand variable."
+   },
+   {
+    "t": "27-34",
+    "visual": "The held fixed line runs straight under the junction, untouched; its ticket stub reads HELD 4.44% (insured 5-yr fixed, nesto, Nov 19, illustrative).",
+    "text": "Your held rate rides through",
+    "voice": "Fixed rates follow bond yields, any day. A hold keeps today's fixed offer, whichever branch wins."
+   },
+   {
+    "t": "34-41",
+    "visual": "Camera glides down to three big stations, JAN, FEB, MAR; a dotted guide counts back 120 days from MAR to a boarding stop near TODAY. Pause cue.",
+    "text": "Find your month. Count back 120.",
+    "voice": "Find your maturity month on the line and count back 120 days. That's your boarding date."
+   },
+   {
+    "t": "41-46",
+    "visual": "Pull up to TODAY; the cartouche prints 'Keith Crosland & Dustin Moss · Mortgage Connection · Edmonton' + compliance placeholder; the counter clacks one day down and the frame matches frame 1 (loop).",
+    "text": "Save this. Set your boarding date.",
+    "voice": "Save this, and set a reminder for your boarding date."
+   }
+  ],
+  "cta": "save: 'Save this, and set a reminder for your boarding date.'",
+  "sendTest": "Edmonton homeowner who just saw Dec 9 in the news forwards it to a sibling or friend whose 2021 mortgage renews in Jan-Mar 2027.",
+  "math": [
+   {
+    "claim": "A 0.25% Dec 9 hike adds about $39/month on a $300,000 variable",
+    "working": "$300,000, 20 years left, monthly compounding: 3.66% (prime 4.70% - 1.04%, nesto Nov 19) = $1,764.65; 3.91% = $1,803.75; difference $39.10",
+    "result": "about $39/month (= $13 per $100K, in the PLAYBOOK $13-14 band)"
+   },
+   {
+    "claim": "120 days from the posting date",
+    "working": "Nov 19, 2026 + 120 days = Mar 19, 2027; recompute from the real posting date",
+    "result": "boarding window covers maturities to about Mar 19, 2027 if posted Nov 19"
+   },
+   {
+    "claim": "Days to Dec 9",
+    "working": "Dec 9 - Nov 19 = 20 days; counter set from the posting date",
+    "result": "20 (if posted Nov 19)"
+   }
+  ],
+  "sources": [
+   {
+    "name": "FCAC, Renewing your mortgage: renewal statement at least 21 days before term ends; renewal may be automatic if you take no action; new lender must approve a switch; ask the new lender to cover switch fees",
+    "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+    "date": "2026-11-19 (accessed)"
+   },
+   {
+    "name": "Research file research_2026-11-19.json item renewal-wave-2026-27 (rate holds of up to 120 days at many lenders; FCAC 21-day rule)",
+    "url": "/Users/ankushjha/Work/bots/graphic reels/content-desk/research/research_2026-11-19.json",
+    "date": "2026-11-19"
+   },
+   {
+    "name": "REALTORS Association of Edmonton, October 2026 release (Nov 3, 2026): GEA sales 1,882 (-8.3% y/y); average $457,641 (+0.5% y/y); MLS HPI composite benchmark $417,200 (-1.4% m/m, -0.9% y/y); semi-detached average $410,683, semi sales +12.4% y/y",
+    "url": "https://realtorsofedmonton.com/statistic/edmonton-market-activity-slows-creating-opportunity-for-buyers/",
+    "date": "2026-11-03",
+    "note": "RAE page returns 403 to our fetcher; figures read from a search extract of that page on 2026-11-19 and cross-checked against the edmontonhomesweb repost (which misprints the benchmark change as +9.4%/+7.2%; RAE says -1.4%/-0.9%). Re-open on render day."
+   },
+   {
+    "name": "Edmonton Homes Web repost of the RAE October 2026 release",
+    "url": "https://www.edmontonhomesweb.com/blog/edmonton-real-estate-market-slowing-down-in-october-of-2026.html",
+    "date": "2026-11-04"
+   },
+   {
+    "name": "Bank of Canada: overnight rate raised to 2.50% on Oct 28, 2026; next decision Dec 9, 2026",
+    "url": "https://www.bankofcanada.ca/2026/10/fad-press-release-2026-10-28/",
+    "date": "2026-10-28"
+   },
+   {
+    "name": "Bank of Canada Valet, prime rate 4.70% (latest 2026-11-11)",
+    "url": "https://www.bankofcanada.ca/valet/observations/V80691311/json?recent=5",
+    "date": "2026-11-11"
+   },
+   {
+    "name": "nesto 5-year fixed page, as of Nov 19, 2026: insured 4.44%, uninsured 4.95% (refinances are uninsured), 5-year variable 3.66% (prime 4.70% - 1.04%)",
+    "url": "https://www.nesto.ca/mortgage-rates/fixed/5-year/",
+    "date": "2026-11-19"
+   }
+  ],
+  "needs": [
+   "complianceLine is null in kit.json and voice.md says do not post until supplied: render a visible '[compliance line: TODO]' placeholder on the payoff beat; the piece is a proof until it is supplied. Alberta has no Ontario-style ad rule, but keep 'Mortgage Connection' visible on the payoff beat and in caption lines 1-2.",
+   "Surname: on screen use 'Keith Crosland' (staff page spelling); the sheet says 'Crossland'. Confirm with the client before posting.",
+   "Edmonton and area numbers only (kit rule r1): no Calgary figures anywhere, even though the brokerage is Calgary/Edmonton. Never #Mortgageontario (kit rule r2).",
+   "Kokoro voiceover: apply Instagram's AI label; two male voices (am_michael for Keith's lines, am_adam for Dustin's) is optional, never presented as the brokers' real voices.",
+   "All rates dated on screen ('rates as of <render date>, nesto') and re-pulled on render day; review the piece 30 days after posting (rate premise).",
+   "No hike odds number on screen or in the voice (weekly plan alert): the fork shows both paths.",
+   "Station text must be enlarged far beyond the style's 1080p defaults (phone legibility): stations >= 44 px, all inside y 270-1248.",
+   "Do not label the river with any transit-agency branding or line colours; no ETS/LRT logos."
+  ],
+  "novelty": "variety.py --style transit-map --hook-pattern callout-deadline: score 1.0, conflicts []. Client has no reels yet (history empty); client drafts are terminal/swiss statics. Agency note: ankush-intro v3 borrowed a transit-map journey rail as one element (self piece, not a client), no client has used transit-map. Weekly plan's Group 1 renewal piece for this client is a carousel with a 2021 receipt device; this reel uses neither the receipt nor the 2021-payment math.",
+  "preview": null,
+  "previewNote": "No local poster for transit-map (only used styles have demos downloaded). Gate 1 key frames can be built per opuscar.md step 2 if wanted."
+ },
+ {
+  "id": "B",
+  "title": "Same wall, different renewal",
+  "hookPattern": "same-x-different-outcome",
+  "hook": {
+   "main": "Same wall, same mortgage. Guess the gap.",
+   "spoken": "Two Edmonton neighbours share one wall and the same mortgage. Five years from now, one has paid a lot more. Guess how much.",
+   "alts": [
+    {
+     "pattern": "exact-number-cold-open",
+     "onScreen": "$80 a month, through one wall.",
+     "spoken": "About eighty dollars a month. That's the gap between two neighbours with the same mortgage."
+    },
+    {
+     "pattern": "story-start",
+     "onScreen": "Two neighbours. Two renewal letters.",
+     "spoken": "Illustrative example: two neighbours in an Edmonton semi got their renewal letters the same week. Only one opened it."
+    }
+   ]
+  },
+  "angle": "One Edmonton semi-detached house (the one home type whose sales rose a lot this October: +12.4% y/y, average $410,683, RAE) split down its party wall into two labelled composite households with identical mortgages. Left signs the first renewal offer when the letter lands; right starts 120 days early and shops. A guess-then-reveal turns a 0.50% illustrative rate gap into roughly $7,000 of extra interest over five years. Keith and Dustin's real background (both spent years inside big banks) gives the bridge line credibility without inventing a testimonial.",
+  "clientFacts": [
+   "City: Edmonton (kit.json); house type and price from RAE Oct 2026 Edmonton semi-detached data",
+   "Service: Mortgage Renewals (kit.json services)",
+   "Background: Keith Crosland, banking since 2008 with ten years as a mortgage specialist; Dustin Moss, 14+ years at a Big 5 bank, last seven in mortgages (kit.json bio, staff pages)",
+   "Brokerage: Mortgage Connection (kit.json brokerage) on the name plate at the payoff"
+  ],
+  "format": "graphic-reel",
+  "engine": "opuscar",
+  "style": "halftone-dossier",
+  "styleWhy": "Halftone Dossier reads a file out one exhibit at a time with stamps that slam, so 'left signed, right shopped' becomes two rubber stamps on the same case file and the guess-then-reveal gets a natural freeze before the verdict stamp.",
+  "rejectedStyles": [
+   "stick-explainer (good for before/after, but loses the bureaucratic paper-and-stamp joke that carries the renewal letter)",
+   "pop-art (one-number punch only; no exhibit structure for a two-household comparison)"
+  ],
+  "device": "A cream case file on one Edmonton semi-detached house drawn in halftone, split by a red line down the party wall; the left and right halves are two faceless composite households labelled 'Illustrative example'; numbered exhibits (A: same mortgage, B: the letter, C: the rate cards) compare sides; stamps SIGNED (left, day 21) and SHOPPED (right, day 120); a fat halftone counter spins during the guess freeze and stops on the verdict.",
+  "mechanic": "Guess-then-reveal: a 2-second freeze with a spinning counter and 'Your guess?' before the verdict stamp; the payoff line is a send built into the story ('send this to your neighbour').",
+  "structure": "Same X, different outcome; before-after-bridge. Setup (same house, same mortgage) -> split (sign vs shop) -> monthly gap -> guess freeze -> verdict -> bridge to the brokers -> send. 45 s.",
+  "beats": [
+   {
+    "t": "0-3",
+    "visual": "Case file slams onto the frame: a huge halftone semi-detached house, a red line drops down the party wall. File chip: EDMONTON SEMI · avg $410,683 (RAE, Oct 2026).",
+    "text": "Same wall, same mortgage. Guess the gap.",
+    "voice": "Two Edmonton neighbours share one wall and the same mortgage."
+   },
+   {
+    "t": "3-8",
+    "visual": "EXHIBIT A stamps across both halves: $300,000 left · 20 years · renewing 2027. Small label: Illustrative example.",
+    "text": "$300,000 each. Renewing 2027.",
+    "voice": "Five years from now, one of them has paid a lot more. Guess how much."
+   },
+   {
+    "t": "8-13",
+    "visual": "EXHIBIT B: the renewal letter drops into the left mailbox, a calendar chip reads DAY 21; a hand signs; red stamp SIGNED.",
+    "text": "Left: signs the first offer",
+    "voice": "The left side gets the renewal letter three weeks out, and signs it."
+   },
+   {
+    "t": "13-19",
+    "visual": "Right half: calendar chip DAY 120, a phone, two lender cards fan out; stamp SHOPPED in the highlight ink.",
+    "text": "Right: shops 120 days early",
+    "voice": "The right side starts four months early, and shops the same mortgage."
+   },
+   {
+    "t": "19-24",
+    "visual": "EXHIBIT C: two rate cards pinned either side of the wall: 4.94% vs 4.44% (illustrative; 4.44% = insured 5-yr fixed, nesto, Nov 19).",
+    "text": "Half a point apart",
+    "voice": "Say the first offer sits half a point above a shopped rate."
+   },
+   {
+    "t": "24-30",
+    "visual": "Payments print under each half: $1,962 vs $1,882; an $80 slug slides through the wall from right to left.",
+    "text": "About $80 a month",
+    "voice": "That's about eighty dollars a month."
+   },
+   {
+    "t": "30-33",
+    "visual": "Freeze: the halftone counter spins over the wall, 'Your guess?' in the hand face; 2-second hold with a ticking sting.",
+    "text": "5-year gap? Guess.",
+    "voice": "Over five years?"
+   },
+   {
+    "t": "33-38",
+    "visual": "Verdict stamp slams over the left half: $7,032 MORE INTEREST; footnote with assumptions.",
+    "text": "About $7,000 more interest",
+    "voice": "About seven thousand dollars more in interest, for the same house."
+   },
+   {
+    "t": "38-45",
+    "visual": "Name plate slides in at the foot of the file: Keith Crosland & Dustin Moss · Mortgage Connection · Edmonton + compliance placeholder; camera pulls back to the whole split house (matches frame 1, loop).",
+    "text": "Send this to your neighbour",
+    "voice": "We both spent years at big banks. The first offer is where the talk starts. Send this to the neighbour renewing next."
+   }
+  ],
+  "cta": "send: 'Send this to the neighbour renewing next.'",
+  "sendTest": "An Edmonton homeowner forwards it to the neighbour, sibling or co-worker who mentioned their renewal letter arrived.",
+  "math": [
+   {
+    "claim": "Monthly payment gap about $80",
+    "working": "$300,000, 20 years left, Canadian semi-annual compounding: 4.94% = $1,961.67; 4.44% = $1,881.71; difference $79.96",
+    "result": "about $80/month"
+   },
+   {
+    "claim": "About $7,000 more interest over the 5-year term",
+    "working": "Interest paid in 60 months: 4.94% = $67,572; 4.44% = $60,539; difference $7,032 (left also owes $2,235 more at the end: $249,872 vs $247,637)",
+    "result": "about $7,000"
+   },
+   {
+    "claim": "0.50% first-offer gap",
+    "working": "Assumption, not a market fact: labelled 'illustrative: if the first offer is 0.50% above a shopped rate'",
+    "result": "illustrative"
+   }
+  ],
+  "sources": [
+   {
+    "name": "REALTORS Association of Edmonton, October 2026 release (Nov 3, 2026): GEA sales 1,882 (-8.3% y/y); average $457,641 (+0.5% y/y); MLS HPI composite benchmark $417,200 (-1.4% m/m, -0.9% y/y); semi-detached average $410,683, semi sales +12.4% y/y",
+    "url": "https://realtorsofedmonton.com/statistic/edmonton-market-activity-slows-creating-opportunity-for-buyers/",
+    "date": "2026-11-03",
+    "note": "RAE page returns 403 to our fetcher; figures read from a search extract of that page on 2026-11-19 and cross-checked against the edmontonhomesweb repost (which misprints the benchmark change as +9.4%/+7.2%; RAE says -1.4%/-0.9%). Re-open on render day."
+   },
+   {
+    "name": "Edmonton Homes Web repost of the RAE October 2026 release",
+    "url": "https://www.edmontonhomesweb.com/blog/edmonton-real-estate-market-slowing-down-in-october-of-2026.html",
+    "date": "2026-11-04"
+   },
+   {
+    "name": "FCAC, Renewing your mortgage: renewal statement at least 21 days before term ends; renewal may be automatic if you take no action; new lender must approve a switch; ask the new lender to cover switch fees",
+    "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+    "date": "2026-11-19 (accessed)"
+   },
+   {
+    "name": "nesto 5-year fixed page, as of Nov 19, 2026: insured 4.44%, uninsured 4.95% (refinances are uninsured), 5-year variable 3.66% (prime 4.70% - 1.04%)",
+    "url": "https://www.nesto.ca/mortgage-rates/fixed/5-year/",
+    "date": "2026-11-19"
+   },
+   {
+    "name": "Mortgage Connection staff pages (Keith Crosland: Edmonton native, banking since 2008, ten years as a mortgage specialist; Dustin Moss: 14+ years at a Big 5 bank, last seven in mortgages)",
+    "url": "https://mortgageconnection.ca/staff/keith-crosland/",
+    "date": "2026-11-19 (kit fetch)"
+   }
+  ],
+  "needs": [
+   "complianceLine is null in kit.json and voice.md says do not post until supplied: render a visible '[compliance line: TODO]' placeholder on the payoff beat; the piece is a proof until it is supplied. Alberta has no Ontario-style ad rule, but keep 'Mortgage Connection' visible on the payoff beat and in caption lines 1-2.",
+   "Surname: on screen use 'Keith Crosland' (staff page spelling); the sheet says 'Crossland'. Confirm with the client before posting.",
+   "Edmonton and area numbers only (kit rule r1): no Calgary figures anywhere, even though the brokerage is Calgary/Edmonton. Never #Mortgageontario (kit rule r2).",
+   "Kokoro voiceover: apply Instagram's AI label; two male voices (am_michael for Keith's lines, am_adam for Dustin's) is optional, never presented as the brokers' real voices.",
+   "All rates dated on screen ('rates as of <render date>, nesto') and re-pulled on render day; review the piece 30 days after posting (rate premise).",
+   "Both households are composites: 'Illustrative example' on screen in Exhibit A and held until the verdict.",
+   "Bridge line ('We both spent years at big banks. The first offer is where the talk starts.') is written in the partners' voice: get Keith and Dustin to approve it or cut to 'Send this to the neighbour renewing next.'",
+   "No faces on the households (halftone faceless figures); never draw the brokers."
+  ],
+  "novelty": "variety.py --style halftone-dossier --hook-pattern same-x-different-outcome: score 1.0, conflicts []. No agency reel has used halftone-dossier; the only stamp device in the library is Greenbrix's DECLINED pile (custom-html carousel, different client and topic). Different promise from the weekly plan's 2021-receipt carousel for this client (this is sign vs shop, not payment shock).",
+  "preview": null,
+  "previewNote": "No local poster for halftone-dossier."
+ },
+ {
+  "id": "C",
+  "title": "Some assembly required: three bills, one renewal",
+  "hookPattern": "i-ran-the-numbers",
+  "hook": {
+   "main": "$35K of debt. One renewal.",
+   "spoken": "We ran the numbers on an Edmonton renewal with thirty-five thousand dollars of card and car debt sitting beside it.",
+   "alts": [
+    {
+     "pattern": "exact-number-cold-open",
+     "onScreen": "$638 a month, three bills gone.",
+     "spoken": "About six hundred and forty dollars a month. That's what folding two debts into one renewal changed in our example."
+    },
+    {
+     "pattern": "costly-mistake",
+     "onScreen": "Renewing with a card balance?",
+     "spoken": "The renewal mistake: signing a straight renewal while a 21% card balance sits right next to it."
+    }
+   ]
+  },
+  "angle": "Renewal is the one moment a closed mortgage can be restructured without a break penalty, which makes it the natural window for Keith and Dustin's refinancing and debt-consolidation work. The Edmonton number does real work: a refinance can borrow up to 80% of value, and on Edmonton's benchmark home ($417,200, RAE Oct 2026) that ceiling is $333,760, so a $330,000 combined mortgage just fits. The honest turn (you re-qualify at rate + 2%, and stretching a car loan over 20 years costs interest) leads to a payoff that saves money for real: keep paying the old total and the whole balance could be gone years sooner.",
+  "clientFacts": [
+   "City: Edmonton (kit.json); 80% ceiling computed on the RAE Oct 2026 Edmonton benchmark $417,200",
+   "Services: Refinancing, Second Mortgages, Alternative Lending (kit.json services) and Debt consolidation (kit.json audience/specialties)",
+   "Service: Mortgage Renewals (kit.json services)",
+   "Brokerage: Keith Crosland & Dustin Moss, Mortgage Connection on the last manual page"
+  ],
+  "format": "graphic-reel",
+  "engine": "opuscar",
+  "style": "instruction-manual",
+  "styleWhy": "Instruction Manual Art's native move is assembling separate parts into one, with yellow marking the new part, a parts box with counts and a do/don't box, so three loose bills clicking into one yellow mortgage block, with a caution sign before the final step, is the style doing what it was built for.",
+  "rejectedStyles": [
+   "assembly-line-diagram (a conveyor reads as a factory process, not a household decision)",
+   "iso-infographic (coloured diorama and data panels, colder and busier on a phone)"
+  ],
+  "device": "One printed flat-pack manual page in true isometric: a parts box lists 1x mortgage block ($295,000), 1x card ($15,000), 1x car loan ($20,000) with their monthly payments as counts; faceless hands fit them step by step; a magnifier circle on an isometric Edmonton house shows an 80% gauge ($333,760 of $417,200); a caution triangle before the last step; a do/don't box (check: keep paying the old total; cross: refill the card). Yellow appears only on the new combined mortgage, and late yellow carries the payoff.",
+  "mechanic": "Comment keyword that delivers: 'Comment LIST' sends a one-page debt tally sheet (to be produced and approved before posting). Secondary: a pause beat invites viewers to count their own 'parts' against the parts box.",
+  "structure": "I ran the numbers -> parts (three bills) -> rule (renewal = no break penalty) -> Edmonton 80% ceiling -> assembly (one payment) -> caution (re-qualify, longer debt) -> do/don't payoff -> comment keyword; loop to the parts box. 46 s.",
+  "beats": [
+   {
+    "t": "0-3",
+    "visual": "Parts box slides onto the page: three white parts with labels in numbers only: $295,000 · $15,000 · $20,000. Hands rest beside them.",
+    "text": "$35K of debt. One renewal.",
+    "voice": "We ran the numbers on an Edmonton renewal with thirty-five thousand dollars of card and car debt."
+   },
+   {
+    "t": "3-9",
+    "visual": "STEP 1: each part shows its monthly count: $1,850 · $450 · $498; a dotted guide sums them: $2,798.",
+    "text": "3 bills: $2,798 a month",
+    "voice": "Three bills, about twenty-eight hundred dollars a month."
+   },
+   {
+    "t": "9-14",
+    "visual": "STEP 2: magnifier circle over a calendar part: renewal date, a crossed-out penalty icon.",
+    "text": "Renewal: no break penalty",
+    "voice": "But at renewal you can restructure without a break penalty."
+   },
+   {
+    "t": "14-21",
+    "visual": "STEP 3: isometric Edmonton house with a gauge strip: $417,200 x 80% = $333,760; a $330,000 marker slides in just under the line.",
+    "text": "80% of $417,200 = $333,760",
+    "voice": "A refinance can borrow up to 80 percent of value. On Edmonton's benchmark home, that's about three-thirty-four thousand."
+   },
+   {
+    "t": "21-28",
+    "visual": "STEP 4: the three parts click into one block that turns safety yellow: $330,000 · 4.95% · 20 yrs = $2,160/mo. 'Click' mark.",
+    "text": "One payment: $2,160",
+    "voice": "Fold it into one mortgage and the bill drops to about twenty-one sixty, roughly six-forty less."
+   },
+   {
+    "t": "28-34",
+    "visual": "Caution triangle page: 'Re-qualify at 6.95%' and a car part stretched along a 20-year rule.",
+    "text": "You re-qualify at 6.95%",
+    "voice": "Therefore you re-qualify at your rate plus two. And a car loan over twenty years costs more interest."
+   },
+   {
+    "t": "34-41",
+    "visual": "Do/don't box: check (blue) = hand keeps paying $2,798 into the yellow block, a counter shows ~13 years instead of 20; cross (red) = card part refilling.",
+    "text": "Keep paying the old total",
+    "voice": "So keep paying the old total, if your prepayment terms allow, and it could be gone about six years sooner."
+   },
+   {
+    "t": "41-46",
+    "visual": "Last page: hands close the manual; footer prints Keith Crosland & Dustin Moss · Mortgage Connection · Edmonton + compliance placeholder; the parts box reopens (loop).",
+    "text": "Comment LIST for our debt sheet",
+    "voice": "Comment LIST for the one-page sheet we use to tally debts before a renewal."
+   }
+  ],
+  "cta": "comment keyword: 'Comment LIST and we'll send the one-page sheet we use to tally debts before a renewal.' (delivers a real sheet; see needs)",
+  "sendTest": "Someone in Edmonton renewing in 2027 with holiday card debt sends it to their partner before they talk about the renewal letter.",
+  "math": [
+   {
+    "claim": "Three bills about $2,798/month",
+    "working": "Mortgage renewed: $295,000, 20 yrs, 4.44% insured (nesto Nov 19), semi-annual compounding = $1,850.35; card $15,000 x 3% minimum = $450.00; car loan $20,000, 48 months, 8.99% = $497.61; total $2,797.95",
+    "result": "about $2,798"
+   },
+   {
+    "claim": "80% ceiling on Edmonton's benchmark home",
+    "working": "$417,200 x 0.80 = $333,760 (RAE Oct 2026 benchmark)",
+    "result": "$333,760; $330,000 fits"
+   },
+   {
+    "claim": "One payment about $2,160, about $638/month less",
+    "working": "$330,000, 20 yrs, 4.95% uninsured (refinances are uninsured; nesto Nov 19) = $2,159.61; $2,797.95 - $2,159.61 = $638.34",
+    "result": "about $2,160; about $640 less"
+   },
+   {
+    "claim": "Re-qualify at 6.95%",
+    "working": "Stress test = higher of contract rate + 2% (4.95% + 2% = 6.95%) or 5.25%",
+    "result": "6.95%"
+   },
+   {
+    "claim": "Car/card portion over 20 years costs more interest",
+    "working": "$35,000 over 20 yrs at 4.95% = $229.05/month; total interest $19,972",
+    "result": "about $20,000 of interest if only minimums are paid on the combined loan"
+   },
+   {
+    "claim": "Keep paying the old total: about 13 years instead of 20",
+    "working": "$330,000 at 4.95% (semi-annual), payment $2,797.95 -> n = 161.2 months = 13.4 years; 20 - 13.4 = 6.6",
+    "result": "about six years sooner (conditional on prepayment privileges; a 30% payment increase exceeds some lenders' limits)"
+   }
+  ],
+  "sources": [
+   {
+    "name": "REALTORS Association of Edmonton, October 2026 release (Nov 3, 2026): GEA sales 1,882 (-8.3% y/y); average $457,641 (+0.5% y/y); MLS HPI composite benchmark $417,200 (-1.4% m/m, -0.9% y/y); semi-detached average $410,683, semi sales +12.4% y/y",
+    "url": "https://realtorsofedmonton.com/statistic/edmonton-market-activity-slows-creating-opportunity-for-buyers/",
+    "date": "2026-11-03",
+    "note": "RAE page returns 403 to our fetcher; figures read from a search extract of that page on 2026-11-19 and cross-checked against the edmontonhomesweb repost (which misprints the benchmark change as +9.4%/+7.2%; RAE says -1.4%/-0.9%). Re-open on render day."
+   },
+   {
+    "name": "Edmonton Homes Web repost of the RAE October 2026 release",
+    "url": "https://www.edmontonhomesweb.com/blog/edmonton-real-estate-market-slowing-down-in-october-of-2026.html",
+    "date": "2026-11-04"
+   },
+   {
+    "name": "nesto 5-year fixed page, as of Nov 19, 2026: insured 4.44%, uninsured 4.95% (refinances are uninsured), 5-year variable 3.66% (prime 4.70% - 1.04%)",
+    "url": "https://www.nesto.ca/mortgage-rates/fixed/5-year/",
+    "date": "2026-11-19"
+   },
+   {
+    "name": "OSFI: uninsured straight switches exempt from the stress test (Nov 21, 2024); refinances still qualify at the higher of contract rate + 2% or 5.25%",
+    "url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/osfi-exempts-uninsured-mortgage-straight-switches-prescribed-mqr-implements-portfolio-lti-limits",
+    "date": "2024-11-21"
+   },
+   {
+    "name": "FCAC, Renewing your mortgage: renewal statement at least 21 days before term ends; renewal may be automatic if you take no action; new lender must approve a switch; ask the new lender to cover switch fees",
+    "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+    "date": "2026-11-19 (accessed)"
+   }
+  ],
+  "needs": [
+   "complianceLine is null in kit.json and voice.md says do not post until supplied: render a visible '[compliance line: TODO]' placeholder on the payoff beat; the piece is a proof until it is supplied. Alberta has no Ontario-style ad rule, but keep 'Mortgage Connection' visible on the payoff beat and in caption lines 1-2.",
+   "Surname: on screen use 'Keith Crosland' (staff page spelling); the sheet says 'Crossland'. Confirm with the client before posting.",
+   "Edmonton and area numbers only (kit rule r1): no Calgary figures anywhere, even though the brokerage is Calgary/Edmonton. Never #Mortgageontario (kit rule r2).",
+   "Kokoro voiceover: apply Instagram's AI label; two male voices (am_michael for Keith's lines, am_adam for Dustin's) is optional, never presented as the brokers' real voices.",
+   "All rates dated on screen ('rates as of <render date>, nesto') and re-pulled on render day; review the piece 30 days after posting (rate premise).",
+   "The LIST sheet must exist before posting (Studio can make it with broker-stills in the client's terminal/swiss style) and the partners must agree to DM it; otherwise switch the CTA to a send.",
+   "Assumptions on screen: 'Illustrative example; rates as of <date>, nesto; 3% card minimum; subject to approval and re-qualification'.",
+   "Agency library has a debt-consolidation carousel for another client (greenbrix-c2, 'Five payments into one', bill-pile device, Ontario): keep this reel's renewal-day angle, Edmonton 80% ceiling and manual device; never reuse its wording or stub/tape visuals."
+  ],
+  "novelty": "variety.py --style instruction-manual --hook-pattern i-ran-the-numbers: score 1.0, conflicts [] (also 1.0 with --include-drafts). No agency reel has used instruction-manual. Topic overlap to watch: greenbrix-c2 debt-consolidation carousel (different client, province, engine and device).",
+  "preview": null,
+  "previewNote": "No local poster for instruction-manual."
+ }
+]

@@ -1,0 +1,2357 @@
+{
+ "at": "2026-11-19T23:56:58+05:30",
+ "summary": {
+  "briefs": 20,
+  "pass": 10,
+  "warn": 10,
+  "blocked": 0,
+  "ready": 15,
+  "proofOnly": 4,
+  "group": 1,
+  "blockedReadiness": 0,
+  "clientsReadyForStillsAndReels": 23,
+  "clientsProofOnly": 8,
+  "clientsBlockedStills": 2
+ },
+ "briefs": [
+  {
+   "id": "e01",
+   "brief": "carousel for Dan Balch about renewing in 2027",
+   "expect": [
+    "Ontario compliance line present",
+    "London-specific angle",
+    "8-10 slides, slide 2 second hook"
+   ],
+   "client": {
+    "slug": "dan-balch",
+    "how": "matched dan balch, Dan Balch, dan",
+    "candidates": [
+     "dan-balch"
+    ]
+   },
+   "format": "carousel",
+   "kit": {
+    "name": "Dan Balch",
+    "city": "London",
+    "province": "ON",
+    "group": 4,
+    "completeness": 1.0,
+    "video": true,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html",
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "Ontario compliance line present",
+     "checkedBy": [
+      "gate+kit",
+      "kit+checker"
+     ],
+     "how": "copy.compliance_line (fuzzy vs kit complianceLine) + stills.footer_band; kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "Ontario": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "London-specific angle",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "London": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "8-10 slides, slide 2 second hook",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "stills.count 2-20; slide 2 hook needs critic",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e02",
+   "brief": "graphic reel for the Thorntons on what a reverse mortgage is, 45 s",
+   "expect": [
+    "never says 'best rates'",
+    "Jim's outro used on the reel",
+    "Brantford fact used"
+   ],
+   "client": {
+    "slug": "keaton-thornton-jim-thornton",
+    "how": "matched thornton",
+    "candidates": [
+     "keaton-thornton-jim-thornton"
+    ]
+   },
+   "format": "graphic-reel",
+   "kit": {
+    "name": "Keaton Thornton & Jim Thornton",
+    "city": "Brantford",
+    "province": "ON",
+    "group": 1,
+    "completeness": 0.857,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [
+    {
+     "id": "r1",
+     "kind": "never",
+     "text": "3 Nov - Please stop using 'best rates' in all future posts. I have already made the change in this post.",
+     "value": "best rates"
+    },
+    {
+     "id": "r2",
+     "kind": "outro",
+     "text": "Always use Jim's Outro for Reels",
+     "value": "jim"
+    }
+   ],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "films",
+    "hint": "",
+    "alternatives": [
+     "hyperframes",
+     "motion"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "never says 'best rates'",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "copy.banned / copy.kit_rules / copy.hashtags",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Jim's outro used on the reel",
+     "checkedBy": [
+      "kit+critic"
+     ],
+     "how": "kit has an outro rule; critic confirms it is applied",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Brantford fact used",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "Brantford": true
+     },
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [
+    "complianceLine is null and province is ON: proof-only (O. Reg. 188/08 s.6)"
+   ],
+   "warnings": [],
+   "notes": [
+    "kit missing fields: complianceLine, socials",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "proof-only"
+  },
+  {
+   "id": "e03",
+   "brief": "static for Keith Crossland & Dustin Moss: Edmonton month-end market numbers",
+   "expect": [
+    "Edmonton numbers only",
+    "no #Mortgageontario",
+    "sourced and dated figures"
+   ],
+   "client": {
+    "slug": "keith-crossland-dustin-moss",
+    "how": "matched Keith Crossland & Dustin Moss, keith, crossland",
+    "candidates": [
+     "keith-crossland-dustin-moss"
+    ]
+   },
+   "format": "static",
+   "kit": {
+    "name": "Keith Crossland & Dustin Moss",
+    "city": "Edmonton",
+    "province": "AB",
+    "group": 1,
+    "completeness": 0.857,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [
+    {
+     "id": "r2",
+     "kind": "hashtags",
+     "text": "Sep 5, 2025 - Please don't hashtag Mortgageontario as we don't work there.",
+     "value": "never #Mortgageontario"
+    }
+   ],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "Edmonton numbers only",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {
+      "Edmonton": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "no #Mortgageontario",
+     "checkedBy": [
+      "gate",
+      "kit+checker"
+     ],
+     "how": "copy.banned / copy.kit_rules / copy.hashtags; kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "Mortgageontario": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "sourced and dated figures",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [
+    "complianceLine is null (AB): no Ontario rule, but the 19 Nov Keith/Dustin job (AB) was also labelled PROOF and the brokerage line is still needed on every piece"
+   ],
+   "warnings": [
+    "1 asset(s) need user confirmation before use: logo-2.png"
+   ],
+   "notes": [
+    "kit missing fields: complianceLine, agent.licence"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 3,
+    "judgement": 0,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "proof-only"
+  },
+  {
+   "id": "e04",
+   "brief": "carousel for Gregory Hernandez on first-time buyer incentives",
+   "expect": [
+    "French version provided",
+    "Quebec rules, not Ontario",
+    "Orbis brand"
+   ],
+   "client": {
+    "slug": "gregory-hernandez",
+    "how": "matched gregory hernandez, Gregory Hernandez, gregory",
+    "candidates": [
+     "gregory-hernandez"
+    ]
+   },
+   "format": "carousel",
+   "kit": {
+    "name": "Gregory Hernandez",
+    "city": "Montreal",
+    "province": "QC",
+    "group": 1,
+    "completeness": 0.929,
+    "video": false,
+    "languages": [
+     "en",
+     "fr"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html",
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "French version provided",
+     "checkedBy": [
+      "kit+checker"
+     ],
+     "how": "kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "French": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "Quebec rules, not Ontario",
+     "checkedBy": [
+      "kit+checker"
+     ],
+     "how": "kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "Quebec": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "Orbis brand",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "Orbis": true
+     },
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "QC/French client: French version required in script `fr`",
+    "kit missing fields: agent.licence",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e05",
+   "brief": "short reel for Raoul Hunt, one-number punch about a 0.25% rate move on $500K",
+   "expect": [
+    "math checked: about $67-70/month on 25-yr amortizing",
+    "rounded in voice, exact on screen",
+    "Ottawa angle"
+   ],
+   "client": {
+    "slug": "raoul-hunt",
+    "how": "matched raoul hunt, Raoul Hunt, raoul",
+    "candidates": [
+     "raoul-hunt"
+    ]
+   },
+   "format": "short-reel",
+   "kit": {
+    "name": "Raoul Hunt",
+    "city": null,
+    "province": null,
+    "group": null,
+    "completeness": 0.714,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "motion",
+    "hint": "",
+    "alternatives": [
+     "hyperframes",
+     "films"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "math checked: about $67-70/month on 25-yr amortizing",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "rounded in voice, exact on screen",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Ottawa angle",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "Ottawa": true
+     },
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "kit missing fields: stills (no roster style assigned; needs a group first), agent.licence, city, province, group",
+    "no group assigned (batch and weekly plans skip this client)",
+    "2 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 1,
+    "judgement": 2,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e06",
+   "brief": "carousel for Krystian Catala: private second mortgage costs explained",
+   "expect": [
+    "Greenbrix brand + DLC lockup",
+    "3-line FSRA footer every slide",
+    "placeholders for unknown fees stay visible"
+   ],
+   "client": {
+    "slug": "krystian-catala",
+    "how": "matched krystian catala, Krystian Catala, krystian",
+    "candidates": [
+     "krystian-catala"
+    ]
+   },
+   "format": "carousel",
+   "kit": {
+    "name": "Krystian Catala",
+    "city": null,
+    "province": "ON",
+    "group": null,
+    "completeness": 0.786,
+    "video": null,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html",
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "Greenbrix brand + DLC lockup",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "Greenbrix": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "3-line FSRA footer every slide",
+     "checkedBy": [
+      "gate+kit",
+      "gate"
+     ],
+     "how": "copy.compliance_line (fuzzy vs kit complianceLine) + stills.footer_band; stills.count 2-20; slide 2 hook needs critic",
+     "status": "checkable",
+     "factsInKit": {
+      "FSRA": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "placeholders for unknown fees stay visible",
+     "checkedBy": [
+      "kit+critic"
+     ],
+     "how": "kit missing[]/assets.check; critic confirms placeholders visible",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "kit missing fields: video (footage reels allowed?), stills (no roster style assigned; needs a group first), city, group, socials",
+    "no group assigned (batch and weekly plans skip this client)",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e07",
+   "brief": "footage reel for brian-wang from a supplied talking-head clip",
+   "expect": [
+    "every spoken word kept",
+    "brand card at end with disclaimer",
+    "captions in his words"
+   ],
+   "client": {
+    "slug": "brian-wang",
+    "how": "matched brian wang, Brian Wang, brian",
+    "candidates": [
+     "brian-wang"
+    ]
+   },
+   "format": "footage-reel",
+   "kit": {
+    "name": "Brian Wang",
+    "city": "Toronto",
+    "province": "ON",
+    "group": null,
+    "completeness": 0.692,
+    "video": true,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [
+    {
+     "id": "r1",
+     "kind": "scope",
+     "text": "Not a mortgage broker: wealth coach / life insurance advisor. Never use mortgage-broker copy or the mortgage compliance line.",
+     "value": "not a mortgage broker"
+    },
+    {
+     "id": "r2",
+     "kind": "scope",
+     "text": "Footage reels allowed.",
+     "value": "allowed"
+    },
+    {
+     "id": "r3",
+     "kind": "outro",
+     "text": "Reels end on his brand card with 'For information only. Not investment advice.'",
+     "value": "brand card + For information only. Not investment advice."
+    }
+   ],
+   "assetsMissing": [
+    "photo",
+    "logo"
+   ],
+   "engine": {
+    "engine": "face-reels",
+    "hint": "",
+    "alternatives": [
+     "hyperframes",
+     "films"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "every spoken word kept",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "video.wer (whisper vs voice lines); word-keeping diff in face-reels.md",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "brand card at end with disclaimer",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "captions in his words",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "video.wer (whisper vs voice lines); word-keeping diff in face-reels.md",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [
+    "no client photo (brand-only piece; no person shown)",
+    "no logo file",
+    "footage reel needs a supplied clip; face-reels pipeline not yet run end to end (UNVERIFIED, see face-reels.md Status)"
+   ],
+   "notes": [
+    "kit missing fields: standalone logo file (logo exists only inside the brand card), standalone photo (photo exists only inside the brand card), assets.photo, stills (no roster style assigned; needs a group first), group, socials",
+    "no group assigned (batch and weekly plans skip this client)",
+    "face-reels client folder missing: `new_client.py` creates it from kit facts; also needs the supplied clip",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "ready"
+  },
+  {
+   "id": "e08",
+   "brief": "carousel for group 2 on the Dec 9 Bank of Canada decision",
+   "expect": [
+    "one job per client",
+    "each client's hook and visual differ",
+    "near-dup check clean across siblings"
+   ],
+   "client": {
+    "slug": "group:2",
+    "how": "8 clients in group 2"
+   },
+   "format": "carousel",
+   "group": {
+    "n": 2,
+    "clients": [
+     {
+      "slug": "akshat-chauhan",
+      "readiness": "ready"
+     },
+     {
+      "slug": "al-manji",
+      "readiness": "ready"
+     },
+     {
+      "slug": "amit-khurana",
+      "readiness": "ready"
+     },
+     {
+      "slug": "ariana-learoux",
+      "readiness": "proof-only"
+     },
+     {
+      "slug": "borrowise",
+      "readiness": "proof-only"
+     },
+     {
+      "slug": "juliet-fernandez",
+      "readiness": "ready"
+     },
+     {
+      "slug": "karven-wu",
+      "readiness": "ready"
+     },
+     {
+      "slug": "rahul-vinod",
+      "readiness": "ready"
+     }
+    ]
+   },
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html",
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "one job per client",
+     "checkedBy": [
+      "producer"
+     ],
+     "how": "intake / job.mjs (not a render check)",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "each client's hook and visual differ",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "near-dup check clean across siblings",
+     "checkedBy": [
+      "variety+neardup"
+     ],
+     "how": "variety.py (style/device repeat) + neardup.py across siblings",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [
+    "ariana-learoux: proof-only (complianceLine null)",
+    "borrowise: proof-only (complianceLine null)"
+   ],
+   "notes": [
+    "group 2: 6 ready, 2 proof-only, 0 blocked of 8",
+    "batch: one job per client, distinct style each (tools/batch_plan.py)",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "group"
+  },
+  {
+   "id": "e09",
+   "brief": "cover for Nav Utppal's next reel: 'Your renewal letter is a negotiation'",
+   "expect": [
+    "headline in centre 3:4 band",
+    "6 words or fewer",
+    "Next Mortgage/FIDES brand"
+   ],
+   "client": {
+    "slug": "nav-utppal",
+    "how": "matched nav utppal, Nav Utppal, nav",
+    "candidates": [
+     "nav-utppal"
+    ]
+   },
+   "format": "cover",
+   "kit": {
+    "name": "Nav Utppal",
+    "city": "Toronto",
+    "province": "ON",
+    "group": 3,
+    "completeness": 1.0,
+    "video": true,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "--format story (or the engine that made the reel: poster.jpg)",
+    "alternatives": [
+     "films"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "headline in centre 3:4 band",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "stills.gridcrop / video.safezone; word count by script",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "6 words or fewer",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "stills.gridcrop / video.safezone; word count by script",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Next Mortgage/FIDES brand",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "FIDES": true
+     },
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [
+    "1 asset(s) need user confirmation before use: logo-2.png"
+   ],
+   "notes": [
+    "kit missing fields: agent.title",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "ready"
+  },
+  {
+   "id": "e10",
+   "brief": "GIF for Jim DeCoste: Bank of Canada reminder Dec 9",
+   "expect": [
+    "loops",
+    "Nova Scotia (no Ontario rule), DLC franchise line",
+    "under 8 s"
+   ],
+   "client": {
+    "slug": "jim-decoste",
+    "how": "matched jim decoste, Jim DeCoste, jim",
+    "candidates": [
+     "jim-decoste",
+     "keaton-thornton-jim-thornton"
+    ]
+   },
+   "format": "gif",
+   "kit": {
+    "name": "Jim DeCoste",
+    "city": "Antigonish",
+    "province": "NS",
+    "group": 1,
+    "completeness": 0.923,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [
+    "photo"
+   ],
+   "engine": {
+    "engine": "motion",
+    "hint": "--gif",
+    "alternatives": [
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "loops",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "video.loop_seam / spec.duration (loop flag from job)",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Nova Scotia (no Ontario rule), DLC franchise line",
+     "checkedBy": [
+      "kit+checker"
+     ],
+     "how": "kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "Nova Scotia": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "under 8 s",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "video.loop_seam / spec.duration (loop flag from job)",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [
+    "no client photo (brand-only piece; no person shown)"
+   ],
+   "notes": [
+    "kit missing fields: socials"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 3,
+    "judgement": 0,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "ready"
+  },
+  {
+   "id": "e11",
+   "brief": "graphic reel for Rahul Vinod for newcomers to Canada, Moncton",
+   "expect": [
+    "newcomer specifics sourced",
+    "New Brunswick context",
+    "consider Hindi/Malayalam audience only if kit says"
+   ],
+   "client": {
+    "slug": "rahul-vinod",
+    "how": "matched rahul vinod, Rahul Vinod, rahul",
+    "candidates": [
+     "rahul-vinod"
+    ]
+   },
+   "format": "graphic-reel",
+   "kit": {
+    "name": "Rahul Vinod",
+    "city": "Moncton",
+    "province": "NB",
+    "group": 2,
+    "completeness": 1.0,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "films",
+    "hint": "",
+    "alternatives": [
+     "hyperframes",
+     "motion"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "newcomer specifics sourced",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "New Brunswick context",
+     "checkedBy": [
+      "kit+checker"
+     ],
+     "how": "kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "New Brunswick": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "consider Hindi/Malayalam audience only if kit says",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [
+    "1 asset(s) need user confirmation before use: image60-mmg-badges.png"
+   ],
+   "notes": [
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "ready"
+  },
+  {
+   "id": "e12",
+   "brief": "static for Vittorio Oliverio: HELOC interest-only explained",
+   "expect": [
+    "footer associate rotation respected",
+    "403.380.4413 used",
+    "HELOC +0.25% ≈ $21/month per $100K"
+   ],
+   "client": {
+    "slug": "vittorio-oliverio",
+    "how": "matched vittorio oliverio, Vittorio Oliverio, vittorio",
+    "candidates": [
+     "vittorio-oliverio"
+    ]
+   },
+   "format": "static",
+   "kit": {
+    "name": "Vittorio Oliverio",
+    "city": "Lethbridge",
+    "province": "AB",
+    "group": null,
+    "completeness": 0.714,
+    "video": null,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [
+    {
+     "id": "r1",
+     "kind": "hashtags",
+     "text": "Hashtags: #MortgageBroker #CenterProfessionalMortgageGroup #Cpmg",
+     "value": [
+      "#MortgageBroker",
+      "#CenterProfessionalMortgageGroup",
+      "#Cpmg"
+     ]
+    },
+    {
+     "id": "r2",
+     "kind": "rotation",
+     "text": "Use alternate associates on alternate days in the footer for the posts.",
+     "value": "alternate associates on alternate days"
+    },
+    {
+     "id": "r3",
+     "kind": "footer",
+     "text": "For every associate use the phone number 403.380.4413 so the number is used and remembered.",
+     "value": "403.380.4413"
+    },
+    {
+     "id": "r4",
+     "kind": "rotation",
+     "text": "15 July 2025 - Remove David from the posts for 4 weeks. Use Kim, Marty, Cara, Vittorio; put a hold on David and Clarke for 4 weeks.",
+     "value": {
+      "use": [
+       "Kim",
+       "Marty",
+       "Cara",
+       "Vittorio"
+      ],
+      "hold": [
+       "David",
+       "Clarke"
+      ],
+      "weeks": 4
+     }
+    },
+    {
+     "id": "r5",
+     "kind": "rotation",
+     "text": "28 July 2025 - Skip David for a month; focus on Marty, Cara, Vittorio, Kim for August. In September add Clarke and Karen to the mix.",
+     "value": {
+      "skip": [
+       "David"
+      ],
+      "august": [
+       "Marty",
+       "Cara",
+       "Vittorio",
+       "Kim"
+      ],
+      "september_add": [
+       "Clarke",
+       "Karen"
+      ]
+     }
+    },
+    {
+     "id": "r6",
+     "kind": "footer",
+     "text": "12 September 2025 - Use footers for Cara, Marry, Clarke, Karen, Vittorio.",
+     "value": [
+      "Cara",
+      "Marry",
+      "Clarke",
+      "Karen",
+      "Vittorio"
+     ]
+    }
+   ],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "footer associate rotation respected",
+     "checkedBy": [
+      "gate+kit"
+     ],
+     "how": "copy.compliance_line (fuzzy vs kit complianceLine) + stills.footer_band",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "403.380.4413 used",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "403.380.4413": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "HELOC +0.25% ≈ $21/month per $100K",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [
+    "complianceLine is null (AB): no Ontario rule, but the 19 Nov Keith/Dustin job (AB) was also labelled PROOF and the brokerage line is still needed on every piece"
+   ],
+   "warnings": [],
+   "notes": [
+    "kit missing fields: video (footage reels allowed?), associate footers for Cara, Marty/Marry, Clarke, Karen, Kim, David (only Vittorio's footer exists), stills (no roster style assigned; needs a group first), complianceLine, brokerage.licence, agent.licence, group",
+    "no group assigned (batch and weekly plans skip this client)",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "proof-only"
+  },
+  {
+   "id": "e13",
+   "brief": "story frames for Akshat Chauhan: 3 questions to ask before you sign a renewal",
+   "expect": [
+    "Calgary angle",
+    "story safe zones",
+    "one action"
+   ],
+   "client": {
+    "slug": "akshat-chauhan",
+    "how": "matched akshat chauhan, Akshat Chauhan, akshat",
+    "candidates": [
+     "akshat-chauhan"
+    ]
+   },
+   "format": "story",
+   "kit": {
+    "name": "Akshat Chauhan",
+    "city": "Calgary",
+    "province": "AB",
+    "group": 2,
+    "completeness": 0.857,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "--format story (still) / motion (loop)",
+    "alternatives": [
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "Calgary angle",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "Calgary": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "story safe zones",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "stills.gridcrop / video.safezone; word count by script",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "one action",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "kit missing fields: agent.licence, socials",
+    "2 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 1,
+    "judgement": 2,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e14",
+   "brief": "carousel for Sahil Rihani about self-employed mortgage approval",
+   "expect": [
+    "Vaughan angle",
+    "no guarantees language",
+    "illustrative labels"
+   ],
+   "client": {
+    "slug": "sahil-rihani",
+    "how": "matched sahil rihani, Sahil Rihani, sahil",
+    "candidates": [
+     "sahil-rihani"
+    ]
+   },
+   "format": "carousel",
+   "kit": {
+    "name": "Sahil Rihani",
+    "city": "Vaughan",
+    "province": "ON",
+    "group": 1,
+    "completeness": 1.0,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html",
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "Vaughan angle",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "Vaughan": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "no guarantees language",
+     "checkedBy": [
+      "gate"
+     ],
+     "how": "copy.banned / copy.kit_rules / copy.hashtags",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "illustrative labels",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "2 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 1,
+    "judgement": 2,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e15",
+   "brief": "graphic reel for Amit Khurana on fixed vs variable, 50 s",
+   "expect": [
+    "style not used by Amit before",
+    "both outcomes shown, no rate prediction",
+    "Centum brokerage line"
+   ],
+   "client": {
+    "slug": "amit-khurana",
+    "how": "matched amit khurana, Amit Khurana, amit",
+    "candidates": [
+     "amit-khurana"
+    ]
+   },
+   "format": "graphic-reel",
+   "kit": {
+    "name": "Amit Khurana",
+    "city": "Toronto",
+    "province": "ON",
+    "group": 2,
+    "completeness": 1.0,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "films",
+    "hint": "",
+    "alternatives": [
+     "hyperframes",
+     "motion"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "style not used by Amit before",
+     "checkedBy": [
+      "variety+neardup"
+     ],
+     "how": "variety.py (style/device repeat) + neardup.py across siblings",
+     "status": "checkable",
+     "factsInKit": {
+      "Amit": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "both outcomes shown, no rate prediction",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Centum brokerage line",
+     "checkedBy": [
+      "gate+kit"
+     ],
+     "how": "copy.compliance_line (fuzzy vs kit complianceLine) + stills.footer_band",
+     "status": "checkable",
+     "factsInKit": {
+      "Centum": true
+     },
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e16",
+   "brief": "animated carousel for Georges Madi: refinancing to consolidate debt",
+   "expect": [
+    "French version",
+    "Quebec",
+    "debt still exists stated honestly"
+   ],
+   "client": {
+    "slug": "georges-madi",
+    "how": "matched georges madi, Georges Madi, georges",
+    "candidates": [
+     "georges-madi"
+    ]
+   },
+   "format": "animated-carousel",
+   "kit": {
+    "name": "Georges Madi",
+    "city": "Montreal",
+    "province": "QC",
+    "group": 4,
+    "completeness": 0.857,
+    "video": true,
+    "languages": [
+     "en",
+     "fr"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "hyperframes",
+    "hint": "animated slides",
+    "alternatives": [
+     "stills"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "French version",
+     "checkedBy": [
+      "kit+checker"
+     ],
+     "how": "kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "French": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "Quebec",
+     "checkedBy": [
+      "kit+checker"
+     ],
+     "how": "kit languages/province; checker applies province rules",
+     "status": "checkable",
+     "factsInKit": {
+      "Quebec": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "debt still exists stated honestly",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "QC/French client: French version required in script `fr`",
+    "kit missing fields: brokerage.licence, socials",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e17",
+   "brief": "short reel for Borrowise (no photo, brand only) on comparing lenders",
+   "expect": [
+    "no person shown",
+    "Borrowise brand",
+    "no named-lender comparison without label"
+   ],
+   "client": {
+    "slug": "borrowise",
+    "how": "matched borrowise, Borrowise, borrowise",
+    "candidates": [
+     "borrowise"
+    ]
+   },
+   "format": "short-reel",
+   "kit": {
+    "name": "Borrowise",
+    "city": null,
+    "province": "ON",
+    "group": 2,
+    "completeness": 0.692,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [
+    "photo"
+   ],
+   "engine": {
+    "engine": "motion",
+    "hint": "",
+    "alternatives": [
+     "hyperframes",
+     "films"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "no person shown",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Borrowise brand",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {
+      "Borrowise": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "no named-lender comparison without label",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [
+    "complianceLine is null and province is ON: proof-only (O. Reg. 188/08 s.6)"
+   ],
+   "warnings": [
+    "no client photo (brand-only piece; no person shown)"
+   ],
+   "notes": [
+    "kit missing fields: agent.title, contact.phones, complianceLine, brokerage.name, brokerage.licence, city",
+    "3 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 0,
+    "judgement": 3,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "proof-only"
+  },
+  {
+   "id": "e18",
+   "brief": "idea:nightly-2026-11-19-g4-2",
+   "expect": [
+    "uses the nightly idea as one concept",
+    "client and group from the idea",
+    "math re-checked"
+   ],
+   "idea": {
+    "title": "Six mortgage claims you'll hear this winter, stamped",
+    "forClient": "Dan Balch",
+    "group": 4,
+    "format": "Carousel"
+   },
+   "client": {
+    "slug": "dan-balch",
+    "how": "from idea target"
+   },
+   "format": "carousel",
+   "kit": {
+    "name": "Dan Balch",
+    "city": "London",
+    "province": "ON",
+    "group": 4,
+    "completeness": 1.0,
+    "video": true,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html",
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "uses the nightly idea as one concept",
+     "checkedBy": [
+      "producer"
+     ],
+     "how": "intake / job.mjs (not a render check)",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "client and group from the idea",
+     "checkedBy": [
+      "producer"
+     ],
+     "how": "intake / job.mjs (not a render check)",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "math re-checked",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 3,
+    "judgement": 0,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e19",
+   "brief": "carousel for Ranjit Singh on buying a pre-construction condo in the GTA",
+   "expect": [
+    "AKAL brokerage + LIC#10845",
+    "GTA facts sourced",
+    "no investment-return promises"
+   ],
+   "client": {
+    "slug": "ranjit-singh",
+    "how": "matched ranjit singh, Ranjit Singh, ranjit",
+    "candidates": [
+     "ranjit-singh"
+    ]
+   },
+   "format": "carousel",
+   "kit": {
+    "name": "Ranjit Singh",
+    "city": null,
+    "province": "ON",
+    "group": null,
+    "completeness": 0.786,
+    "video": null,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [],
+   "engine": {
+    "engine": "stills",
+    "hint": "",
+    "alternatives": [
+     "custom-html",
+     "hyperframes"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "AKAL brokerage + LIC#10845",
+     "checkedBy": [
+      "gate+kit"
+     ],
+     "how": "copy.compliance_line (fuzzy vs kit complianceLine) + stills.footer_band",
+     "status": "checkable",
+     "factsInKit": {
+      "LIC#10845": true,
+      "AKAL": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "GTA facts sourced",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "no investment-return promises",
+     "checkedBy": [
+      "critic"
+     ],
+     "how": "judgement item: critic rubric only, no coded check",
+     "status": "judgement",
+     "factsInKit": {},
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [],
+   "notes": [
+    "kit missing fields: video (footage reels allowed?), agent.title, stills (no roster style assigned; needs a group first), city, group, socials",
+    "no group assigned (batch and weekly plans skip this client)",
+    "1 expect item(s) are judgement only (critic, no coded check)"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 2,
+    "judgement": 1,
+    "kitGap": 0
+   },
+   "verdict": "pass",
+   "readiness": "ready"
+  },
+  {
+   "id": "e20",
+   "brief": "graphic reel for Michael Marini on mortgage renewal shock, Toronto",
+   "expect": [
+    "different style than other Toronto clients this week",
+    "logo pending confirmation not used until confirmed",
+    "Toronto numbers dated"
+   ],
+   "client": {
+    "slug": "michael-marini",
+    "how": "matched michael marini, Michael Marini, michael",
+    "candidates": [
+     "michael-marini"
+    ]
+   },
+   "format": "graphic-reel",
+   "kit": {
+    "name": "Michael Marini",
+    "city": "Toronto",
+    "province": "ON",
+    "group": 1,
+    "completeness": 0.923,
+    "video": false,
+    "languages": [
+     "en"
+    ]
+   },
+   "rulesApplied": [],
+   "assetsMissing": [
+    "photo",
+    "logo"
+   ],
+   "engine": {
+    "engine": "films",
+    "hint": "",
+    "alternatives": [
+     "hyperframes",
+     "motion"
+    ],
+    "adapterExists": true,
+    "homeExists": true,
+    "off": false
+   },
+   "expectChecks": [
+    {
+     "item": "different style than other Toronto clients this week",
+     "checkedBy": [
+      "variety+neardup"
+     ],
+     "how": "variety.py (style/device repeat) + neardup.py across siblings",
+     "status": "checkable",
+     "factsInKit": {
+      "Toronto": true
+     },
+     "kitGaps": []
+    },
+    {
+     "item": "logo pending confirmation not used until confirmed",
+     "checkedBy": [
+      "kit+critic"
+     ],
+     "how": "kit missing[]/assets.check; critic confirms placeholders visible",
+     "status": "checkable",
+     "factsInKit": {},
+     "kitGaps": []
+    },
+    {
+     "item": "Toronto numbers dated",
+     "checkedBy": [
+      "checker"
+     ],
+     "how": "checker agent recomputes math[] and sources",
+     "status": "checkable",
+     "factsInKit": {
+      "Toronto": true
+     },
+     "kitGaps": []
+    }
+   ],
+   "blockers": [],
+   "proof": [],
+   "warnings": [
+    "no client photo (brand-only piece; no person shown)",
+    "no logo file",
+    "1 asset(s) need user confirmation before use: logo.png"
+   ],
+   "notes": [
+    "kit missing fields: assets.logos"
+   ],
+   "expectSummary": {
+    "total": 3,
+    "checkable": 3,
+    "judgement": 0,
+    "kitGap": 0
+   },
+   "verdict": "warn",
+   "readiness": "ready"
+  }
+ ],
+ "clients": [
+  {
+   "slug": "abbas",
+   "name": "Abbas",
+   "province": "ON",
+   "group": 3,
+   "still": "blocked",
+   "reel": "proof-only",
+   "footage": "proof-only",
+   "why": [
+    "no footer image in kit assets: every still carries the footer band",
+    "complianceLine is null and province is ON: proof-only (O. Reg. 188/08 s.6)"
+   ]
+  },
+  {
+   "slug": "adrian-biccum",
+   "name": "Adrian Biccum",
+   "province": "ON",
+   "group": 3,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "proof-only",
+   "why": [
+    "complianceLine is null and province is ON: proof-only (O. Reg. 188/08 s.6)"
+   ]
+  },
+  {
+   "slug": "akaalinder-dhaliwal",
+   "name": "Akaalinder Dhaliwal",
+   "province": null,
+   "group": 3,
+   "still": "blocked",
+   "reel": "proof-only",
+   "footage": "proof-only",
+   "why": [
+    "no footer image in kit assets: every still carries the footer band",
+    "complianceLine is null and province is unknown (treated as Ontario): proof-only (O. Reg. 188/08 s.6)"
+   ]
+  },
+  {
+   "slug": "akshat-chauhan",
+   "name": "Akshat Chauhan",
+   "province": "AB",
+   "group": 2,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "al-manji",
+   "name": "Al Manji",
+   "province": "ON",
+   "group": 2,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "amit-khurana",
+   "name": "Amit Khurana",
+   "province": "ON",
+   "group": 2,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "anil-lakhiya",
+   "name": "Anil Lakhiya",
+   "province": null,
+   "group": null,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "proof-only",
+   "why": [
+    "complianceLine is null and province is unknown (treated as Ontario): proof-only (O. Reg. 188/08 s.6)"
+   ]
+  },
+  {
+   "slug": "ariana-learoux",
+   "name": "Ariana Learoux",
+   "province": "AB",
+   "group": 2,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "blocked",
+   "why": [
+    "complianceLine is null (AB): no Ontario rule, but the 19 Nov Keith/Dustin job (AB) was also labelled PROOF and the brokerage line is still needed on every piece"
+   ]
+  },
+  {
+   "slug": "borrowise",
+   "name": "Borrowise",
+   "province": "ON",
+   "group": 2,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "blocked",
+   "why": [
+    "complianceLine is null and province is ON: proof-only (O. Reg. 188/08 s.6)"
+   ]
+  },
+  {
+   "slug": "brian-wang",
+   "name": "Brian Wang",
+   "province": "ON",
+   "group": null,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "byran-peters",
+   "name": "Byran Peters",
+   "province": "ON",
+   "group": 4,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "dan-balch",
+   "name": "Dan Balch",
+   "province": "ON",
+   "group": 4,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "gaurav-makhija",
+   "name": "Gaurav Makhija",
+   "province": "ON",
+   "group": 4,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "georges-madi",
+   "name": "Georges Madi",
+   "province": "QC",
+   "group": 4,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "gregory-hernandez",
+   "name": "Gregory Hernandez",
+   "province": "QC",
+   "group": 1,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "jalal-khan",
+   "name": "Jalal Khan",
+   "province": "BC",
+   "group": 4,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "jim-decoste",
+   "name": "Jim DeCoste",
+   "province": "NS",
+   "group": 1,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "juliet-fernandez",
+   "name": "Juliet Fernandez",
+   "province": "BC",
+   "group": 2,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "karven-wu",
+   "name": "Karven Wu",
+   "province": "ON",
+   "group": 2,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "keaton-thornton-jim-thornton",
+   "name": "Keaton Thornton & Jim Thornton",
+   "province": "ON",
+   "group": 1,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "blocked",
+   "why": [
+    "complianceLine is null and province is ON: proof-only (O. Reg. 188/08 s.6)"
+   ]
+  },
+  {
+   "slug": "keith-crossland-dustin-moss",
+   "name": "Keith Crossland & Dustin Moss",
+   "province": "AB",
+   "group": 1,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "blocked",
+   "why": [
+    "complianceLine is null (AB): no Ontario rule, but the 19 Nov Keith/Dustin job (AB) was also labelled PROOF and the brokerage line is still needed on every piece"
+   ]
+  },
+  {
+   "slug": "krystian-catala",
+   "name": "Krystian Catala",
+   "province": "ON",
+   "group": null,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "kulbhushan-narang",
+   "name": "Kulbhushan Narang",
+   "province": "ON",
+   "group": null,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "michael-marini",
+   "name": "Michael Marini",
+   "province": "ON",
+   "group": 1,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "nav-utppal",
+   "name": "Nav Utppal",
+   "province": "ON",
+   "group": 3,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "rahul-vinod",
+   "name": "Rahul Vinod",
+   "province": "NB",
+   "group": 2,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "ranjit-singh",
+   "name": "Ranjit Singh",
+   "province": "ON",
+   "group": null,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "raoul-hunt",
+   "name": "Raoul Hunt",
+   "province": null,
+   "group": null,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "robert-cheszes",
+   "name": "Robert Cheszes",
+   "province": null,
+   "group": null,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "ready",
+   "why": []
+  },
+  {
+   "slug": "sahil-rihani",
+   "name": "Sahil Rihani",
+   "province": "ON",
+   "group": 1,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  },
+  {
+   "slug": "scott-brouke",
+   "name": "Scott Brouke",
+   "province": "AB",
+   "group": 1,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "blocked",
+   "why": [
+    "complianceLine is null (AB): no Ontario rule, but the 19 Nov Keith/Dustin job (AB) was also labelled PROOF and the brokerage line is still needed on every piece"
+   ]
+  },
+  {
+   "slug": "vittorio-oliverio",
+   "name": "Vittorio Oliverio",
+   "province": "AB",
+   "group": null,
+   "still": "proof-only",
+   "reel": "proof-only",
+   "footage": "proof-only",
+   "why": [
+    "complianceLine is null (AB): no Ontario rule, but the 19 Nov Keith/Dustin job (AB) was also labelled PROOF and the brokerage line is still needed on every piece"
+   ]
+  },
+  {
+   "slug": "wise-equity",
+   "name": "Wise Equity",
+   "province": null,
+   "group": null,
+   "still": "ready",
+   "reel": "ready",
+   "footage": "blocked",
+   "why": []
+  }
+ ]
+}

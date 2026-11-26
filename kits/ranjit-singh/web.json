@@ -1,0 +1,104 @@
+{
+  "url": "https://www.akal.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "akal.ca is the AKAL Mortgages Inc. site, a Mortgage Alliance network brokerage in Mississauga, Ontario, listing licences ON 10845, SK 514018 and NS 3000827. It shows rates, calculators, an online application and a directory of agents. Ranjit Singh does not appear in the team lists that were fetched (the full 'View all brokers' directory sits behind separate pages), so nothing person-specific could be confirmed from the site.",
+  "tagline": null,
+  "yearsInBusiness": null,
+  "specialties": [
+    "Mortgage products and options",
+    "Rates",
+    "Online application",
+    "Calculators"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Ontario",
+    "Saskatchewan",
+    "Nova Scotia"
+  ],
+  "team": [],
+  "licences": [
+    {
+      "label": "Brokerage licence (Ontario)",
+      "value": "10845",
+      "where": "akal.ca header: ON Lic # 10845"
+    },
+    {
+      "label": "Brokerage licence (Saskatchewan)",
+      "value": "514018",
+      "where": "akal.ca header"
+    },
+    {
+      "label": "Brokerage licence (Nova Scotia)",
+      "value": "3000827",
+      "where": "akal.ca header"
+    }
+  ],
+  "brokerage": {
+    "name": "AKAL Mortgages Inc. (Mortgage Alliance network)",
+    "licence": "10845"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "416-621-1300 (brokerage, akalmortgages.com)"
+  ],
+  "emails": [
+    "info@AKALmortgages.com"
+  ],
+  "brandColors": [
+    {
+      "hex": "#a5d282",
+      "where": "light green, most-used on Mortgage Alliance template"
+    },
+    {
+      "hex": "#007167",
+      "where": "teal"
+    },
+    {
+      "hex": "#21515c",
+      "where": "dark teal"
+    }
+  ],
+  "fonts": [
+    "Poppins",
+    "Avenir"
+  ],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "akal.ca robots.txt returns 404 (treated as allow); akalmortgages.com robots disallows only search/wp-json paths. Address: 238 Britannia Road E, Mississauga ON L4Z 1S6.",
+    "Mortgage Alliance profile for Ranjit (https://www.mortgagealliance.com/en/mortgage-broker/RanjitSingh/) returned HTTP 403, so it was not read. Search snippet (check): email ranjitsingh@mortgagealliance.com, phone (647) 518-3690, Lic# 10845 (brokerage).",
+    "Ranjit's own agent licence M23007539 not confirmed on any site. Footer image says Mortgage Agent Level 2.",
+    "Colours/fonts are the Mortgage Alliance platform's, not Ranjit's personal brand."
+  ],
+  "sources": [
+    {
+      "url": "https://www.akal.ca/",
+      "what": "brokerage homepage"
+    },
+    {
+      "url": "https://www.akal.ca/team/",
+      "what": "team list (partial)"
+    },
+    {
+      "url": "https://akalmortgages.com/our-team/",
+      "what": "brokerage team page"
+    }
+  ],
+  "blocked": [
+    "mortgagealliance.com broker profile: HTTP 403"
+  ]
+}

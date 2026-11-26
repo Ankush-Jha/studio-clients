@@ -1,0 +1,495 @@
+{
+ "forClient": "Amit Khurana",
+ "client": "amit-khurana",
+ "format": "Carousel",
+ "size": "1080x1350",
+ "engine": "custom-html",
+ "style": "doorframe-marks",
+ "title": "The Doorframe: three pencil marks to the tape",
+ "hook": "How many hikes until variable costs more?",
+ "hookKicker": "Fixed or variable at renewal",
+ "hookAlts": [
+  "[Exact-number cold open] Variable starts $150 a month cheaper than fixed.",
+  "[Mark the date] December 9 could draw the first pencil mark."
+ ],
+ "mechanic": "Guess-then-reveal plus countdown: slide 1 asks for a pick (1, 2, 3 or 4, answer on slide 6) and slide 2 repeats it for people who land there first; each swipe adds one pencil mark and shrinks the gap ($150, $96, $41); the tape crossing every slide edge and the pencil on slide 5 are the swipe cues. The uninsured note on slide 6 makes '4' a right answer too, which gives guessers a reason to comment.",
+ "slides": [
+  {
+   "n": 1,
+   "role": "hook (also the grid cover)",
+   "kicker": "Fixed or variable at renewal",
+   "headline": "How many hikes until variable costs more?",
+   "body": "Pick 1, 2, 3 or 4. Answer on slide 6.",
+   "labels": [
+    "FIXED 4.34% (marker on the tape)",
+    "VARIABLE 3.65% (pencil, beside the single low mark)",
+    "swipe (pencilled arrow at the right edge, riding the tape)"
+   ],
+   "fine": "Rates as of Nov 18, 2026.",
+   "numbers": [
+    {
+     "token": "{FIXED_RATE}",
+     "value": "4.34%"
+    },
+    {
+     "token": "{VAR_RATE}",
+     "value": "3.65%"
+    },
+    {
+     "token": "{RATE_DATE}",
+     "value": "Nov 18, 2026"
+    }
+   ],
+   "visual": "Tall white-painted door casing right of centre on warm plaster (#F5F2EA, feTurbulence grain, soft cast shadow to the left). Cream masking tape runs horizontally at y 470 across the full slide width and bleeds off both edges; 'FIXED 4.34%' in navy marker on the tape. One lonely graphite mark far below at y 995 with 'VARIABLE 3.65%' pencilled beside it. Kicker top-left in Instrument Sans caps, navy; headline in Fraunces (SOFT 50, WONK on) ~96 px, set left in the open wall space above the tape so the 3:4 grid crop (x 34-1046) keeps every word. The 'Pick 1, 2, 3 or 4' line sits between tape and mark like a question written on the wall. Pencilled arrow 'swipe' at x 960-1040 on the tape line. No logo on this slide.",
+   "words": 27,
+   "text": "How many hikes until variable costs more? Pick 1, 2, 3 or 4. Answer on slide 6."
+  },
+  {
+   "n": 2,
+   "role": "second hook (stands alone if shown first)",
+   "kicker": "Illustrative example",
+   "headline": "In 2021 this mortgage cost $2,139 a month.",
+   "body": "A Mississauga renewal: $420,000 left, 20 years to go. Fixed or variable, the payment goes up.",
+   "labels": [
+    "2021 · 2.09% · $2,139 (faded old pencil mark)",
+    "Guess before slide 6: 1, 2, 3 or 4 hikes?"
+   ],
+   "fine": "Illustrative: $500,000 at 2.09%, 25-year amortization, 2021. Balance after 5 years ≈ $419,600, rounded to $420,000.",
+   "numbers": [
+    {
+     "token": "{PMT_2021}",
+     "value": "$2,139"
+    },
+    {
+     "token": "{RATE_2021}",
+     "value": "2.09%"
+    },
+    {
+     "token": "{BALANCE}",
+     "value": "$420,000"
+    },
+    {
+     "token": "{AMORT_LEFT}",
+     "value": "20 years"
+    }
+   ],
+   "visual": "Close-up lower down the same casing: an old, faded pencil mark '2021 · 2.09% · $2,139' with a thumb smudge, the kind of mark a family drew years ago. A pencilled scale-break squiggle (≈) on the casing above it shows the frame continues up toward the tape, which shows as a thin cream strip at the very top edge so the device still crosses the slide. 'Illustrative example' as a small pencilled tag. The guess line in pencil at the bottom of the open wall, above the compliance line.",
+   "words": 39,
+   "text": "In 2021 this mortgage cost $2,139 a month. A Mississauga renewal: $420,000 left, 20 years to go. Fixed or variable, the payment goes up."
+  },
+  {
+   "n": 3,
+   "role": "point: today's two lines",
+   "kicker": "Renewing today",
+   "headline": "Variable starts $150 a month cheaper.",
+   "body": "Fixed 4.34%: $2,612 a month. Variable 3.65%: $2,462. Both are up from $2,139.",
+   "labels": [
+    "$2,612 (on the tape)",
+    "$2,462 (pencil mark)",
+    "$150 (carpenter's tape-measure tick between them)"
+   ],
+   "fine": "Insured 5-year rates advertised on Ratehub, Nov 18, 2026. Market reference, not an offer.",
+   "numbers": [
+    {
+     "token": "{PMT_FIXED}",
+     "value": "$2,612"
+    },
+    {
+     "token": "{PMT_VAR_0}",
+     "value": "$2,462"
+    },
+    {
+     "token": "{GAP_0}",
+     "value": "$150"
+    }
+   ],
+   "visual": "Wide view, tape back at y 470 with '$2,612' written on it. The variable mark at y 995 reads '$2,462'. A strip of yellow carpenter's tape measure lies vertically against the casing between the two, its numbers replaced by a single bracket reading '$150'. Scale for the whole set: 3.5 px per $1 of monthly payment, tape fixed at y 470.",
+   "words": 24,
+   "text": "Variable starts $150 a month cheaper. Fixed 4.34%: $2,612 a month. Variable 3.65%: $2,462. Both are up from $2,139."
+  },
+  {
+   "n": 4,
+   "role": "mark 1, both outcomes",
+   "kicker": "Mark one · 20 days away",
+   "headline": "The Bank of Canada decides December 9.",
+   "body": "Hike: variable goes to $2,516. Hold: it stays at $2,462. Either way, it's still under the tape.",
+   "labels": [
+    "IF HIKE · $96 to go",
+    "IF HOLD · $150 to go"
+   ],
+   "fine": "The Bank raised its rate on Oct 28, 2026. A hike assumes the full 0.25% reaches prime.",
+   "numbers": [
+    {
+     "token": "{PMT_VAR_1}",
+     "value": "$2,516"
+    },
+    {
+     "token": "{GAP_1}",
+     "value": "$96"
+    },
+    {
+     "token": "{PMT_VAR_0}",
+     "value": "$2,462"
+    },
+    {
+     "token": "{GAP_0}",
+     "value": "$150"
+    },
+    {
+     "token": "{DAYS_TO_DEC9}",
+     "value": "20"
+    }
+   ],
+   "visual": "Two pencil marks drawn side by side, like twins measured on the same day: 'IF HIKE' at y 806 and 'IF HOLD' at y 995, each with its own small gap tick up to the tape. Tape still at y 470, crossing both edges. No odds or percentages anywhere.",
+   "words": 39,
+   "text": "The Bank of Canada decides December 9. Hike: variable goes to $2,516. Hold: it stays at $2,462. Either way, it's still under the tape."
+  },
+  {
+   "n": 5,
+   "role": "mark 2 (re-hook, foreshadow)",
+   "kicker": "Hike two",
+   "headline": "A second hike: $2,571.",
+   "body": "But variable is still $41 under fixed. One more mark and it reaches the tape.",
+   "labels": [
+    "$2,571 (new mark)",
+    "$41 to go"
+   ],
+   "fine": "Each 0.25% adds about $54 a month on this mortgage.",
+   "numbers": [
+    {
+     "token": "{PMT_VAR_2}",
+     "value": "$2,571"
+    },
+    {
+     "token": "{GAP_2}",
+     "value": "$41"
+    },
+    {
+     "token": "{PER_HIKE}",
+     "value": "$54"
+    }
+   ],
+   "visual": "Marks one and two stacked on the casing (y 995 faded, y 806, new mark at y 614). The gap tick to the tape is now short: '$41 to go'. A sharpened yellow pencil lies across the trim at a slight angle, its tip crossing the right edge into slide 6 (swipe cue).",
+   "words": 25,
+   "text": "A second hike: $2,571. But variable is still $41 under fixed. One more mark and it reaches the tape."
+  },
+  {
+   "n": 6,
+   "role": "reveal",
+   "kicker": "The answer",
+   "headline": "3",
+   "body": "The third hike takes variable to $2,626 a month, $14 more than fixed.",
+   "labels": [
+    "4.34 − 3.65 = 0.69 gap. 0.69 ÷ 0.25 = 2.76, so hike 3 crosses.",
+    "Uninsured renewal? 4.95% vs 4.10% (nesto, Nov 19): 0.85 ÷ 0.25 = 3.4, so hike 4."
+   ],
+   "fine": "Variable at 4.40% after three 0.25% hikes. Illustrative.",
+   "numbers": [
+    {
+     "token": "{HIKES_INSURED}",
+     "value": "3"
+    },
+    {
+     "token": "{PMT_VAR_3}",
+     "value": "$2,626"
+    },
+    {
+     "token": "{OVER_3}",
+     "value": "$14"
+    },
+    {
+     "token": "{RATE_GAP}",
+     "value": "0.69"
+    },
+    {
+     "token": "{HIKES_UNINSURED}",
+     "value": "4"
+    }
+   ],
+   "visual": "The third mark in burgundy #8F022A slices through the tape at y 421; the tape is cut and one end lifts slightly with a real shadow. Giant '3' in Fraunces (black weight, pencil-grain texture fill) in the wall space left of the frame. The working is pencilled small on the casing. The uninsured line sits in a pencilled box like a note added later, so people who guessed 4 have a reason to comment.",
+   "words": 41,
+   "text": "3 The third hike takes variable to $2,626 a month, $14 more than fixed."
+  },
+  {
+   "n": 7,
+   "role": "save recap",
+   "kicker": "Save this",
+   "headline": "5 years of interest, 4 paths",
+   "body": "Rates hold: $69,300. One hike Dec 9: $74,100. Three hikes in 6 months: $83,100. Fixed 4.34%: $82,800.",
+   "labels": [
+    "Your count: (your fixed − your variable) ÷ 0.25, round up."
+   ],
+   "fine": "Illustrative example. Insured, $420,000 balance, 20-year amortization, 5-year term, adjustable-payment variable, semi-annual compounding. APR [TODO: brokerage]. Payment re-set at each change. Rates Nov 18, 2026.",
+   "numbers": [
+    {
+     "token": "{INT_HOLD}",
+     "value": "$69,300"
+    },
+    {
+     "token": "{INT_1HIKE}",
+     "value": "$74,100"
+    },
+    {
+     "token": "{INT_3HIKES}",
+     "value": "$83,100"
+    },
+    {
+     "token": "{INT_FIXED}",
+     "value": "$82,800"
+    }
+   ],
+   "visual": "The three variable totals pencilled as a tally down the casing, each beside its mark height; the fixed total written in marker on the tape. The 'three hikes' line is the one burgundy entry. The formula is pencilled at the foot of the frame like a note to self, the most screenshot-able line in the set.",
+   "words": 34,
+   "text": "5 years of interest, 4 paths Rates hold: $69,300. One hike Dec 9: $74,100. Three hikes in 6 months: $83,100. Fixed 4.34%: $82,800."
+  },
+  {
+   "n": 8,
+   "role": "CTA (send)",
+   "kicker": "Renewal · Mississauga & GTA",
+   "headline": "Fixed comes out ahead only if about three hikes come early and stay.",
+   "body": "Send this to whoever signs the renewal with you.",
+   "labels": [
+    "(Uninsured: about four.)",
+    "Amit Khurana · Refinance & renewal"
+   ],
+   "fine": "Illustrative; if rates fall, variable gets cheaper still.",
+   "numbers": [
+    {
+     "token": "{HIKES_INSURED}",
+     "value": "three"
+    },
+    {
+     "token": "{HIKES_UNINSURED}",
+     "value": "four"
+    }
+   ],
+   "visual": "Pulled back: the whole casing with every mark, the burgundy cut and the tape, the composition of slide 1 completed (loop). Headline in Fraunces on the open wall, send line in Instrument Sans semibold beneath. Logo (kit logo.png, unboxed) small on the wall. Amit appears through the kit footer only: photo.png is 305x188, below the 600 px minimum, so no cut-out portrait beside the frame.",
+   "words": 29,
+   "text": "Fixed comes out ahead only if about three hikes come early and stay. Send this to whoever signs the renewal with you."
+  }
+ ],
+ "beats": [
+  {
+   "t": "slide 1",
+   "visual": "Tall white-painted door casing right of centre on warm plaster (#F5F2EA, feTurbulence grain, soft cast shadow to the left). Cream masking tape runs horizontally at y 470 across the full slide width and bleeds off both edges; 'FIXED 4.34%' in navy marker on the tape. One lonely graphite mark far below at y 995 with 'VARIABLE 3.65%' pencilled beside it. Kicker top-left in Instrument Sans caps, navy; headline in Fraunces (SOFT 50, WONK on) ~96 px, set left in the open wall space above the tape so the 3:4 grid crop (x 34-1046) keeps every word. The 'Pick 1, 2, 3 or 4' line sits between tape and mark like a question written on the wall. Pencilled arrow 'swipe' at x 960-1040 on the tape line. No logo on this slide.",
+   "text": "How many hikes until variable costs more? Pick 1, 2, 3 or 4. Answer on slide 6.",
+   "voice": null
+  },
+  {
+   "t": "slide 2",
+   "visual": "Close-up lower down the same casing: an old, faded pencil mark '2021 · 2.09% · $2,139' with a thumb smudge, the kind of mark a family drew years ago. A pencilled scale-break squiggle (≈) on the casing above it shows the frame continues up toward the tape, which shows as a thin cream strip at the very top edge so the device still crosses the slide. 'Illustrative example' as a small pencilled tag. The guess line in pencil at the bottom of the open wall, above the compliance line.",
+   "text": "In 2021 this mortgage cost $2,139 a month. A Mississauga renewal: $420,000 left, 20 years to go. Fixed or variable, the payment goes up.",
+   "voice": null
+  },
+  {
+   "t": "slide 3",
+   "visual": "Wide view, tape back at y 470 with '$2,612' written on it. The variable mark at y 995 reads '$2,462'. A strip of yellow carpenter's tape measure lies vertically against the casing between the two, its numbers replaced by a single bracket reading '$150'. Scale for the whole set: 3.5 px per $1 of monthly payment, tape fixed at y 470.",
+   "text": "Variable starts $150 a month cheaper. Fixed 4.34%: $2,612 a month. Variable 3.65%: $2,462. Both are up from $2,139.",
+   "voice": null
+  },
+  {
+   "t": "slide 4",
+   "visual": "Two pencil marks drawn side by side, like twins measured on the same day: 'IF HIKE' at y 806 and 'IF HOLD' at y 995, each with its own small gap tick up to the tape. Tape still at y 470, crossing both edges. No odds or percentages anywhere.",
+   "text": "The Bank of Canada decides December 9. Hike: variable goes to $2,516. Hold: it stays at $2,462. Either way, it's still under the tape.",
+   "voice": null
+  },
+  {
+   "t": "slide 5",
+   "visual": "Marks one and two stacked on the casing (y 995 faded, y 806, new mark at y 614). The gap tick to the tape is now short: '$41 to go'. A sharpened yellow pencil lies across the trim at a slight angle, its tip crossing the right edge into slide 6 (swipe cue).",
+   "text": "A second hike: $2,571. But variable is still $41 under fixed. One more mark and it reaches the tape.",
+   "voice": null
+  },
+  {
+   "t": "slide 6",
+   "visual": "The third mark in burgundy #8F022A slices through the tape at y 421; the tape is cut and one end lifts slightly with a real shadow. Giant '3' in Fraunces (black weight, pencil-grain texture fill) in the wall space left of the frame. The working is pencilled small on the casing. The uninsured line sits in a pencilled box like a note added later, so people who guessed 4 have a reason to comment.",
+   "text": "3 The third hike takes variable to $2,626 a month, $14 more than fixed.",
+   "voice": null
+  },
+  {
+   "t": "slide 7",
+   "visual": "The three variable totals pencilled as a tally down the casing, each beside its mark height; the fixed total written in marker on the tape. The 'three hikes' line is the one burgundy entry. The formula is pencilled at the foot of the frame like a note to self, the most screenshot-able line in the set.",
+   "text": "5 years of interest, 4 paths Rates hold: $69,300. One hike Dec 9: $74,100. Three hikes in 6 months: $83,100. Fixed 4.34%: $82,800.",
+   "voice": null
+  },
+  {
+   "t": "slide 8",
+   "visual": "Pulled back: the whole casing with every mark, the burgundy cut and the tape, the composition of slide 1 completed (loop). Headline in Fraunces on the open wall, send line in Instrument Sans semibold beneath. Logo (kit logo.png, unboxed) small on the wall. Amit appears through the kit footer only: photo.png is 305x188, below the 600 px minimum, so no cut-out portrait beside the frame.",
+   "text": "Fixed comes out ahead only if about three hikes come early and stay. Send this to whoever signs the renewal with you.",
+   "voice": null
+  }
+ ],
+ "cover": "Slide 1 is the grid cover. Cover line: 'How many hikes until variable costs more?' with kicker 'Fixed or variable at renewal'. Every word inside x 60-1020 so the 3:4 profile crop (x 34-1046) keeps it; tape and the single low mark must read at 260 px wide. No logo.",
+ "caption": "Fixed or variable at renewal: it takes three quarter-point hikes before variable costs more than fixed (insured rates, Nov 18).\nAmit Khurana, Mortgage Agent Level 2 · Lic. M12000871 · Centum Indigo Mortgages Corp. · Brokerage Lic. #12141\n\nIllustrative Mississauga renewal: $420,000 left on a 20-year amortization. The insured 5-year fixed at 4.34% works out to about $2,612 a month. Variable at 3.65% (prime 4.70% minus 1.05%) is about $2,462, so variable starts $150 a month lower.\n\nEach 0.25% hike adds about $54 a month on this mortgage. After two hikes variable is still $41 cheaper. The third takes it to $2,626, past fixed.\n\nThe Bank of Canada raised its rate on Oct 28 and decides again on Dec 9. Fixed rates follow bond yields, so they can move before then too.\n\nOver five years of interest: if rates hold, about $69,300 on variable. One hike that sticks, about $74,100. Three hikes in the first six months, about $83,100. Fixed, about $82,800. If rates fall, variable gets cheaper still. Fixed gives you a payment that can't move, which may suit a tight budget.\n\nUninsured renewals are priced higher and the gap is wider. nesto showed 4.95% fixed and 4.10% variable on Nov 19, a 0.85-point gap, so it takes four hikes.\n\nYour own number: take the fixed and variable rates on your renewal offer, subtract, divide by 0.25 and round up.\n\nSend this to whoever signs the renewal with you.\n\nIllustrative, not an offer. Insured 5-year rates advertised on Ratehub, Nov 18, 2026 (variable = prime 4.70% minus 1.05%); uninsured rates from nesto, Nov 19, 2026. 5-year term, APR [to be confirmed by the brokerage]. $420,000 balance, 20-year amortization, adjustable-payment variable with the payment re-set at each change, semi-annual compounding, each hike assumed to pass through in full. 2021 example: $500,000 at 2.09%, 25 years. Rates change daily and depend on your situation; subject to approval.",
+ "hashtags": [
+  "#MortgageRenewal",
+  "#FixedVsVariable",
+  "#MississaugaMortgage",
+  "#GTAMortgage",
+  "#OntarioMortgage"
+ ],
+ "cta": "Send this to whoever signs the renewal with you.",
+ "ctaType": "send",
+ "sendTest": "One partner forwards it to the other the week the renewal letter arrives, with 'it takes three hikes, let's look before we sign.' Second path: a GTA homeowner sends it to a sibling or friend who renewed variable this year and keeps asking whether to lock in.",
+ "math": [
+  {
+   "claim": "2021 payment $2,139 (illustrative origin)",
+   "working": "$500,000, 2.09%, 25 yrs, semi-annual: i=(1+0.0209/2)^(1/6)-1; P=500000*i/(1-(1+i)^-300)",
+   "result": "$2,139.03"
+  },
+  {
+   "claim": "Balance after 5 years ≈ $420,000",
+   "working": "same loan, balance after 60 payments",
+   "result": "$419,643.53, rounded to $420,000"
+  },
+  {
+   "claim": "Fixed 4.34% = $2,612/mo",
+   "working": "$420,000, 240 months, semi-annual compounding",
+   "result": "$2,612.29 (+$473 vs 2021)"
+  },
+  {
+   "claim": "Variable 3.65% = $2,462/mo",
+   "working": "same formula (monthly compounding would give $2,468.33)",
+   "result": "$2,462.36"
+  },
+  {
+   "claim": "Starts $150 cheaper",
+   "working": "$2,612.29 - $2,462.36",
+   "result": "$149.92, shown $150"
+  },
+  {
+   "claim": "Hike 1: 3.90% = $2,516, $96 to go",
+   "working": "pmt at 3.90%; $2,612.29 - $2,516.15",
+   "result": "$2,516.15; $96.14"
+  },
+  {
+   "claim": "Each 0.25% ≈ $54/mo",
+   "working": "$2,516.15 - $2,462.36",
+   "result": "$53.79 (≈ $12.81 per $100K over 20 yrs; PLAYBOOK $13-14 is for 25 yrs)"
+  },
+  {
+   "claim": "Hike 2: 4.15% = $2,571, $41 to go",
+   "working": "pmt at 4.15% = $2,570.54; on-screen gap uses shown figures $2,612 - $2,571",
+   "result": "$41 shown (exact $41.74)"
+  },
+  {
+   "claim": "Hike 3: 4.40% = $2,626, $14 over fixed",
+   "working": "pmt at 4.40% = $2,625.54; on-screen gap uses shown figures $2,626 - $2,612",
+   "result": "$14 shown (exact $13.25)"
+  },
+  {
+   "claim": "Insured hike count = 3",
+   "working": "4.34 - 3.65 = 0.69; 0.69 / 0.25 = 2.76; round up",
+   "result": "3"
+  },
+  {
+   "claim": "Uninsured hike count = 4",
+   "working": "nesto Nov 19: 4.95 - 4.10 = 0.85; 0.85 / 0.25 = 3.4; round up. Check: 4.85% var $2,726.01 < 4.95% fixed $2,748.60; 5.10% var $2,782.65 > fixed",
+   "result": "4"
+  },
+  {
+   "claim": "5-year interest, fixed 4.34%",
+   "working": "60-month schedule, $420,000, 240 months",
+   "result": "$82,792, shown $82,800"
+  },
+  {
+   "claim": "5-year interest, variable hold 3.65%",
+   "working": "60-month schedule",
+   "result": "$69,302, shown $69,300"
+  },
+  {
+   "claim": "5-year interest, one hike that sticks (3.90% from month 2)",
+   "working": "payment re-set on remaining amortization at the change",
+   "result": "$74,086, shown $74,100"
+  },
+  {
+   "claim": "5-year interest, three hikes in 6 months (3.90% m2, 4.15% m4, 4.40% m6)",
+   "working": "payment re-set at each change",
+   "result": "$83,144, shown $83,100 (fixed ahead by about $350)"
+  },
+  {
+   "claim": "Uninsured 5-year interest (caption context, not on slides)",
+   "working": "fixed 4.95% $94,798; var hold 4.10% $78,088; three hikes by m6 $91,997; four hikes by m8 $96,290",
+   "result": "fixed comes out ahead only at about four early hikes"
+  },
+  {
+   "claim": "Prime 4.70%; variable = prime - 1.05%",
+   "working": "4.70 - 1.05",
+   "result": "3.65%"
+  },
+  {
+   "claim": "Days to the Dec 9 decision",
+   "working": "Nov 19 to Dec 9, 2026",
+   "result": "20 days"
+  },
+  {
+   "claim": "Dates",
+   "working": "Oct 28, 2026 and Dec 9, 2026 are both Wednesdays; Valet V39079 shows 2.25% to 2.50% effective Oct 29",
+   "result": "verified"
+  }
+ ],
+ "sources": [
+  {
+   "what": "Insured 5-yr fixed 4.34%, 5-yr variable 3.65% (P-1.05), 'as of Nov 18, 2026 6:20 p.m.'",
+   "url": "https://www.ratehub.ca/best-mortgage-rates",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "Uninsured renewal rates 4.95% fixed / 4.10% variable; prime 4.70% after the Oct 28 hike",
+   "url": "https://www.nesto.ca/mortgage-rates/",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "Overnight target 2.50% since Oct 29, 2026 (2.25% before)",
+   "url": "https://www.bankofcanada.ca/valet/observations/V39079/json?recent=60",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "Next decision Wed Dec 9, 2026",
+   "url": "https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/",
+   "checked": "2026-11-19 (concept stage)"
+  }
+ ],
+ "whyThisClient": "Amit's site lists refinance and renewal as a specialty and he serves Mississauga and the GTA, where the pandemic-era 5-year fixed renewal wave lands hardest (BoC FSR). The Oct 28 hike made 'should I lock in' a top Canadian search this week, and most renewal posts either predict Dec 9 or show two rates side by side. This one gives a GTA renewer a count they can check against their own offer, and the uninsured note fits how many GTA owners actually renew. The doorframe device is unused in the radar and the library.",
+ "researchIds": [
+  "boc-hike-oct28-dec9",
+  "fixed-vs-variable-bond-yields",
+  "renewal-wave-2026-27",
+  "rates-snapshot-valet"
+ ],
+ "complianceNotes": [
+  "Ontario O. Reg. 188/08 s.6: the kit footer shows Amit's name, title and both licence numbers but not the brokerage name, so the verbatim complianceLine text goes above the footer on all 8 slides (>= 20 px) and in caption line 2.",
+  "O. Reg. 191/08 s.18: the rates are third-party market references (Ratehub, nesto), labelled 'market reference, not an offer' with the 5-year term. APR placeholder kept visible on slide 7 and in the caption until the broker of record confirms wording; do not post with the TODO tag.",
+  "No 'lowest' or 'best rate' wording anywhere, including source lines (rephrased to 'advertised on Ratehub').",
+  "No Dec 9 odds on screen or in the caption (single-tracker figure); both outcomes shown on slide 4.",
+  "Fixed rates are described as following bond yields; the Bank of Canada is never said to move fixed rates.",
+  "Every number labelled illustrative; payment type (adjustable-payment variable) and compounding stated; story mortgage is a labelled composite, no real client.",
+  "Rate premise expires on Dec 9 (the decision changes prime either way): re-render with new rates or retire after Dec 9; hard review Dec 18 (30 days).",
+  "Carousel, no voiceover: no AI label needed. Add a Meta Sound Collection track when posting (no licensed songs)."
+ ],
+ "needs": [
+  "APR wording from the broker of record for third-party rate references (slide 7 and caption tag).",
+  "A headshot of at least 600 px on the short side if the planned 'Amit beside the frame' slide 8 is wanted; kit photo.png is 305x188, so slide 8 uses the footer portrait only.",
+  "Brokerage name check: kit/logo say 'Centum Indigo Mortgages Corp.', the website says 'CENTUM Indigo Mortgage Corp.'; the compliance line uses the kit/logo/licence form.",
+  "Brand colours are provisional (website-derived navy #003047, burgundy #8F022A).",
+  "Re-check Ratehub and nesto rates on render day; if the gap moves past 0.75 the insured answer becomes 4 and slides 5-8 change."
+ ],
+ "design": {
+  "palette": "Plaster #F5F2EA wall, white casing, cream tape #EFE6CF, graphite #4A4A48 marks, navy #003047 type and marker, burgundy #8F022A only for the crossing mark and the 'three hikes' recap line",
+  "type": {
+   "display": "Fraunces[SOFT,WONK,opsz,wght].ttf",
+   "body": "InstrumentSans[wdth,wght].ttf",
+   "pencil": "NanumPenScript-Regular.ttf for pencilled labels only (fallback IBM Plex Mono small caps)"
+  },
+  "scale": "3.5 px per $1 of monthly payment; tape (fixed $2,612) at y 470 on slides 1, 3-8; hold y 995, hike 1 y 806, hike 2 y 614, hike 3 y 421",
+  "safe": "text inside x 64-1016, above the compliance line; footer 1080x188 at y 1162-1350",
+  "minSizes": "body >= 28 px, labels >= 26 px pencil, fine print >= 20 px"
+ },
+ "fr": null,
+ "group": 2,
+ "rateAsOf": "2026-11-18",
+ "expires": "2026-12-09",
+ "job": "2026-11-19-amit-khurana-fixed-or-variable-at-renewal",
+ "chosen": "A",
+ "gateNotes": "g1: insured main path; uninsured gap stated honestly (slide 6, slide 8, caption, math); CTA = send.",
+ "reviewBy": "2026-12-09"
+}

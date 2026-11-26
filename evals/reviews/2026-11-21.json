@@ -1,0 +1,44 @@
+[
+ {
+  "test": "intel.pattern_precision",
+  "value": 100.0,
+  "sample": "Re-audit after rule fix: all 6 housing-crash examples + 3 random festive examples (seed 42); pre-fix audit was 14.5/18 = 0.81",
+  "verdict": "pass",
+  "notes": "Fixed in patterns.mjs: festive now requires a named festival/season term; hidden-tax requires bill/owe/withhold/CRA wording; money-story requires a person + loss/gain twist; housing-crash requires housing context and excludes stock-market posts. Hidden-tax and money-story dropped below the evidence bar (need >=3 posts from >=2 accounts), leaving 7 patterns."
+ },
+ {
+  "test": "kits.fact_accuracy",
+  "value": 100.0,
+  "sample": "6 random kits with web.json (seed 5): scott-brouke, jalal-khan, adrian-biccum, rahul-vinod, anil-lakhiya, abbas",
+  "verdict": "pass",
+  "notes": "Accuracy: 4/4 checkable kits match their website (brokerage, licence numbers). Coverage gap: 3/6 have no complianceLine (scott-brouke AB, adrian-biccum ON - brokerage not on site, likely MFCO unconfirmed, anil-lakhiya). abbas unidentifiable without surname. Phone conflicts flagged correctly (jalal-khan, adrian-biccum)."
+ },
+ {
+  "test": "creative.critic_agreement",
+  "value": 100.0,
+  "sample": "22 numeric rubric line scores, round-2 critiques of the Amit and Dan carousels (reel not re-watched)",
+  "verdict": "warn",
+  "notes": "All within 1 point, but the critic is lenient on craft: Amit craft 5 while the user's Gate 2 note says the graphics look off; Dan thumb-stop 4 and craft 4 where the orchestrator would give 3 (ABC block reads as placeholder). Tighten rubric line 6 (craft) wording and require one concrete weakness per piece."
+ },
+ {
+  "test": "creative.concept_distinct",
+  "value": 100.0,
+  "sample": "3 Gate 1 sets (Amit, Dan, Keith & Dustin)",
+  "verdict": "pass",
+  "notes": "Every set differs in style and device: doorframe/magazine/envelopes; broadsheet/paper-trail/split-flap; transit-map/halftone-dossier/instruction-manual."
+ },
+ {
+  "test": "intel.visual_tag_accuracy",
+  "value": 95.0,
+  "sample": "10 random vision-labelled posts (seed 99), audited independently by the orchestrator against thumbnails",
+  "verdict": "pass",
+  "notes": "Structural fields (format, faces, text, number, arrow): 49.5/50. Emotion: 8/10 (yt-G6Ie4VWlfPo shock->concern; ig-DfPyVMPMLJw neutral->joy). #3 ig-DfngTAsOGoA whiteboard walk tagged talking-head (debatable). Treat emotion findings as low-confidence."
+ },
+ {
+  "test": "radar.discovery_relevance",
+  "value": 100.0,
+  "sample": "10 random discovery-added accounts (seed 8)",
+  "verdict": "pass",
+  "notes": "All 10 Canadian real-estate/mortgage channels (ON 5, QC 3, BC 1, NS 1), 4 French-language. Smallest: Flavia da Silva, mortgage broker, 399 subs (local relevance). segment field empty on these rows (discover.mjs writes it to candidates.json only) - minor."
+ }
+]

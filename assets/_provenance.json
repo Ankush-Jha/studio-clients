@@ -1,0 +1,737 @@
+{
+ "source": "Google Sheet export (xlsx) downloaded 2026-11-19 from the URL in clients.json meta",
+ "orphans": [
+  {
+   "src": "image60.png",
+   "what": "Elite/Platinum badges + Maritime Mortgage Group logo",
+   "note": "owner unclear (maybe Rahul Vinod, Moncton NB)"
+  }
+ ],
+ "clients": {
+  "kulbhushan-narang": [
+   {
+    "file": "assets/kulbhushan-narang/photo.png",
+    "kind": "photo",
+    "src": "image92.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/kulbhushan-narang/footer.png",
+    "kind": "footer",
+    "src": "image65.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/kulbhushan-narang/logo.png",
+    "kind": "logo",
+    "src": "image71.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "sahil-rihani": [
+   {
+    "file": "assets/sahil-rihani/photo.png",
+    "kind": "photo",
+    "src": "image49.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/sahil-rihani/footer.png",
+    "kind": "footer",
+    "src": "image85.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/sahil-rihani/logo.png",
+    "kind": "logo",
+    "src": "image55.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "anil-lakhiya": [
+   {
+    "file": "assets/anil-lakhiya/photo.png",
+    "kind": "photo",
+    "src": "image31.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/anil-lakhiya/footer.png",
+    "kind": "footer",
+    "src": "image32.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/anil-lakhiya/logo.png",
+    "kind": "logo",
+    "src": "image46.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "juliet-fernandez": [
+   {
+    "file": "assets/juliet-fernandez/photo.png",
+    "kind": "photo",
+    "src": "image12.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/juliet-fernandez/footer.png",
+    "kind": "footer",
+    "src": "image34.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/juliet-fernandez/logo.png",
+    "kind": "logo",
+    "src": "image28.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "ariana-learoux": [
+   {
+    "file": "assets/ariana-learoux/photo.png",
+    "kind": "photo",
+    "src": "image2.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/ariana-learoux/footer.png",
+    "kind": "footer",
+    "src": "image44.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/ariana-learoux/logo.png",
+    "kind": "logo",
+    "src": "image13.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "robert-cheszes": [
+   {
+    "file": "assets/robert-cheszes/photo.png",
+    "kind": "photo",
+    "src": "image9.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/robert-cheszes/footer.png",
+    "kind": "footer",
+    "src": "image80.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/robert-cheszes/logo.png",
+    "kind": "logo",
+    "src": "image10.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "adrian-biccum": [
+   {
+    "file": "assets/adrian-biccum/photo.png",
+    "kind": "photo",
+    "src": "image45.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/adrian-biccum/footer.png",
+    "kind": "footer",
+    "src": "image95.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/adrian-biccum/logo.png",
+    "kind": "logo",
+    "src": "image25.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "byran-peters": [
+   {
+    "file": "assets/byran-peters/photo.png",
+    "kind": "photo",
+    "src": "image78.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/byran-peters/footer.png",
+    "kind": "footer",
+    "src": "image70.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/byran-peters/logo.png",
+    "kind": "logo",
+    "src": "image30.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "amit-khurana": [
+   {
+    "file": "assets/amit-khurana/photo.png",
+    "kind": "photo",
+    "src": "image17.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/amit-khurana/footer.png",
+    "kind": "footer",
+    "src": "image39.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/amit-khurana/logo.png",
+    "kind": "logo",
+    "src": "image8.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "raoul-hunt": [
+   {
+    "file": "assets/raoul-hunt/photo.png",
+    "kind": "photo",
+    "src": "image67.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/raoul-hunt/footer.png",
+    "kind": "footer",
+    "src": "image18.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/raoul-hunt/logo.png",
+    "kind": "logo",
+    "src": "image54.png",
+    "confidence": "verified",
+    "note": "Tango Ontario LIC#13691 / huntformortgages.com, his own domain"
+   },
+   {
+    "file": "assets/raoul-hunt/logo-2.png",
+    "kind": "logo",
+    "src": "image64.png",
+    "confidence": "verified",
+    "note": "Tango Ontario LIC#13691 / huntformortgages.com, his own domain"
+   }
+  ],
+  "al-manji": [
+   {
+    "file": "assets/al-manji/photo.png",
+    "kind": "photo",
+    "src": "image86.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/al-manji/footer.png",
+    "kind": "footer",
+    "src": "image50.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/al-manji/logo.png",
+    "kind": "logo",
+    "src": "image26.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   },
+   {
+    "file": "assets/al-manji/logo-2.png",
+    "kind": "logo",
+    "src": "image41.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "dan-balch": [
+   {
+    "file": "assets/dan-balch/photo.png",
+    "kind": "photo",
+    "src": "image27.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/dan-balch/footer.png",
+    "kind": "footer",
+    "src": "image5.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/dan-balch/logo.png",
+    "kind": "logo",
+    "src": "image1.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "gaurav-makhija": [
+   {
+    "file": "assets/gaurav-makhija/photo.png",
+    "kind": "photo",
+    "src": "image59.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/gaurav-makhija/footer.png",
+    "kind": "footer",
+    "src": "image35.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/gaurav-makhija/logo.png",
+    "kind": "logo",
+    "src": "image52.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "gregory-hernandez": [
+   {
+    "file": "assets/gregory-hernandez/photo.png",
+    "kind": "photo",
+    "src": "image74.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/gregory-hernandez/footer.png",
+    "kind": "footer",
+    "src": "image79.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/gregory-hernandez/logo.png",
+    "kind": "logo",
+    "src": "image62.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "jim-decoste": [
+   {
+    "file": "assets/jim-decoste/footer.png",
+    "kind": "footer",
+    "src": "image7.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/jim-decoste/logo.png",
+    "kind": "logo",
+    "src": "image43.png",
+    "confidence": "verified",
+    "note": "Dominion Lending, matches his email domain"
+   }
+  ],
+  "karven-wu": [
+   {
+    "file": "assets/karven-wu/footer.png",
+    "kind": "footer",
+    "src": "image87.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/karven-wu/footer-alt.png",
+    "kind": "footer",
+    "src": "image33.png",
+    "confidence": "verified",
+    "note": "light version of his footer"
+   },
+   {
+    "file": "assets/karven-wu/logo.png",
+    "kind": "logo",
+    "src": "image68.png",
+    "confidence": "verified",
+    "note": "Caliber Mortgage, his brokerage per sheet"
+   },
+   {
+    "file": "assets/karven-wu/logo-2.png",
+    "kind": "logo",
+    "src": "image77.png",
+    "confidence": "verified",
+    "note": "Dominion Lending Centres, per sheet"
+   }
+  ],
+  "keaton-thornton-jim-thornton": [
+   {
+    "file": "assets/keaton-thornton-jim-thornton/photo.png",
+    "kind": "photo",
+    "src": "image36.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/keaton-thornton-jim-thornton/footer.png",
+    "kind": "footer",
+    "src": "image11.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/keaton-thornton-jim-thornton/logo.png",
+    "kind": "logo",
+    "src": "image3.png",
+    "confidence": "verified",
+    "note": "Pinnacle Mortgage Solutions, named in sheet"
+   }
+  ],
+  "keith-crossland-dustin-moss": [
+   {
+    "file": "assets/keith-crossland-dustin-moss/photo.png",
+    "kind": "photo",
+    "src": "image75.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/keith-crossland-dustin-moss/footer.png",
+    "kind": "footer",
+    "src": "image16.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/keith-crossland-dustin-moss/logo.png",
+    "kind": "logo",
+    "src": "image23.png",
+    "confidence": "verified",
+    "note": "Mortgage Connection, matches their email domain"
+   },
+   {
+    "file": "assets/keith-crossland-dustin-moss/logo-2.png",
+    "kind": "logo",
+    "src": "image4.png",
+    "confidence": "check",
+    "note": "Mortgage Alliance; sat between rows 19-20, owner unclear"
+   }
+  ],
+  "michael-marini": [
+   {
+    "file": "assets/michael-marini/footer.png",
+    "kind": "footer",
+    "src": "image82.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/michael-marini/logo.png",
+    "kind": "logo",
+    "src": "image14.png",
+    "confidence": "check",
+    "note": "The Mortgage Group; in his row but sheet lists no brokerage"
+   }
+  ],
+  "nav-utppal": [
+   {
+    "file": "assets/nav-utppal/photo.png",
+    "kind": "photo",
+    "src": "image19.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/nav-utppal/footer.png",
+    "kind": "footer",
+    "src": "image6.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/nav-utppal/logo.png",
+    "kind": "logo",
+    "src": "image66.png",
+    "confidence": "verified",
+    "note": "Next Mortgage, per sheet"
+   },
+   {
+    "file": "assets/nav-utppal/logo-2.png",
+    "kind": "logo",
+    "src": "image77.png",
+    "confidence": "check",
+    "note": "Dominion Lending; sheet does not mention DLC for Nav"
+   }
+  ],
+  "jalal-khan": [
+   {
+    "file": "assets/jalal-khan/photo.png",
+    "kind": "photo",
+    "src": "image48.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/jalal-khan/footer.png",
+    "kind": "footer",
+    "src": "image20.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/jalal-khan/logo.png",
+    "kind": "logo",
+    "src": "image15.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   },
+   {
+    "file": "assets/jalal-khan/logo-2.png",
+    "kind": "logo",
+    "src": "image53.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "rahul-vinod": [
+   {
+    "file": "assets/rahul-vinod/photo.png",
+    "kind": "photo",
+    "src": "image51.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/rahul-vinod/footer.png",
+    "kind": "footer",
+    "src": "image21.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/rahul-vinod/logo.png",
+    "kind": "logo",
+    "src": "image47.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   },
+   {
+    "file": "assets/rahul-vinod/logo-2.png",
+    "kind": "logo",
+    "src": "image76.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "vittorio-oliverio": [
+   {
+    "file": "assets/vittorio-oliverio/photo.png",
+    "kind": "photo",
+    "src": "image29.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/vittorio-oliverio/footer.png",
+    "kind": "footer",
+    "src": "image94.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/vittorio-oliverio/logo.png",
+    "kind": "logo",
+    "src": "image22.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "scott-brouke": [
+   {
+    "file": "assets/scott-brouke/photo.png",
+    "kind": "photo",
+    "src": "image24.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/scott-brouke/footer.png",
+    "kind": "footer",
+    "src": "image88.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/scott-brouke/logo.png",
+    "kind": "logo",
+    "src": "image73.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "akshat-chauhan": [
+   {
+    "file": "assets/akshat-chauhan/photo.png",
+    "kind": "photo",
+    "src": "image58.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/akshat-chauhan/footer.png",
+    "kind": "footer",
+    "src": "image37.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/akshat-chauhan/logo.png",
+    "kind": "logo",
+    "src": "image89.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "borrowise": [
+   {
+    "file": "assets/borrowise/footer.png",
+    "kind": "footer",
+    "src": "image81.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/borrowise/logo.png",
+    "kind": "logo",
+    "src": "image38.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "ranjit-singh": [
+   {
+    "file": "assets/ranjit-singh/photo.png",
+    "kind": "photo",
+    "src": "image90.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/ranjit-singh/footer.png",
+    "kind": "footer",
+    "src": "image57.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/ranjit-singh/logo.png",
+    "kind": "logo",
+    "src": "image56.png",
+    "confidence": "verified",
+    "note": "Akal Mortgages, matches his email domain"
+   }
+  ],
+  "georges-madi": [
+   {
+    "file": "assets/georges-madi/photo.png",
+    "kind": "photo",
+    "src": "image72.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/georges-madi/footer.png",
+    "kind": "footer",
+    "src": "image84.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/georges-madi/logo.png",
+    "kind": "logo",
+    "src": "image63.png",
+    "confidence": "verified",
+    "note": "Xperto Equipe Heritage / Dominion National, matches his email domain"
+   }
+  ],
+  "wise-equity": [
+   {
+    "file": "assets/wise-equity/photo.png",
+    "kind": "photo",
+    "src": "image93.png",
+    "confidence": "check",
+    "note": "person not shown on footer; confirm who this is"
+   },
+   {
+    "file": "assets/wise-equity/footer.png",
+    "kind": "footer",
+    "src": "image40.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/wise-equity/logo.png",
+    "kind": "logo",
+    "src": "image61.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ],
+  "krystian-catala": [
+   {
+    "file": "assets/krystian-catala/photo.png",
+    "kind": "photo",
+    "src": "image42.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/krystian-catala/footer.png",
+    "kind": "footer",
+    "src": "image91.png",
+    "confidence": "verified",
+    "note": "matched to manifest size; face/name checked against footer"
+   },
+   {
+    "file": "assets/krystian-catala/logo.png",
+    "kind": "logo",
+    "src": "image69.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   },
+   {
+    "file": "assets/krystian-catala/logo-2.png",
+    "kind": "logo",
+    "src": "image83.png",
+    "confidence": "verified",
+    "note": "matched to manifest size"
+   }
+  ]
+ }
+}

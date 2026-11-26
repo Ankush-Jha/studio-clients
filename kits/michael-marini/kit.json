@@ -1,0 +1,171 @@
+{
+  "id": "michael-marini",
+  "aliases": [],
+  "sheetId": "client-021",
+  "name": "Michael Marini",
+  "people": [],
+  "city": "Toronto",
+  "province": "ON",
+  "region": "",
+  "group": 1,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "The Mortgage Group (TMG)",
+    "licence": "#10315"
+  },
+  "agent": {
+    "name": "Michael Marini",
+    "title": "Mortgage Agent Level 2",
+    "licence": "M08003409"
+  },
+  "contact": {
+    "phones": [
+      "416-549-1676"
+    ],
+    "emails": [
+      "marini@michaelmarini.com"
+    ],
+    "website": "www.michaelmarini.com"
+  },
+  "services": [
+    "All Residential Type Mortgages",
+    "Purchases",
+    "Transfers",
+    "Renewals",
+    "Refinances",
+    "HELOCS",
+    "Equity Take Outs",
+    "Rental / Investment Properties",
+    "Self Employed Mortgages",
+    "Doctors and Veterinarian Mortgages"
+  ],
+  "audience": "Serves Toronto, GTA, Ontario; focus: Purchases, Transfers, Renewals, Refinances, Equity takeouts, Debt consolidation, Reverse mortgages, Self-employed mortgages, Doctors and veterinarian mortgages.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/J7zwkaErDYp81m8iAe7Yqh/Michael-Marini-%7C-SM-Posts",
+  "complianceLine": "Michael Marini, Mortgage Agent Level 2 · Lic. M08003409 · The Mortgage Group (TMG) · Brokerage Lic. #10315",
+  "rules": [],
+  "assets": {
+    "photo": null,
+    "footer": "assets/michael-marini/footer.png",
+    "footerAlt": null,
+    "logos": [],
+    "check": [
+      "assets/michael-marini/logo.png"
+    ]
+  },
+  "stills": {
+    "primary": "swiss",
+    "secondary": "bento",
+    "variant": "a"
+  },
+  "missing": [
+    "assets.logos"
+  ],
+  "flags": [
+    "sheet note: Services were written in the 'Special request' column of the sheet",
+    "sheet photo note: Client doesnt want image",
+    "Asset to confirm: assets/michael-marini/logo.png (The Mortgage Group; in his row but sheet lists no brokerage)",
+    "website says title 'Mortgage Agent/Broker' (kit has 'Mortgage Agent Level 2')",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Address: 60 Atlantic Ave, Toronto ON M6K 1X9. Copy also mentions 'Mortgages of Canada' (inconsistent branding).",
+    "website note: Site licence/brokerage not in clients.json (null) so this fills a gap; site title reads 'Mortgage Agent L2' per search.",
+    "website note: Search (check): Yelp https://www.yelp.ca/biz/michael-marini-the-mortgage-group-toronto ; Facebook shows 100% recommend from 27 reviews. No Google count found.",
+    "Accent #13AFF0 has contrast 2.23:1 against paper (<3:1); pair with ink."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "content-desk seed/roster",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "agent.title": "footer image (read visually)",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "footer": "assets/_provenance.json (verified)",
+    "photo": "clients.json photo_notes: client doesn't want image assets",
+    "stills": "engines/stills/library/roster.json",
+    "brokerage.name": "website: https://michaelmarini.com/",
+    "brokerage.licence": "website: https://michaelmarini.com/",
+    "agent.licence": "website: https://michaelmarini.com/",
+    "audience": "website: https://michaelmarini.com/ (serviceAreas/specialties)",
+    "contact.emails": "website: https://michaelmarini.com/",
+    "socials": "website: https://michaelmarini.com/",
+    "bio": "website: https://michaelmarini.com/",
+    "complianceLine": "composed from sheet/footer/website facts",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "default (no source)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'swiss' (STYLES.md)"
+  },
+  "completeness": 0.923,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/michael.marini.mortgage.agent",
+    "facebook": "https://www.facebook.com/MichaelMariniTorontoMortgageBroker",
+    "linkedin": "https://www.linkedin.com/in/torontomortgages",
+    "tiktok": "https://www.tiktok.com/@toronto_mortgages",
+    "x": "https://x.com/MortgagesTO"
+  },
+  "bio": "Michael Marini is a Toronto mortgage broker with The Mortgage Group (TMG), claiming nearly 20 years in residential mortgages across Toronto, the GTA and Ontario. Services include purchases, transfers, renewals, refinances, equity takeouts, debt consolidation, reverse mortgages, and programs for self-employed borrowers, doctors and veterinarians. The site claims over 10,000 funded mortgages and 24-hour pre-approvals.",
+  "web": {
+    "url": "https://michaelmarini.com/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Find the Perfect Mortgage Solution with Me",
+    "yearsInBusiness": "Nearly 20 years (about page)",
+    "serviceAreas": [
+      "Toronto",
+      "GTA",
+      "Ontario"
+    ],
+    "specialties": [
+      "Purchases",
+      "Transfers",
+      "Renewals",
+      "Refinances",
+      "Equity takeouts",
+      "Debt consolidation",
+      "Reverse mortgages",
+      "Self-employed mortgages",
+      "Doctors and veterinarian mortgages"
+    ],
+    "bookingUrl": "https://calendly.com/admin-510",
+    "testimonialsCount": 9,
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Address: 60 Atlantic Ave, Toronto ON M6K 1X9. Copy also mentions 'Mortgages of Canada' (inconsistent branding).",
+      "Site licence/brokerage not in clients.json (null) so this fills a gap; site title reads 'Mortgage Agent L2' per search.",
+      "Search (check): Yelp https://www.yelp.ca/biz/michael-marini-the-mortgage-group-toronto ; Facebook shows 100% recommend from 27 reviews. No Google count found."
+    ],
+    "sources": [
+      {
+        "url": "https://michaelmarini.com/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://michaelmarini.com/about-us/",
+        "what": "about"
+      },
+      {
+        "url": "https://michaelmarini.com/contact/",
+        "what": "contact + licence"
+      }
+    ],
+    "fonts": [
+      "Hanken Grotesk"
+    ],
+    "logoUrls": [
+      "https://michaelmarini.com/wp-content/uploads/2025/11/h-logo.svg",
+      "https://michaelmarini.com/wp-content/uploads/2025/11/f-logo.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

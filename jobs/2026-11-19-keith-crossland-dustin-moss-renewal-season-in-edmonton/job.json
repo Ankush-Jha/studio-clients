@@ -1,0 +1,346 @@
+{
+  "id": "2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton",
+  "created": "2026-11-19T14:53:18.260Z",
+  "updated": "2026-11-21T15:15:43.665Z",
+  "client": "keith-crossland-dustin-moss",
+  "format": "graphic-reel",
+  "topic": "Renewal season in Edmonton",
+  "brief": {
+    "engine": "opuscar",
+    "length": "40-50 s",
+    "notes": "test run; Edmonton numbers only; no Ontario hashtags",
+    "test": true
+  },
+  "status": "delivered",
+  "engine": "opuscar",
+  "style": "halftone-dossier",
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": null,
+      "ended": "2026-11-19T14:53:18.412Z",
+      "summary": "kit loaded; test run",
+      "outputs": []
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-19T15:15:52.672Z",
+      "ended": "2026-11-19T15:20:58.159Z",
+      "summary": "Script B: halftone-dossier 44.5 s, 12 Kokoro am_liam lines (121 words), guess-freeze 27.6 s, verdict +$7,032; bridge DRAFT + compliance TODO",
+      "outputs": [
+        "concepts.json",
+        "script.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "done",
+      "started": "2026-11-19T15:15:03.601Z",
+      "ended": "2026-11-19T15:15:48.254Z",
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "done",
+      "started": "2026-11-19T15:21:12.524Z",
+      "ended": "2026-11-19T15:21:34.219Z",
+      "summary": "1 fix, 5 numbers verified, proof-only (no complianceLine)",
+      "outputs": []
+    },
+    {
+      "id": "director",
+      "status": "done",
+      "started": "2026-11-19T17:05:41.883Z",
+      "ended": "2026-11-19T17:23:10.803Z",
+      "summary": "Round 2 fixes (7/7): halftone-dossier reel 45.0 s 1080x1920 30fps, Kokoro am_liam (ASR 12/12, L11 now reads 'Crosland' as spelled). Frame 0 = settled poster with red wall line + 'Guess the gap' pill; last frame identical to frame 0 (loop PSNR 47.9 dB). HUD at y 304; 'Your guess?' moved below the rate cards, counter freezes on $?,???; footnote cut to 2 lines at 40 px; dark-red DRAFT/ILLUSTRATIVE/verdict text; 15 s headline settles by 15.0 s. Crosland everywhere (screen, SRT, caption, voice). script.json voice lines = lines.json. Audio AAC-LC CBR 128k, -14.0 LUFS / -1.1 dBTP. Gate PASS (safezone waived: halftone OCR noise below y 1250). PROOF: [compliance line: TODO] + DRAFT bridge line.",
+      "outputs": [
+        "out/keith-crossland-dustin-moss-renewal-edmonton.mp4"
+      ]
+    },
+    {
+      "id": "critic",
+      "status": "done",
+      "started": "2026-11-19T17:23:41.474Z",
+      "ended": "2026-11-19T17:24:34.507Z",
+      "summary": "pass|3 fixes (round 2)",
+      "outputs": [
+        "qa/report.json",
+        "qa/critique.json"
+      ]
+    },
+    {
+      "id": "gate2",
+      "status": "done",
+      "started": "2026-11-19T17:25:04.712Z",
+      "ended": "2026-11-19T18:17:30.843Z",
+      "summary": "Approved",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "done",
+      "started": "2026-11-21T15:14:47.545Z",
+      "ended": "2026-11-21T15:15:43.664Z",
+      "summary": "filed as 2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton; 1 lesson suggestion",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": "B",
+  "gates": {
+    "g1": {
+      "at": "2026-11-19T15:15:48.253Z",
+      "decision": "pick",
+      "choice": "B",
+      "notes": "Test run (producer pick, not the user's): B, same wall different renewal, halftone-dossier. Keep the partners' bridge line as a clearly marked draft for their approval; compliance line stays a visible TODO (proof).",
+      "by": "producer-test"
+    },
+    "g2": {
+      "at": "2026-11-19T18:17:30.843Z",
+      "decision": "approve",
+      "notes": "",
+      "by": "desk"
+    }
+  },
+  "outputs": [
+    {
+      "kind": "video",
+      "path": "out/keith-crossland-dustin-moss-renewal-edmonton.mp4",
+      "w": 1080,
+      "h": 1920,
+      "durationS": 45
+    },
+    {
+      "kind": "cover",
+      "path": "out/cover.jpg",
+      "w": 1080,
+      "h": 1920,
+      "durationS": null
+    },
+    {
+      "kind": "caption",
+      "path": "out/caption.txt",
+      "w": 640,
+      "h": 400,
+      "durationS": null
+    },
+    {
+      "kind": "caption",
+      "path": "out/keith-crossland-dustin-moss-renewal-edmonton.srt",
+      "w": null,
+      "h": null,
+      "durationS": null
+    },
+    {
+      "kind": "contact",
+      "path": "qa/contact.jpg",
+      "w": 2224,
+      "h": 922,
+      "durationS": null
+    }
+  ],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": true
+  },
+  "log": [
+    {
+      "t": "2026-11-19T14:53:18.260Z",
+      "node": "intake",
+      "msg": "job created: graphic-reel for keith-crossland-dustin-moss about \"Renewal season in Edmonton\""
+    },
+    {
+      "t": "2026-11-19T14:53:18.412Z",
+      "node": "intake",
+      "msg": "done: kit loaded; test run"
+    },
+    {
+      "t": "2026-11-19T15:05:02.308Z",
+      "node": "strategist",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:15:03.549Z",
+      "node": "strategist",
+      "msg": "done: 3 concepts: A The 120-day line (transit-map) / B Same wall, different renewal (halftone-dossier) / C Some assembly required: three bills, one renewal (instruction-manual)"
+    },
+    {
+      "t": "2026-11-19T15:15:03.601Z",
+      "node": "gate1",
+      "msg": "waiting"
+    },
+    {
+      "t": "2026-11-19T15:15:48.254Z",
+      "node": "gate1",
+      "msg": "pick B: Test run (producer pick, not the user's): B, same wall different renewal, halftone-dossier. Keep the partners' bridge line as a clearly marked draft for their approval; compliance line stays a visible TODO (proof)."
+    },
+    {
+      "t": "2026-11-19T15:15:52.673Z",
+      "node": "strategist",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:20:48.995Z",
+      "node": "strategist",
+      "msg": "done: Script B: halftone-dossier 44.5 s, 12 Kokoro am_liam lines (121 words), guess-freeze at 27.6 s, verdict +$7,032; bridge DRAFT + compliance TODO"
+    },
+    {
+      "t": "2026-11-19T15:20:53.482Z",
+      "node": "strategist",
+      "msg": "done: x"
+    },
+    {
+      "t": "2026-11-19T15:20:58.160Z",
+      "node": "strategist",
+      "msg": "done: Script B: halftone-dossier 44.5 s, 12 Kokoro am_liam lines (121 words), guess-freeze 27.6 s, verdict +$7,032; bridge DRAFT + compliance TODO"
+    },
+    {
+      "t": "2026-11-19T15:21:12.525Z",
+      "node": "checker",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:21:34.220Z",
+      "node": "checker",
+      "msg": "done: 1 fix, 5 numbers verified, proof-only (no complianceLine)"
+    },
+    {
+      "t": "2026-11-19T15:22:00.028Z",
+      "node": "director",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T17:01:47.161Z",
+      "node": "director",
+      "msg": "output video: out/keith-crossland-dustin-moss-renewal-edmonton.mp4"
+    },
+    {
+      "t": "2026-11-19T17:01:47.318Z",
+      "node": "director",
+      "msg": "output cover: out/cover.jpg"
+    },
+    {
+      "t": "2026-11-19T17:01:47.470Z",
+      "node": "director",
+      "msg": "output caption: out/caption.txt"
+    },
+    {
+      "t": "2026-11-19T17:01:47.624Z",
+      "node": "director",
+      "msg": "output caption: out/keith-crossland-dustin-moss-renewal-edmonton.srt"
+    },
+    {
+      "t": "2026-11-19T17:01:47.776Z",
+      "node": "director",
+      "msg": "output contact: qa/contact.jpg"
+    },
+    {
+      "t": "2026-11-19T17:02:04.095Z",
+      "node": "director",
+      "msg": "output video: out/keith-crossland-dustin-moss-renewal-edmonton.mp4"
+    },
+    {
+      "t": "2026-11-19T17:02:04.250Z",
+      "node": "director",
+      "msg": "output cover: out/cover.jpg"
+    },
+    {
+      "t": "2026-11-19T17:02:04.403Z",
+      "node": "director",
+      "msg": "output caption: out/caption.txt"
+    },
+    {
+      "t": "2026-11-19T17:02:04.555Z",
+      "node": "director",
+      "msg": "output caption: out/keith-crossland-dustin-moss-renewal-edmonton.srt"
+    },
+    {
+      "t": "2026-11-19T17:02:04.712Z",
+      "node": "director",
+      "msg": "output contact: qa/contact.jpg"
+    },
+    {
+      "t": "2026-11-19T17:02:12.091Z",
+      "node": "director",
+      "msg": "done: Halftone-dossier reel, 45.0 s 1080x1920 30fps, Kokoro am_liam (ASR 12/12), original synth score+foley, -14.1 LUFS / -1.4 dBTP. PROOF: [compliance line: TODO] on plate 32.6-44.6 s with Mortgage Connection; bridge L11 DRAFT tag; L04/L09 reworded for ASR."
+    },
+    {
+      "t": "2026-11-19T17:03:32.810Z",
+      "node": "critic",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T17:04:59.621Z",
+      "node": "critic",
+      "msg": "done: fail|7 fixes (round 1)"
+    },
+    {
+      "t": "2026-11-19T17:05:41.884Z",
+      "node": "director",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T17:23:10.080Z",
+      "node": "director",
+      "msg": "output video: out/keith-crossland-dustin-moss-renewal-edmonton.mp4"
+    },
+    {
+      "t": "2026-11-19T17:23:10.236Z",
+      "node": "director",
+      "msg": "output cover: out/cover.jpg"
+    },
+    {
+      "t": "2026-11-19T17:23:10.390Z",
+      "node": "director",
+      "msg": "output caption: out/caption.txt"
+    },
+    {
+      "t": "2026-11-19T17:23:10.544Z",
+      "node": "director",
+      "msg": "output caption: out/keith-crossland-dustin-moss-renewal-edmonton.srt"
+    },
+    {
+      "t": "2026-11-19T17:23:10.698Z",
+      "node": "director",
+      "msg": "output contact: qa/contact.jpg"
+    },
+    {
+      "t": "2026-11-19T17:23:10.804Z",
+      "node": "director",
+      "msg": "done: Round 2 fixes (7/7): halftone-dossier reel 45.0 s 1080x1920 30fps, Kokoro am_liam (ASR 12/12, L11 now reads 'Crosland' as spelled). Frame 0 = settled poster with red wall line + 'Guess the gap' pill; last frame identical to frame 0 (loop PSNR 47.9 dB). HUD at y 304; 'Your guess?' moved below the rate cards, counter freezes on $?,???; footnote cut to 2 lines at 40 px; dark-red DRAFT/ILLUSTRATIVE/verdict text; 15 s headline settles by 15.0 s. Crosland everywhere (screen, SRT, caption, voice). script.json voice lines = lines.json. Audio AAC-LC CBR 128k, -14.0 LUFS / -1.1 dBTP. Gate PASS (safezone waived: halftone OCR noise below y 1250). PROOF: [compliance line: TODO] + DRAFT bridge line."
+    },
+    {
+      "t": "2026-11-19T17:23:41.475Z",
+      "node": "critic",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T17:24:34.508Z",
+      "node": "critic",
+      "msg": "done: pass|3 fixes (round 2)"
+    },
+    {
+      "t": "2026-11-19T17:25:04.713Z",
+      "node": "gate2",
+      "msg": "waiting: QA pass (round 2); proof until compliance line + partners approve bridge line; re-check rates on posting day"
+    },
+    {
+      "t": "2026-11-19T18:17:30.843Z",
+      "node": "gate2",
+      "msg": "Desk: approve"
+    },
+    {
+      "t": "2026-11-21T15:14:47.546Z",
+      "node": "librarian",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-21T15:15:43.665Z",
+      "node": "librarian",
+      "msg": "done: filed as 2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton; 1 lesson suggestion"
+    }
+  ]
+}

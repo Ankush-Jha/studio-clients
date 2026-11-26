@@ -1,0 +1,117 @@
+{
+  "id": "2026-11-19-jalal-khan-renewal-shock",
+  "created": "2026-11-19T13:02:30Z",
+  "updated": "2026-11-19T13:21:02Z",
+  "client": "jalal-khan",
+  "format": "carousel",
+  "topic": "Renewal payment shock: what a 2021 five-year fixed renews into",
+  "brief": {
+    "raw": "carousel for group 4 about renewals",
+    "by": "chat"
+  },
+  "status": "gate1",
+  "engine": null,
+  "style": null,
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": "2026-11-19T13:02:30Z",
+      "ended": "2026-11-19T13:03:10Z",
+      "summary": "Client jalal-khan · carousel · group 4",
+      "outputs": [
+        "brief.json"
+      ]
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-19T13:03:12Z",
+      "ended": "2026-11-19T13:21:00Z",
+      "summary": "3 concepts · novelty checked against 9 past pieces",
+      "outputs": [
+        "concepts.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "waiting",
+      "started": "2026-11-19T13:21:01Z",
+      "ended": null,
+      "summary": "Waiting for a pick",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "director",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "critic",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "gate2",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": null,
+  "gates": {
+    "g1": {
+      "at": null,
+      "decision": null,
+      "choice": null,
+      "notes": ""
+    },
+    "g2": {
+      "at": null,
+      "decision": null,
+      "notes": ""
+    }
+  },
+  "outputs": [],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": null
+  },
+  "log": [
+    {
+      "t": "2026-11-19T13:21:00Z",
+      "node": "strategist",
+      "msg": "concepts.json written (A, B, C)"
+    },
+    {
+      "t": "2026-11-19T13:21:01Z",
+      "node": "gate1",
+      "msg": "Gate 1 open"
+    }
+  ]
+}

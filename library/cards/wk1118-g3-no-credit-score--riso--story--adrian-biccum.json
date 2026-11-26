@@ -1,0 +1,47 @@
+{
+ "id": "wk1118-g3-no-credit-score--riso--story--adrian-biccum",
+ "title": "14 months in Canada, no credit score: what lenders check [riso, story, adrian-biccum]",
+ "clients": [
+  "adrian-biccum"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "riso",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1920",
+ "voice": null,
+ "music": null,
+ "topic": "14 months in Canada, no credit score: what lenders check",
+ "tags": [
+  "stills",
+  "wk1118-g3-no-credit-score",
+  "riso",
+  "story-format",
+  "group-3"
+ ],
+ "hook": "Ban extension? Only proposed.",
+ "logline": "Proof render of spec 'wk1118-g3-no-credit-score' in the Riso Two-Ink style for Adrian Biccum, story format (1 slide).",
+ "structure": "1 slide(s), 1080x1920 (story); slide types: cover",
+ "device": "A stencil-duplicator print: two translucent spot inks overprinted on warm paper, halftone ramps on rotated screens, plates that never quite line up, and type printed in the dark ink.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/wk1118-g3-no-credit-score--riso--story/adrian-biccum",
+  "poster": "$R/engines/stills/out/wk1118-g3-no-credit-score--riso--story/adrian-biccum/01.jpg",
+  "thumb": "library/thumbs/wk1118-g3-no-credit-score--riso--story--adrian-biccum.jpg",
+  "treatment": "$R/engines/stills/specs/week-2026-11-16/wk1118-g3-no-credit-score.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

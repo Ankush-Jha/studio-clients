@@ -1,0 +1,98 @@
+{
+  "id": "abbas",
+  "aliases": [],
+  "sheetId": null,
+  "name": "Abbas",
+  "people": [],
+  "city": "Ottawa",
+  "province": "ON",
+  "region": "",
+  "group": 3,
+  "video": true,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": null,
+    "licence": null
+  },
+  "agent": {
+    "name": "Abbas",
+    "title": "",
+    "licence": null
+  },
+  "contact": {
+    "phones": [],
+    "emails": [],
+    "website": ""
+  },
+  "services": [],
+  "audience": "",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "",
+  "complianceLine": null,
+  "rules": [],
+  "assets": {
+    "photo": null,
+    "footer": null,
+    "footerAlt": null,
+    "logos": [],
+    "check": []
+  },
+  "stills": {
+    "primary": "isometric",
+    "secondary": "riso",
+    "variant": "a"
+  },
+  "missing": [
+    "agent.title",
+    "contact.phones",
+    "contact.emails",
+    "contact.website",
+    "services",
+    "audience",
+    "assets.photo",
+    "assets.footer",
+    "assets.logos",
+    "complianceLine",
+    "brokerage.name",
+    "brokerage.licence",
+    "agent.licence",
+    "socials",
+    "bio",
+    "brand colours (accent is a placeholder; supply or confirm)"
+  ],
+  "flags": [
+    "not in client sheet",
+    "seed: Roster table lists Abbas under both Group 3 and Group 4",
+    "Ontario: brokerage name + licence required before posting",
+    "website note: Roster has only 'Abbas', Ottawa ON, no brokerage or licence. Web search surfaced Abbas El-Sarji (Abbas Financial, abbasfinancial.com, Mortgage Agent L1 with SJC Financial, Ottawa) as a possible match, plus unrelated Abbases (Ghulam Abbas, Spruce Grove AB; Ibrahim/Ali Abbas, realtors). Not confident enough to attribute; stopped without fetching any site. Ask the user for a surname/website."
+  ],
+  "provenance": {
+    "name": "content-desk seed roster",
+    "city": "content-desk seed/roster",
+    "province": "content-desk seed/roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "stills": "engines/stills/library/roster.json",
+    "colors.accent": "tokens (tokens.json)",
+    "colors.ink": "default (no source)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'isometric' (STYLES.md)"
+  },
+  "completeness": 0.286,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {},
+  "bio": "",
+  "web": {
+    "fetched": "2026-11-19T15:00:00Z",
+    "notes": [
+      "Roster has only 'Abbas', Ottawa ON, no brokerage or licence. Web search surfaced Abbas El-Sarji (Abbas Financial, abbasfinancial.com, Mortgage Agent L1 with SJC Financial, Ottawa) as a possible match, plus unrelated Abbases (Ghulam Abbas, Spruce Grove AB; Ibrahim/Ali Abbas, realtors). Not confident enough to attribute; stopped without fetching any site. Ask the user for a surname/website."
+    ]
+  },
+  "colorsProvisional": true
+}

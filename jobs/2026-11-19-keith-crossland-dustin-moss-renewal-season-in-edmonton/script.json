@@ -1,0 +1,329 @@
+{
+ "forClient": "Keith Crosland & Dustin Moss",
+ "client": "keith-crossland-dustin-moss",
+ "job": "2026-11-19-keith-crossland-dustin-moss-renewal-season-in-edmonton",
+ "chosen": "B",
+ "gateNotes": "g1 (producer-test): pick B. Bridge line kept as a clearly marked DRAFT for the partners' approval; compliance line stays a visible TODO, so the render is a proof.",
+ "format": "graphic-reel",
+ "size": "1080x1920",
+ "fps": 30,
+ "engine": "opuscar",
+ "style": "halftone-dossier",
+ "lengthS": 44.5,
+ "title": "Same wall, different renewal",
+ "hook": "Same wall, same renewal. Guess the gap.",
+ "hookSpoken": "Two Edmonton neighbours share a wall, and their mortgages renew the same month.",
+ "hookAlts": [
+  "[Exact-number cold open] On screen: '$80 a month, through one wall.' Spoken: 'About eighty dollars a month. That's the gap between two neighbours with the same mortgage.'",
+  "[Story start] On screen: 'Two neighbours. Two renewal letters.' Spoken: 'Illustrative example: two Edmonton neighbours got their renewal letters the same week. Only one shopped it.'"
+ ],
+ "mechanic": {
+  "type": "guess-then-reveal",
+  "how": "Frame 1 asks for the guess ('Guess the gap'); 26-29.8 s freezes on a spinning halftone counter with 'Your guess?' for 2 s of silence-before-the-stamp, then the verdict stamp pays it off. The send is built into the story: the house is a shared wall, so the last line hands it to the neighbour."
+ },
+ "structure": "Same X, different outcome (before-after-bridge). Re-hooks at 3.7 (thousands more), 12.2 (SIGNED), 15 (day 120 is now), 18.4 (SHOPPED), 19 (half a point), 23 ($80), 27.6 (freeze), 29.8 (verdict), 33 (bridge), 40 (send).",
+ "voiceCast": {
+  "engine": "kokoro",
+  "speed": 1.0,
+  "why": "am_liam has not been used by any library reel (recent: am_michael, am_onyx, af_bella; af_heart on mortgage-insurance). A level American-English male read fits the style's 'dry, deadpan report voice' and sits closest to an Alberta ear. Narration is third person, so the AI voice is never presented as Keith or Dustin.",
+  "deliveryNote": "Deadpan clerk reading a file, never breathless. Leave 0.25-0.4 s between lines; the 2 s freeze after L09 is silence plus ticking.",
+  "wordCount": 121,
+  "estSpokenS": 48.4,
+  "voiceId": "am_liam"
+ },
+ "voiceLines": [
+  {
+   "id": "L01",
+   "t": 0.2,
+   "text": "Two Edmonton neighbours share a wall, and their mortgages renew the same month.",
+   "speed": 1.0,
+   "asr": "Two Edmonton neighbors share a wall, and their mortgages renew the same month.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L02",
+   "t": 3.7,
+   "text": "But in five years, one of them pays thousands more in interest.",
+   "speed": 1.0,
+   "asr": "But in five years, one of them pays thousands more in interest.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L03",
+   "t": 7.2,
+   "text": "The left side waits for the bank's letter, which can come just twenty-one days out.",
+   "speed": 1.0,
+   "asr": "The left side waits for the bank's letter, which can come just 21 days out.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L04",
+   "t": 11.0,
+   "text": "So they sign off on the first offer.",
+   "speed": 1.0,
+   "asr": "So they sign off on the first offer.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L05",
+   "t": 13.2,
+   "text": "The right side starts four months early. Renewing in March? Day one hundred twenty is about now.",
+   "speed": 1.0,
+   "asr": "The right side starts four months early. Renewing in March? Day 120 is about now.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L06",
+   "t": 17.0,
+   "text": "They get other lenders to hold a rate, then compare.",
+   "speed": 1.0,
+   "asr": "They get other lenders to hold a rate, then compare.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L07",
+   "t": 19.4,
+   "text": "Say the first offer is half a point higher.",
+   "speed": 1.0,
+   "asr": "Say the first offer is half a point higher.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L08",
+   "t": 23.3,
+   "text": "That's about eighty dollars a month.",
+   "speed": 1.0,
+   "asr": "That's about $80 a month.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L09",
+   "t": 26.3,
+   "text": "Over five years? What's your guess?",
+   "speed": 1.0,
+   "asr": "Over five years? What's your guess?",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L10",
+   "t": 30.2,
+   "text": "About seven thousand dollars more in interest.",
+   "speed": 1.0,
+   "asr": "About $7,000 more in interest.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L11",
+   "t": 33.4,
+   "text": "Keith Crosland and Dustin Moss spent years inside big banks. They treat the first offer as a starting point.",
+   "speed": 1.0,
+   "asr": "Keith Crosland and Dustin Moss spent years inside big banks. They treat the first offer as a starting point.",
+   "voiceId": "am_liam"
+  },
+  {
+   "id": "L12",
+   "t": 40.0,
+   "text": "Send this to the neighbour renewing next.",
+   "speed": 1.0,
+   "asr": "Send this to the neighbor renewing next.",
+   "voiceId": "am_liam"
+  }
+ ],
+ "respellings": {
+  "Crosland": "Kokoro reads 'Crosland' as spelled (CROSS-lund); Whisper writes the homophone 'Crossland', handled in lines.json asr only",
+  "21": "twenty-one",
+  "120": "one hundred twenty",
+  "$80": "eighty dollars",
+  "$7,000": "seven thousand dollars",
+  "neighbour": "text keeps 'neighbour' for Kokoro; asr uses 'neighbor' (Whisper's US spelling); on screen stays Canadian 'neighbour'"
+ },
+ "beats": [
+  {
+   "t": "0.0-3.5",
+   "id": "HOOK",
+   "visual": "Frame 0 is already a finished poster (cover = t 0): cream case-file paper with mottling, fold and dust; HUD chips inside the safe zone at y 280: left 'CASE EDM-26-1119 · RENEWAL', right blinking red REC dot + 'NOV 19 2026' (JetBrains Mono 800). Headline settled top-left y 300-500 (black slab serif ~120 px, navy, +8/+8 pink misregistration shadow). Below it, a huge frontal Edmonton semi-detached house (mirror halves, navy 7 px outline, blue halftone shading lit from above, two front doors, two mailboxes) fills y 540-1150. Motion from 0.15 s: a stamp-red line drops down the party wall from roof peak to ground in 0.35 s (back ease, tiny 5 px shake, paper-tear tick). File chip pinned on the roof edge: 'EDMONTON SEMI · AVG $410,683 · RAE OCT 2026'. Caption bar pops at 1.2 s, bottom-centre y 1160-1240. Locked frontal camera with 0.6% beat pulse.",
+   "text": "Same wall, same renewal. | [caption bar] Guess the *gap*",
+   "voice": "Two Edmonton neighbours share a wall, and their mortgages renew the same month."
+  },
+  {
+   "t": "3.5-7.0",
+   "id": "EXHIBIT A",
+   "visual": "A giant halftone 'A' (yellow fill, navy dots, bleeding off the left edge) rises behind the house with overshoot. Two identical index cards slam-pin onto each half (pop + paper slap): '$300,000 LEFT · 20 YRS · RENEWS MARCH 2027 · SAME BANK'. A faceless figure steps out of each door (chunky thick-outline bodies, plain head blobs, no faces, each one local colour: left mustard, right teal) and gives a tiny squash landing. Small tag 'ILLUSTRATIVE EXAMPLE' stamped bottom-left of the house in mono; it stays on screen until the verdict. Dots crowd the frame edges a little on 'thousands more' (tension).",
+   "text": "$300,000 each. Same *bank*. | Illustrative example | [caption bar] Thousands more in *interest*",
+   "voice": "But in five years, one of them pays thousands more in interest."
+  },
+  {
+   "t": "7.0-13.0",
+   "id": "EXHIBIT B (left)",
+   "visual": "Dot wipe (blue, 0.44 s) to a push-in on the left half (1 -> 1.06). Giant halftone 'B' behind. The bank's envelope drops into the left mailbox (paper slide foley); a flip calendar chip on the wall turns to 'DAY 21' in red mono digits with 'days before the term ends' under it. The left figure reads the letter, shrugs, a big pen signs. At 12.2 s the red stamp SIGNED slams across the letter (2.6x -> 1x in 0.09 s, 16 px shake, flash 0.35, stamp boom + click).",
+   "text": "The letter: *21 days* out | [stamp] SIGNED | [caption bar] Signs the *first offer*",
+   "voice": "The left side waits for the bank's letter, which can come just 21 days out. So they sign off on the first offer."
+  },
+  {
+   "t": "13.0-19.0",
+   "id": "EXHIBIT B (right)",
+   "visual": "Pan across the pinned board, left to right through the red wall line (whoosh). Right half, same push-in. The flip calendar spins back from 21 to 'DAY 120' (yellow halftone numerals, typewriter-tick per digit). A sticky note slaps up: 'Renewing in March? Day 120 ≈ now' (Nov 19 + 120 days = Mar 19). The right figure holds a phone; two blank lender cards ('LENDER 2', 'LENDER 3', no real names) fan out of it, one says 'RATE HOLD'. At 18.4 s the stamp SHOPPED slams in cobalt (same slam grammar, 14 px shake). Music stays groovy: this is the good side.",
+   "text": "Starts *120 days* out | March renewal? Day 120 ≈ *now* | Hold a rate, then *compare* | [stamp] SHOPPED",
+   "voice": "The right side starts four months early. Renewing in March? Day 120 is about now. They get other lenders to hold a rate, then compare."
+  },
+  {
+   "t": "19.0-23.0",
+   "id": "EXHIBIT C",
+   "visual": "Hard cut on the bar line to the full house again, giant halftone 'C' behind. Two rate cards pin either side of the red line with a snap: left '4.94% FIRST OFFER', right '4.44% SHOPPED' (fat rounded display numerals, yellow fill + navy dot overprint). A red string links them across the wall with '0.50%' on a tag. Footnote prints in mono under the house (inside y <= 1248, 26 px): the full assumptions line. Rates dated on screen: 'rates as of Nov 19, 2026 · nesto'.",
+   "text": "Half a point *apart* | 4.94% vs 4.44% | [footnote] Illustrative example: two composite households. $300,000 left, 20-yr amortization, 5-yr fixed, semi-annual compounding. First offer assumed 0.50% above the shopped rate. 4.44% = insured 5-yr fixed reference (uninsured 4.95%), nesto, Nov 19, 2026. Not an offer. Subject to approval.",
+   "voice": "Say the first offer is half a point higher."
+  },
+  {
+   "t": "23.0-26.0",
+   "id": "MONTHLY GAP",
+   "visual": "Payments type out under each half with key clicks: '$1,962/mo' left, '$1,882/mo' right. An '$80' halftone coin squeezes through the red wall line from right to left and drops into the left side's pile with a plop. Snap zoom into the coin until its dots are huge (look closer), then snap back.",
+   "text": "About *$80* a month | $1,962 vs $1,882 /mo",
+   "voice": "That's about $80 a month."
+  },
+  {
+   "t": "26.0-29.8",
+   "id": "THE GUESS (freeze)",
+   "visual": "Slow push-in on the whole file (1 -> 1.08, ease-in), snare roll + rising sweep under 'Over five years? Your guess.' From 27.6 s: freeze. A fat halftone counter on a paper tag above the wall spins its digits ($0,000 rolling), the interjection 'Your guess?' in the hand face (paper fill, thick ink stroke, offset shadow), dots crowd the edges harder each half-second. Ticking clock foley. Music drops out at 29.5 s so the verdict lands alone (silence before the stamp). Hold the freeze 2 s; no new information appears.",
+   "text": "5-year gap? | $?,??? | Your *guess?*",
+   "voice": "Over five years? What's your guess?"
+  },
+  {
+   "t": "29.8-33.2",
+   "id": "VERDICT",
+   "visual": "The counter stops on 7,032. Verdict stamp slams over the left half, big: '+$7,032 INTEREST' (stamp red, tilted -8°, 26 px shake over 0.45 s, flash capped 0.5, big stamp with crackle). Dots bloom radially from the stamp. 'Illustrative example' tag is still visible. At 31.6 s a smaller line types out under the stamp: 'and still owes $2,235 more after 5 years'. Footnote re-shows the assumptions in mono.",
+   "text": "About *$7,000* more interest | [stamp] +$7,032 INTEREST | Still owes $2,235 *more*",
+   "voice": "About $7,000 more in interest."
+  },
+  {
+   "t": "33.2-39.8",
+   "id": "BRIDGE (DRAFT: partners to approve)",
+   "visual": "Folder slide: a name plate slides up into the foot of the file at y 1000-1240 (never lower): 'KEITH CROSLAND & DUSTIN MOSS · MORTGAGE CONNECTION · EDMONTON', and under it the visible placeholder '[compliance line: TODO]' (>= 26 px, navy on cream, contrast >= 4.5:1), held from 33.2 s to the end. Above it, two small pinned file chips with no faces and no portraits of the brokers: 'BANKING SINCE 2008' and '14+ YRS AT A BIG 5 BANK'. Proof renders only: a small red 'DRAFT: bridge line pending Keith & Dustin's approval' tag in the top HUD row; remove it on approval. Fallback if they decline: cut this beat to a 2 s name-plate hold and go straight to the send line (piece becomes ~38 s).",
+   "text": "Years inside *big banks* | First offer = *starting point* | [plate] Keith Crosland & Dustin Moss · Mortgage Connection | [compliance line: TODO]",
+   "voice": "Keith Crosland and Dustin Moss spent years inside big banks. They treat the first offer as a starting point."
+  },
+  {
+   "t": "39.8-44.5",
+   "id": "SEND + LOOP",
+   "visual": "Pull back to reveal the whole file: the cards, stamps and coin slide off the page (folder flap foley), leaving exactly the frame-0 composition (house, headline, red party-wall line, file chip), name plate and compliance placeholder still at the foot. Caption bar carries the CTA. On the last 0.3 s the red line lifts off the wall so frame 0's red-line drop reads as the loop restarting. Bell arpeggio tag, no end card, no logo.",
+   "text": "Send this to your *neighbour* | [caption bar] the one renewing *next*",
+   "voice": "Send this to the neighbour renewing next."
+  }
+ ],
+ "cover": "t = 0 (frame 0 is the settled poster): headline 'Same wall, same renewal.' + caption 'Guess the gap', the halftone semi with the red party-wall line and the EDMONTON SEMI file chip; headline at y 300-500 and house to y 1150, all inside the 3:4 band (y 240-1680). Render with ?nocap=1 only if the caption bar crowds the house; the headline must stay. No logo.",
+ "caption": "Mortgage renewal Edmonton: same wall, same mortgage, about $7,000 apart in interest.\nKeith Crosland & Dustin Moss · Mortgage Connection · [compliance line: TODO]\n\nIllustrative example. Two Edmonton neighbours in one semi-detached house each have $300,000 left on a 20-year amortization, with the same bank, renewing the same month.\n\nThe left side waits for the bank's letter. Lenders only have to send it 21 days before the term ends, and if you do nothing the renewal may be automatic. They sign the first offer at 4.94%: about $1,962 a month.\n\nThe right side starts about 120 days out, asks other lenders to hold a rate and compares. At 4.44% the payment is about $1,882 a month.\n\nThat's about $80 a month. Over the 5-year term it adds up to about $7,032 more in interest, and the left side still owes about $2,235 more at the end.\n\nRenewing in March? Day 120 is now (Nov 19 + 120 days = Mar 19).\n\nA straight switch at renewal (same balance, same amortization) doesn't need a new stress test, but the new lender still has to approve you.\n\nAssumptions: semi-annual compounding; the first offer is assumed to be 0.50% above the shopped rate, and your own gap may differ. 4.44% is the insured 5-year fixed reference on nesto as of Nov 19, 2026 (uninsured is 4.95%, and which applies depends on your mortgage), not an offer. Rates are 5-year fixed, before any fees, so your APR may differ. Rates change daily.\n\nSend this to the neighbour renewing next.\n\n#EdmontonMortgage #MortgageRenewal #YEGRealEstate #AlbertaMortgage #EdmontonHomeowners",
+ "hashtags": [
+  "#EdmontonMortgage",
+  "#MortgageRenewal",
+  "#YEGRealEstate",
+  "#AlbertaMortgage",
+  "#EdmontonHomeowners"
+ ],
+ "cta": "Send this to the neighbour renewing next.",
+ "ctaType": "send",
+ "sendTest": "An Edmonton homeowner forwards it to the neighbour, sibling or co-worker who just said their renewal letter arrived ('don't sign it yet, look at this'). Second path: one half of a couple sends it to the other the week the bank's letter lands.",
+ "math": [
+  {
+   "claim": "Monthly payments $1,962 (left, 4.94%) vs $1,882 (right, 4.44%)",
+   "working": "$300,000, 240 months, Canadian semi-annual compounding: i = (1 + r/2)^(1/6) - 1; P = 300000 * i / (1 - (1 + i)^-240). r = 4.94% -> $1,961.67; r = 4.44% -> $1,881.71",
+   "result": "$1,961.67 vs $1,881.71 (shown $1,962 vs $1,882)"
+  },
+  {
+   "claim": "About $80 a month gap",
+   "working": "$1,961.67 - $1,881.71",
+   "result": "$79.96, spoken 'about eighty dollars'"
+  },
+  {
+   "claim": "+$7,032 more interest over the 5-year term (spoken 'about seven thousand dollars')",
+   "working": "Amortize 60 months at each rate, sum interest: 4.94% -> $67,571.63; 4.44% -> $60,539.44",
+   "result": "$7,032.19"
+  },
+  {
+   "claim": "Left still owes $2,235 more after 5 years",
+   "working": "Balance after 60 payments: 4.94% -> $249,871.52; 4.44% -> $247,636.93. Cross-check: extra payments 60 x $79.96 = $4,797.59, plus $2,234.59 higher balance = $7,032.18 = the extra interest",
+   "result": "$2,234.59 (shown $2,235)"
+  },
+  {
+   "claim": "0.50% first-offer gap",
+   "working": "Assumption, not a market fact; labelled 'First offer assumed 0.50% above the shopped rate'",
+   "result": "illustrative"
+  },
+  {
+   "claim": "Renewing in March: day 120 is about now",
+   "working": "Nov 19, 2026 + 120 days = Mar 19, 2027; Mar 1, 2027 - 120 days = Nov 1, 2026; Mar 31, 2027 - 120 days = Dec 1, 2026",
+   "result": "true for March renewers until Dec 1, 2026 (expiry of this line)"
+  },
+  {
+   "claim": "$300,000 balance fits an Edmonton semi",
+   "working": "$300,000 / $410,683 (RAE Oct 2026 semi-detached average)",
+   "result": "about 73% of the average semi price; plausible composite"
+  }
+ ],
+ "rateAsOf": "2026-11-19",
+ "sources": [
+  {
+   "what": "nesto 5-yr fixed: insured 4.44%, uninsured 4.95%, as of Thu Nov 19, 2026; rate holds up to 150 days on 5-yr terms, 120 on others",
+   "url": "https://www.nesto.ca/mortgage-rates/fixed/5-year/",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "FCAC: renewal statement at least 21 days before the term ends; renewal may be automatic if you take no action; start shopping a few months before; don't wait for the letter",
+   "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "RAE October 2026 (via reposts; RAE page 403s to our fetcher): semi-detached average $410,683, semi sales +12.4% y/y",
+   "url": "https://www.edmontonhomesweb.com/blog/edmonton-real-estate-market-slowing-down-in-october-of-2026.html",
+   "checked": "2026-11-19"
+  },
+  {
+   "what": "Keith Crosland: banking since 2008; Dustin Moss: 14+ years at a Big 5 bank (staff pages)",
+   "url": "https://mortgageconnection.ca/staff/keith-crosland/",
+   "checked": "2026-11-19 (kit)"
+  },
+  {
+   "what": "Research desk: straight switches at renewal exempt from the stress test; lenders still underwrite",
+   "url": "/Users/ankushjha/Work/bots/graphic reels/content-desk/research/research_2026-11-19.json",
+   "checked": "2026-11-19"
+  }
+ ],
+ "whyThisClient": "Keith and Dustin are Edmonton brokers who list Mortgage Renewals as a core service, and both spent years inside big banks, which is exactly where the 'first offer' comes from, so the bridge is earned from their real bios. The house is an Edmonton semi-detached, the one home type whose sales rose this October (+12.4% y/y, RAE), and every number is Edmonton or generic: no Calgary figures (kit rule r1), no Ontario tags (r2). Fills the renewal-wave window (last pandemic-era 5-year fixed renewals through mid-2027) with a sign-vs-shop story instead of the rate-prediction posts everyone else runs before Dec 9.",
+ "researchIds": [
+  "renewal-wave-2026-27",
+  "rates-snapshot-valet",
+  "alberta-market-october",
+  "trend-hooks-sends-originality",
+  "insured-rules-stress-test"
+ ],
+ "complianceNotes": [
+  "kit.json complianceLine is null and voice.md says do not post until supplied: render a visible '[compliance line: TODO]' on the payoff beats (33.2 s to end, >= 26 px, contrast >= 4.5:1, inside y <= 1248) and in caption line 2. The output is a proof until it is supplied; never compose one.",
+  "Alberta has no Ontario-style every-ad licence rule, but 'Mortgage Connection' stays visible on the name plate and in caption line 2 (brokerage licence #13097 is in the kit from the website; only print it if it is part of the supplied compliance line).",
+  "Rates are third-party market references, dated on screen ('rates as of Nov 19, 2026 · nesto') and labelled 'Not an offer'. Spoken audio never says a rate figure. No 'best', 'lowest' or 'guaranteed' anywhere.",
+  "Both households are labelled composites ('Illustrative example' from Exhibit A through the verdict); no faces; the brokers are never drawn.",
+  "Kokoro voice: apply Instagram's AI label when posting. The narrator speaks in third person about Keith and Dustin, so the AI voice is never presented as the brokers.",
+  "Stress-test line in the caption follows the research desk's avoid list: straight switches are exempt, the new lender still approves.",
+  "Conditional language: 'may be automatic', 'your own gap may differ', 'subject to approval' (footnote)."
+ ],
+ "needs": [
+  "Compliance line from the client (blocks posting).",
+  "Approval of the DRAFT bridge line (beat 33.2-39.8 s, L11): 'Keith Crosland and Dustin Moss spent years inside big banks. They treat the first offer as a starting point.' If declined, cut to the 2 s name-plate hold (reel ~38 s).",
+  "Surname resolved: 'Crosland' (client website and staff page) on screen, SRT, caption and voice. The kit/sheet display name still reads 'Crossland': fix the kit record.",
+  "Re-pull the nesto insured 5-yr fixed on render day; if it moves, keep the 0.50% gap and recompute math[] (payments, $80, $7,032, $2,235).",
+  "Re-open the RAE October release on render day for the $410,683 semi average (only seen via reposts).",
+  "The 'Renewing in March? Day 120 is now' line expires Dec 1, 2026: post before then or change it to the month that is 120 days out.",
+  "Review the piece 30 days after posting (rate premise; Bank of Canada decides Dec 9)."
+ ],
+ "design": {
+  "palette": "Style palette, five inks + paper: paper #F4ECDD, navy #1D2340 (outlines, body, caption bar), cobalt #2E55D6 (halftone layer, SHOPPED stamp), pink #FF5A87 (misregistration shadow only), yellow #FFC628 (keyword highlight, numerals), stamp red #E8384F (party-wall line, SIGNED and verdict stamps, REC). Figures' local colours mustard and teal appear nowhere else. Kit accent is provisional, so it stays out of the print palette.",
+  "type": "Latin build per STYLE §4 with OFL faces: black slab serif headlines, fat rounded display for numerals, heavy monospace for HUD/footnotes, black sans for captions and stamps. Two weights per family; preload all against the page text.",
+  "layout1080x1920": "HUD y 280-320; headline y 300-500; house y 540-1150; caption bar y 1160-1240; footnote and name plate inside y 1000-1248 when shown (caption bar moves above the plate on 33.2 s+). Nothing readable below y 1248 or outside x 65-1015; below 1248 only paper, dots and the house's ground line.",
+  "camera": "Locked frontal with beat pulse, push-ins on each half, one pan across the wall, snap zoom on the $80 coin, slow push before the verdict, pull-back to frame 0 for the loop.",
+  "transitions": "Dot wipe at 7.0 (blue), pan at 13.0, hard cut at 19.0 on the bar line, everything else in-scene.",
+  "music": "120 BPM, bar = 2 s, cuts on bar lines; synth pop-print kit + marimba pluck; pizzicato under the left side's letter, full groove under SHOPPED; snare roll 26-27.6, silence 29.5-29.8, bell arpeggio tag at the loop.",
+  "grain": "mux grain 1 (print style)"
+ },
+ "fr": null,
+ "group": 1,
+ "expires": "2026-12-01",
+ "reviewBy": "2026-12-19",
+ "aiLabel": true
+}

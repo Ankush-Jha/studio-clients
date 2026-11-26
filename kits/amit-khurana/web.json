@@ -1,0 +1,118 @@
+{
+  "url": "https://amitkhurana.ca/",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Amit Khurana is a Mortgage Agent Level 2 leading CENTUM Indigo Mortgage Corp. in Mississauga, serving the GTA. The site cites 13+ years in business, over $1.5 billion in mortgages arranged and a CENTUM Gold Optimus award. It covers first-time buyers, refinance and renewal, bruised credit, self-employed, reverse, private, rent-to-own and construction financing.",
+  "tagline": "Find the Right Mortgage. Save Thousands.",
+  "yearsInBusiness": "13+",
+  "specialties": [
+    "First-time home buyer",
+    "Refinance and renewal",
+    "Bruised/bad credit",
+    "Self-employed",
+    "Reverse mortgage",
+    "Private mortgage",
+    "Rent to own",
+    "Construction financing"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Mississauga",
+    "Greater Toronto Area"
+  ],
+  "team": [
+    {
+      "name": "Amit Khurana",
+      "title": "Mortgage Agent Level 2",
+      "licence": "M12000871"
+    }
+  ],
+  "licences": [
+    {
+      "label": "Mortgage Agent licence",
+      "value": "M12000871",
+      "where": "about page"
+    },
+    {
+      "label": "Brokerage licence",
+      "value": "12141",
+      "where": "about page footer"
+    }
+  ],
+  "brokerage": {
+    "name": "CENTUM Indigo Mortgage Corp.",
+    "licence": "12141"
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/centummortgageagents",
+    "facebook": "https://www.facebook.com/CentumMortgageBrokers/",
+    "linkedin": "https://www.linkedin.com/in/amit-khurana-58b782190/",
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "(647) 341-2785 (primary)",
+    "(905) 624-2002"
+  ],
+  "emails": [
+    "amit_khurana@centum.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#003047",
+      "where": "Elementor global secondary, dark navy"
+    },
+    {
+      "hex": "#8F022A",
+      "where": "Elementor global accent, burgundy"
+    },
+    {
+      "hex": "#5F9EA0",
+      "where": "Elementor global accent, cadet teal"
+    }
+  ],
+  "fonts": [
+    "Roboto",
+    "Inter"
+  ],
+  "logoUrls": [
+    "https://amitkhurana.ca/wp-content/uploads/elementor/thumbs/logo-1-1-rbtk9yakekc0rb9n2mzfpcp2cygs5wtbv0s1zz0phc.png"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Facebook and Instagram links are CENTUM corporate accounts (CentumMortgageBrokers, centummortgageagents), not Amit-specific; LinkedIn is personal.",
+    "Address on site: 2400 Meadowpine Blvd, Unit 107, Mississauga ON L5N 6S2.",
+    "'Meet our mortgage experts' page lists placeholder-looking names (Jacob Laura, Olivia Ava, Jackson Leo, Mariana Noah); not recorded as team.",
+    "Home page contains inconsistent claims ('over 6 years of mortgage industry experience' counter vs 13+ years); treat years as check.",
+    "WebSearch (3rd-party directory results, confidence: check): centum.ca/agent/amit_khurana confirms Mortgage Agent Level 2, CENTUM Indigo Mortgage Corp.; no Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://amitkhurana.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://amitkhurana.ca/about-us/",
+      "what": "licences, awards, bio"
+    },
+    {
+      "url": "https://amitkhurana.ca/contact/",
+      "what": "contact"
+    },
+    {
+      "url": "https://amitkhurana.ca/meet-our-mortgage-experts/",
+      "what": "team page (placeholder names)"
+    },
+    {
+      "url": "https://www.centum.ca/agent/amit_khurana",
+      "what": "directory (search, check)"
+    }
+  ],
+  "blocked": []
+}

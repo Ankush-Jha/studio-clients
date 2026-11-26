@@ -1,0 +1,47 @@
+{
+ "id": "renewal-lump-sum--riso--feed--adrian-biccum",
+ "title": "$20K on renewal day: the lid comes off [riso, feed, adrian-biccum]",
+ "clients": [
+  "adrian-biccum"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "riso",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "$20K on renewal day: the lid comes off",
+ "tags": [
+  "stills",
+  "renewal-lump-sum",
+  "riso",
+  "feed-format",
+  "group-3"
+ ],
+ "hook": "One day a year your mortgage has no prepayment cap. Renewal day.",
+ "logline": "Proof render of spec 'renewal-lump-sum' in the Riso Two-Ink style for Adrian Biccum, feed format (8 slides).",
+ "structure": "8 slide(s), 1080x1350 (feed); slide types: cover, point, point, point, number, point, recap, cta",
+ "device": "A stencil-duplicator print: two translucent spot inks overprinted on warm paper, halftone ramps on rotated screens, plates that never quite line up, and type printed in the dark ink.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/renewal-lump-sum--riso/adrian-biccum",
+  "poster": "$R/engines/stills/out/renewal-lump-sum--riso/adrian-biccum/01.jpg",
+  "thumb": "library/thumbs/renewal-lump-sum--riso--feed--adrian-biccum.jpg",
+  "treatment": "$R/engines/stills/specs/library/renewal-lump-sum.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 8
+}

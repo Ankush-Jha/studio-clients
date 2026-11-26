@@ -1,0 +1,72 @@
+{
+  "pass": false,
+  "at": "2026-11-18T11:04:59Z",
+  "contact": "$R/engines/stills/out/heloc-paul--cutout/karven-wu/contact.jpg",
+  "frames": [],
+  "checks": [
+    {
+      "id": "size",
+      "name": "Slide size",
+      "status": "pass",
+      "value": "2160×2700 (@2x)",
+      "expected": "4:5",
+      "detail": ""
+    },
+    {
+      "id": "count",
+      "name": "Slide count",
+      "status": "pass",
+      "value": "7",
+      "expected": "3–10",
+      "detail": ""
+    },
+    {
+      "id": "spelling",
+      "name": "Spelling",
+      "status": "pass",
+      "value": "0 errors",
+      "expected": "0",
+      "detail": ""
+    },
+    {
+      "id": "contrast",
+      "name": "Text contrast",
+      "status": "pass",
+      "value": "7.8:1 min",
+      "expected": "≥ 4.5:1",
+      "detail": ""
+    },
+    {
+      "id": "safezone",
+      "name": "Grid crop 3:4",
+      "status": "pass",
+      "value": "cover headline inside",
+      "expected": "inside",
+      "detail": ""
+    },
+    {
+      "id": "footer",
+      "name": "Client footer",
+      "status": "pass",
+      "value": "present on 7/7",
+      "expected": "all",
+      "detail": ""
+    },
+    {
+      "id": "math",
+      "name": "Math check",
+      "status": "pass",
+      "value": "2/2",
+      "expected": "all",
+      "detail": ""
+    },
+    {
+      "id": "compliance",
+      "name": "Compliance line",
+      "status": "fail",
+      "value": "missing",
+      "expected": "brokerage + licence",
+      "detail": "kit has no brokerage on file: TODO for the client"
+    }
+  ]
+}

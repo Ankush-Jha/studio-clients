@@ -1,0 +1,47 @@
+{
+ "id": "fraser-valley-market--broadsheet--feed--jalal-khan",
+ "title": "Fraser Valley is a buyer's market: October in three regions [broadsheet, feed, jalal-khan]",
+ "clients": [
+  "jalal-khan"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "broadsheet",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Fraser Valley is a buyer's market: October in three regions",
+ "tags": [
+  "stills",
+  "fraser-valley-market",
+  "broadsheet",
+  "feed-format",
+  "group-4"
+ ],
+ "hook": "The Fraser Valley is a buyer’s market.",
+ "logline": "Proof render of spec 'fraser-valley-market' in the Front Page style for Jalal Khan, feed format (4 slides).",
+ "structure": "4 slide(s), 1080x1350 (feed); slide types: cover, compare, number, cta",
+ "device": "A newspaper front page for one post: a fictional nameplate made from the series, an honest dateline, a Libre Franklin headline, Newsreader columns, and the chart standing in for the news photo.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/fraser-valley-market--broadsheet/jalal-khan",
+  "poster": "$R/engines/stills/out/fraser-valley-market--broadsheet/jalal-khan/01.jpg",
+  "thumb": "library/thumbs/fraser-valley-market--broadsheet--feed--jalal-khan.jpg",
+  "treatment": "$R/engines/stills/specs/library/fraser-valley-market.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 4
+}

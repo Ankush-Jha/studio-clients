@@ -1,0 +1,47 @@
+{
+ "id": "renewal-21-days--annotated--square--al-manji",
+ "title": "Surprise! Your renewal offer, 21 days out [annotated, square, al-manji]",
+ "clients": [
+  "al-manji"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "annotated",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1080",
+ "voice": null,
+ "music": null,
+ "topic": "Surprise! Your renewal offer, 21 days out",
+ "tags": [
+  "stills",
+  "renewal-21-days",
+  "annotated",
+  "square-format",
+  "group-2"
+ ],
+ "hook": "Your renewal offer can show up just",
+ "logline": "Proof render of spec 'renewal-21-days' in the Marker Markup style for Al Manji, square format (1 slide).",
+ "structure": "1 slide(s), 1080x1080 (square); slide types: cover",
+ "device": "The broker's own photo (or document) marked up in felt-tip: circles, arrows, a hand-drawn timeline and short handwritten notes on tape, over confident flush-left grotesk type.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/renewal-21-days--annotated--square/al-manji",
+  "poster": "$R/engines/stills/out/renewal-21-days--annotated--square/al-manji/01.jpg",
+  "thumb": "library/thumbs/renewal-21-days--annotated--square--al-manji.jpg",
+  "treatment": "$R/engines/stills/specs/library/renewal-21-days.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

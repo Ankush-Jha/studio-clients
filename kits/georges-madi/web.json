@@ -1,0 +1,77 @@
+{
+  "url": "https://www.georgesmadi.com/en",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Georges Madi is a Montreal-area mortgage broker with Xperto Hypotheques, part of Dominion Lending Centres, serving the Laval community. The profile says he ranked among Quebec's top 20 performers in 2022 and handles over $50M in annual volume. Services listed: mortgage, insurance, reverse, pre-approval, refinancing, private and alternative financing.",
+  "tagline": "Your Strategic Mortgage Partner in Laval",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Mortgage preapproval",
+    "Mortgage refinancing",
+    "Mortgage insurance",
+    "Reverse mortgage",
+    "Private mortgage financing",
+    "Alternative mortgage financing",
+    "First-time buyers",
+    "Renewals"
+  ],
+  "languages": [
+    "English",
+    "French (site has /fr version)"
+  ],
+  "serviceAreas": [
+    "Laval",
+    "Montreal"
+  ],
+  "team": [
+    {
+      "name": "Georges Madi",
+      "title": "Mortgage broker, Investment advisor, Business advisor",
+      "licence": null
+    }
+  ],
+  "licences": [],
+  "brokerage": {
+    "name": "Xperto Hypotheques - Dominion Lending Centres",
+    "licence": null
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "+1 514-839-9356"
+  ],
+  "emails": [
+    "gmadi@xperto.ca"
+  ],
+  "brandColors": [],
+  "fonts": [],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Site is a JS app (Welcome Spaces); fetched with the headless browser tool (robots allowed). No CSS colours extracted from the app bundle.",
+    "No licence numbers, socials or booking link on the site (clients.json also has none).",
+    "WebSearch (3rd-party directory results, confidence: check): LinkedIn: Dominion Lending Centres Inc; Multi-Prets Mortgages still lists him (possible older affiliation); Yelp lists 3737 Cremazie Blvd E; languages French, English, Arabic per Multi-Prets profile (check). No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://www.georgesmadi.com/en",
+      "what": "homepage (browser fetch)"
+    },
+    {
+      "url": "https://www.multi-prets.com/en/mortgage-broker/georges-madi/",
+      "what": "search, check"
+    }
+  ],
+  "blocked": []
+}

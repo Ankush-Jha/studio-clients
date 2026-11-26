@@ -1,0 +1,422 @@
+{
+  "id": "2026-11-19-dan-balch-renewing-in-2027-in-london",
+  "created": "2026-11-19T14:53:18.153Z",
+  "updated": "2026-11-21T15:15:53.774Z",
+  "client": "dan-balch",
+  "format": "carousel",
+  "topic": "Renewing in 2027 in London",
+  "brief": {
+    "engine": "broker-stills",
+    "notes": "test run of the pipeline; 8-10 slides feed 4:5",
+    "test": true
+  },
+  "status": "delivered",
+  "engine": "broker-stills",
+  "style": "broadsheet",
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": null,
+      "ended": "2026-11-19T14:53:18.311Z",
+      "summary": "kit loaded; test run",
+      "outputs": []
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-19T15:04:53.720Z",
+      "ended": "2026-11-19T15:09:46.657Z",
+      "summary": "Script A: 9-slide broadsheet front page (guess-then-reveal, +$402 / -$122 / -$200 at 4.66% Sep 2026 BoC avg), all numbers via calc + 10 math entries, send CTA",
+      "outputs": [
+        "concepts.json",
+        "script.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "done",
+      "started": "2026-11-19T15:04:25.219Z",
+      "ended": "2026-11-19T15:04:49.926Z",
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "done",
+      "started": "2026-11-19T15:10:15.589Z",
+      "ended": "2026-11-19T15:10:46.760Z",
+      "summary": "3 fixes, 8 numbers verified, proof-only for posting pending broker s.18 confirmation",
+      "outputs": []
+    },
+    {
+      "id": "director",
+      "status": "done",
+      "started": "2026-11-19T15:15:40.142Z",
+      "ended": "2026-11-19T15:22:31.243Z",
+      "summary": "Fix round 1: 9-slide broadsheet carousel re-rendered as 1080x1350 feed with a 195 px footer reserve (job-local --reserve), so the layout fills the space above Dan's footer and the dead band is gone; footer alpha-composited into the reserved band; cover.jpg is now the 1080x1350 feed cover (slide 1); greys set to ink at 22-23 px; 16 px more air under the slide 9 headline; copy and numbers unchanged; no voice. Gate PASS (16 pass, 2 warn, both from contact/word count).",
+      "outputs": [
+        "out/01.jpg"
+      ]
+    },
+    {
+      "id": "critic",
+      "status": "done",
+      "started": "2026-11-19T15:23:28.924Z",
+      "ended": "2026-11-19T15:23:52.593Z",
+      "summary": "pass|2 fixes (round 2)",
+      "outputs": [
+        "qa/report.json",
+        "qa/critique.json"
+      ]
+    },
+    {
+      "id": "gate2",
+      "status": "done",
+      "started": "2026-11-19T15:24:04.442Z",
+      "ended": "2026-11-19T15:40:22.184Z",
+      "summary": "Approved",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "done",
+      "started": "2026-11-21T15:14:47.669Z",
+      "ended": "2026-11-21T15:15:53.772Z",
+      "summary": "filed as 2026-11-19-dan-balch-renewing-in-2027-in-london; 1 lesson suggestions",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": "A",
+  "gates": {
+    "g1": {
+      "at": "2026-11-19T15:04:49.925Z",
+      "decision": "pick",
+      "choice": "A",
+      "notes": "Test run (producer pick, not the user's): A, three renewals on one street, broadsheet. Re-pull the BoC average renewal rate on render day; all balances via calc/math.",
+      "by": "producer-test"
+    },
+    "g2": {
+      "at": "2026-11-19T15:40:22.184Z",
+      "decision": "approve",
+      "notes": "",
+      "by": "desk"
+    }
+  },
+  "outputs": [
+    {
+      "kind": "carousel",
+      "path": "out/01.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/02.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/03.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/04.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/05.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/06.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/07.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/08.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/09.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "cover",
+      "path": "out/cover.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "caption",
+      "path": "out/caption.txt",
+      "w": 640,
+      "h": 400,
+      "durationS": null
+    }
+  ],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": true
+  },
+  "log": [
+    {
+      "t": "2026-11-19T14:53:18.153Z",
+      "node": "intake",
+      "msg": "job created: carousel for dan-balch about \"Renewing in 2027 in London\""
+    },
+    {
+      "t": "2026-11-19T14:53:18.311Z",
+      "node": "intake",
+      "msg": "done: kit loaded; test run"
+    },
+    {
+      "t": "2026-11-19T14:53:33.040Z",
+      "node": "strategist",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:04:25.165Z",
+      "node": "strategist",
+      "msg": "done: 3 concepts: A Three 2027 renewals on one London street / B The 20%-down trap: London's 2022 buyers / C Departures: London's 2027 renewal board"
+    },
+    {
+      "t": "2026-11-19T15:04:25.219Z",
+      "node": "gate1",
+      "msg": "waiting"
+    },
+    {
+      "t": "2026-11-19T15:04:49.926Z",
+      "node": "gate1",
+      "msg": "pick A: Test run (producer pick, not the user's): A, three renewals on one street, broadsheet. Re-pull the BoC average renewal rate on render day; all balances via calc/math."
+    },
+    {
+      "t": "2026-11-19T15:04:53.721Z",
+      "node": "strategist",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:09:46.658Z",
+      "node": "strategist",
+      "msg": "done: Script A: 9-slide broadsheet front page (guess-then-reveal, +$402 / -$122 / -$200 at 4.66% Sep 2026 BoC avg), all numbers via calc + 10 math entries, send CTA"
+    },
+    {
+      "t": "2026-11-19T15:10:15.590Z",
+      "node": "checker",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:10:46.761Z",
+      "node": "checker",
+      "msg": "done: 3 fixes, 8 numbers verified, proof-only for posting pending broker s.18 confirmation"
+    },
+    {
+      "t": "2026-11-19T15:11:04.156Z",
+      "node": "director",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:13:57.085Z",
+      "node": "director",
+      "msg": "output carousel: out/01.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.161Z",
+      "node": "director",
+      "msg": "output carousel: out/02.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.233Z",
+      "node": "director",
+      "msg": "output carousel: out/03.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.306Z",
+      "node": "director",
+      "msg": "output carousel: out/04.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.378Z",
+      "node": "director",
+      "msg": "output carousel: out/05.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.452Z",
+      "node": "director",
+      "msg": "output carousel: out/06.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.527Z",
+      "node": "director",
+      "msg": "output carousel: out/07.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.601Z",
+      "node": "director",
+      "msg": "output carousel: out/08.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.674Z",
+      "node": "director",
+      "msg": "output carousel: out/09.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.748Z",
+      "node": "director",
+      "msg": "output cover: out/cover.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.822Z",
+      "node": "director",
+      "msg": "output contact: out/contact.jpg"
+    },
+    {
+      "t": "2026-11-19T15:13:57.894Z",
+      "node": "director",
+      "msg": "output caption: out/caption.txt"
+    },
+    {
+      "t": "2026-11-19T15:13:57.996Z",
+      "node": "director",
+      "msg": "done: 9-slide broadsheet (variant a) carousel, 1080x1080 square + Dan's footer band to 1080x1350, 1080x1920 story cover, caption.txt; no voice. 0 render FAIL; one near-dup flag (cover vs Dan's unposted deposit-trail demo cover, same client)."
+    },
+    {
+      "t": "2026-11-19T15:14:30.140Z",
+      "node": "critic",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:15:03.436Z",
+      "node": "critic",
+      "msg": "done: fail|5 fixes (round 1)"
+    },
+    {
+      "t": "2026-11-19T15:15:40.143Z",
+      "node": "director",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:22:22.874Z",
+      "node": "director",
+      "msg": "output carousel: out/01.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:22.951Z",
+      "node": "director",
+      "msg": "output carousel: out/02.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.027Z",
+      "node": "director",
+      "msg": "output carousel: out/03.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.104Z",
+      "node": "director",
+      "msg": "output carousel: out/04.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.183Z",
+      "node": "director",
+      "msg": "output carousel: out/05.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.258Z",
+      "node": "director",
+      "msg": "output carousel: out/06.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.334Z",
+      "node": "director",
+      "msg": "output carousel: out/07.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.409Z",
+      "node": "director",
+      "msg": "output carousel: out/08.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.485Z",
+      "node": "director",
+      "msg": "output carousel: out/09.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.562Z",
+      "node": "director",
+      "msg": "output cover: out/cover.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.638Z",
+      "node": "director",
+      "msg": "output contact: out/contact.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:23.715Z",
+      "node": "director",
+      "msg": "output caption: out/caption.txt"
+    },
+    {
+      "t": "2026-11-19T15:22:31.244Z",
+      "node": "director",
+      "msg": "done: Fix round 1: 9-slide broadsheet carousel re-rendered as 1080x1350 feed with a 195 px footer reserve (job-local --reserve), so the layout fills the space above Dan's footer and the dead band is gone; footer alpha-composited into the reserved band; cover.jpg is now the 1080x1350 feed cover (slide 1); greys set to ink at 22-23 px; 16 px more air under the slide 9 headline; copy and numbers unchanged; no voice. Gate PASS (16 pass, 2 warn, both from contact/word count)."
+    },
+    {
+      "t": "2026-11-19T15:23:28.925Z",
+      "node": "critic",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:23:52.594Z",
+      "node": "critic",
+      "msg": "done: pass|2 fixes (round 2)"
+    },
+    {
+      "t": "2026-11-19T15:24:04.442Z",
+      "node": "gate2",
+      "msg": "waiting: QA pass (round 2); proof-only until broker confirms s.18 + phone + accent"
+    },
+    {
+      "t": "2026-11-19T15:40:22.184Z",
+      "node": "gate2",
+      "msg": "Desk: approve"
+    },
+    {
+      "t": "2026-11-21T15:14:47.670Z",
+      "node": "librarian",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-21T15:15:53.774Z",
+      "node": "librarian",
+      "msg": "done: filed as 2026-11-19-dan-balch-renewing-in-2027-in-london; 1 lesson suggestions"
+    }
+  ]
+}

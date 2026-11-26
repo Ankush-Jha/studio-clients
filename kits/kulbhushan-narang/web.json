@@ -1,0 +1,111 @@
+{
+  "url": "https://loansbykulbhushan.com/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "Kulbhushan Narang is a Mortgage Agent Level 2 with Orbis Mortgage Group in Vaughan, Ontario. His site says he has been licensed since 2017 and worked as a mortgage specialist since 2008, with access to over 40 lenders. Services cover pre-approval, purchase, rental investment, refinance, construction, land, commercial, private/alternative lending and cross-border mortgages for foreign nationals and Canadians. Appointments run Mon-Fri 9-5 plus evenings and weekends by appointment.",
+  "tagline": "Streamline Your Mortgage Journey with Kulbhushan Narang",
+  "yearsInBusiness": "Licensed since 2017; former mortgage specialist since 2008 (about page)",
+  "specialties": [
+    "Pre-approval",
+    "New purchase",
+    "Rental investment",
+    "Refinance",
+    "Auto-construction",
+    "Land finance",
+    "Commercial lending",
+    "Alternate and private",
+    "Business loans",
+    "Reverse mortgage",
+    "Debt consolidation",
+    "Home equity / HELOC",
+    "Cashback mortgage",
+    "Cross-border mortgages for foreign nationals"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Ontario",
+    "North America (cross-border, per site)"
+  ],
+  "team": [
+    {
+      "name": "Kulbhushan Narang",
+      "title": "Mortgage Agent Level 2",
+      "licence": "M1700370 (as printed on contact page; clients.json has M17000370)"
+    }
+  ],
+  "licences": [
+    {
+      "label": "Mortgage Agent Level 2",
+      "value": "M1700370",
+      "where": "contact page footer card (likely typo of M17000370)"
+    }
+  ],
+  "brokerage": {
+    "name": "Orbis Mortgage Group",
+    "licence": null
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/kulbhushan_narang/",
+    "facebook": "https://www.facebook.com/profile.php?id=61590761514706",
+    "linkedin": "https://www.linkedin.com/in/kulbhushannarang",
+    "youtube": "https://www.youtube.com/channel/UC9AzstUAMM58387mM_ykB9g",
+    "tiktok": "https://www.tiktok.com/@dkmg.mortgage.group.11",
+    "x": null
+  },
+  "bookingUrl": "https://outlook.office.com/bookwithme/user/fd18a5045e8446baad20f8e8b8574ede%40orbismortgage.ca?anonymous&ismsaljsauthenabled",
+  "phones": [
+    "905-581-8188",
+    "Fax +18885702755"
+  ],
+  "emails": [
+    "kulbhushan.narang@orbismortgage.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#d4b225",
+      "where": "gold accent, most-used colour in CSS (buttons/highlights)"
+    },
+    {
+      "hex": "#111634",
+      "where": "dark navy (headings/backgrounds)"
+    },
+    {
+      "hex": "#ffffff",
+      "where": "background"
+    }
+  ],
+  "fonts": [
+    "Inter"
+  ],
+  "logoUrls": [
+    "https://loansbykulbhushan.com/wp-content/uploads/logo.svg",
+    "https://loansbykulbhushan.com/wp-content/uploads/logo.png"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "Address: 21-7611 Pine Valley Drive, Vaughan, ON L4L 0A2.",
+    "Threads: https://www.threads.com/@kulbhushan_orbis_mortgage (no schema field).",
+    "Brokerage FSRA#13476 from clients.json not printed on site.",
+    "Search (check): Orbis profile https://orbismortgage.com/kulbhushan-narang/ lists languages Hindi, Punjabi, Urdu and phone 416-877-1670; directory listings (zipleaf, brokers.network) older/Mortgage Alliance. No Google rating/review count found."
+  ],
+  "sources": [
+    {
+      "url": "https://loansbykulbhushan.com/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://loansbykulbhushan.com/about/",
+      "what": "about"
+    },
+    {
+      "url": "https://loansbykulbhushan.com/contact/",
+      "what": "contact + licence"
+    }
+  ],
+  "blocked": []
+}

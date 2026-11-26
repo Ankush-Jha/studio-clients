@@ -1,0 +1,129 @@
+{
+  "url": "https://cpmg.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "CPMG Mortgages (Centum Professional Mortgage Group) is Vittorio Oliverio's Lethbridge, Alberta brokerage. The site targets first-time buyers, homeowners and rental investors, citing more than a decade of industry experience and no cost to clients. It lists a team of six brokers (Marty Fekete, Cara Oliverio, Kim Holcek, Clarke Binning, David Boras, Daniel Hiebert) and offers case studies, a learning centre and a first-time-buyer guide.",
+  "tagline": "Your Dream Home Deserves your Dream Mortgage",
+  "yearsInBusiness": "'More than a decade' (site); Centum profile in search says 29 years (check)",
+  "specialties": [
+    "First-time home buyers",
+    "Rental mortgages",
+    "Refinancing",
+    "Bruised-credit mortgages",
+    "Investment mortgages"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Lethbridge",
+    "Alberta"
+  ],
+  "team": [
+    {
+      "name": "Vittorio Oliverio",
+      "title": "Owner / Mortgage Broker (per search)",
+      "licence": null
+    },
+    {
+      "name": "Marty Fekete",
+      "title": "Mortgage Broker",
+      "licence": null
+    },
+    {
+      "name": "Cara Oliverio",
+      "title": "Mortgage Broker",
+      "licence": null
+    },
+    {
+      "name": "Kim Holcek",
+      "title": "Mortgage Broker",
+      "licence": null
+    },
+    {
+      "name": "Clarke Binning",
+      "title": "Mortgage Broker",
+      "licence": null
+    },
+    {
+      "name": "David Boras",
+      "title": "Mortgage Broker",
+      "licence": null
+    },
+    {
+      "name": "Daniel Hiebert",
+      "title": "Mortgage Broker",
+      "licence": null
+    }
+  ],
+  "licences": [],
+  "brokerage": {
+    "name": "Centum Professional Mortgage Group Inc.",
+    "licence": null
+  },
+  "socials": {
+    "instagram": "https://www.instagram.com/cpmgmortgages",
+    "facebook": "https://www.facebook.com/centumprofessionalmortgagegroup/",
+    "linkedin": "https://www.linkedin.com/in/vittorio-oliverio-2b39ab21/",
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "403-380-4413"
+  ],
+  "emails": [
+    "info@cpmg.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#6a031d",
+      "where": "burgundy, most-used (headings/buttons)"
+    },
+    {
+      "hex": "#920029",
+      "where": "bright burgundy accent"
+    },
+    {
+      "hex": "#ffe7a3",
+      "where": "pale gold highlight"
+    },
+    {
+      "hex": "#3a0211",
+      "where": "dark maroon"
+    }
+  ],
+  "fonts": [
+    "Montserrat"
+  ],
+  "logoUrls": [
+    "https://cpmg.ca/wp-content/uploads/2026/04/logo.svg",
+    "https://cpmg.ca/wp-content/uploads/logo-2.svg"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "Address: 1261 2A Ave N, Lethbridge AB T1H 0G1.",
+    "Site phone 403-380-4413 differs from clients.json (403) 795 6054 (the latter appears on third-party listings); Vittorio@cpmg.ca not shown on site (info@cpmg.ca).",
+    "No licence numbers printed on the site.",
+    "Search (check): https://www.centum.ca/agent/vittorio_oliverio ; https://www.provenexpert.com/en-us/vittorio-oliverio-centum-professional-mortgage-group-inc-mortgage-broker/ ; calgary page https://cpmg.ca/mortgage-broker-in-calgary/. No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://cpmg.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://cpmg.ca/our-team/",
+      "what": "team"
+    },
+    {
+      "url": "https://cpmg.ca/contact-us/",
+      "what": "contact"
+    }
+  ],
+  "blocked": []
+}

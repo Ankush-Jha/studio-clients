@@ -1,0 +1,102 @@
+{
+  "url": "https://danbalch.com",
+  "fetched": "2026-11-19T14:40:00Z",
+  "bio": "Dan Balch is a Licensed Mortgage Broker in the London, Ontario area (Komoka office) with Mortgage Architects, brokerage #12728. He says he has helped people reach home ownership for 29 years, after a background in real estate, financial planning and insurance. Services include first-time buyers, refinance, renewals, private and reverse mortgages.",
+  "tagline": "Your Trusted London Mortgage Advisor",
+  "yearsInBusiness": "29 (about page: years helping people with home ownership)",
+  "specialties": [
+    "First-time home buyers",
+    "Refinance",
+    "Private mortgages",
+    "Reverse mortgages",
+    "Mortgage renewals and transfers"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "London, Ontario",
+    "Komoka"
+  ],
+  "team": [
+    {
+      "name": "Dan Balch",
+      "title": "Licensed Mortgage Broker",
+      "licence": "M08003485"
+    }
+  ],
+  "licences": [
+    {
+      "label": "Broker licence",
+      "value": "#M08003485",
+      "where": "about page footer"
+    },
+    {
+      "label": "Brokerage licence",
+      "value": "#12728",
+      "where": "about page footer"
+    }
+  ],
+  "brokerage": {
+    "name": "Mortgage Architects",
+    "licence": "#12728"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": "https://www.facebook.com/danbalchmortgagebroker/",
+    "linkedin": "https://www.linkedin.com/in/danbalch-519b726/",
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "(519) 854-7025"
+  ],
+  "emails": [
+    "dan@danbalch.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#002e6e",
+      "where": "navy brand colour in site CSS (headings/buttons)"
+    },
+    {
+      "hex": "#13aff0",
+      "where": "light blue accent (may be theme default)"
+    }
+  ],
+  "fonts": [
+    "Poppins"
+  ],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": null,
+    "count": null,
+    "source": null
+  },
+  "notes": [
+    "Brokerage name 'Mortgage Architects' is in clients.json; on the pages fetched only brokerage #12728 is printed, name not seen in text.",
+    "Contact page shows a Pinterest and Bsky icon too; links not captured. Address: 23201 Nairn Rd, Komoka ON N0L 1R0.",
+    "Another tel link 519-438-7025 appears in markup; header phone is (519)854-7025 (matches clients.json 'to confirm').",
+    "WebSearch (3rd-party directory results, confidence: check): he also runs danbalch.ca (a second site) which says 24 years and 50+ lenders vs 29 years and 30+ on danbalch.com: conflicting claims, check. No Google rating found."
+  ],
+  "sources": [
+    {
+      "url": "https://danbalch.com",
+      "what": "homepage"
+    },
+    {
+      "url": "https://danbalch.com/about-me/",
+      "what": "bio, licences"
+    },
+    {
+      "url": "https://danbalch.com/contact-me/",
+      "what": "contact"
+    },
+    {
+      "url": "https://www.danbalch.ca/",
+      "what": "second site (search, check)"
+    }
+  ],
+  "blocked": []
+}

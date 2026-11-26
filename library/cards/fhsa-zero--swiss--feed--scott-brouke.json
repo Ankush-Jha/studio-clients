@@ -1,0 +1,47 @@
+{
+ "id": "fhsa-zero--swiss--feed--scott-brouke",
+ "title": "$0 is enough: open an FHSA before Dec 31 [swiss, feed, scott-brouke]",
+ "clients": [
+  "scott-brouke"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "static",
+ "engine": "stills",
+ "style": "swiss",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "$0 is enough: open an FHSA before Dec 31",
+ "tags": [
+  "stills",
+  "fhsa-zero",
+  "swiss",
+  "feed-format",
+  "group-1"
+ ],
+ "hook": "Open an FHSA with $0 by Dec 31. 2027 starts with $16,000 of room.",
+ "logline": "Proof render of spec 'fhsa-zero' in the Swiss Data Poster style for Scott Brouke, feed format (1 slide).",
+ "structure": "1 slide(s), 1080x1350 (feed); slide types: stat",
+ "device": "International Typographic Style: one grotesk, a visible 12-column grid, flush-left type and data drawn as exact geometry in one signal colour.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/fhsa-zero--swiss/scott-brouke",
+  "poster": "$R/engines/stills/out/fhsa-zero--swiss/scott-brouke/01.jpg",
+  "thumb": "library/thumbs/fhsa-zero--swiss--feed--scott-brouke.jpg",
+  "treatment": "$R/engines/stills/specs/library/fhsa-zero.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

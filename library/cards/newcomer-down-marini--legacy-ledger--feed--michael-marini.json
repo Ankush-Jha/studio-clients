@@ -1,0 +1,47 @@
+{
+ "id": "newcomer-down-marini--legacy-ledger--feed--michael-marini",
+ "title": "New PR in the GTA: $77,411 down on the average home [legacy-ledger, feed, michael-marini]",
+ "clients": [
+  "michael-marini"
+ ],
+ "generic": false,
+ "date": "2026-11-15",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "legacy-ledger",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "New PR in the GTA: $77,411 down on the average home",
+ "tags": [
+  "stills",
+  "newcomer-down-marini",
+  "legacy-ledger",
+  "feed-format",
+  "group-1"
+ ],
+ "hook": "New PR in the GTA: $77,411 down on the average home",
+ "logline": "Proof render of spec 'newcomer-down-marini' in the legacy-ledger style for michael-marini, feed format (10 slides).",
+ "structure": "10 slide(s), 1080x1350 (feed); slide types: cover, data, data, content, content, content, content, content, checklist, cta",
+ "device": "early stills family 'ledger' layout with placeholder client michael-marini",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/newcomer-down-marini/michael-marini",
+  "poster": "$R/engines/stills/out/newcomer-down-marini/michael-marini/01.jpg",
+  "thumb": "library/thumbs/newcomer-down-marini--legacy-ledger--feed--michael-marini.jpg",
+  "treatment": "$R/engines/stills/specs/newcomer-down-marini.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 10
+}

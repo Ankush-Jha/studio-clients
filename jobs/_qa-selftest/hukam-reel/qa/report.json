@@ -1,0 +1,244 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "id": "spec.resolution",
+      "name": "Resolution",
+      "status": "pass",
+      "value": "1080x1920",
+      "expected": "1080x1920",
+      "detail": ""
+    },
+    {
+      "id": "spec.codec",
+      "name": "Codec / profile",
+      "status": "pass",
+      "value": "h264 High",
+      "expected": "h264 High",
+      "detail": ""
+    },
+    {
+      "id": "spec.pix_fmt",
+      "name": "Pixel format",
+      "status": "fail",
+      "value": "yuvj420p",
+      "expected": "yuv420p",
+      "detail": "yuvj420p is full-range (JPEG) and gets re-encoded/shifted by IG"
+    },
+    {
+      "id": "spec.color_tags",
+      "name": "BT.709 colour tags (limited range)",
+      "status": "fail",
+      "value": {
+        "color_space": "bt470bg",
+        "color_primaries": "unspecified",
+        "color_transfer": "unspecified",
+        "color_range": "pc"
+      },
+      "expected": "bt709 / bt709 / bt709 / tv",
+      "detail": "untagged: color_primaries,color_transfer"
+    },
+    {
+      "id": "spec.fps",
+      "name": "Frame rate",
+      "status": "warn",
+      "value": 24.0,
+      "expected": ">= 30 (24 = warn)",
+      "detail": "24 fps is accepted by the API but new work should be 30"
+    },
+    {
+      "id": "spec.cfr",
+      "name": "Constant frame rate",
+      "status": "pass",
+      "value": "r=24.000 avg=24.000",
+      "expected": "r == avg",
+      "detail": ""
+    },
+    {
+      "id": "spec.video_bitrate",
+      "name": "Video bitrate",
+      "status": "pass",
+      "value": "20.02 Mbps",
+      "expected": "< 25 Mbps",
+      "detail": ""
+    },
+    {
+      "id": "spec.audio_codec",
+      "name": "Audio codec / rate",
+      "status": "pass",
+      "value": "aac 48000 Hz",
+      "expected": "aac 48000 Hz",
+      "detail": ""
+    },
+    {
+      "id": "spec.audio_bitrate",
+      "name": "Audio bitrate",
+      "status": "warn",
+      "value": "251 kbps",
+      "expected": "<= 128 kbps (API/scheduler posting)",
+      "detail": "re-encode to 128k before API upload"
+    },
+    {
+      "id": "spec.faststart",
+      "name": "+faststart (moov before mdat)",
+      "status": "pass",
+      "value": "ftyp moov",
+      "expected": "moov first",
+      "detail": ""
+    },
+    {
+      "id": "spec.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "144.4 MB",
+      "expected": "< 300 MB",
+      "detail": ""
+    },
+    {
+      "id": "spec.duration",
+      "name": "Duration",
+      "status": "pass",
+      "value": "57.0 s",
+      "expected": "<= 180 s (fail); 15-90 s",
+      "detail": ""
+    },
+    {
+      "id": "audio.loudness",
+      "name": "Integrated loudness",
+      "status": "pass",
+      "value": "-14.0 LUFS",
+      "expected": "-14 +/-1 LUFS",
+      "detail": ""
+    },
+    {
+      "id": "audio.truepeak",
+      "name": "True peak",
+      "status": "pass",
+      "value": "-1.4 dBTP",
+      "expected": "<= -1 dBTP",
+      "detail": ""
+    },
+    {
+      "id": "video.black",
+      "name": "Black frames",
+      "status": "pass",
+      "value": 0,
+      "expected": "none > 0.5 s",
+      "detail": ""
+    },
+    {
+      "id": "video.frozen",
+      "name": "Frozen stretches > 4 s",
+      "status": "pass",
+      "value": 0,
+      "expected": "none > 4 s",
+      "detail": ""
+    },
+    {
+      "id": "video.safezone",
+      "name": "Text inside safe zone (x65-1015, y270-1248)",
+      "status": "fail",
+      "value": "15/20 sampled frames have OCR text outside",
+      "expected": "0 frames",
+      "detail": "t=3.0s: 'taan'@(236,1759)-(356,1828), 'tujhe'@(389,1754)-(538,1828), 'aaraadhi,'@(543,1754)-(846,1828) | t=6.0s: '5'@(998,142)-(1011,152) | t=9.0s: 'taan'@(347,1763)-(466,1805), 'main'@(483,1759)-(621,1806) | t=12.0s: 'vy'@(316,1630)-(335,1642)"
+    },
+    {
+      "id": "video.hook_frame0",
+      "name": "Hook text in frame 1",
+      "status": "warn",
+      "value": "0 words: ''",
+      "expected": ">= 2 words in frame 0",
+      "detail": "text may animate in after frame 0; check qa/frames t000.00"
+    },
+    {
+      "id": "video.contrast",
+      "name": "Caption/text contrast >= 4.5:1 (sampled frames)",
+      "status": "pass",
+      "value": "0 low-contrast lines",
+      "expected": ">= 4.5:1",
+      "detail": ""
+    },
+    {
+      "id": "video.loop_seam",
+      "name": "Loop seam (first vs last frame PSNR)",
+      "status": "pass",
+      "value": "13.0 dB",
+      "expected": ">= 20 dB if loop",
+      "detail": "informational: script does not say loop"
+    },
+    {
+      "id": "video.wer",
+      "name": "Caption accuracy (whisper WER vs script)",
+      "status": "skip",
+      "value": null,
+      "expected": "WER <= 5% (8% fail)",
+      "detail": "no script voice lines supplied (--script script.json)"
+    },
+    {
+      "id": "copy.caption",
+      "name": "Caption file",
+      "status": "skip",
+      "value": null,
+      "expected": "caption.txt",
+      "detail": "no caption.txt / CAPTION.md found; copy checks not run"
+    },
+    {
+      "id": "dup.near",
+      "name": "Near-duplicate vs library/jobs/radar",
+      "status": "pass",
+      "value": {
+        "nearest": {
+          "distance": 22.5,
+          "client": null,
+          "path": "/Users/ankushjha/Work/bots/radar/thumbs/yt-W6stZqvv6-I.jpg"
+        },
+        "indexed": 117,
+        "checked": 1
+      },
+      "expected": "dist > 10 (fail <= 6 other client, warn <= 10)",
+      "detail": "index has 117 items"
+    }
+  ],
+  "frames": [
+    "qa/frames/hukam-reel_t000.00.jpg",
+    "qa/frames/hukam-reel_t003.00.jpg",
+    "qa/frames/hukam-reel_t006.00.jpg",
+    "qa/frames/hukam-reel_t009.00.jpg",
+    "qa/frames/hukam-reel_t012.00.jpg",
+    "qa/frames/hukam-reel_t015.00.jpg",
+    "qa/frames/hukam-reel_t018.00.jpg",
+    "qa/frames/hukam-reel_t021.00.jpg",
+    "qa/frames/hukam-reel_t024.00.jpg",
+    "qa/frames/hukam-reel_t027.00.jpg",
+    "qa/frames/hukam-reel_t030.00.jpg",
+    "qa/frames/hukam-reel_t033.00.jpg",
+    "qa/frames/hukam-reel_t036.00.jpg",
+    "qa/frames/hukam-reel_t039.00.jpg",
+    "qa/frames/hukam-reel_t042.00.jpg",
+    "qa/frames/hukam-reel_t045.00.jpg",
+    "qa/frames/hukam-reel_t048.00.jpg",
+    "qa/frames/hukam-reel_t051.00.jpg",
+    "qa/frames/hukam-reel_t054.00.jpg",
+    "qa/frames/hukam-reel_t056.86.jpg"
+  ],
+  "contact": "qa/contact.jpg",
+  "at": "2026-11-19T20:03:32+05:30",
+  "kind": "video",
+  "client": null,
+  "summary": {
+    "pass": 15,
+    "warn": 3,
+    "fail": 3,
+    "skip": 2
+  },
+  "elapsed_s": 15.1,
+  "runtime_s": {
+    "hukam-reel.mp4": 13.3
+  },
+  "scene_cuts": {
+    "hukam-reel.mp4": []
+  },
+  "transcript": {
+    "hukam-reel.mp4": null
+  }
+}

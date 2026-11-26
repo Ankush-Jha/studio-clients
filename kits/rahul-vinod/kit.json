@@ -1,0 +1,148 @@
+{
+  "id": "rahul-vinod",
+  "aliases": [],
+  "sheetId": "client-024",
+  "name": "Rahul Vinod",
+  "people": [],
+  "city": "Moncton",
+  "province": "NB",
+  "region": "",
+  "group": 2,
+  "video": false,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Dominion Lending Centres Maritime Mortgage Group",
+    "licence": "#2021-3000208"
+  },
+  "agent": {
+    "name": "Rahul Vinod",
+    "title": "Mortgage Associate",
+    "licence": "230047020"
+  },
+  "contact": {
+    "phones": [
+      "506-260-3331"
+    ],
+    "emails": [
+      "rahulvinod@dominionlending.ca"
+    ],
+    "website": "rahulvinod.ca"
+  },
+  "services": [
+    "First Time Mortgage",
+    "Second Mortgage",
+    "Residential Mortgages",
+    "Refinance Mortgage",
+    "Private Mortgages"
+  ],
+  "audience": "Serves Atlantic Canada (Antigonish NS address); focus: Home purchase, Refinance, Mortgage renewal, Home equity, Self-employed solutions, Commercial & leasing (DLC template).",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/NegXAH1Slpxm9MHgon2Btw/Rahul-Vinod-%7C-SM",
+  "complianceLine": "Rahul Vinod, Mortgage Associate · Lic. 230047020 · Dominion Lending Centres Maritime Mortgage Group · Brokerage Lic. #2021-3000208",
+  "rules": [],
+  "assets": {
+    "photo": "assets/rahul-vinod/photo.png",
+    "footer": "assets/rahul-vinod/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/rahul-vinod/logo.png",
+      "assets/rahul-vinod/logo-2.png"
+    ],
+    "check": [
+      "assets/_unassigned/image60-mmg-badges.png"
+    ]
+  },
+  "stills": {
+    "primary": "annotated",
+    "secondary": "magazine",
+    "variant": "a"
+  },
+  "missing": [],
+  "flags": [
+    "City conflict: sheet says 'Moncton', roster/seed says 'North York'. Sheet used.",
+    "Province conflict: sheet says NB, roster/seed says ON. Sheet used.",
+    "Orphan image 'Elite/Platinum badges + Maritime Mortgage Group logo' may belong to Rahul (Moncton NB); confirm.",
+    "website says Rahul Vinod licence 'Originator Licence #230047020' (kit has '230047020')",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Address on contact page: 21 James Street, Antigonish, NS B2G 1R7 (clients.json says Moncton NB / Calgary).",
+    "website note: Twitter/YouTube links on the page are DLC corporate accounts, not Rahul's; omitted.",
+    "website note: No site-specific brand colours (stock DLC template CSS), so brandColors left empty.",
+    "website note: Search (check): no mortgage-profile hit for Rahul Vinod in Moncton; results pointed to a different Rahul (Bedi). No GBP rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "clients.json location 'Moncton, New Brunswick, Calgary'",
+    "province": "clients.json location 'Moncton, New Brunswick, Calgary'",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.name": "clients.json brokerage_name",
+    "brokerage.licence": "clients.json brokerage_license_no",
+    "agent.licence": "clients.json agent_license_no",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "complianceLine": "composed from sheet/footer facts above",
+    "audience": "website: https://rahulvinod.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://rahulvinod.ca/",
+    "bio": "website: https://rahulvinod.ca/",
+    "colors.accent": "footer (tokens.json)",
+    "colors.accent2": "footer (tokens.json)",
+    "colors.ink": "footer (tokens.json)",
+    "colors.paper": "footer (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'annotated' (STYLES.md)"
+  },
+  "completeness": 1.0,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/mortgages_by_rahul/",
+    "facebook": "https://www.facebook.com/profile.php?id=61550330122599"
+  },
+  "bio": "rahulvinod.ca is a stock Dominion Lending Centres template page for Rahul Vinod, Mortgage Associate with DLC Maritime Mortgage Group. It carries generic DLC copy on rates, purchase, refinance and calculators, with his contact block and licence numbers. Contact page lists an Antigonish, Nova Scotia address.",
+  "web": {
+    "url": "https://rahulvinod.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "serviceAreas": [
+      "Atlantic Canada (Antigonish NS address)"
+    ],
+    "specialties": [
+      "Home purchase",
+      "Refinance",
+      "Mortgage renewal",
+      "Home equity",
+      "Self-employed solutions",
+      "Commercial & leasing (DLC template)"
+    ],
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Address on contact page: 21 James Street, Antigonish, NS B2G 1R7 (clients.json says Moncton NB / Calgary).",
+      "Twitter/YouTube links on the page are DLC corporate accounts, not Rahul's; omitted.",
+      "No site-specific brand colours (stock DLC template CSS), so brandColors left empty.",
+      "Search (check): no mortgage-profile hit for Rahul Vinod in Moncton; results pointed to a different Rahul (Bedi). No GBP rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://rahulvinod.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://rahulvinod.ca/about/contact/",
+        "what": "contact + licences"
+      }
+    ],
+    "fonts": [
+      "Raleway (template)"
+    ]
+  },
+  "colorsProvisional": true
+}

@@ -1,0 +1,61 @@
+{
+ "pass": true,
+ "fixed": [
+  "Footnote and caption now state insured 4.44% vs uninsured 4.95% and that applicability depends on the mortgage",
+  "Caption: added APR/term disclosure line"
+ ],
+ "math": [
+  {
+   "claim": "$1,962 vs $1,882/mo",
+   "working": "300k, 240m, semi-annual: 1961.67 / 1881.71",
+   "result": "ok",
+   "ok": true
+  },
+  {
+   "claim": "$80/mo",
+   "working": "79.96",
+   "result": "ok",
+   "ok": true
+  },
+  {
+   "claim": "+$7,032 interest",
+   "working": "67,571.62-60,539.43=7,032.18",
+   "result": "ok",
+   "ok": true
+  },
+  {
+   "claim": "$2,235 more owed",
+   "working": "249,871.42-247,636.83=2,234.58",
+   "result": "ok",
+   "ok": true
+  },
+  {
+   "claim": "Day 120 from Nov 19",
+   "working": "Mar 19 2027; valid for March renewers to Dec 1",
+   "result": "ok",
+   "ok": true
+  }
+ ],
+ "sources": [
+  "nesto 5-yr fixed (2026-11-19)",
+  "FCAC renewal 21 days",
+  "RAE Oct 2026 via repost (reopen on render day)"
+ ],
+ "compliance": {
+  "complianceLine": "null: visible TODO",
+  "brokerageVisible": true,
+  "aiLabel": "apply Instagram AI label (Kokoro)",
+  "calgary": false,
+  "badHashtags": false,
+  "banned": "none found"
+ },
+ "blocking": [],
+ "proofOnly": true,
+ "notes": [
+  "PROOF ONLY: kit.complianceLine is null",
+  "Surname Crosland vs Crossland to confirm",
+  "Bridge line is DRAFT pending partner approval",
+  "Expires 2026-12-01; reviewBy 2026-12-19",
+  "Fact sources not re-fetched; RAE only via reposts"
+ ]
+}

@@ -1,0 +1,373 @@
+{
+  "id": "2026-11-19-amit-khurana-fixed-or-variable-at-renewal",
+  "created": "2026-11-19T14:53:18.209Z",
+  "updated": "2026-11-19T15:39:05.972Z",
+  "client": "amit-khurana",
+  "format": "carousel",
+  "topic": "Fixed or variable at renewal",
+  "brief": {
+    "engine": "custom-html",
+    "notes": "test run; hero-quality custom carousel, 8 slides",
+    "test": true
+  },
+  "status": "approved",
+  "engine": "custom-html",
+  "style": "doorframe-marks",
+  "nodes": [
+    {
+      "id": "intake",
+      "status": "done",
+      "started": null,
+      "ended": "2026-11-19T14:53:18.361Z",
+      "summary": "kit loaded; test run",
+      "outputs": []
+    },
+    {
+      "id": "strategist",
+      "status": "done",
+      "started": "2026-11-19T15:01:30.236Z",
+      "ended": "2026-11-19T15:06:41.030Z",
+      "summary": "Script A Doorframe: 8 slides, insured answer 3 hikes ($150/$96/$41 gaps, $2,626 crosses), uninsured note 4 hikes, 5-yr interest recap, send CTA; rates Nov 18-19, expires Dec 9",
+      "outputs": [
+        "concepts.json",
+        "script.json"
+      ]
+    },
+    {
+      "id": "gate1",
+      "status": "done",
+      "started": "2026-11-19T15:00:55.414Z",
+      "ended": "2026-11-19T15:01:25.123Z",
+      "summary": "",
+      "outputs": []
+    },
+    {
+      "id": "checker",
+      "status": "done",
+      "started": "2026-11-19T15:07:04.842Z",
+      "ended": "2026-11-19T15:07:41.153Z",
+      "summary": "1 fix, 20 numbers verified (recomputed), compliance ok; proof-only until APR wording supplied",
+      "outputs": []
+    },
+    {
+      "id": "director",
+      "status": "done",
+      "started": "2026-11-19T15:24:24.167Z",
+      "ended": "2026-11-19T15:27:32.152Z",
+      "summary": "Fix round 1: contact sheet moved to qa/ and dropped from outputs; slide 2 $2,139 indented to x>=60; footer email waived (client footer as-is, qa/waivers.json); pencil notes on slides 2/6/7 darkened (#232220) and +20% size, all >=4.5:1; slide 7 footnote cut to 2 lines + APR tag, assumptions in caption. Gate: pass (warns: footer band, fine-print OCR contrast, words). 8 slides 1080x1350, no voice. PROOF ONLY until APR wording; rates expire Dec 9.",
+      "outputs": [
+        "out/01.jpg"
+      ]
+    },
+    {
+      "id": "critic",
+      "status": "done",
+      "started": "2026-11-19T15:27:53.228Z",
+      "ended": "2026-11-19T15:28:15.493Z",
+      "summary": "pass|2 fixes (round 2)",
+      "outputs": [
+        "qa/report.json",
+        "qa/critique.json"
+      ]
+    },
+    {
+      "id": "gate2",
+      "status": "done",
+      "started": "2026-11-19T15:28:28.364Z",
+      "ended": "2026-11-19T15:39:05.972Z",
+      "summary": "Approved · look at the visual like something is not like proper in graphics look intoo it a",
+      "outputs": []
+    },
+    {
+      "id": "librarian",
+      "status": "idle",
+      "started": null,
+      "ended": null,
+      "summary": "",
+      "outputs": []
+    }
+  ],
+  "concepts": "concepts.json",
+  "chosen": "A",
+  "gates": {
+    "g1": {
+      "at": "2026-11-19T15:01:25.122Z",
+      "decision": "pick",
+      "choice": "A",
+      "notes": "Test run (producer pick, not the user's): A, the doorframe. Use insured AND note uninsured gap honestly in assumptions; CTA = send.",
+      "by": "producer-test"
+    },
+    "g2": {
+      "at": "2026-11-19T15:39:05.972Z",
+      "decision": "approve",
+      "notes": "look at the visual like something is not like proper in graphics look intoo it and fix it\n",
+      "by": "desk"
+    }
+  },
+  "outputs": [
+    {
+      "kind": "carousel",
+      "path": "out/01.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/02.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/03.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/04.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/05.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/06.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/07.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "carousel",
+      "path": "out/08.jpg",
+      "w": 1080,
+      "h": 1350,
+      "durationS": null
+    },
+    {
+      "kind": "caption",
+      "path": "out/caption.txt",
+      "w": 640,
+      "h": 400,
+      "durationS": null
+    }
+  ],
+  "qa": {
+    "report": "qa/report.json",
+    "pass": true
+  },
+  "log": [
+    {
+      "t": "2026-11-19T14:53:18.209Z",
+      "node": "intake",
+      "msg": "job created: carousel for amit-khurana about \"Fixed or variable at renewal\""
+    },
+    {
+      "t": "2026-11-19T14:53:18.362Z",
+      "node": "intake",
+      "msg": "done: kit loaded; test run"
+    },
+    {
+      "t": "2026-11-19T14:53:32.998Z",
+      "node": "strategist",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:00:55.362Z",
+      "node": "strategist",
+      "msg": "done: 3 concepts: A The Doorframe: three pencil marks to the tape / B Which renewer are you? The Renewal Issue quiz / C Two envelopes for Dec 9"
+    },
+    {
+      "t": "2026-11-19T15:00:55.415Z",
+      "node": "gate1",
+      "msg": "waiting"
+    },
+    {
+      "t": "2026-11-19T15:01:25.123Z",
+      "node": "gate1",
+      "msg": "pick A: Test run (producer pick, not the user's): A, the doorframe. Use insured AND note uninsured gap honestly in assumptions; CTA = send."
+    },
+    {
+      "t": "2026-11-19T15:01:30.236Z",
+      "node": "strategist",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:06:41.031Z",
+      "node": "strategist",
+      "msg": "done: Script A Doorframe: 8 slides, insured answer 3 hikes ($150/$96/$41 gaps, $2,626 crosses), uninsured note 4 hikes, 5-yr interest recap, send CTA; rates Nov 18-19, expires Dec 9"
+    },
+    {
+      "t": "2026-11-19T15:07:04.843Z",
+      "node": "checker",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:07:41.154Z",
+      "node": "checker",
+      "msg": "done: 1 fix, 20 numbers verified (recomputed), compliance ok; proof-only until APR wording supplied"
+    },
+    {
+      "t": "2026-11-19T15:07:58.159Z",
+      "node": "director",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:22:39.423Z",
+      "node": "director",
+      "msg": "output carousel: out/01.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:39.497Z",
+      "node": "director",
+      "msg": "output carousel: out/02.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:39.574Z",
+      "node": "director",
+      "msg": "output carousel: out/03.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:39.651Z",
+      "node": "director",
+      "msg": "output carousel: out/04.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:39.764Z",
+      "node": "director",
+      "msg": "output carousel: out/05.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:39.879Z",
+      "node": "director",
+      "msg": "output carousel: out/06.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:39.962Z",
+      "node": "director",
+      "msg": "output carousel: out/07.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:40.048Z",
+      "node": "director",
+      "msg": "output carousel: out/08.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:40.126Z",
+      "node": "director",
+      "msg": "output contact: out/contact.jpg"
+    },
+    {
+      "t": "2026-11-19T15:22:40.202Z",
+      "node": "director",
+      "msg": "output caption: out/caption.txt"
+    },
+    {
+      "t": "2026-11-19T15:22:46.808Z",
+      "node": "director",
+      "msg": "done: 8-slide 1080x1350 custom-html carousel 'doorframe-marks' (plaster wall, painted casing, masking-tape fixed line crossing every edge, seeded pencil marks; burgundy third mark cuts the tape). Footer + full compliance line on all 8; APR yellow TODO tag on slides 3 and 7. No voice. PROOF ONLY until broker supplies APR wording; rates expire Dec 9."
+    },
+    {
+      "t": "2026-11-19T15:23:29.298Z",
+      "node": "critic",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:23:57.535Z",
+      "node": "critic",
+      "msg": "done: fail|4 fixes (round 1)"
+    },
+    {
+      "t": "2026-11-19T15:24:24.168Z",
+      "node": "director",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:27:24.770Z",
+      "node": "director",
+      "msg": "output carousel: out/01.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:24.846Z",
+      "node": "director",
+      "msg": "output carousel: out/02.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:24.925Z",
+      "node": "director",
+      "msg": "output carousel: out/03.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:24.999Z",
+      "node": "director",
+      "msg": "output carousel: out/04.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:25.074Z",
+      "node": "director",
+      "msg": "output carousel: out/05.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:25.147Z",
+      "node": "director",
+      "msg": "output carousel: out/06.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:25.222Z",
+      "node": "director",
+      "msg": "output carousel: out/07.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:25.299Z",
+      "node": "director",
+      "msg": "output carousel: out/08.jpg"
+    },
+    {
+      "t": "2026-11-19T15:27:25.374Z",
+      "node": "director",
+      "msg": "output caption: out/caption.txt"
+    },
+    {
+      "t": "2026-11-19T15:27:32.152Z",
+      "node": "director",
+      "msg": "done: Fix round 1: contact sheet moved to qa/ and dropped from outputs; slide 2 $2,139 indented to x>=60; footer email waived (client footer as-is, qa/waivers.json); pencil notes on slides 2/6/7 darkened (#232220) and +20% size, all >=4.5:1; slide 7 footnote cut to 2 lines + APR tag, assumptions in caption. Gate: pass (warns: footer band, fine-print OCR contrast, words). 8 slides 1080x1350, no voice. PROOF ONLY until APR wording; rates expire Dec 9."
+    },
+    {
+      "t": "2026-11-19T15:27:53.230Z",
+      "node": "critic",
+      "msg": "running"
+    },
+    {
+      "t": "2026-11-19T15:28:15.494Z",
+      "node": "critic",
+      "msg": "done: pass|2 fixes (round 2)"
+    },
+    {
+      "t": "2026-11-19T15:28:28.365Z",
+      "node": "gate2",
+      "msg": "waiting: QA pass (round 2); proof-only until brokerage supplies APR wording; expires Dec 9"
+    },
+    {
+      "t": "2026-11-19T15:39:05.972Z",
+      "node": "gate2",
+      "msg": "Desk: approve — look at the visual like something is not like proper in graphics look intoo it and fix it\n"
+    }
+  ]
+}

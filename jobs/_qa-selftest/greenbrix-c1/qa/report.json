@@ -1,0 +1,170 @@
+{
+  "pass": false,
+  "checks": [
+    {
+      "id": "stills.count",
+      "name": "Carousel slide count",
+      "status": "pass",
+      "value": 7,
+      "expected": "2-20",
+      "detail": "PLAYBOOK recommends 8-10"
+    },
+    {
+      "id": "stills.dimensions",
+      "name": "Dimensions",
+      "status": "pass",
+      "value": "1080x1350",
+      "expected": "1080x1350|1440 carousel, 1080x1920 story/cover, 1080x1080 square; one size per set",
+      "detail": ""
+    },
+    {
+      "id": "stills.format",
+      "name": "Format / sRGB",
+      "status": "pass",
+      "value": [
+        "PNG"
+      ],
+      "expected": "JPEG/PNG, RGB, sRGB (or untagged)",
+      "detail": ""
+    },
+    {
+      "id": "stills.filesize",
+      "name": "File size",
+      "status": "pass",
+      "value": "max 1.61 MB",
+      "expected": "<= 8 MB each",
+      "detail": ""
+    },
+    {
+      "id": "stills.margins",
+      "name": "Text inside 60 px side margins",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "x 60 .. W-60",
+      "detail": ""
+    },
+    {
+      "id": "stills.gridcrop",
+      "name": "Text inside 3:4 grid crop of slide 1 (x34-1046, y0-1350)",
+      "status": "pass",
+      "value": "0 words outside",
+      "expected": "inside crop",
+      "detail": ""
+    },
+    {
+      "id": "stills.contrast",
+      "name": "Text contrast >= 4.5:1 (WCAG AA)",
+      "status": "warn",
+      "value": "30 low-contrast lines",
+      "expected": ">= 4.5:1",
+      "detail": "C1-1.png 'RESULT' 4.3:1; C1-1.png 'MORTGAGE AP' 4.4:1; C1-1.png 'PLICATION' 4.5:1; C1-1.png 'Income verified' 4.3:1; C1-2.png 'SUMMARY' 4.5:1; C1-2.png 'Business revenue' 4.3:1"
+    },
+    {
+      "id": "stills.words",
+      "name": "Words per slide <= 40",
+      "status": "warn",
+      "value": "C1-1.png=33, C1-2.png=69, C1-3.png=51, C1-4.png=51, C1-5.png=54, C1-6.png=54, C1-7.png=43",
+      "expected": "<= 40 (carousel ~20)",
+      "detail": "C1-2.png=69; C1-3.png=51; C1-4.png=51; C1-5.png=54; C1-6.png=54; C1-7.png=43"
+    },
+    {
+      "id": "copy.banned",
+      "name": "Banned phrases",
+      "status": "pass",
+      "value": 0,
+      "expected": "none",
+      "detail": ""
+    },
+    {
+      "id": "copy.emdash",
+      "name": "Em-dash count",
+      "status": "pass",
+      "value": 0,
+      "expected": "0 (asides read as AI)",
+      "detail": ""
+    },
+    {
+      "id": "copy.kit_rules",
+      "name": "Client kit rules",
+      "status": "pass",
+      "value": {
+        "banned_hit": [],
+        "required_missing": []
+      },
+      "expected": "1 banned / 1 required",
+      "detail": ""
+    },
+    {
+      "id": "copy.rate_disclosure",
+      "name": "Rate shown with APR and term",
+      "status": "pass",
+      "value": "no advertised rate",
+      "expected": "",
+      "detail": ""
+    },
+    {
+      "id": "copy.compliance_line",
+      "name": "Compliance line present",
+      "status": "pass",
+      "value": true,
+      "expected": "Greenbrix Capital \u00b7 Independently owned & operated franchise of Dominion Lending Centres \u00b7 Lic. #13645",
+      "detail": "Ontario ads need brokerage name + licence (O. Reg. 188/08 s.6)"
+    },
+    {
+      "id": "copy.hashtags",
+      "name": "Hashtags <= 5",
+      "status": "pass",
+      "value": 5,
+      "expected": "<= 5",
+      "detail": ""
+    },
+    {
+      "id": "copy.line1_search",
+      "name": "Caption line 1 has a search phrase",
+      "status": "pass",
+      "value": "Banks lend on income and credit. Private lenders lend on the property and the equity in it",
+      "expected": "topic phrase (mortgage/renewal/HELOC...) in line 1",
+      "detail": ""
+    },
+    {
+      "id": "dup.near",
+      "name": "Near-duplicate vs library/jobs/radar",
+      "status": "fail",
+      "value": {
+        "nearest": {
+          "distance": 0.0,
+          "client": "otherbroker",
+          "path": "/Users/ankushjha/Work/bots/jobs/_qa-selftest/other-client-copy/out/C1-1.png"
+        },
+        "indexed": 122,
+        "checked": 7
+      },
+      "expected": "dist > 10 (fail <= 6 other client, warn <= 10)",
+      "detail": "C1-1.png: dist 0.0 to other client's piece (otherbroker): /Users/ankushjha/Work/bots/jobs/_qa-selftest/other-client-copy/out/C1-1.png"
+    }
+  ],
+  "frames": [
+    "qa/frames/C1-1.jpg",
+    "qa/frames/C1-2.jpg",
+    "qa/frames/C1-3.jpg",
+    "qa/frames/C1-4.jpg",
+    "qa/frames/C1-5.jpg",
+    "qa/frames/C1-6.jpg",
+    "qa/frames/C1-7.jpg"
+  ],
+  "contact": "qa/contact.jpg",
+  "at": "2026-11-19T20:03:46+05:30",
+  "kind": "stills",
+  "client": "greenbrix",
+  "summary": {
+    "pass": 13,
+    "warn": 2,
+    "fail": 1,
+    "skip": 0
+  },
+  "elapsed_s": 1.4,
+  "runtime_s": {
+    "stills": 1.1
+  },
+  "gridcrop": "qa/gridcrop.jpg"
+}

@@ -1,0 +1,157 @@
+{
+  "id": "akaalinder-dhaliwal",
+  "aliases": [],
+  "sheetId": null,
+  "name": "Akaalinder Dhaliwal",
+  "people": [],
+  "city": null,
+  "province": null,
+  "region": "",
+  "group": 3,
+  "video": true,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": null,
+    "licence": null
+  },
+  "agent": {
+    "name": "Akaalinder Dhaliwal",
+    "title": "Mortgage Agent Level 1",
+    "licence": "M23007621"
+  },
+  "contact": {
+    "phones": [
+      "519-890-1221"
+    ],
+    "emails": [
+      "mortgagebyak@gmail.com"
+    ],
+    "website": "https://akaalinderdhaliwal.com/"
+  },
+  "services": [
+    "Private mortgages",
+    "Refinancing",
+    "Selling & buying",
+    "Second mortgage",
+    "Home loan",
+    "Business loan",
+    "Construction loan",
+    "Agricultural loan",
+    "Commercial property",
+    "Community-hero mortgage program"
+  ],
+  "audience": "focus: Private mortgages, Refinancing, Selling & buying, Second mortgage, Home loan, Business loan, Construction loan, Agricultural loan, Commercial property, Community-hero mortgage program.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "",
+  "complianceLine": null,
+  "rules": [],
+  "assets": {
+    "photo": null,
+    "footer": null,
+    "footerAlt": null,
+    "logos": [],
+    "check": []
+  },
+  "stills": {
+    "primary": "bold-type",
+    "secondary": "isometric",
+    "variant": "b"
+  },
+  "missing": [
+    "assets.photo",
+    "assets.footer",
+    "assets.logos",
+    "complianceLine",
+    "brokerage.name",
+    "brokerage.licence",
+    "city",
+    "province"
+  ],
+  "flags": [
+    "not in client sheet",
+    "seed: City and province missing from the sheet",
+    "Province unknown; treated as Ontario-strict: brokerage name + licence required before posting",
+    "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+    "website note: Identified by exact-name WebSearch; the name and Mortgage Agent role match the roster but the roster has no city/brokerage to confirm (confidence: likely).",
+    "website note: No brokerage or city stated on fetched pages. Search (check): LinkedIn snippet connects him to GMG Broker Inc.; mortgagesuite.ca team page also lists him. Homepage testimonials are 3 first-name quotes.",
+    "website note: Page text spells the first name inconsistently ('Akash' in one testimonial).",
+    "Accent #E3B665 has contrast 1.68:1 against paper (<3:1); pair with ink."
+  ],
+  "provenance": {
+    "name": "content-desk seed roster",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "stills": "engines/stills/library/roster.json",
+    "agent.licence": "website: https://akaalinderdhaliwal.com/",
+    "agent.title": "website: https://akaalinderdhaliwal.com/",
+    "services": "website: https://akaalinderdhaliwal.com/",
+    "audience": "website: https://akaalinderdhaliwal.com/ (serviceAreas/specialties)",
+    "contact": "website: https://akaalinderdhaliwal.com/",
+    "contact.phones": "website: https://akaalinderdhaliwal.com/",
+    "contact.emails": "website: https://akaalinderdhaliwal.com/",
+    "contact.website": "website: https://akaalinderdhaliwal.com/",
+    "socials": "website: https://akaalinderdhaliwal.com/",
+    "bio": "website: https://akaalinderdhaliwal.com/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'bold-type' (STYLES.md)"
+  },
+  "completeness": 0.429,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "socials": {
+    "instagram": "https://www.instagram.com/mortgagebyak",
+    "facebook": "https://www.facebook.com/profile.php?id=61552791215633",
+    "linkedin": "https://www.linkedin.com/in/akaalinder-singh-dhaliwal-b4576026/?originalSubdomain=ca"
+  },
+  "bio": "Akaalinder Singh Dhaliwal is a Mortgage Agent Level 1 (M23007621) trading as MortgageByAK. His site covers private mortgages, refinancing, second mortgages and home, business, construction, agricultural and commercial-property loans, and mentions a program for healthcare workers, educators, first responders and volunteers. Phone area code 519 suggests southwestern Ontario but no city is stated.",
+  "web": {
+    "url": "https://akaalinderdhaliwal.com/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Your dream home. The perfect mortgage. Let's make it happen.",
+    "specialties": [
+      "Private mortgages",
+      "Refinancing",
+      "Selling & buying",
+      "Second mortgage",
+      "Home loan",
+      "Business loan",
+      "Construction loan",
+      "Agricultural loan",
+      "Commercial property",
+      "Community-hero mortgage program"
+    ],
+    "notes": [
+      "robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "Identified by exact-name WebSearch; the name and Mortgage Agent role match the roster but the roster has no city/brokerage to confirm (confidence: likely).",
+      "No brokerage or city stated on fetched pages. Search (check): LinkedIn snippet connects him to GMG Broker Inc.; mortgagesuite.ca team page also lists him. Homepage testimonials are 3 first-name quotes.",
+      "Page text spells the first name inconsistently ('Akash' in one testimonial)."
+    ],
+    "sources": [
+      {
+        "url": "https://akaalinderdhaliwal.com/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://akaalinderdhaliwal.com/about-us/",
+        "what": "about"
+      }
+    ],
+    "fonts": [
+      "Lato",
+      "Jost"
+    ],
+    "logoUrls": [
+      "https://akaalinderdhaliwal.com/wp-content/uploads/2025/07/logo.svg",
+      "https://akaalinderdhaliwal.com/wp-content/uploads/2025/07/h-logo.svg"
+    ]
+  },
+  "colorsProvisional": true
+}

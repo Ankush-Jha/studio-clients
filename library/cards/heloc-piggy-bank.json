@@ -1,0 +1,49 @@
+{
+ "id": "heloc-piggy-bank",
+ "title": "Your Home Is Not a Piggy Bank",
+ "clients": [],
+ "generic": true,
+ "date": "2026-11-13",
+ "format": "graphic-reel",
+ "engine": "films",
+ "style": "midcentury-toon",
+ "lengthS": 101.0,
+ "fps": 24,
+ "size": "1080x1920",
+ "voice": "kokoro:am_michael",
+ "music": "generated score at 120 BPM (1 bar = 2s), a chord per numbered rule",
+ "topic": "HELOC rules: credit line secured by the home, 65%/80% limits, variable rate, interest-only, borrow with purpose, tax deductibility",
+ "tags": [
+  "heloc",
+  "rules-card",
+  "mid-century",
+  "character-house",
+  "two-minute",
+  "mortgage-broker"
+ ],
+ "hook": "A HELOC is not free money.",
+ "logline": "A calm narrator shows a homeowner that a HELOC is a credit line with their house as the collateral, and that the house is the one who pays when the rules are ignored.",
+ "structure": "Rules card with a held presenter and a house that reacts. 0:00-0:34 setup (money rains on a grinning house, stamp says no, what a HELOC is, the 65%/80% wall), 0:34-1:28 three numbered rules each a medallion the camera irises through (variable rate, interest-only, borrow with purpose), 1:28-2:00 tax warning, homeowner on a mustard rotary phone, dead-still end card for 3s. Placeholder CTA 'Your Name · Mortgage Agent'.",
+ "device": "the house as a second character with a face (grin, worry, sweat, sag, calm) plus numbered medallions the camera irises through; off-register cel colour; one ground colour per scene",
+ "rejectedStyles": [],
+ "rejectedStructures": [
+  "straight explainer: eight cards in a row with nothing changing about the homeowner",
+  "before/after of one homeowner: adds a second story and pushes past two minutes"
+ ],
+ "files": {
+  "final": "$R/graphic reels/heloc-piggy-bank/heloc-piggy-bank.mp4",
+  "poster": "$R/graphic reels/heloc-piggy-bank/poster.jpg",
+  "thumb": "library/thumbs/heloc-piggy-bank.jpg",
+  "treatment": "$R/graphic reels/heloc-piggy-bank/TREATMENT.md",
+  "project": "$R/graphic reels/heloc-piggy-bank"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Longest reel (101s at 24 fps); later HELOC reels cut to about 55s at 30 fps.",
+  "Its end card is a dead-still 3s starburst with a placeholder CTA, not a loop."
+ ],
+ "source": "seed",
+ "hookPattern": "myth-flip"
+}

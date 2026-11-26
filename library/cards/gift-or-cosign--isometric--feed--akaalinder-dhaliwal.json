@@ -1,0 +1,47 @@
+{
+ "id": "gift-or-cosign--isometric--feed--akaalinder-dhaliwal",
+ "title": "$50K from Mom and Dad, two ways: gift vs co-sign [isometric, feed, akaalinder-dhaliwal]",
+ "clients": [
+  "akaalinder-dhaliwal"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "carousel",
+ "engine": "stills",
+ "style": "isometric",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "$50K from Mom and Dad, two ways: gift vs co-sign",
+ "tags": [
+  "stills",
+  "gift-or-cosign",
+  "isometric",
+  "feed-format",
+  "group-3"
+ ],
+ "hook": "$50K from Mom and Dad, given two ways. Only one lands on their credit.",
+ "logline": "Proof render of spec 'gift-or-cosign' in the Iso Blocks style for Akaalinder Dhaliwal, feed format (5 slides).",
+ "structure": "5 slide(s), 1080x1350 (feed); slide types: cover, compare, number, recap, cta",
+ "device": "A clay model of the money on a loud colour field: a three.js isometric scene in matte clay, volumes sized exactly from the numbers, labelled by hairline leaders in a mono face.",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/gift-or-cosign--isometric/akaalinder-dhaliwal",
+  "poster": "$R/engines/stills/out/gift-or-cosign--isometric/akaalinder-dhaliwal/01.jpg",
+  "thumb": "library/thumbs/gift-or-cosign--isometric--feed--akaalinder-dhaliwal.jpg",
+  "treatment": "$R/engines/stills/specs/library/gift-or-cosign.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 5
+}

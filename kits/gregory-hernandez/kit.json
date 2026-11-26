@@ -1,0 +1,179 @@
+{
+  "id": "gregory-hernandez",
+  "aliases": [],
+  "sheetId": "client-016",
+  "name": "Gregory Hernandez",
+  "people": [],
+  "city": "Montreal",
+  "province": "QC",
+  "region": "",
+  "group": 1,
+  "video": false,
+  "languages": [
+    "en",
+    "fr"
+  ],
+  "brokerage": {
+    "name": "Orbis Mortgage",
+    "licence": "#13476"
+  },
+  "agent": {
+    "name": "Gregory Hernandez",
+    "title": "Mortgage broker",
+    "licence": null
+  },
+  "contact": {
+    "phones": [
+      "514-515-4734"
+    ],
+    "emails": [
+      "gregory.everaldo.hernandez@gmail.com",
+      "gregory.hernandez@groupeorbis.com"
+    ],
+    "website": "https://gregoryhernandez.ca/"
+  },
+  "services": [
+    "New purchase",
+    "Rental Investment",
+    "Auto-construction",
+    "Land finance",
+    "Commercial lending",
+    "Alternate and private",
+    "Zero Down Mortgage",
+    "Mortgage Refinance"
+  ],
+  "audience": "Serves Montreal, Quebec; focus: Pre-approval, Zero down mortgage, New purchase, Rental investment, Mortgage refinance, Auto-construction, Land finance, Commercial lending, Alternate and private.",
+  "postingMode": "",
+  "postingTime": "8:00 AM EST",
+  "timeZone": "EST",
+  "figma": "https://www.figma.com/design/LzfsFYrHnRztGY8zOHCpAz/Gregory-Hernandez-%7C-SM",
+  "complianceLine": "Gregory Hernandez, Mortgage broker · Orbis Mortgage · Brokerage Lic. #13476",
+  "rules": [],
+  "assets": {
+    "photo": "assets/gregory-hernandez/photo.png",
+    "footer": "assets/gregory-hernandez/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/gregory-hernandez/logo.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": "bento",
+    "secondary": "terminal",
+    "variant": "b"
+  },
+  "missing": [
+    "agent.licence"
+  ],
+  "flags": [
+    "Time zone note in sheet: 'EST (Eastern Standard Time) / 6:30pm IST'.",
+    "sheet note: Agent license no. still to be confirmed with client (per sheet)",
+    "Sheet brokerage 'Orbis Mortgage'; engines/face-reels lists the group as 'Orbis Mortgage Group'. Gregory's own licence is still to be confirmed with the client (sheet).",
+    "website says brokerage name 'Orbis Mortgage Group' (kit has 'Orbis Mortgage')",
+    "website says title 'Licensed mortgage broker' (kit has 'Mortgage broker')",
+    "website says phones ['514-515-4737'] (kit has ['514-515-4734'])",
+    "website note: Office: 285 Place D'Youville, Unit 9, Montreal QC H2Y 2R6 (site) vs H2Y 2A4 (search result).",
+    "website note: Contact page has Instagram and YouTube icons but no hrefs captured.",
+    "website note: No licence numbers on the site; clients.json brokerage #13476 (Orbis) not shown on pages fetched. Footer copyright reads 2023.",
+    "website note: WebSearch (3rd-party directory results, confidence: check): groupeorbis.com/en/gregory-hernandez lists him; LinkedIn lists Orbis Mortgage Group. No Google rating found."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "city": "clients.json location 'Montreal, Quebec'",
+    "province": "clients.json location 'Montreal, Quebec'",
+    "group": "content-desk seed (calendar)",
+    "video": "content-desk seed",
+    "languages": "content-desk seed/roster",
+    "brokerage.name": "clients.json brokerage_name",
+    "brokerage.licence": "clients.json brokerage_license_no",
+    "agent.title": "clients.json designation",
+    "contact": "clients.json phones/emails/website",
+    "services": "clients.json services",
+    "posting": "clients.json posting_mode/posting_time/time_zone",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "stills": "engines/stills/library/roster.json",
+    "complianceLine": "composed from sheet/footer facts above",
+    "audience": "website: https://gregoryhernandez.ca/ (serviceAreas/specialties)",
+    "socials": "website: https://gregoryhernandez.ca/",
+    "bio": "website: https://gregoryhernandez.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.accent2": "website (tokens.json)",
+    "colors.ink": "website (tokens.json)",
+    "colors.paper": "default (no source)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "roster style 'bento' (STYLES.md)"
+  },
+  "completeness": 0.929,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "faceReelsClient": "orbis-mortgage-group",
+  "brandRefs": [
+    "assets/_shared/orbis-mortgage-group/brand/brand.json",
+    "assets/_shared/orbis-mortgage-group/brand/logo.png",
+    "assets/_shared/orbis-mortgage-group/brand/logo_white.png",
+    "assets/_shared/orbis-mortgage-group/compliance.json",
+    "assets/_shared/orbis-mortgage-group/client.json"
+  ],
+  "socials": {
+    "facebook": "https://www.facebook.com/people/Gregory-Hernandez-Mortgage-Broker/61565768654924/",
+    "linkedin": "https://www.linkedin.com/in/gregory-hernandez-broker",
+    "x": "https://x.com/@GregoryMortgage"
+  },
+  "bio": "Gregory Hernandez is a Montreal mortgage broker with Orbis Mortgage Group, licensed as a broker since 2023 after working as a mortgage specialist for Canadian banks since 2008. He says he accesses over 40 lenders and covers pre-approval, zero-down, purchase, rental investment, refinance, auto-construction, land finance and commercial lending. The site is bilingual (English/French) and claims 1800+ projects and over $540 million financed.",
+  "web": {
+    "url": "https://gregoryhernandez.ca/",
+    "fetched": "2026-11-19T14:40:00Z",
+    "tagline": "We're the leaders in creating affordable mortgages that fit every budget.",
+    "yearsInBusiness": "Broker since 2023; 15+ years in the industry (about page)",
+    "serviceAreas": [
+      "Montreal, Quebec"
+    ],
+    "specialties": [
+      "Pre-approval",
+      "Zero down mortgage",
+      "New purchase",
+      "Rental investment",
+      "Mortgage refinance",
+      "Auto-construction",
+      "Land finance",
+      "Commercial lending",
+      "Alternate and private"
+    ],
+    "bookingUrl": "https://calendly.com/gregory-hernandez/quick-call",
+    "notes": [
+      "Office: 285 Place D'Youville, Unit 9, Montreal QC H2Y 2R6 (site) vs H2Y 2A4 (search result).",
+      "Contact page has Instagram and YouTube icons but no hrefs captured.",
+      "No licence numbers on the site; clients.json brokerage #13476 (Orbis) not shown on pages fetched. Footer copyright reads 2023.",
+      "WebSearch (3rd-party directory results, confidence: check): groupeorbis.com/en/gregory-hernandez lists him; LinkedIn lists Orbis Mortgage Group. No Google rating found."
+    ],
+    "sources": [
+      {
+        "url": "https://gregoryhernandez.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://gregoryhernandez.ca/about/",
+        "what": "bio"
+      },
+      {
+        "url": "https://gregoryhernandez.ca/contact/",
+        "what": "contact"
+      },
+      {
+        "url": "https://groupeorbis.com/en/gregory-hernandez/",
+        "what": "search, check"
+      }
+    ],
+    "fonts": [
+      "Roboto",
+      "Inter"
+    ],
+    "logoUrls": [
+      "https://gregoryhernandez.ca/wp-content/uploads/2023/08/main-logo.png"
+    ]
+  },
+  "colorsProvisional": true
+}

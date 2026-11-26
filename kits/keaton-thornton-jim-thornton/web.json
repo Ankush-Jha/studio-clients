@@ -1,0 +1,98 @@
+{
+  "url": "https://pinnaclemortgagesolutions.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "The Pinnacle Mortgage Solutions site (note the spelling: pinnaclemortgagesolutions.ca, not the sheet's pinnaclemortgagessolutions.ca) currently returns 404 on its pages, so only the footer text was captured. It lists Keaton Thornton as Agent Level 1 at 226.450.4216 serving Ancaster to Woodstock, under Mortgage Alliance (licence #10530). jimthornton.ca is a separate Assante wealth-advisor site for Jim Thornton in Brantford.",
+  "tagline": null,
+  "yearsInBusiness": null,
+  "specialties": [],
+  "languages": [],
+  "serviceAreas": [
+    "Ancaster",
+    "Brantford",
+    "Brampton",
+    "Burlington",
+    "Cambridge",
+    "Dundas",
+    "Hamilton",
+    "Kitchener",
+    "London",
+    "Mississauga",
+    "Oakville",
+    "Toronto",
+    "Waterloo",
+    "Woodstock"
+  ],
+  "team": [
+    {
+      "name": "Keaton Thornton",
+      "title": "Agent Level 1",
+      "licence": null
+    },
+    {
+      "name": "Jim Thornton",
+      "title": "Mortgage Broker / Wealth Advisor (Assante, jimthornton.ca)",
+      "licence": null
+    }
+  ],
+  "licences": [
+    {
+      "label": "Brokerage licence (Mortgage Alliance)",
+      "value": "#10530",
+      "where": "pinnaclemortgagesolutions.ca footer (via browse.mjs, 404 page)"
+    }
+  ],
+  "brokerage": {
+    "name": "The Mortgage Alliance Company of Canada (Pinnacle Mortgage Solutions is a team under it)",
+    "licence": "#10530"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "226.450.4216",
+    "905.921.1805 (Jim cell, jimthornton.ca)",
+    "519.752.3155 (Jim office, Assante)"
+  ],
+  "emails": [
+    "jthornton@assante.com (Assante site)"
+  ],
+  "brandColors": [],
+  "fonts": [],
+  "logoUrls": [],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": 5,
+    "count": 17,
+    "source": "Birdeye listing for Jim Thornton (search result, unverified)"
+  },
+  "notes": [
+    "Sheet domain pinnaclemortgagessolutions.ca does not resolve (DNS). Real domain pinnaclemortgagesolutions.ca: robots.txt allows crawl but / and /about/ return 404; menu links use ?page_id=N (also 404 for fetch). krtmortgages.ca has an SSL hostname mismatch (not fetched).",
+    "Site footer says Mortgage Alliance #10530; clients.json says RMA (Real Mortgage Associates). Search (check) says RMA brokerage licence 10464 and that Keaton is Jim's son; Jim mortgage-brokering since 2004 via RMA and Assante wealth advisor since Oct 2018.",
+    "jimthornton.ca: 'Financial Advisor in Brantford - Assante Capital Management' at 105 George St., Brantford ON N3T 2Y5; its cell 905.921.1805 matches clients.json Jim phone. This is a securities/wealth site, not mortgage; do not use for mortgage compliance line.",
+    "Directory (check): Birdeye shows Jim Thornton 5-star from 17 reviews: https://reviews.birdeye.com/jim-thornton-mortgage-broker-real-mortgage-associates-168329257690407 ; Facebook https://www.facebook.com/KeatonThorntonRMA/ and Instagram https://www.instagram.com/pinnaclemortgagesolutions.ca/ appear in search only (not opened).",
+    "Licence numbers M22000917 / M08002211 from clients.json not found on any fetched page."
+  ],
+  "sources": [
+    {
+      "url": "https://pinnaclemortgagesolutions.ca/about/",
+      "what": "404 page with footer text via browse.mjs"
+    },
+    {
+      "url": "https://jimthornton.ca/",
+      "what": "homepage (Assante)"
+    },
+    {
+      "url": "https://jimthornton.ca/contact/",
+      "what": "contact"
+    }
+  ],
+  "blocked": [
+    "pinnaclemortgagesolutions.ca pages 404; pinnaclemortgagessolutions.ca no DNS; krtmortgages.ca SSL mismatch"
+  ]
+}

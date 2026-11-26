@@ -1,0 +1,42 @@
+{
+  "slug": "orbis-mortgage-group",
+  "display_name": "Orbis Mortgage Group",
+  "status": "active",
+  "people": [
+    {
+      "name": "Kulbhushan Narang",
+      "role": "Licensed Mortgage Agent, Level 2",
+      "licence_no": "M17000370",
+      "pronouns_in_copy": "they/them unless the client says otherwise",
+      "face_reference": "assets/people/kulbhushan-narang.jpg (not added yet)"
+    }
+  ],
+  "company": {
+    "legal_name": "Orbis Mortgage Group",
+    "brokerage_licence_no": "13476",
+    "regulator": "FSRA (Ontario) - the logo reads 'FSRA # 13476'",
+    "jurisdiction": "Ontario, Canada (site also targets cross-border Canadians / foreign nationals)",
+    "office_address": "21-7611 Pine Valley Dr, Vaughan, ON",
+    "website": "loansbykulbhushan.com",
+    "phone": "905-581-8188",
+    "email": "kulbhushan.narang@orbismortgage.ca",
+    "note": "Website lists phone, 'Book a call', 'Apply now'."
+  },
+  "social": {
+    "instagram": "@kulbhushan_narang",
+    "tiktok": "",
+    "youtube": "",
+    "facebook": "",
+    "linkedin": ""
+  },
+  "audience": "Ontario homeowners and buyers; debt, refinancing and consolidation topics so far",
+  "languages": ["en"],
+  "platforms": ["instagram-reels"],
+  "default_cta": "DM me",
+  "needs_confirmation": [
+    "Instagram handle @kulbhushan_narang (copied from the original kit; not verified against the live account)",
+    "'Level 2' agent level and licence M17000370 (copied from the original kit; not verified on the FSRA register)",
+    "Whether FSRA wording or any brokerage compliance review is required before posting",
+    "Whether the same disclaimer applies to every topic (mortgage vs debt consolidation vs refinancing)"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "fhsa-zero-keaton--legacy-ledger--feed--keaton-jim-thornton",
+ "title": "$0 is enough: open an FHSA before Dec 31 [legacy-ledger, feed, keaton-jim-thornton]",
+ "clients": [
+  "keaton-thornton-jim-thornton"
+ ],
+ "generic": false,
+ "date": "2026-11-15",
+ "format": "static",
+ "engine": "stills",
+ "style": "legacy-ledger",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "$0 is enough: open an FHSA before Dec 31",
+ "tags": [
+  "stills",
+  "fhsa-zero-keaton",
+  "legacy-ledger",
+  "feed-format",
+  "group-1"
+ ],
+ "hook": "$0 is enough: open an FHSA before Dec 31",
+ "logline": "Proof render of spec 'fhsa-zero-keaton' in the legacy-ledger style for keaton-jim-thornton, feed format (1 slide).",
+ "structure": "1 slide(s), 1080x1350 (feed); slide types: tip",
+ "device": "early stills family 'ledger' layout with placeholder client keaton-jim-thornton",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/stills/out/fhsa-zero-keaton/keaton-jim-thornton",
+  "poster": "$R/engines/stills/out/fhsa-zero-keaton/keaton-jim-thornton/01.jpg",
+  "thumb": "library/thumbs/fhsa-zero-keaton--legacy-ledger--feed--keaton-jim-thornton.jpg",
+  "treatment": "$R/engines/stills/specs/fhsa-zero-keaton.json",
+  "project": "$R/engines/stills"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Compliance fields still placeholders (agent name, title, brokerage, licence) in this proof: agentName, title, brokerage, licence"
+ ],
+ "source": "seed",
+ "hookPattern": "",
+ "slides": 1
+}

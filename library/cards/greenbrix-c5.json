@@ -1,0 +1,50 @@
+{
+ "id": "greenbrix-c5",
+ "title": "Greenbrix C5: 5 moments a bridge loan saves the deal",
+ "clients": [
+  "krystian-catala"
+ ],
+ "generic": false,
+ "date": "2026-11-17",
+ "format": "carousel",
+ "engine": "custom-html",
+ "style": "greenbrix-brick-objects",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Bridge and short-term financing: 5 moments a bridge loan saves the deal",
+ "tags": [
+  "greenbrix",
+  "private-lending",
+  "ontario",
+  "carousel",
+  "seamless-join",
+  "brick-motif",
+  "bridge-and-short-term-financing"
+ ],
+ "hook": "The money is coming. The deadline came first.",
+ "logline": "Seven-slide Greenbrix Capital carousel for Krystian Catala: 5 moments a bridge loan saves the deal.",
+ "structure": "7 slides: whole arch between 'Your deadline' and 'Your funds' (right foot runs off the edge as swipe cue), SOLD / FOR SALE lawn signs with a gap arch, split-flap status board (Lender: pulled out), cheque stamped DUE NOW, giant 90% over ten bricks with the tenth missing, joined arch across slides 6-7. Fields alternate so no two neighbours match until the joined finale.",
+ "device": "masonry arch of the logo's dark-to-lime bricks with a lime keystone; the arch crosses the seam between slides 6 and 7 and lands at 'Funds arrive' where Krystian stands",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/graphic reels/clients/greenbrix/FINAL/C5",
+  "poster": "$R/graphic reels/clients/greenbrix/FINAL/C5/C5-1.png",
+  "thumb": "library/thumbs/greenbrix-c5.jpg",
+  "treatment": "$R/graphic reels/clients/greenbrix/C5/NOTES.md",
+  "project": "$R/graphic reels/clients/greenbrix/C5",
+  "caption": "$R/graphic reels/clients/greenbrix/FINAL/C5/caption.txt"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "No rates, fees or terms appear, so no placeholders were needed."
+ ],
+ "source": "seed",
+ "hookPattern": "list-promise",
+ "slides": 7
+}

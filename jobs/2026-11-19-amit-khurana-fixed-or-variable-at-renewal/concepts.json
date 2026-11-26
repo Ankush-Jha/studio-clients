@@ -1,0 +1,573 @@
+[
+ {
+  "id": "A",
+  "title": "The Doorframe: three pencil marks to the tape",
+  "hook": {
+   "main": "Fixed vs variable: guess the hike count.",
+   "spoken": null,
+   "alts": [
+    {
+     "text": "Variable starts $150 a month cheaper.",
+     "pattern": "exact-number-cold-open"
+    },
+    {
+     "text": "Dec 9 could add one pencil mark.",
+     "pattern": "mark-the-date"
+    }
+   ]
+  },
+  "hookPattern": "guess-then-reveal",
+  "angle": "Every GTA family has a kitchen doorframe with the kids' heights pencilled on it. Here the marks are the variable rate climbing, and a strip of masking tape across the frame is today's fixed rate. A Mississauga renewer can see exactly how many quarter-point hikes it takes before variable stops being the cheaper choice (three), and that fixed only pays off over five years if those hikes come early and stay. No prediction, just the height of the tape.",
+  "clientFacts": [
+   "Mississauga / GTA (Centum Indigo office on Meadowpine Blvd, Mississauga): GTA renewal example, 'Mississauga · Nov 18' pencilled on the frame",
+   "Niche: Mortgage Refinance & Renewal (kit services, website specialties 'Refinance and renewal')",
+   "Ontario: brokerage + licence line on every slide"
+  ],
+  "format": "carousel",
+  "engine": "custom-html",
+  "style": "doorframe-marks",
+  "styleWhy": "A height chart is the one object everyone already reads as 'how far until it reaches the line', so the hike-count question explains itself without a chart legend.",
+  "device": "A white-painted door casing on a warm plaster wall, rendered in code (SVG wood grain + feTurbulence grain, soft cast shadow). One strip of cream masking tape runs horizontally at the FIXED 4.34% height across all eight slides at the same y, so it crosses every slide edge. Graphite pencil marks climb toward it one slide at a time; the third mark (burgundy #8F022A) cuts through the tape.",
+  "mechanic": "Guess-then-reveal plus countdown: slide 1 asks 'Pick 1, 2, 3 or 4. Answer on slide 6'; each swipe adds one mark and shrinks a measured gap ('$96 to go', '$41 to go'); the tape line running off the right edge is the swipe cue.",
+  "structure": "8 slides: hook (guess) / second hook (the renewer) / today's two lines / mark 1 (Dec 9 both paths) / mark 2 / reveal (3) / save recap (5-year interest table pencilled on the frame) / send CTA with Amit.",
+  "slides": [
+   {
+    "n": 1,
+    "role": "hook",
+    "text": "Fixed vs variable at renewal. Guess the hike count. Pick 1, 2, 3 or 4. Answer on slide 6.",
+    "visual": "Tall door casing right of centre, masking tape across at the top third labelled in marker 'FIXED 4.34%'; one lonely pencil mark far below, 'VARIABLE 3.65%'. Tape bleeds off the right edge; small pencilled arrow."
+   },
+   {
+    "n": 2,
+    "role": "second hook",
+    "text": "Illustrative GTA renewal: $420,000 left, 20 years to go. In 2021 it cost $2,139 a month.",
+    "visual": "Close-up lower on the frame: an old faded mark '2021 · 2.09% · $2,139' with a thumb-smudge; 'Illustrative example' tag pencilled small."
+   },
+   {
+    "n": 3,
+    "role": "point",
+    "text": "Renewing today, both cost more. Fixed: $2,612. Variable: $2,462. Variable starts $150 a month cheaper.",
+    "visual": "Wide frame: tape at $2,612, mark at $2,462, a carpenter's tape-measure tick between them reading '$150'. Source line: 'Lowest advertised insured 5-yr rates, Ratehub, Nov 18, 2026.'"
+   },
+   {
+    "n": 4,
+    "role": "mark 1, both outcomes",
+    "text": "Dec 9 rate call. Hike: variable $2,516. Hold: $2,462. Either way, still under the tape.",
+    "visual": "Two pencil marks side by side at the same rung, labelled 'IF HIKE' and 'IF HOLD', like twins measured on the same day. Gap tick '$96 to go'."
+   },
+   {
+    "n": 5,
+    "role": "mark 2",
+    "text": "A second hike: $2,571. Still $41 under fixed.",
+    "visual": "Mark climbs; the gap tick shrinks to '$41'. Pencil lying on the trim, crossing into slide 6."
+   },
+   {
+    "n": 6,
+    "role": "reveal",
+    "text": "Answer: 3. At the third hike, variable reaches $2,626 and crosses the tape by $13.",
+    "visual": "Burgundy mark slices through the tape; tape slightly lifted at the cut. Giant '3' in Fraunces, pencil texture."
+   },
+   {
+    "n": 7,
+    "role": "save recap",
+    "text": "5 years of interest, illustrative. Hold: $69,300. One hike that sticks: $74,100. Three early hikes: $83,100. Fixed: $82,800.",
+    "visual": "The four totals pencilled as a tally down the casing, the fixed line written on the tape. Footnote: adjustable-payment variable; payment re-set at each change; semi-annual compounding."
+   },
+   {
+    "n": 8,
+    "role": "CTA",
+    "text": "Fixed wins only if about three hikes come early and stay. Send this to whoever signs the renewal with you.",
+    "visual": "Amit's kit photo (cut-out only if ≥600 px) standing beside the frame as if he just drew the last mark; footer + compliance line; logo unboxed."
+   }
+  ],
+  "beats": [],
+  "cta": {
+   "type": "send",
+   "text": "Send this to whoever signs the renewal with you."
+  },
+  "sendTest": "One spouse/partner forwards it to the other the week the renewal letter arrives ('it takes three hikes, let's talk').",
+  "type": {
+   "display": "Fraunces (SOFT/WONK, from statics/fonts)",
+   "body": "Instrument Sans",
+   "pencil": "Nanum Pen Script for pencilled labels only (note: it is the annotated style's face, used by group-mates Vinod/Manji; fallback IBM Plex Mono small caps if the critic flags it)"
+  },
+  "palette": "Plaster #F5F2EA paper, navy #003047 for type and marker, burgundy #8F022A only for the crossing mark (kit tokens, provisional)",
+  "novelty": {
+   "score": 1.0,
+   "conflicts": [],
+   "withDrafts": {
+    "score": 1.0,
+    "conflicts": []
+   },
+   "cmd": "variety.py --client amit-khurana --format carousel --engine custom-html --style doorframe-marks --device \"pencil height marks climbing a doorframe toward a masking-tape line at the fixed rate\" --hook-pattern guess-then-reveal --topic \"fixed or variable at renewal hike count\" (also scored 1.0 as split-flap before the device change)"
+  },
+  "selfCritique": "First draft used a split-flap departure board; killed because the studio already used split-flap boards in Greenbrix C5 and the Brian Wang reel (library). Doorframe height chart is unused anywhere in radar or library.",
+  "preview": null,
+  "rates": {
+   "asOf": "2026-11-18 18:20 ET",
+   "fixed5": "4.34% lowest advertised insured 5-year fixed (Ratehub)",
+   "variable5": "3.65% lowest advertised 5-year variable, prime 4.70% minus 1.05% (Ratehub)",
+   "fixed3": "4.48% lowest advertised 3-year fixed (Ratehub)",
+   "note": "Insured advertised rates; uninsured renewals usually price higher (nesto showed 4.95% uninsured 5-year fixed on Nov 15). Re-date and recompute on render day. Not an offer; APR depends on the lender (O. Reg. 191/08 s.18 if any rate is presented as available)."
+  },
+  "math": [
+   {
+    "claim": "2021 payment (illustrative origin)",
+    "working": "$500,000, 2.09%, 25-yr amortization, semi-annual compounding",
+    "result": "$2,139/mo; balance after 60 months $419,644 (rounded to $420,000)"
+   },
+   {
+    "claim": "Fixed 4.34% on $420,000, 20 yrs left",
+    "working": "semi-annual compounding",
+    "result": "$2,612/mo (+$473 vs 2021)"
+   },
+   {
+    "claim": "Variable 3.65%",
+    "working": "adjustable-payment variable, semi-annual compounding assumed (monthly compounding: $2,468)",
+    "result": "$2,462/mo; $150 under fixed"
+   },
+   {
+    "claim": "Each 0.25% on variable",
+    "working": "3.90% $2,516.15 - 3.65% $2,462.36",
+    "result": "about $54/mo on $420K (about $12.80 per $100K over 20 yrs)"
+   },
+   {
+    "claim": "Hike path",
+    "working": "3.90% / 4.15% / 4.40%",
+    "result": "$2,516 / $2,571 / $2,626; third hike passes fixed by $13"
+   },
+   {
+    "claim": "Rate gap",
+    "working": "4.34 - 3.65 = 0.69 pts; 0.69 / 0.25 = 2.76",
+    "result": "variable passes fixed at the third 0.25% rise"
+   },
+   {
+    "claim": "60-month interest by path (payment re-set on remaining amortization at each change)",
+    "working": "Python schedule, scratchpad math.py",
+    "result": "fixed 4.34% $82,792; variable hold $69,302; one hike from month 2 $74,086; three hikes by month 6 $83,144"
+   },
+   {
+    "claim": "Days to the decision",
+    "working": "Nov 19 to Dec 9, 2026",
+    "result": "20 days"
+   }
+  ],
+  "sources": [
+   {
+    "what": "BoC next decision Wed Dec 9, 2026, 9:45 a.m. ET, no MPR (2026 schedule)",
+    "url": "https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "Overnight rate 2.50% (Valet V39079, latest 2026-11-18)",
+    "url": "https://www.bankofcanada.ca/valet/observations/V39079/json?recent=5",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "5-yr GoC yield 3.52% (Valet, 2026-11-18)",
+    "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.5YR.DQ.YLD/json?recent=5",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "Ratehub rate table, 'As of November 18, 2026 6:20 p.m.': 5-yr fixed 4.34%, 5-yr variable 3.65% (P-1.05), 3-yr fixed 4.48%",
+    "url": "https://www.ratehub.ca/best-mortgage-rates",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "FCAC: renewal statement at least 21 days before term ends (federally regulated lenders)",
+    "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+    "checked": "research 2026-11-15"
+   }
+  ],
+  "rules": [
+   "No Dec 9 odds number on screen (single-tracker figure, research alert); both outcomes shown.",
+   "Fixed rates follow bond yields, variable follows prime; never say the BoC moves fixed rates.",
+   "Every rate dated Nov 18, 2026 with source; numbers labelled illustrative; payment type stated (adjustable-payment variable)."
+  ],
+  "compliance": "Footer: kit footer image + verbatim complianceLine (Amit Khurana, Mortgage Agent Level 2 · Lic. M12000871 · Centum Indigo Mortgages Corp. · Brokerage Lic. #12141) on every slide (Ontario, O. Reg. 188/08 s.6).",
+  "topic": "Fixed or variable at renewal"
+ },
+ {
+  "id": "B",
+  "title": "Which renewer are you? The Renewal Issue quiz",
+  "hook": {
+   "main": "Renewing by spring? Take this quiz first.",
+   "spoken": null,
+   "alts": [
+    {
+     "text": "Fixed or variable? Four questions decide it.",
+     "pattern": "one-question-decides"
+    },
+    {
+     "text": "The renewal mistake: choosing by rate alone.",
+     "pattern": "costly-mistake"
+    }
+   ]
+  },
+  "hookPattern": "callout-deadline",
+  "angle": "Fixed vs variable is a question about the borrower, so the carousel is a consumer-magazine personality quiz: four A/B questions a GTA renewer scores on the spot (budget room for a $54 hike, plans to move or consolidate debt within five years, steady vs self-employed income, the 2 a.m. test). Results name three profiles with the illustrative payment for each under both Dec 9 outcomes. Two of the questions come straight from Amit's niches (debt consolidation, self-employed), so it reads as his, not a rate table.",
+  "clientFacts": [
+   "Mississauga / GTA: cover reads 'Mississauga edition'",
+   "Services: Debt Consolidation (Q2) and Self-Employed Mortgage (Q3)",
+   "Niche: Mortgage Refinance & Renewal",
+   "Roster still style magazine (kit.json stills.primary), series masthead 'Money stories' continued from his HELOC issue"
+  ],
+  "format": "carousel",
+  "engine": "broker-stills",
+  "style": "magazine",
+  "styleWhy": "The take-the-quiz page is the native genre of a newsstand magazine, so the Editorial Cover style carries the self-scoring mechanic without any explaining.",
+  "device": "A newsstand magazine issue: masthead 'Money stories', edition line 'Renewal issue · Mississauga edition · December 2026', cover lines with real page numbers, a giant Bodoni 'QUIZ'; inside pages are quiz pages with A/B tick boxes and a running tally strip at the foot of each page.",
+  "mechanic": "Self-scored quiz: viewers tick A or B on each page and count; a tally strip ('A _ B _') repeats at the foot of every page; results on page 7 sort them into The Locker / The Floater / The Hedger.",
+  "structure": "8 slides: cover (quiz) / how to play + the base numbers / Q1 / Q2 / Q3 / Q4 with the Dec 9 note / results (save recap) / save CTA with the 21-day fact.",
+  "slides": [
+   {
+    "n": 1,
+    "role": "hook (cover)",
+    "text": "QUIZ. Fixed or variable at renewal? Score yourself in 4 questions.",
+    "visual": "Navy accent cover (kit #003047), masthead 'Money stories', 'Renewal issue · Mississauga edition', cover lines 'p.3 The $54 question / p.4 The five-year question / p.5 The paycheque question / p.6 The 2 a.m. question', 'Turn the page' arrow."
+   },
+   {
+    "n": 2,
+    "role": "second hook",
+    "text": "Renewing before spring? Answer A or B, count your As. Base: $420,000 left, 20 years. Fixed $2,612, variable $2,462.",
+    "visual": "Contents-page layout; small print 'Illustrative. Lowest advertised insured 5-yr rates, Ratehub, Nov 18, 2026.'"
+   },
+   {
+    "n": 3,
+    "role": "Q1",
+    "text": "Each 0.25% hike adds about $54 a month. Two hikes: $108. A: That would hurt. B: I'd absorb it.",
+    "visual": "Giant Bodoni '$54' with two tick boxes; tally strip at foot."
+   },
+   {
+    "n": 4,
+    "role": "Q2",
+    "text": "Could you sell, move or refinance to consolidate debt within 5 years? A: No. B: Maybe.",
+    "visual": "Sidebar box: 'Breaking a variable usually costs 3 months' interest. A fixed can cost the larger interest rate differential (IRD).'"
+   },
+   {
+    "n": 5,
+    "role": "Q3",
+    "text": "Does your income swing month to month, say self-employed or commission? A: Yes. B: It's steady.",
+    "visual": "Pull-quote layout with a wavy vs flat line drawn as a magazine spot illustration (code-drawn)."
+   },
+   {
+    "n": 6,
+    "role": "Q4 + both outcomes",
+    "text": "A headline says rates went up and your payment follows. A: Stomach drop. B: Shrug. Next rate call: Dec 9.",
+    "visual": "Faux news-alert strip set in the magazine grid (generic, no bank brand); tiny line 'This quiz works whichever way Dec 9 goes.'"
+   },
+   {
+    "n": 7,
+    "role": "save recap (results)",
+    "text": "Mostly A, The Locker: fixed, $2,612. Mostly B, The Floater: $2,462 on a hold, $2,516 after a hike. 2-2, The Hedger: ask about a split.",
+    "visual": "Results page with three columns and a portrait-free icon for each (code-drawn lock, float, scale); Dec 9 hike/hold figures in small caps."
+   },
+   {
+    "n": 8,
+    "role": "CTA",
+    "text": "Save this. Retake it when your renewal letter arrives: it only has to come 21 days before your term ends.",
+    "visual": "Back cover with Amit's kit photo (style rule: client photo once supplied), footer + compliance line."
+   }
+  ],
+  "beats": [],
+  "cta": {
+   "type": "save",
+   "text": "Save this and retake it the week your renewal letter arrives."
+  },
+  "sendTest": "A renewer sends the cover to their partner: 'what did you get?'; two people taking the same quiz is the send.",
+  "novelty": {
+   "score": 1.0,
+   "conflicts": [],
+   "withDrafts": {
+    "score": 0.85,
+    "conflicts": [
+     {
+      "severity": "soft",
+      "rule": "style-used-in-last-7-days",
+      "detail": "'magazine' used for rahul-vinod on 2026-11-16 (wk1118-g2-stress-test--magazine--story--rahul-vinod); 10 use(s) in 7 days"
+     }
+    ]
+   },
+   "cmd": "variety.py --client amit-khurana --format carousel --engine broker-stills --style magazine --device \"consumer-magazine personality quiz with tally boxes and three result profiles\" --hook-pattern callout-deadline --topic \"fixed or variable at renewal quiz\""
+  },
+  "risks": [
+   "Magazine is Amit's roster primary and appears in 10 draft proofs this week (incl. his HELOC Paul issue); the quiz device and navy cover keep it apart, but the critic should compare against heloc-paul--magazine.",
+   "Penalty sidebar (3 months' interest vs IRD) to be checked against FCAC prepayment-penalty page at script stage.",
+   "Q3 direction (swinging income points to fixed) is a judgement; wording stays 'may suit'."
+  ],
+  "selfCritique": "Considered cutout (his secondary) but his latest draft (wk1118 stress-test) is cutout, which would be a hard repeat; magazine kept because the quiz genre is the reason for the style.",
+  "preview": "/Users/ankushjha/Work/bots/graphic reels/content-desk/statics/out/heloc-paul--magazine/amit-khurana/01.jpg",
+  "rates": {
+   "asOf": "2026-11-18 18:20 ET",
+   "fixed5": "4.34% lowest advertised insured 5-year fixed (Ratehub)",
+   "variable5": "3.65% lowest advertised 5-year variable, prime 4.70% minus 1.05% (Ratehub)",
+   "fixed3": "4.48% lowest advertised 3-year fixed (Ratehub)",
+   "note": "Insured advertised rates; uninsured renewals usually price higher (nesto showed 4.95% uninsured 5-year fixed on Nov 15). Re-date and recompute on render day. Not an offer; APR depends on the lender (O. Reg. 191/08 s.18 if any rate is presented as available)."
+  },
+  "math": [
+   {
+    "claim": "2021 payment (illustrative origin)",
+    "working": "$500,000, 2.09%, 25-yr amortization, semi-annual compounding",
+    "result": "$2,139/mo; balance after 60 months $419,644 (rounded to $420,000)"
+   },
+   {
+    "claim": "Fixed 4.34% on $420,000, 20 yrs left",
+    "working": "semi-annual compounding",
+    "result": "$2,612/mo (+$473 vs 2021)"
+   },
+   {
+    "claim": "Variable 3.65%",
+    "working": "adjustable-payment variable, semi-annual compounding assumed (monthly compounding: $2,468)",
+    "result": "$2,462/mo; $150 under fixed"
+   },
+   {
+    "claim": "Each 0.25% on variable",
+    "working": "3.90% $2,516.15 - 3.65% $2,462.36",
+    "result": "about $54/mo on $420K (about $12.80 per $100K over 20 yrs)"
+   },
+   {
+    "claim": "Hike path",
+    "working": "3.90% / 4.15% / 4.40%",
+    "result": "$2,516 / $2,571 / $2,626; third hike passes fixed by $13"
+   },
+   {
+    "claim": "Rate gap",
+    "working": "4.34 - 3.65 = 0.69 pts; 0.69 / 0.25 = 2.76",
+    "result": "variable passes fixed at the third 0.25% rise"
+   },
+   {
+    "claim": "60-month interest by path (payment re-set on remaining amortization at each change)",
+    "working": "Python schedule, scratchpad math.py",
+    "result": "fixed 4.34% $82,792; variable hold $69,302; one hike from month 2 $74,086; three hikes by month 6 $83,144"
+   },
+   {
+    "claim": "Days to the decision",
+    "working": "Nov 19 to Dec 9, 2026",
+    "result": "20 days"
+   }
+  ],
+  "sources": [
+   {
+    "what": "BoC next decision Wed Dec 9, 2026, 9:45 a.m. ET, no MPR (2026 schedule)",
+    "url": "https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "Overnight rate 2.50% (Valet V39079, latest 2026-11-18)",
+    "url": "https://www.bankofcanada.ca/valet/observations/V39079/json?recent=5",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "5-yr GoC yield 3.52% (Valet, 2026-11-18)",
+    "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.5YR.DQ.YLD/json?recent=5",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "Ratehub rate table, 'As of November 18, 2026 6:20 p.m.': 5-yr fixed 4.34%, 5-yr variable 3.65% (P-1.05), 3-yr fixed 4.48%",
+    "url": "https://www.ratehub.ca/best-mortgage-rates",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "FCAC: renewal statement at least 21 days before term ends (federally regulated lenders)",
+    "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+    "checked": "research 2026-11-15"
+   }
+  ],
+  "rules": [
+   "No Dec 9 odds number on screen (single-tracker figure, research alert); both outcomes shown.",
+   "Fixed rates follow bond yields, variable follows prime; never say the BoC moves fixed rates.",
+   "Every rate dated Nov 18, 2026 with source; numbers labelled illustrative; payment type stated (adjustable-payment variable)."
+  ],
+  "compliance": "Footer: kit footer image + verbatim complianceLine (Amit Khurana, Mortgage Agent Level 2 · Lic. M12000871 · Centum Indigo Mortgages Corp. · Brokerage Lic. #12141) on every slide (Ontario, O. Reg. 188/08 s.6).",
+  "topic": "Fixed or variable at renewal"
+ },
+ {
+  "id": "C",
+  "title": "Two envelopes for Dec 9",
+  "hook": {
+   "main": "Same renewal. Two envelopes. Open Dec 9.",
+   "spoken": null,
+   "alts": [
+    {
+     "text": "They renew in February. Dec 9 comes first.",
+     "pattern": "story-start"
+    },
+    {
+     "text": "Renewing by March? Mark Dec 9.",
+     "pattern": "mark-the-date"
+    }
+   ]
+  },
+  "hookPattern": "same-x-different-outcome",
+  "angle": "Story first, with a labelled composite: a Mississauga couple renewing in February 2027 ($420,000 left, 20 years). Two sealed envelopes sit on their kitchen table, stamped IF HIKE and IF HOLD; each holds a fixed card and a variable card. The viewer picks for them, then both envelopes open: variable is cheaper in both today ($150 or $96 a month). The twist is a third envelope, the bank's renewal letter, which only has to arrive 21 days before maturity. The move that covers both envelopes is a rate hold now (many lenders hold 90 to 120 days), so today's fixed becomes their ceiling while they wait for Dec 9.",
+  "clientFacts": [
+   "Mississauga (the composite couple's city; Amit's office is in Mississauga, serves GTA)",
+   "Niche: Mortgage Refinance & Renewal; the rate hold / switch at renewal is broker work",
+   "Ontario: brokerage + licence on every slide"
+  ],
+  "format": "carousel",
+  "engine": "custom-html",
+  "style": "sealed-envelopes",
+  "styleWhy": "Two sealed envelopes make 'show both outcomes, predict neither' physical: the post literally refuses to open one before Dec 9.",
+  "device": "Kraft envelopes on a pale kitchen table, built in CSS/SVG with paper fibre (feTurbulence), deckled flaps, real soft shadows; rubber-stamp marks 'OPEN IF HIKE' (burgundy #8F022A) and 'OPEN IF HOLD' (navy #003047), a 'DEC 9' postmark. Cards slide out of the envelopes and overhang the slide edge into the next slide. The third envelope (a generic bank renewal letter, no lender brand, stamped ILLUSTRATIVE) arrives on slide 6.",
+  "mechanic": "Commit-then-open: slide 2 asks the viewer to tick FIXED or VARIABLE for the couple before swiping; slides 4 and 5 open each envelope and score the pick; the CTA comment keyword delivers a real list.",
+  "structure": "8 slides: hook (two envelopes) / meet the couple + pick / today's two cards / open IF HOLD / open IF HIKE / third envelope (21-day letter) / what covers both (rate hold) recap / comment-keyword CTA.",
+  "slides": [
+   {
+    "n": 1,
+    "role": "hook",
+    "text": "Same renewal. Two envelopes. Open Dec 9.",
+    "visual": "Two kraft envelopes, stamped IF HIKE / IF HOLD, DEC 9 postmark; the right one slides off the edge; a 'Mortgage renewal' label on the table so the topic reads on frame 1."
+   },
+   {
+    "n": 2,
+    "role": "second hook + commit",
+    "text": "Illustrative example: a Mississauga couple renews in February. $420,000 left, 20 years. Pick for them before you swipe.",
+    "visual": "A torn slip with two hand-tick boxes 'FIXED' / 'VARIABLE' paper-clipped to the envelopes; 'Illustrative example' printed on the slip."
+   },
+   {
+    "n": 3,
+    "role": "point",
+    "text": "Their choices today: fixed 4.34% is $2,612 a month. Variable 3.65% is $2,462. In 2021 they paid $2,139.",
+    "visual": "Two index cards on the table; source line 'Lowest advertised insured 5-yr rates, Ratehub, Nov 18, 2026'."
+   },
+   {
+    "n": 4,
+    "role": "outcome 1",
+    "text": "Envelope IF HOLD: variable stays $2,462. Fixed $2,612. Variable saves $150 a month.",
+    "visual": "Navy-stamped envelope torn open, two cards out, the variable card on top."
+   },
+   {
+    "n": 5,
+    "role": "outcome 2",
+    "text": "Envelope IF HIKE: variable rises to $2,516. Fixed $2,612. Variable still saves $96 a month.",
+    "visual": "Burgundy-stamped envelope open; the gap written on a sticky flag. Small line: 'Fixed pulls ahead only after about three hikes.'"
+   },
+   {
+    "n": 6,
+    "role": "twist",
+    "text": "The third envelope matters most. Their bank only has to send the renewal letter 21 days before maturity.",
+    "visual": "A plain bank-letter envelope (generic, 'ILLUSTRATIVE' stamp) lands on top; '21 days' circled."
+   },
+   {
+    "n": 7,
+    "role": "save recap",
+    "text": "What covers both: a rate hold now. Many lenders hold 90 to 120 days. Today's fixed becomes their ceiling.",
+    "visual": "All three envelopes squared up with a paper clip; a small card 'Ask: does the hold drop if rates fall?'"
+   },
+   {
+    "n": 8,
+    "role": "CTA",
+    "text": "Comment HOLD and Amit sends the 5 questions to ask before you take a rate hold.",
+    "visual": "Amit's kit photo on the table edge like a business card; footer + compliance line."
+   }
+  ],
+  "beats": [],
+  "cta": {
+   "type": "comment-keyword",
+   "keyword": "HOLD",
+   "delivers": "5-question rate-hold checklist (Studio writes it in the script stage; Amit must agree to send it by DM)",
+   "text": "Comment HOLD and Amit sends the 5 questions to ask before you take a rate hold."
+  },
+  "sendTest": "A friend who knows someone renewing Jan to Mar 2027 forwards it: 'get a hold before Dec 9'.",
+  "novelty": {
+   "score": 1.0,
+   "conflicts": [],
+   "withDrafts": {
+    "score": 1.0,
+    "conflicts": []
+   },
+   "cmd": "variety.py --client amit-khurana --format carousel --engine custom-html --style sealed-envelopes --device \"two sealed kraft envelopes stamped OPEN IF HIKE and OPEN IF HOLD, each holding a fixed and a variable card\" --hook-pattern same-x-different-outcome --topic \"fixed or variable at renewal Dec 9 two outcomes\""
+  },
+  "risks": [
+   "Rate-hold length (90 to 120 days) is lender practice from broker sources, not a rule; keep 'many lenders' and 'ask your lender'.",
+   "Comment keyword needs Amit's yes to deliver the DM list; if not, swap to the save CTA.",
+   "Composite couple must read 'Illustrative example' on screen (LESSONS Nov 19)."
+  ],
+  "selfCritique": "Dropped a first payoff that repeated A's hike count; the third-envelope twist (21-day letter) and rate-hold action make C about timing, A about the math.",
+  "preview": null,
+  "rates": {
+   "asOf": "2026-11-18 18:20 ET",
+   "fixed5": "4.34% lowest advertised insured 5-year fixed (Ratehub)",
+   "variable5": "3.65% lowest advertised 5-year variable, prime 4.70% minus 1.05% (Ratehub)",
+   "fixed3": "4.48% lowest advertised 3-year fixed (Ratehub)",
+   "note": "Insured advertised rates; uninsured renewals usually price higher (nesto showed 4.95% uninsured 5-year fixed on Nov 15). Re-date and recompute on render day. Not an offer; APR depends on the lender (O. Reg. 191/08 s.18 if any rate is presented as available)."
+  },
+  "math": [
+   {
+    "claim": "2021 payment (illustrative origin)",
+    "working": "$500,000, 2.09%, 25-yr amortization, semi-annual compounding",
+    "result": "$2,139/mo; balance after 60 months $419,644 (rounded to $420,000)"
+   },
+   {
+    "claim": "Fixed 4.34% on $420,000, 20 yrs left",
+    "working": "semi-annual compounding",
+    "result": "$2,612/mo (+$473 vs 2021)"
+   },
+   {
+    "claim": "Variable 3.65%",
+    "working": "adjustable-payment variable, semi-annual compounding assumed (monthly compounding: $2,468)",
+    "result": "$2,462/mo; $150 under fixed"
+   },
+   {
+    "claim": "Each 0.25% on variable",
+    "working": "3.90% $2,516.15 - 3.65% $2,462.36",
+    "result": "about $54/mo on $420K (about $12.80 per $100K over 20 yrs)"
+   },
+   {
+    "claim": "Hike path",
+    "working": "3.90% / 4.15% / 4.40%",
+    "result": "$2,516 / $2,571 / $2,626; third hike passes fixed by $13"
+   },
+   {
+    "claim": "Rate gap",
+    "working": "4.34 - 3.65 = 0.69 pts; 0.69 / 0.25 = 2.76",
+    "result": "variable passes fixed at the third 0.25% rise"
+   },
+   {
+    "claim": "60-month interest by path (payment re-set on remaining amortization at each change)",
+    "working": "Python schedule, scratchpad math.py",
+    "result": "fixed 4.34% $82,792; variable hold $69,302; one hike from month 2 $74,086; three hikes by month 6 $83,144"
+   },
+   {
+    "claim": "Days to the decision",
+    "working": "Nov 19 to Dec 9, 2026",
+    "result": "20 days"
+   }
+  ],
+  "sources": [
+   {
+    "what": "BoC next decision Wed Dec 9, 2026, 9:45 a.m. ET, no MPR (2026 schedule)",
+    "url": "https://www.bankofcanada.ca/2025/08/bank-canada-publishes-2026-schedule-policy-interest-rate-announcements-other-major-publications/",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "Overnight rate 2.50% (Valet V39079, latest 2026-11-18)",
+    "url": "https://www.bankofcanada.ca/valet/observations/V39079/json?recent=5",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "5-yr GoC yield 3.52% (Valet, 2026-11-18)",
+    "url": "https://www.bankofcanada.ca/valet/observations/BD.CDN.5YR.DQ.YLD/json?recent=5",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "Ratehub rate table, 'As of November 18, 2026 6:20 p.m.': 5-yr fixed 4.34%, 5-yr variable 3.65% (P-1.05), 3-yr fixed 4.48%",
+    "url": "https://www.ratehub.ca/best-mortgage-rates",
+    "checked": "2026-11-19"
+   },
+   {
+    "what": "FCAC: renewal statement at least 21 days before term ends (federally regulated lenders)",
+    "url": "https://www.canada.ca/en/financial-consumer-agency/services/mortgages/renew-mortgage.html",
+    "checked": "research 2026-11-15"
+   }
+  ],
+  "rules": [
+   "No Dec 9 odds number on screen (single-tracker figure, research alert); both outcomes shown.",
+   "Fixed rates follow bond yields, variable follows prime; never say the BoC moves fixed rates.",
+   "Every rate dated Nov 18, 2026 with source; numbers labelled illustrative; payment type stated (adjustable-payment variable)."
+  ],
+  "compliance": "Footer: kit footer image + verbatim complianceLine (Amit Khurana, Mortgage Agent Level 2 · Lic. M12000871 · Centum Indigo Mortgages Corp. · Brokerage Lic. #12141) on every slide (Ontario, O. Reg. 188/08 s.6).",
+  "topic": "Fixed or variable at renewal"
+ }
+]

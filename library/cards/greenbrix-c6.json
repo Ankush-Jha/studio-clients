@@ -1,0 +1,53 @@
+{
+ "id": "greenbrix-c6",
+ "title": "Greenbrix C6: 4 investment deals banks pass on",
+ "clients": [
+  "krystian-catala"
+ ],
+ "generic": false,
+ "date": "2026-11-17",
+ "format": "carousel",
+ "engine": "custom-html",
+ "style": "greenbrix-brick-objects",
+ "lengthS": null,
+ "fps": null,
+ "size": "1080x1350",
+ "voice": null,
+ "music": null,
+ "topic": "Investment, commercial and land: 4 investment deals banks pass on",
+ "tags": [
+  "greenbrix",
+  "private-lending",
+  "ontario",
+  "carousel",
+  "seamless-join",
+  "brick-motif",
+  "investment,-commercial-and-land"
+ ],
+ "hook": "4 investment deals banks pass on. We look at them.",
+ "logline": "Seven-slide Greenbrix Capital carousel for Krystian Catala: 4 investment deals banks pass on.",
+ "structure": "7 slides: four deals on a plinth, rentals with a dashed BANK LIMIT wall, storefront with apartments above, staked land parcel with NOTICE sign, fixer with scaffolding, deal sheet, CTA with Krystian. Slides 2-3 end with a BANK / GREENBRIX strip.",
+ "device": "architect's massing models drawn as isometric SVG: context buildings in white card, each deal built from Greenbrix bricks (logo gradient with running-bond mortar); cover shows all four deals on one plinth under a giant lime '4'",
+ "rejectedStyles": [],
+ "rejectedStructures": [
+  "icon tiles on a deal grid (previous attempt, replaced)"
+ ],
+ "files": {
+  "final": "$R/graphic reels/clients/greenbrix/FINAL/C6",
+  "poster": "$R/graphic reels/clients/greenbrix/FINAL/C6/C6-1.png",
+  "thumb": "library/thumbs/greenbrix-c6.jpg",
+  "treatment": "$R/graphic reels/clients/greenbrix/C6/NOTES.md",
+  "project": "$R/graphic reels/clients/greenbrix/C6",
+  "caption": "$R/graphic reels/clients/greenbrix/FINAL/C6/caption.txt"
+ },
+ "status": "delivered",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Cover copy changed from 'We fund them' to 'We look at them.' to avoid promising approval.",
+  "'You'll get a yes, a no or a number, quickly' is a service promise the client must be comfortable with."
+ ],
+ "source": "seed",
+ "hookPattern": "list-promise",
+ "slides": 7
+}

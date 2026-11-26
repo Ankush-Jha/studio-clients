@@ -1,0 +1,45 @@
+{
+ "id": "motion--heloc-paul--keaton-jim-thornton--pop-hook",
+ "title": "Interest-only HELOC: the payment moves, the balance doesn't [pop-hook, keaton-thornton-jim-thornton]",
+ "clients": [
+  "keaton-thornton-jim-thornton"
+ ],
+ "generic": false,
+ "date": "2026-11-16",
+ "format": "short-reel",
+ "engine": "motion",
+ "style": "pop-hook",
+ "lengthS": 14.93,
+ "fps": 30,
+ "size": "1080x1920",
+ "voice": null,
+ "music": "synthesised SFX only (cue-timed)",
+ "topic": "Interest-only HELOC: the payment moves, the balance does not",
+ "tags": [
+  "motion-template-test",
+  "pop-hook",
+  "heloc",
+  "interest-only"
+ ],
+ "hook": "Paul's HELOC: $7,800 paid, still owes $150,000",
+ "logline": "Template test render of 'pop-hook' on the heloc-paul data block for keaton-thornton-jim-thornton: $150,000 balance, 12 payments of $650 = $7,800, balance unchanged.",
+ "structure": "Looping 12-15s HTML/GSAP motion piece rendered frame by frame in Chromium; no voiceover; loops to frame 1.",
+ "device": "Direction A Bold Pop: saturated colour blocks, giant numbers, snap zooms; hook, rise, stack (pattern interrupt), fix, back to hook",
+ "rejectedStyles": [],
+ "rejectedStructures": [],
+ "files": {
+  "final": "$R/engines/motion/out/heloc-paul/keaton-jim-thornton/pop-hook.mp4",
+  "poster": "$R/engines/motion/out/heloc-paul/keaton-jim-thornton/pop-hook.poster.jpg",
+  "thumb": "library/thumbs/motion--heloc-paul--keaton-jim-thornton--pop-hook.jpg",
+  "treatment": "",
+  "project": "$R/engines/motion"
+ },
+ "status": "draft",
+ "feedback": [],
+ "performance": null,
+ "lessons": [
+  "Test render of a motion template, not a delivered piece; compliance placeholders (agent name, licence) were still open."
+ ],
+ "source": "seed",
+ "hookPattern": "number-stuck"
+}

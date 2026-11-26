@@ -1,0 +1,105 @@
+{
+  "url": "https://wiseequity.ca/",
+  "fetched": "2026-11-19T15:00:00Z",
+  "bio": "Wise Equity is a Canadian home-equity strategy firm that helps homeowners use mortgage and HELOC structures, the Smith Manoeuvre, cash damming and private investing to build tax-efficient wealth and retirement income. The site claims 500+ families served, $100M+ in equity unlocked and service in three provinces, with an education-first, no-pressure approach and a free equity assessment. Brokerage and agent licences appear in the site header.",
+  "tagline": "Turn Your Home Into an Asset for Tax-Free Income",
+  "yearsInBusiness": null,
+  "specialties": [
+    "Mortgage + HELOC",
+    "Reverse mortgage",
+    "Smith Manoeuvre",
+    "Cash damming",
+    "Private investing",
+    "B2B partnerships",
+    "Financial planning",
+    "Home equity strategy"
+  ],
+  "languages": [],
+  "serviceAreas": [
+    "Canada (licensed across Canada; 3 provinces served per site)"
+  ],
+  "team": [],
+  "licences": [
+    {
+      "label": "FSRAO brokerage",
+      "value": "#13463",
+      "where": "site header on every page"
+    },
+    {
+      "label": "Agent licence",
+      "value": "#M19002342",
+      "where": "site header (holder not named)"
+    }
+  ],
+  "brokerage": {
+    "name": "Wise Equity",
+    "licence": "#13463"
+  },
+  "socials": {
+    "instagram": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "tiktok": null,
+    "x": null
+  },
+  "bookingUrl": null,
+  "phones": [
+    "(647) 955-7464"
+  ],
+  "emails": [
+    "info@wiseequity.ca"
+  ],
+  "brandColors": [
+    {
+      "hex": "#0f2418",
+      "where": "dark green (theme-color, hero/headings)"
+    },
+    {
+      "hex": "#18552b",
+      "where": "green accent"
+    },
+    {
+      "hex": "#c9a227",
+      "where": "gold accent"
+    },
+    {
+      "hex": "#f7f4ec",
+      "where": "cream background"
+    }
+  ],
+  "fonts": [
+    "Playfair Display",
+    "Montserrat"
+  ],
+  "logoUrls": [
+    "https://wiseequity.ca/assets/images/hero-family-portrait.jpg (OG image, not a logo)"
+  ],
+  "testimonialsCount": 0,
+  "reviews": {
+    "rating": 4.9,
+    "count": null,
+    "source": "Google Maps listing per web search (check; count unknown); Trustpilot has 11 reviews"
+  },
+  "notes": [
+    "robots.txt welcomes crawlers (Agent map at /llms).",
+    "No team names, address or social links on fetched pages (home, /about/, /contact/).",
+    "Search (check): LinkedIn lists Nathaniel Gardner at Wise Equity (broker praised in Google reviews); Trustpilot https://ca.trustpilot.com/review/wiseequity.ca ; Google Maps https://maps.app.goo.gl/opQiX4mFoBeLNcRPA.",
+    "Footer image values (FSRAO #13463, Lic #M19002342) match the site header."
+  ],
+  "sources": [
+    {
+      "url": "https://wiseequity.ca/",
+      "what": "homepage"
+    },
+    {
+      "url": "https://wiseequity.ca/about/",
+      "what": "about"
+    },
+    {
+      "url": "https://wiseequity.ca/contact/",
+      "what": "contact"
+    }
+  ],
+  "blocked": []
+}

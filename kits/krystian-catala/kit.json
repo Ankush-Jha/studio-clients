@@ -1,0 +1,175 @@
+{
+  "id": "krystian-catala",
+  "aliases": [],
+  "sheetId": "client-032",
+  "name": "Krystian Catala",
+  "people": [],
+  "city": null,
+  "province": "ON",
+  "region": "",
+  "group": null,
+  "video": null,
+  "languages": [
+    "en"
+  ],
+  "brokerage": {
+    "name": "Greenbrix Capital",
+    "licence": "#13645"
+  },
+  "agent": {
+    "name": "Krystian Catala",
+    "title": "Mortgage Broker",
+    "licence": "M12001607"
+  },
+  "contact": {
+    "phones": [
+      "416-460-2215"
+    ],
+    "emails": [
+      "krystian@greenbrix.ca"
+    ],
+    "website": "greenbrix.ca"
+  },
+  "services": [
+    "Private mortgages",
+    "B-side mortgages",
+    "Institutional mortgages",
+    "Residential",
+    "Commercial",
+    "Gas station financing",
+    "Manufacturing financing",
+    "Construction financing",
+    "Mixed-use",
+    "Land financing",
+    "Multi-unit rentals",
+    "Power of sale"
+  ],
+  "audience": "Ontario homeowners and investors the banks turned down or can't serve fast enough, such as business owners, rebuilders, people facing power of sale, bridge-loan needs and investors.",
+  "postingMode": "",
+  "postingTime": "",
+  "timeZone": "",
+  "figma": "https://www.figma.com/design/FHWtfHcWyRSulmmdhzetFe/Rachit",
+  "complianceLine": "Krystian Catala, Mortgage Broker · Lic. M12001607 · Greenbrix Capital · Brokerage Lic. #13645",
+  "rules": [],
+  "assets": {
+    "photo": "assets/krystian-catala/photo.png",
+    "footer": "assets/krystian-catala/footer.png",
+    "footerAlt": null,
+    "logos": [
+      "assets/krystian-catala/logo.png",
+      "assets/krystian-catala/logo-2.png"
+    ],
+    "check": []
+  },
+  "stills": {
+    "primary": null,
+    "secondary": null,
+    "variant": null
+  },
+  "missing": [
+    "video (footage reels allowed?)",
+    "stills (no roster style assigned; needs a group first)",
+    "city",
+    "group",
+    "socials"
+  ],
+  "flags": [
+    "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+    "sheet note: Figma link points to a file named 'Rachit' — shared with Ranjit Singh and Wise Equity; check it's correct",
+    "website says brokerage name 'Greenbrix Capital Inc. (Dominion Lending Centres franchise)' (kit has 'Greenbrix Capital')",
+    "website says title 'President, Mortgage Broker' (kit has 'Mortgage Broker')",
+    "website says phones ['905 884 9911', '416-460-2215 (Krystian direct)', '416-817-3130 (Aimee)'] (kit has ['416-460-2215'])",
+    "website note: robots.txt allows all crawlers. Site is a Tailwind SPA with CSS variables; accent colours not extracted (check logo).",
+    "website note: greenbrix.ca (no www) reset the connection; www.greenbrix.ca worked. No social links on fetched pages.",
+    "website note: /contact path serves the homepage. Direct line 416-460-2215 matches clients.json.",
+    "website note: Search (check): Mortgage Alliance page lists Krystian with Ontario licence 13645 and kcatala@mortgagealliance.com (conflicts with the site's DLC franchise statement); older about page https://greenbrix.ca/about-us/ says 15+ years experience.",
+    "Accent #FAF8F5 has contrast 1.0:1 against paper (<3:1); pair with ink."
+  ],
+  "provenance": {
+    "name": "clients.json name",
+    "languages": "default (no source)",
+    "brokerage.licence": "footer image (read visually) + BRIEF.md + sheet other_ids",
+    "brokerage.name": "assets/krystian-catala/greenbrix/BRIEF.md",
+    "agent.licence": "assets/krystian-catala/greenbrix/BRIEF.md (Greenbrix About page, found 17 Nov)",
+    "agent.title": "assets/krystian-catala/greenbrix/BRIEF.md ('Broker & President')",
+    "province": "assets/krystian-catala/greenbrix/BRIEF.md (Ontario, FSRA)",
+    "contact": "clients.json phones/emails/website",
+    "audience": "assets/krystian-catala/greenbrix/BRIEF.md",
+    "figma": "clients.json figma_file",
+    "photo": "assets/_provenance.json (verified)",
+    "footer": "assets/_provenance.json (verified)",
+    "logos": "assets/_provenance.json (verified)",
+    "complianceLine": "composed from sheet/footer facts above",
+    "services": "website: https://www.greenbrix.ca/",
+    "bio": "website: https://www.greenbrix.ca/",
+    "colors.accent": "website (tokens.json)",
+    "colors.ink": "default (no source)",
+    "colors.paper": "website (tokens.json)",
+    "colors.contrast": "computed (WCAG) accent vs paper",
+    "fonts": "assets/krystian-catala/greenbrix/BRIEF.md"
+  },
+  "completeness": 0.786,
+  "updated": "2026-11-19T20:13:16+05:30",
+  "brandRefs": [
+    "assets/krystian-catala/greenbrix/assets/logo-t.png",
+    "assets/krystian-catala/greenbrix/assets/logo-light.png",
+    "assets/krystian-catala/greenbrix/assets/logo-dlc-t.png",
+    "assets/krystian-catala/greenbrix/assets/logo-dlc-light.png",
+    "assets/krystian-catala/greenbrix/assets/logo.png",
+    "assets/krystian-catala/greenbrix/assets/logo-dlc.png",
+    "assets/krystian-catala/greenbrix/assets/headshot-cut.png",
+    "assets/krystian-catala/greenbrix/assets/headshot.jpg",
+    "assets/krystian-catala/greenbrix/BRIEF.md"
+  ],
+  "extraLogos": {
+    "light": "assets/krystian-catala/greenbrix/assets/logo-t.png",
+    "dark": "assets/krystian-catala/greenbrix/assets/logo-light.png",
+    "dlcLight": "assets/krystian-catala/greenbrix/assets/logo-dlc-t.png",
+    "dlcDark": "assets/krystian-catala/greenbrix/assets/logo-dlc-light.png"
+  },
+  "socials": {},
+  "bio": "Greenbrix Capital Inc. is an Ontario brokerage specialising in private mortgages, with institutional and B-side options for residential, commercial, gas station, manufacturing, construction, mixed-use, land and multi-unit rental properties. Krystian Catala is President and Mortgage Broker (M12001607), working on private lending, commercial, construction and development financing. The site calls Greenbrix an independently owned franchise of the Dominion Lending Centres network (FSRA licence #13645).",
+  "web": {
+    "url": "https://www.greenbrix.ca/",
+    "fetched": "2026-11-19T15:00:00Z",
+    "tagline": "Mortgage financing for homes, businesses & complex properties.",
+    "serviceAreas": [
+      "Ontario (properties in Ontario only)"
+    ],
+    "specialties": [
+      "Private mortgages",
+      "B-side mortgages",
+      "Institutional mortgages",
+      "Residential",
+      "Commercial",
+      "Gas station financing",
+      "Manufacturing financing",
+      "Construction financing",
+      "Mixed-use",
+      "Land financing",
+      "Multi-unit rentals",
+      "Power of sale"
+    ],
+    "notes": [
+      "robots.txt allows all crawlers. Site is a Tailwind SPA with CSS variables; accent colours not extracted (check logo).",
+      "greenbrix.ca (no www) reset the connection; www.greenbrix.ca worked. No social links on fetched pages.",
+      "/contact path serves the homepage. Direct line 416-460-2215 matches clients.json.",
+      "Search (check): Mortgage Alliance page lists Krystian with Ontario licence 13645 and kcatala@mortgagealliance.com (conflicts with the site's DLC franchise statement); older about page https://greenbrix.ca/about-us/ says 15+ years experience."
+    ],
+    "sources": [
+      {
+        "url": "https://www.greenbrix.ca/",
+        "what": "homepage"
+      },
+      {
+        "url": "https://www.greenbrix.ca/about",
+        "what": "team + licences"
+      }
+    ],
+    "logoUrls": [
+      "https://www.greenbrix.ca/images/greenbrix-capital-logo.png",
+      "https://www.greenbrix.ca/images/dominion-lending-centres-logo.png"
+    ]
+  },
+  "colorsProvisional": true
+}

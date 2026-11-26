@@ -1,0 +1,615 @@
+[
+  {
+    "slug": "kulbhushan-narang",
+    "name": "Kulbhushan Narang",
+    "city": "Vaughan",
+    "province": "ON",
+    "group": null,
+    "completeness": 0.929,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "Footer spells the name 'Kulbhusan Narang'.",
+      "Brokerage name 'Orbis Mortgage Group' and title 'Mortgage Agent Level 2' are not in the sheet fields; taken from the footer image and engines/face-reels (itself marked needs_confirmation).",
+      "engines/face-reels compliance.json (draft, not confirmed by Orbis/FSRA) requires on end card: M17000370, 13476, Orbis Mortgage Group and the disclaimer 'General information only, not financial advice. Options depend on your situation and are subject to lender approval (O.A.C.)'.",
+      "website says Kulbhushan Narang licence 'M1700370 (as printed on contact page; clients.json has M17000370)' (kit has 'M17000370')",
+      "website says phones ['Fax +18885702755'] (kit has ['905-581-8188'])",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Address: 21-7611 Pine Valley Drive, Vaughan, ON L4L 0A2.",
+      "website note: Threads: https://www.threads.com/@kulbhushan_orbis_mortgage (no schema field).",
+      "website note: Brokerage FSRA#13476 from clients.json not printed on site.",
+      "website note: Search (check): Orbis profile https://orbismortgage.com/kulbhushan-narang/ lists languages Hindi, Punjabi, Urdu and phone 416-877-1670; directory listings (zipleaf, brokers.network) older/Mortgage Alliance. No Google rating/review count found.",
+      "Accent #D4B225 has contrast 2.06:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "sahil-rihani",
+    "name": "Sahil Rihani",
+    "city": "Vaughan",
+    "province": "ON",
+    "group": 1,
+    "completeness": 1.0,
+    "flags": [
+      "Logo reads 'Keystone Financial Experts' with Dominion Lending Centres; authorised brokerage name for #13654 not confirmed.",
+      "website says emails ['srihani@dominionlending.ca'] (kit has ['mortgagesbyrihani@gmail.com'])",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Office: 2355 Derry Rd E, Unit 43, Mississauga ON L5S 1V6. Reply promised within one business day.",
+      "website note: Home page shows ~10 Google reviews via Trustindex widget (no aggregate rating text captured).",
+      "website note: Search (check): FSRA verification listing M22004113; DLC app page https://www.dlcapp.ca/app/sahil-rihani; brkrr.ca profile https://brkrr.ca/agents/sahil-rihani lists Maple, ON. No GBP rating/count found."
+    ]
+  },
+  {
+    "slug": "anil-lakhiya",
+    "name": "Anil Lakhiya",
+    "city": null,
+    "province": null,
+    "group": null,
+    "completeness": 0.571,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "Footer website alwaystruefinancial.com differs from sheet website aklmortgagesandwealth.ca.",
+      "Brokerage name read from the footer image (Legacy Mortgage Group); licence numbers not shown anywhere.",
+      "Logo reads 'Always True Financial' with Legacy Mortgage Group.",
+      "Province unknown; treated as Ontario-strict: brokerage name + licence required before posting",
+      "website note: clients.json website aklmortgagesandwealth.ca redirects to alwaystruefinancial.com.",
+      "website note: Branding is inconsistent on the site: Always True Financial, AKL Mortgages & Wealth and Legacy Mortgage Group (mentioned as the brokerage) all appear. Confirm preferred name.",
+      "website note: No licence numbers on site. Office: Unit 206, 1230 91 Street SW, Edmonton AB T6X 0P2.",
+      "website note: Home page shows a 'Stellar Reviews' section and Google-posted testimonials, including at least one negative review quoted about the brokerage.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): LinkedIn and AMBA list him at Legacy Mortgage Group (broker since Jan 2023); no Google rating found.",
+      "Accent #DEA74D has contrast 1.93:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "juliet-fernandez",
+    "name": "Juliet Fernandez",
+    "city": "Vancouver Island",
+    "province": "BC",
+    "group": 2,
+    "completeness": 1.0,
+    "flags": [
+      "Footer also shows Christine Saranilla (Mortgage Broker Alberta and Saskatchewan, brokerage #12728), who is not in the sheet.",
+      "Footer title 'Mortgage Broker Alberta & British columbia' differs from sheet 'Mortgage Agent Level 2'.",
+      "Logo-derived brokerage facts: logo reads Mortgage Architects; footer prints brokerage #12728, the same number the sheet lists for Mortgage Architects (Dan Balch, Akshat Chauhan)",
+      "website says title 'Licensed Agent in BC and Alberta' (kit has 'Mortgage Agent Level 2')",
+      "website says phones ['780-807-5063'] (kit has ['780-868-6142'])",
+      "website says emails ['christine.saranilla@mtgarc.ca'] (kit has ['juliet.fernandez@mtgarc.ca'])",
+      "website note: Contact page lists 'Nanaimo Office 3434 Uplands Drive Nanaimo British Columbia', but the phone numbers are 780 (Alberta) and the about page says Alberta; location unclear. clients.json has no city.",
+      "website note: Authorization # MB610524 is a BC licence number; clients.json has no agent licence for Juliet.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): mortgagearchitects.ca/Juliet-Fernandez lists her in Edmonton/Fort Saskatchewan/Sherwood Park/St. Albert (English, Tagalog); guildquality lists the Nanaimo address. No Google rating found; site shows Google testimonials via Trustindex.",
+      "Accent #13AFF0 has contrast 2.23:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "ariana-learoux",
+    "name": "Ariana Learoux",
+    "city": "Edmonton",
+    "province": "AB",
+    "group": 2,
+    "completeness": 0.786,
+    "flags": [
+      "sheet note: Name spelled 'learoux' in sheet; website and Figma use 'Leroux'",
+      "Footer and website spell 'Leroux'.",
+      "Logo reads 'Brokers for Life' with Dominion Lending Centres; brokerage name and licence not confirmed.",
+      "website note: Site also shows Threads and Google icons in header; Threads link not captured.",
+      "website note: No licence numbers on site. Office: Suite 200, 10493 184 Street NW, Edmonton AB T5S 2L1.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): brokersforlife.ca/associates lists her; RECA-licensed since 2007; no Google rating found. clients.json slug 'ariana-learoux' spells the surname differently from the site (Leroux)."
+    ]
+  },
+  {
+    "slug": "robert-cheszes",
+    "name": "Robert Cheszes",
+    "city": null,
+    "province": null,
+    "group": null,
+    "completeness": 0.786,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "Logo reads 'Brilliant Investor' (brand); brokerage of record not confirmed.",
+      "website says Robert Cheszes licence 'M2000206 (as printed; clients.json has M20000206)' (kit has 'M20000206')",
+      "website says title 'Mortgage Agent' (kit has 'Mortgage Agent Level 2')",
+      "website says phones ['4168772617'] (kit has ['+1 647-584-0999'])",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Address: 85 Scarsdale Rd #107, Toronto ON M3B 2R2.",
+      "website note: Footer phone 4168772617 differs from clients.json +1 647-584-0999; footer email not shown (clients.json rob@brilliantinvestor.ca).",
+      "website note: /about and /contact return 404 (single-page site).",
+      "website note: Search (check): Mortgage Outlet team page lists #M20000206, Mortgage Agent L2, 250 Consumers Rd Ste 905 Toronto, (647) 501-4663: https://mortgageoutlet.ca/our-team/ ; older DLC page https://brilliantinvestment.ca/ (dated). No GBP rating found."
+    ]
+  },
+  {
+    "slug": "adrian-biccum",
+    "name": "Adrian Biccum",
+    "city": "Hamilton",
+    "province": "ON",
+    "group": 3,
+    "completeness": 0.786,
+    "flags": [
+      "Logo reads 'Your Mortgage Minute' and his email domain is mfco.ca; brokerage of record not confirmed.",
+      "Ontario: brokerage name + licence required before posting",
+      "website says phones ['905-730-4446 (cell)', '905-529-2521 ext 208 (office)', '905-525-9701 (fax)'] (kit has ['905-730-4446'])",
+      "website note: Site does not name the brokerage; email domain mfco.ca and search results indicate Mortgage Financial Corporation (MFCO), 12 Ray Street South, Hamilton (not stated on site, confidence: check).",
+      "website note: WebSearch (3rd-party directory results, confidence: check): mfco.ca/meet-the-team lists him; no Google rating/count found in results.",
+      "website note: Home page shows 5 Google testimonials via Trustindex widget.",
+      "Accent #13AFF0 has contrast 2.23:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "byran-peters",
+    "name": "Byran Peters",
+    "city": "Oshawa",
+    "province": "ON",
+    "group": 4,
+    "completeness": 1.0,
+    "flags": [
+      "Logo reads 'The Mortgage Doctors' and his email domain is migroup.ca; brokerage name not confirmed (licence 13626 is on his footer).",
+      "website note: Office: 1603 Northfield Ave, Oshawa ON L1K 0K9 (contact page spells 'norhtfeild').",
+      "website note: Site FAQ text mentions 'branch locations' and loan officers, which looks like template copy.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): Yelp/YellowPages/guildquality listings: Google rating 4.9 out of 5 from 29 reviews (directory aggregator, check); Yelp name 'Byran Peters - Mortgage Intelligence'. clients.json lists migroup.ca email; the site shows only the gmail address."
+    ]
+  },
+  {
+    "slug": "amit-khurana",
+    "name": "Amit Khurana",
+    "city": "Toronto",
+    "province": "ON",
+    "group": 2,
+    "completeness": 1.0,
+    "flags": [
+      "seed: Calendar posts him in Group 2, the roster table lists him under Group 3",
+      "Logo-derived brokerage facts: logo prints 'Centum indigo mortgages Corp. Brokerage Number: #12141', matching the sheet licence",
+      "website says brokerage name 'CENTUM Indigo Mortgage Corp.' (kit has 'Centum Indigo Mortgages Corp.')",
+      "website says phones ['(647) 341-2785 (primary)', '(905) 624-2002'] (kit has ['647-341-2785'])",
+      "website note: Facebook and Instagram links are CENTUM corporate accounts (CentumMortgageBrokers, centummortgageagents), not Amit-specific; LinkedIn is personal.",
+      "website note: Address on site: 2400 Meadowpine Blvd, Unit 107, Mississauga ON L5N 6S2.",
+      "website note: 'Meet our mortgage experts' page lists placeholder-looking names (Jacob Laura, Olivia Ava, Jackson Leo, Mariana Noah); not recorded as team.",
+      "website note: Home page contains inconsistent claims ('over 6 years of mortgage industry experience' counter vs 13+ years); treat years as check.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): centum.ca/agent/amit_khurana confirms Mortgage Agent Level 2, CENTUM Indigo Mortgage Corp.; no Google rating found."
+    ]
+  },
+  {
+    "slug": "raoul-hunt",
+    "name": "Raoul Hunt",
+    "city": null,
+    "province": null,
+    "group": null,
+    "completeness": 0.714,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "seed: Listed at the bottom of the sheet with no group",
+      "Logo-derived brokerage facts: logo-2 prints 'tango ONTARIO LIC # 13691'; confirm this is Raoul's brokerage of record (sheet gives none)",
+      "website says brokerage name 'Tango Financial (ON)' (kit has 'Tango Ontario')",
+      "website says title 'Licensed Mortgage Broker' (kit has 'Mortgage Broker')",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Individual broker licence number not on site (clients.json also none).",
+      "website note: Search (check): blog posts list 'DLC The Mortgage Source, Licence # 10145' and Neighbourhood Mortgage Source; address 424 Catherine St, Ottawa K1R 5T8; phone 613-218-8798 appears elsewhere. This conflicts with Tango Financial #13691 on the main pages. Press release: https://www.accessnewswire.com/newsroom/en/real-estate/ottawa-mortgage-broker-unveils-enhanced-tools-for-spring-homebuyers-1014042. No GBP rating found."
+    ]
+  },
+  {
+    "slug": "al-manji",
+    "name": "Al Manji",
+    "city": "Whitby",
+    "province": "ON",
+    "group": 2,
+    "completeness": 0.857,
+    "flags": [
+      "Footer prints 'License Number: 12728', the same number as the Mortgage Architects brokerage no.; recorded as brokerage licence, agent licence still unknown.",
+      "Logo-derived brokerage facts: one logo carries '6ix / Mortgage Architects'; footer number 12728 equals the Mortgage Architects brokerage number; confirm",
+      "website says brokerage name 'Mortgage Architects Inc. (6ix Mortgage Group)' (kit has 'Mortgage Architects')",
+      "website says title 'Mortgage Agent: Level 2' (kit has 'Mortgage Agent')",
+      "website note: almanji.superkreatives.com (website in clients.json) does not resolve in DNS (checked via fetch and dig); the profile was taken from the company page 6ix.ca instead.",
+      "website note: 6ix.ca social links (facebook.com/6ix.mtg, instagram.com/6ix.mortgage) are company accounts, not Al's, so socials left null.",
+      "website note: No individual licence number on 6ix.ca page. Search result mortgagearchitects.ca/almanji (3rd-party, check) shows licence #M10001827 and brokerage #12728; clients.json has no agent licence.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): LinkedIn Oshawa; directory shows 6ix Mortgage Group at 1129 Brock St S, Whitby. ZoomInfo suggests a possible affiliation change; verify on FSRA registry. No Google rating found."
+    ]
+  },
+  {
+    "slug": "dan-balch",
+    "name": "Dan Balch",
+    "city": "London",
+    "province": "ON",
+    "group": 4,
+    "completeness": 1.0,
+    "flags": [
+      "seed: Sheet says \"London\"; assumed London, Ontario",
+      "sheet note: Phone number still to be confirmed (per sheet)",
+      "Footer phone (519) 438 7025 differs from sheet (519) 854 7025 (sheet says to confirm); sheet time zone 'Greenwich Mean Time' vs posting time in EST.",
+      "website note: Brokerage name 'Mortgage Architects' is in clients.json; on the pages fetched only brokerage #12728 is printed, name not seen in text.",
+      "website note: Contact page shows a Pinterest and Bsky icon too; links not captured. Address: 23201 Nairn Rd, Komoka ON N0L 1R0.",
+      "website note: Another tel link 519-438-7025 appears in markup; header phone is (519)854-7025 (matches clients.json 'to confirm').",
+      "website note: WebSearch (3rd-party directory results, confidence: check): he also runs danbalch.ca (a second site) which says 24 years and 50+ lenders vs 29 years and 30+ on danbalch.com: conflicting claims, check. No Google rating found."
+    ]
+  },
+  {
+    "slug": "gaurav-makhija",
+    "name": "Gaurav Makhija",
+    "city": "Toronto",
+    "province": "ON",
+    "group": 4,
+    "completeness": 1.0,
+    "flags": [
+      "Footer says 'powered by GNE Mortgages # 10394'; sheet says 'edan Mortgages #10394'. Footer also shows a second phone 647-906-2323.",
+      "Footer name reads 'Gaurav Vijay M'.",
+      "website says brokerage name 'GNE Mortgage Inc.' (kit has 'edan Mortgages')",
+      "website says emails ['gaurav@edanmortgages.com'] (kit has ['edanmortgages@gmail.com'])",
+      "website note: Footer says 'Powered by GNE Mortgage inc. (Lic No:- 10394)'; clients.json lists brokerage 'edan Mortgages #10394' (name differs, number matches).",
+      "website note: Address: 989 Derry Rd E #407, Mississauga ON L5T 2J8. About page spells name 'Gaurrav Makhijaa'.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): LinkedIn: Managing Director of Edan Mortgages; Mortgage Centre listing GNE Mortgages (#10394). No Google rating found.",
+      "Accent #C28300 has contrast 2.87:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "gregory-hernandez",
+    "name": "Gregory Hernandez",
+    "city": "Montreal",
+    "province": "QC",
+    "group": 1,
+    "completeness": 0.929,
+    "flags": [
+      "Time zone note in sheet: 'EST (Eastern Standard Time) / 6:30pm IST'.",
+      "sheet note: Agent license no. still to be confirmed with client (per sheet)",
+      "Sheet brokerage 'Orbis Mortgage'; engines/face-reels lists the group as 'Orbis Mortgage Group'. Gregory's own licence is still to be confirmed with the client (sheet).",
+      "website says brokerage name 'Orbis Mortgage Group' (kit has 'Orbis Mortgage')",
+      "website says title 'Licensed mortgage broker' (kit has 'Mortgage broker')",
+      "website says phones ['514-515-4737'] (kit has ['514-515-4734'])",
+      "website note: Office: 285 Place D'Youville, Unit 9, Montreal QC H2Y 2R6 (site) vs H2Y 2A4 (search result).",
+      "website note: Contact page has Instagram and YouTube icons but no hrefs captured.",
+      "website note: No licence numbers on the site; clients.json brokerage #13476 (Orbis) not shown on pages fetched. Footer copyright reads 2023.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): groupeorbis.com/en/gregory-hernandez lists him; LinkedIn lists Orbis Mortgage Group. No Google rating found."
+    ]
+  },
+  {
+    "slug": "jim-decoste",
+    "name": "Jim DeCoste",
+    "city": "Antigonish",
+    "province": "NS",
+    "group": 1,
+    "completeness": 0.923,
+    "flags": [
+      "sheet photo note: Client doesnt want image",
+      "Sheet labels both 3000209 (NS) and 220044097 (NB) as broker licences; footer prints 'Lic #2021-3000209'. Which is brokerage vs individual is unconfirmed.",
+      "website says brokerage licence '#2021-3000208' (kit has '#2021-3000209')",
+      "website says Jim DeCoste licence 'Originator Licence #2021-3000209' (kit has 'NB 220044097')",
+      "website says title 'Mortgage Broker, MB / CFA' (kit has 'Mortgage Owner / Mortgage Broker')",
+      "website says languages ['English', 'French (site toggle)'] (kit has ['en'])",
+      "website says phones ['(902) 968-1727 (cell)', '902-752-0986 (tel)', '902-752-1444 (fax)'] (kit has ['(902)-968-1727'])",
+      "website note: Facebook/Twitter/YouTube links on the site are DLC corporate accounts (DominionLendingCentresCanada, DLCCanadaInc, DLCcanada), not Jim's; socials left null.",
+      "website note: Homepage rate table shows 3.70% variable and 4.70% prime, evidently stale; do not reuse.",
+      "website note: Address: 21 James Street, Antigonish NS. Testimonials page has about 10 client quotes.",
+      "website note: No distinctive brand colours: site uses a generic DLC template.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): no Google rating found; directory listings repeat the same contact details."
+    ]
+  },
+  {
+    "slug": "karven-wu",
+    "name": "Karven Wu",
+    "city": "Barrie",
+    "province": "ON",
+    "group": 2,
+    "completeness": 0.929,
+    "flags": [
+      "City conflict: sheet says 'Barrie', roster/seed says 'Richmond Hill'. Sheet used.",
+      "Footer title reads 'Mortgage Specialist at BMO'; sheet says 'Mortgage Agent Level 1' with Caliber Mortgage Inc. & Dominion Lending Centers. Confirm which brand he posts under.",
+      "website says brokerage name 'Caliber Mortgage (Dominion Lending Centres)' (kit has 'Caliber Mortgage Inc. & Dominion Lending Centers')",
+      "website says emails ['karven.wu@calibermortgage.ca'] (kit has ['karven.wu@kwmortgageadvisory.ca'])",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Office: Unit 8, 175 West Beaver Creek Road, Richmond Hill ON L4B 3M1 (clients.json says Barrie).",
+      "website note: The two homepage/about testimonials name 'Dustin and Keith' (leftover template copy from another broker); do not reuse as Karven's reviews.",
+      "website note: Phone (905) 597-9116 from clients.json is not on the site.",
+      "website note: Search (check): a Karven Wu also appears as a RE/MAX Excel agent on realtor.ca; identity not confirmed same person. No GBP rating found."
+    ]
+  },
+  {
+    "slug": "keaton-thornton-jim-thornton",
+    "name": "Keaton Thornton & Jim Thornton",
+    "city": "Brantford",
+    "province": "ON",
+    "group": 1,
+    "completeness": 0.857,
+    "flags": [
+      "Keaton's footer prints 'License #10530'; the sheet gives M22000917 for Keaton. Confirm which is right.",
+      "Ontario: brokerage name + licence required before posting",
+      "website says brokerage name 'The Mortgage Alliance Company of Canada (Pinnacle Mortgage Solutions is a team under it)' (kit has 'RMA (Real Mortgage Associates) & PinnacleMortgagesSolutions.ca')",
+      "website says title 'Agent Level 1' (kit has 'Mortgage Agent Level 1 (Keaton) / Mortgage Broker (Jim)')",
+      "website says phones ['905.921.1805 (Jim cell, jimthornton.ca)', '519.752.3155 (Jim office, Assante)'] (kit has ['226-450-4216', '905-921-1805'])",
+      "website says emails ['jthornton@assante.com (Assante site)'] (kit has ['keaton@krtmortgages.ca', 'contact@jimthornton.ca'])",
+      "website note: Sheet domain pinnaclemortgagessolutions.ca does not resolve (DNS). Real domain pinnaclemortgagesolutions.ca: robots.txt allows crawl but / and /about/ return 404; menu links use ?page_id=N (also 404 for fetch). krtmortgages.ca has an SSL hostname mismatch (not fetched).",
+      "website note: Site footer says Mortgage Alliance #10530; clients.json says RMA (Real Mortgage Associates). Search (check) says RMA brokerage licence 10464 and that Keaton is Jim's son; Jim mortgage-brokering since 2004 via RMA and Assante wealth advisor since Oct 2018.",
+      "website note: jimthornton.ca: 'Financial Advisor in Brantford - Assante Capital Management' at 105 George St., Brantford ON N3T 2Y5; its cell 905.921.1805 matches clients.json Jim phone. This is a securities/wealth site, not mortgage; do not use for mortgage compliance line.",
+      "website note: Directory (check): Birdeye shows Jim Thornton 5-star from 17 reviews: https://reviews.birdeye.com/jim-thornton-mortgage-broker-real-mortgage-associates-168329257690407 ; Facebook https://www.facebook.com/KeatonThorntonRMA/ and Instagram https://www.instagram.com/pinnaclemortgagesolutions.ca/ appear in search only (not opened).",
+      "website note: Licence numbers M22000917 / M08002211 from clients.json not found on any fetched page."
+    ]
+  },
+  {
+    "slug": "keith-crossland-dustin-moss",
+    "name": "Keith Crossland & Dustin Moss",
+    "city": "Edmonton",
+    "province": "AB",
+    "group": 1,
+    "completeness": 0.857,
+    "flags": [
+      "sheet note: Surname spelled 'Crossland' in name column, 'Crosland' in details",
+      "Asset to confirm: assets/keith-crossland-dustin-moss/logo-2.png (Mortgage Alliance; sat between rows 19-20, owner unclear)",
+      "website says phones ['780-909-6466 (Keith)', '780-298-4663 (Dustin)', '587-830-2059 (Edmonton/Calgary office)'] (kit has ['780-909-6466', '780-298-4663'])",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/). (both domains)",
+      "website note: Sheet has no website; used mortgageconnection.ca (email domain) and keithanddustinmortgages.ca (found by search).",
+      "website note: Staff pages: https://mortgageconnection.ca/staff/keith-crosland/ and /staff/dustin-moss/. Surname spelled Crosland on site (sheet: Crossland).",
+      "website note: Search (check): office 4432 Calgary Trail NW, Suite 206, Edmonton AB T6H 5W6; https://www.provenexpert.com/en-us/keith-and-dustin-mortgages/ ; also kandmortgage.com. No Google rating found.",
+      "website note: keithanddustinmortgages.ca socials: Instagram https://www.instagram.com/keithanddustinmortgages ; Facebook https://www.facebook.com/profile.php?id=61578011071382 (socials field holds Instagram of the duo and brokerage Facebook/LinkedIn)."
+    ]
+  },
+  {
+    "slug": "michael-marini",
+    "name": "Michael Marini",
+    "city": "Toronto",
+    "province": "ON",
+    "group": 1,
+    "completeness": 0.923,
+    "flags": [
+      "sheet note: Services were written in the 'Special request' column of the sheet",
+      "sheet photo note: Client doesnt want image",
+      "Asset to confirm: assets/michael-marini/logo.png (The Mortgage Group; in his row but sheet lists no brokerage)",
+      "website says title 'Mortgage Agent/Broker' (kit has 'Mortgage Agent Level 2')",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Address: 60 Atlantic Ave, Toronto ON M6K 1X9. Copy also mentions 'Mortgages of Canada' (inconsistent branding).",
+      "website note: Site licence/brokerage not in clients.json (null) so this fills a gap; site title reads 'Mortgage Agent L2' per search.",
+      "website note: Search (check): Yelp https://www.yelp.ca/biz/michael-marini-the-mortgage-group-toronto ; Facebook shows 100% recommend from 27 reviews. No Google count found.",
+      "Accent #13AFF0 has contrast 2.23:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "nav-utppal",
+    "name": "Nav Utppal",
+    "city": "Toronto",
+    "province": "ON",
+    "group": 3,
+    "completeness": 1.0,
+    "flags": [
+      "Footer carries a FIDES Mortgages logo; sheet says brokerage 'Next Mortgage'. Footer spells the name 'Nav Uppal'.",
+      "Asset to confirm: assets/nav-utppal/logo-2.png (Dominion Lending; sheet does not mention DLC for Nav)",
+      "website says brokerage name 'Dominion Lending Centres Fides Mortgages (Fides Mortgages)' (kit has 'Next Mortgage')",
+      "website says phones ['416-572-3597 (Fides)', '647-274-2016 (Nav, navmortgages.ca)'] (kit has ['6472742016'])",
+      "website says emails ['navu@dominionlending.ca'] (kit has ['nav@fidesmortgages.ca'])",
+      "website note: fidesmortgages.ca robots.txt has only a Sitemap line (no disallow).",
+      "website note: Sheet has no website; used footer image brand (Fides). Nav's own site https://navmortgages.ca/ is a stock DLC template (colours/fonts generic, so omitted); robots.txt only blocks /wp-admin/.",
+      "website note: Nav's footer spells 'Nav Uppal' (sheet: 'Nav Utppal'). Footer says License M25000941 and Brokerage FSRA 13727, matching clients.json numbers.",
+      "website note: clients.json brokerage name 'Next Mortgage'; navmortgages.ca says 'Dominion Lending Centres Fides Mortgages'. Search (check): nextmortgages.ca also exists; offices 2225 Markham Rd #302 Scarborough and 228 Brock St N Whitby."
+    ]
+  },
+  {
+    "slug": "jalal-khan",
+    "name": "Jalal Khan",
+    "city": "Fraser Valley",
+    "province": "BC",
+    "group": 4,
+    "completeness": 0.929,
+    "flags": [
+      "Sheet licence MB607231; footer prints MB6047231. Confirm.",
+      "Logos read Mortgage Architects and Vancouver Mortgage Solutions; brokerage name and licence not confirmed.",
+      "website says title 'Licensed Mortgage Broker' (kit has 'Mortgage Broker')",
+      "website says phones ['778-320-3664'] (kit has ['778 886 4471'])",
+      "website says emails ['jalal.khan@mtgarc.ca'] (kit has ['vanjk1970@gmail.com'])",
+      "website note: Social links point to 'Optima Mortgages' accounts, a different name; confirm they belong to Jalal before use.",
+      "website note: Contact page shows licence 'MB6047230' (typo/inconsistent with MB607231) and a stray mailto marini@michaelmarini.com, suggesting copied template.",
+      "website note: Site mentions Mortgage Architects email (mtgarc.ca) as well as Vancouver Mortgage Solutions; affiliation unclear.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): BCFSA lists Jalal Hussen Khan under Vancouver Mortgage Solutions Inc. (expiry shown 4 July 2026, now past: check status); mortgagearchitects.ca lists him in Delta. No Google rating found."
+    ]
+  },
+  {
+    "slug": "rahul-vinod",
+    "name": "Rahul Vinod",
+    "city": "Moncton",
+    "province": "NB",
+    "group": 2,
+    "completeness": 1.0,
+    "flags": [
+      "City conflict: sheet says 'Moncton', roster/seed says 'North York'. Sheet used.",
+      "Province conflict: sheet says NB, roster/seed says ON. Sheet used.",
+      "Orphan image 'Elite/Platinum badges + Maritime Mortgage Group logo' may belong to Rahul (Moncton NB); confirm.",
+      "website says Rahul Vinod licence 'Originator Licence #230047020' (kit has '230047020')",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Address on contact page: 21 James Street, Antigonish, NS B2G 1R7 (clients.json says Moncton NB / Calgary).",
+      "website note: Twitter/YouTube links on the page are DLC corporate accounts, not Rahul's; omitted.",
+      "website note: No site-specific brand colours (stock DLC template CSS), so brandColors left empty.",
+      "website note: Search (check): no mortgage-profile hit for Rahul Vinod in Moncton; results pointed to a different Rahul (Bedi). No GBP rating found."
+    ]
+  },
+  {
+    "slug": "vittorio-oliverio",
+    "name": "Vittorio Oliverio",
+    "city": "Lethbridge",
+    "province": "AB",
+    "group": null,
+    "completeness": 0.714,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "sheet note: Footer phone for all associates: 403.380.4413",
+      "sheet note: Special requests lightly cleaned of typos; originals preserved in sheet",
+      "sheet photo note: We have only one image",
+      "Rotation requests overlap (15 Jul, 28 Jul, 12 Sep 2025); the 12 Sep 2025 request is the latest and does not list Kim. Sheet spells one associate 'Marry' (earlier 'Marty').",
+      "Hashtag text reads '#CenterProfessionalMortgageGroup' but the brokerage is 'Centum professional Mortgage Group Inc.'; kept exactly as the client wrote it.",
+      "website says phones ['403-380-4413'] (kit has ['(403) 795 6054'])",
+      "website says emails ['info@cpmg.ca'] (kit has ['Vittorio@cpmg.ca'])",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Address: 1261 2A Ave N, Lethbridge AB T1H 0G1.",
+      "website note: Site phone 403-380-4413 differs from clients.json (403) 795 6054 (the latter appears on third-party listings); Vittorio@cpmg.ca not shown on site (info@cpmg.ca).",
+      "website note: No licence numbers printed on the site.",
+      "website note: Search (check): https://www.centum.ca/agent/vittorio_oliverio ; https://www.provenexpert.com/en-us/vittorio-oliverio-centum-professional-mortgage-group-inc-mortgage-broker/ ; calgary page https://cpmg.ca/mortgage-broker-in-calgary/. No Google rating found."
+    ]
+  },
+  {
+    "slug": "scott-brouke",
+    "name": "Scott Brouke",
+    "city": "Red Deer",
+    "province": "AB",
+    "group": 1,
+    "completeness": 0.786,
+    "flags": [
+      "sheet note: No contact details in sheet",
+      "sheet note: Name spelled 'Brouke' in sheet, 'Bourke' in Figma",
+      "Footer spells 'Scott Bourke' and shows a Paragon Mortgage Inc. logo.",
+      "website says brokerage name 'Paragon Mortgage Inc. (from footer image; search: Verico Paragon Mortgage)' (kit has 'Paragon Mortgage Inc.')",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Sheet has no website; URL taken from the footer image. Business address on site: 96 Oswald Close, Red Deer AB T4P 0C2.",
+      "website note: Threads: https://www.threads.net/@mortgagedude (no schema field).",
+      "website note: No licence number on the site.",
+      "website note: Search (check): Yelp (updated Apr 2026) lists 'Scott Bourke - The Place To Mortgage - Mortgage Alliance' 4.5 stars, 2 reviews; LinkedIn lists Verico Paragon Mortgage; older directories show Regional Mortgage Group / Mortgage Alliance. Brokerage affiliation conflicts across sources."
+    ]
+  },
+  {
+    "slug": "akshat-chauhan",
+    "name": "Akshat Chauhan",
+    "city": "Calgary",
+    "province": "AB",
+    "group": 2,
+    "completeness": 0.857,
+    "flags": [
+      "Footer phone +1 (587) 439-6786 differs from sheet (587) 830-3777.",
+      "website says title 'Mortgage Broker, Mortgage Architects' (kit has 'Mortgage broker')",
+      "website note: No individual licence number shown on site (clients.json also has none).",
+      "website note: No social links on site.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): AMBA directory web.amba.ca/Mortgage-Broker/Akshat-Chauhan-7948 lists him with MA Mortgage Architects, 3403 Benton Dr NW, Calgary; LinkedIn lists Mortgage Architects since Jan 2025. No Google rating found."
+    ]
+  },
+  {
+    "slug": "borrowise",
+    "name": "Borrowise",
+    "city": null,
+    "province": "ON",
+    "group": 2,
+    "completeness": 0.692,
+    "flags": [
+      "seed: Brand account; city not given in the sheet",
+      "sheet note: No contact details in sheet",
+      "sheet photo note: Client doesnt want image",
+      "Ontario: brokerage name + licence required before posting",
+      "website note: Site contains template/boilerplate text that does not belong to a Canadian brokerage: Irish references (RTE1 Morning Ireland, SEAI grants, ECB) and an unrelated 'invoicing' testimonial; do not reuse.",
+      "website note: bookingUrl is only a Calendly widget reference; no person-specific URL.",
+      "website note: WebSearch (3rd-party directory results, confidence: check): borrowise.ca/rates/ottawa and solo.to/borrowise: 'Borrowise and Mortgage Intelligence, Brokerage Lic: #10428', phone +1 343 353 0081, Unit 140 - 14 Colonnade Rd, Ottawa ON K2E 7M6 (3rd-party/own-pages, check). A 4.9 stars / 48 Google reviews figure appears on a web agency mockup page (superkreatives.ca) and is NOT verified.",
+      "website note: clients.json has no website, emails or licence for Borrowise; website and email taken from footer.png."
+    ]
+  },
+  {
+    "slug": "ranjit-singh",
+    "name": "Ranjit Singh",
+    "city": null,
+    "province": "ON",
+    "group": null,
+    "completeness": 0.786,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "sheet note: Figma link points to a file named 'Rachit' — same link used for Wise Equity and Krystian Catala; check it's correct",
+      "website says brokerage name 'AKAL Mortgages Inc. (Mortgage Alliance network)' (kit has 'Akal mortgages co.')",
+      "website says phones ['416-621-1300 (brokerage, akalmortgages.com)'] (kit has ['647-518-3690'])",
+      "website says emails ['info@AKALmortgages.com'] (kit has ['ranjitsingh@akal.ca'])",
+      "website note: akal.ca robots.txt returns 404 (treated as allow); akalmortgages.com robots disallows only search/wp-json paths. Address: 238 Britannia Road E, Mississauga ON L4Z 1S6.",
+      "website note: Mortgage Alliance profile for Ranjit (https://www.mortgagealliance.com/en/mortgage-broker/RanjitSingh/) returned HTTP 403, so it was not read. Search snippet (check): email ranjitsingh@mortgagealliance.com, phone (647) 518-3690, Lic# 10845 (brokerage).",
+      "website note: Ranjit's own agent licence M23007539 not confirmed on any site. Footer image says Mortgage Agent Level 2.",
+      "website note: Colours/fonts are the Mortgage Alliance platform's, not Ranjit's personal brand.",
+      "Accent #A5D282 has contrast 1.55:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "georges-madi",
+    "name": "Georges Madi",
+    "city": "Montreal",
+    "province": "QC",
+    "group": 4,
+    "completeness": 0.857,
+    "flags": [
+      "Logo reads 'Xperto Equipe Heritage' and 'Centres hypothecaires Dominion National' (very small marks on a wide transparent canvas, may need a crop); brokerage name and licence not confirmed.",
+      "website says title 'Mortgage broker, Investment advisor, Business advisor' (kit has 'Mortgage Broker')",
+      "website note: Site is a JS app (Welcome Spaces); fetched with the headless browser tool (robots allowed). No CSS colours extracted from the app bundle.",
+      "website note: No licence numbers, socials or booking link on the site (clients.json also has none).",
+      "website note: WebSearch (3rd-party directory results, confidence: check): LinkedIn: Dominion Lending Centres Inc; Multi-Prets Mortgages still lists him (possible older affiliation); Yelp lists 3737 Cremazie Blvd E; languages French, English, Arabic per Multi-Prets profile (check). No Google rating found."
+    ]
+  },
+  {
+    "slug": "wise-equity",
+    "name": "Wise Equity",
+    "city": null,
+    "province": null,
+    "group": null,
+    "completeness": 0.692,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "seed: Listed at the bottom of the sheet with no group",
+      "sheet note: No contact details in sheet",
+      "sheet note: Figma link points to a file named 'Rachit' — shared with Ranjit Singh and Krystian Catala; check it's correct",
+      "sheet photo note: Client doesnt want image",
+      "Asset to confirm: assets/wise-equity/photo.png (person not shown on footer; confirm who this is)",
+      "website note: robots.txt welcomes crawlers (Agent map at /llms).",
+      "website note: No team names, address or social links on fetched pages (home, /about/, /contact/).",
+      "website note: Search (check): LinkedIn lists Nathaniel Gardner at Wise Equity (broker praised in Google reviews); Trustpilot https://ca.trustpilot.com/review/wiseequity.ca ; Google Maps https://maps.app.goo.gl/opQiX4mFoBeLNcRPA.",
+      "website note: Footer image values (FSRAO #13463, Lic #M19002342) match the site header."
+    ]
+  },
+  {
+    "slug": "krystian-catala",
+    "name": "Krystian Catala",
+    "city": null,
+    "province": "ON",
+    "group": null,
+    "completeness": 0.786,
+    "flags": [
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "sheet note: Figma link points to a file named 'Rachit' — shared with Ranjit Singh and Wise Equity; check it's correct",
+      "website says brokerage name 'Greenbrix Capital Inc. (Dominion Lending Centres franchise)' (kit has 'Greenbrix Capital')",
+      "website says title 'President, Mortgage Broker' (kit has 'Mortgage Broker')",
+      "website says phones ['905 884 9911', '416-460-2215 (Krystian direct)', '416-817-3130 (Aimee)'] (kit has ['416-460-2215'])",
+      "website note: robots.txt allows all crawlers. Site is a Tailwind SPA with CSS variables; accent colours not extracted (check logo).",
+      "website note: greenbrix.ca (no www) reset the connection; www.greenbrix.ca worked. No social links on fetched pages.",
+      "website note: /contact path serves the homepage. Direct line 416-460-2215 matches clients.json.",
+      "website note: Search (check): Mortgage Alliance page lists Krystian with Ontario licence 13645 and kcatala@mortgagealliance.com (conflicts with the site's DLC franchise statement); older about page https://greenbrix.ca/about-us/ says 15+ years experience.",
+      "Accent #FAF8F5 has contrast 1.0:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "abbas",
+    "name": "Abbas",
+    "city": "Ottawa",
+    "province": "ON",
+    "group": 3,
+    "completeness": 0.286,
+    "flags": [
+      "not in client sheet",
+      "seed: Roster table lists Abbas under both Group 3 and Group 4",
+      "Ontario: brokerage name + licence required before posting",
+      "website note: Roster has only 'Abbas', Ottawa ON, no brokerage or licence. Web search surfaced Abbas El-Sarji (Abbas Financial, abbasfinancial.com, Mortgage Agent L1 with SJC Financial, Ottawa) as a possible match, plus unrelated Abbases (Ghulam Abbas, Spruce Grove AB; Ibrahim/Ali Abbas, realtors). Not confident enough to attribute; stopped without fetching any site. Ask the user for a surname/website."
+    ]
+  },
+  {
+    "slug": "akaalinder-dhaliwal",
+    "name": "Akaalinder Dhaliwal",
+    "city": null,
+    "province": null,
+    "group": 3,
+    "completeness": 0.429,
+    "flags": [
+      "not in client sheet",
+      "seed: City and province missing from the sheet",
+      "Province unknown; treated as Ontario-strict: brokerage name + licence required before posting",
+      "website note: robots.txt checked: no disallow on public pages (only /wp-admin/).",
+      "website note: Identified by exact-name WebSearch; the name and Mortgage Agent role match the roster but the roster has no city/brokerage to confirm (confidence: likely).",
+      "website note: No brokerage or city stated on fetched pages. Search (check): LinkedIn snippet connects him to GMG Broker Inc.; mortgagesuite.ca team page also lists him. Homepage testimonials are 3 first-name quotes.",
+      "website note: Page text spells the first name inconsistently ('Akash' in one testimonial).",
+      "Accent #E3B665 has contrast 1.68:1 against paper (<3:1); pair with ink."
+    ]
+  },
+  {
+    "slug": "brian-wang",
+    "name": "Brian Wang",
+    "city": "Toronto",
+    "province": "ON",
+    "group": null,
+    "completeness": 0.692,
+    "flags": [
+      "not in client sheet (task brief + brand card)",
+      "Group not assigned: no group in the calendar/roster. Assign one before rendering.",
+      "Not a mortgage broker; the Ontario mortgage-brokerage rule does not apply. Insurance/advice wording to be confirmed with the client. Required footer note: 'For information only. Not investment advice.'",
+      "website says brokerage name 'Caliber Wealth Management Inc. (powered by Financial Horizons MGA)' (kit has 'Caliber Wealth Management')",
+      "website says title 'Co-Founder, Operator and Wealth Coach' (kit has 'Wealth Coach / Life Insurance Advisor')",
+      "website note: Site is a JS app (Wix); text fetched with the headless browser tool, robots allowed.",
+      "website note: Office: 8-175 West Beaver Creek, Richmond Hill ON L4B 3M1; hours 10am to 6pm 7 days, by appointment.",
+      "website note: No licence numbers on the site. Footer says 'Securities and advisory services offered through licensed professionals'. See $R/graphic reels/portfolio-failing/research/FACTS.md for licence/compliance flags (life licence #05089990 unverified).",
+      "website note: WebSearch (3rd-party directory results, confidence: check): a Dominion Lending Centres page lists him as Mortgage Agent Level 2, Caliber Mortgage, licence #M14000885 (3rd-party, check; not on his own site). Company registry shows status 'Active - Dissolution Pending (Non-compliance)' (canadacompanyregistry.com, check). No Google rating found."
+    ]
+  }
+]
